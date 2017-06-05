@@ -1,4 +1,4 @@
 # windows kernel syscall table
-from xp sp0 ~ 10 rs2 1703 with id and argc
+the final version of syscall table include id and argc support xp sp0 ~ 10 rs2 1703 
 
-author: TinySec( <a href="https://twitter.com/TinySecEx" target="_blank">@TinySecEx</a> )
+author: ( <a href="https://twitter.com/TinySecEx" target="_blank">@TinySec</a> )
