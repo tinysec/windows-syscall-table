@@ -1,5 +1,5 @@
-// shadow table for 6.2.9200-sp0-windows-8 i386
-SDT_NODE static_shadow_6_2_9200_sp0_windows_8_i386[984] = {
+// shadowssdt table for 6.2.9200-sp0-windows-8 i386
+SDT_NODE static_shadowssdt_6_2_9200_sp0_windows_8_i386[984] = {
 /*0x000*/	{ "NtUserYieldTask" , 0 } ,
 /*0x001*/	{ "NtGdiWidenPath" , 1 } ,
 /*0x002*/	{ "NtGdiUpdateColors" , 1 } ,

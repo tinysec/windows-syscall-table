@@ -1,5 +1,5 @@
-// shadow table for 6.1.7601-sp1-windows-7 amd64
-SDT_NODE static_shadow_6_1_7601_sp1_windows_7_amd64[827] = {
+// shadowssdt table for 6.1.7601-sp1-windows-7 amd64
+SDT_NODE static_shadowssdt_6_1_7601_sp1_windows_7_amd64[827] = {
 /*0x000*/	{ "NtUserGetThreadState" , 1 } ,
 /*0x001*/	{ "NtUserPeekMessage" , 5 } ,
 /*0x002*/	{ "NtUserCallOneParam" , 2 } ,

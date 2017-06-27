@@ -1,5 +1,5 @@
-// shadow table for 5.1.2600-sp3-windows-xp i386
-SDT_NODE static_shadow_5_1_2600_sp3_windows_xp_i386[667] = {
+// shadowssdt table for 5.1.2600-sp3-windows-xp i386
+SDT_NODE static_shadowssdt_5_1_2600_sp3_windows_xp_i386[667] = {
 /*0x000*/	{ "NtGdiAbortDoc" , 1 } ,
 /*0x001*/	{ "NtGdiAbortPath" , 1 } ,
 /*0x002*/	{ "NtGdiAddFontResourceW" , 6 } ,

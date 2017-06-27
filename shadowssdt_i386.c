@@ -1,5 +1,5 @@
-// shadow table for 5.1.2600-sp0-windows-xp i386
-SDT_NODE static_shadow_5_1_2600_sp0_windows_xp_i386[666] = {
+// shadowssdt table for 5.1.2600-sp0-windows-xp i386
+SDT_NODE static_shadowssdt_5_1_2600_sp0_windows_xp_i386[666] = {
 /*0x000*/	{ "NtGdiAbortDoc" , 1 } ,
 /*0x001*/	{ "NtGdiAbortPath" , 1 } ,
 /*0x002*/	{ "NtGdiAddFontResourceW" , 6 } ,
@@ -672,8 +672,8 @@ SDT_NODE static_shadow_5_1_2600_sp0_windows_xp_i386[666] = {
 
 
 
-// shadow table for 5.1.2600-sp1-windows-xp i386
-SDT_NODE static_shadow_5_1_2600_sp1_windows_xp_i386[667] = {
+// shadowssdt table for 5.1.2600-sp1-windows-xp i386
+SDT_NODE static_shadowssdt_5_1_2600_sp1_windows_xp_i386[667] = {
 /*0x000*/	{ "NtGdiAbortDoc" , 1 } ,
 /*0x001*/	{ "NtGdiAbortPath" , 1 } ,
 /*0x002*/	{ "NtGdiAddFontResourceW" , 6 } ,
@@ -1347,8 +1347,8 @@ SDT_NODE static_shadow_5_1_2600_sp1_windows_xp_i386[667] = {
 
 
 
-// shadow table for 5.1.2600-sp2-windows-xp i386
-SDT_NODE static_shadow_5_1_2600_sp2_windows_xp_i386[667] = {
+// shadowssdt table for 5.1.2600-sp2-windows-xp i386
+SDT_NODE static_shadowssdt_5_1_2600_sp2_windows_xp_i386[667] = {
 /*0x000*/	{ "NtGdiAbortDoc" , 1 } ,
 /*0x001*/	{ "NtGdiAbortPath" , 1 } ,
 /*0x002*/	{ "NtGdiAddFontResourceW" , 6 } ,
@@ -2022,8 +2022,8 @@ SDT_NODE static_shadow_5_1_2600_sp2_windows_xp_i386[667] = {
 
 
 
-// shadow table for 5.1.2600-sp3-windows-xp i386
-SDT_NODE static_shadow_5_1_2600_sp3_windows_xp_i386[667] = {
+// shadowssdt table for 5.1.2600-sp3-windows-xp i386
+SDT_NODE static_shadowssdt_5_1_2600_sp3_windows_xp_i386[667] = {
 /*0x000*/	{ "NtGdiAbortDoc" , 1 } ,
 /*0x001*/	{ "NtGdiAbortPath" , 1 } ,
 /*0x002*/	{ "NtGdiAddFontResourceW" , 6 } ,
@@ -2697,8 +2697,8 @@ SDT_NODE static_shadow_5_1_2600_sp3_windows_xp_i386[667] = {
 
 
 
-// shadow table for 5.2.3790-sp0-windows-2003 i386
-SDT_NODE static_shadow_5_2_3790_sp0_windows_2003_i386[663] = {
+// shadowssdt table for 5.2.3790-sp0-windows-2003 i386
+SDT_NODE static_shadowssdt_5_2_3790_sp0_windows_2003_i386[663] = {
 /*0x000*/	{ "NtGdiAbortDoc" , 1 } ,
 /*0x001*/	{ "NtGdiAbortPath" , 1 } ,
 /*0x002*/	{ "NtGdiAddFontResourceW" , 6 } ,
@@ -3368,8 +3368,8 @@ SDT_NODE static_shadow_5_2_3790_sp0_windows_2003_i386[663] = {
 
 
 
-// shadow table for 5.2.3790-sp1-windows-2003 i386
-SDT_NODE static_shadow_5_2_3790_sp1_windows_2003_i386[665] = {
+// shadowssdt table for 5.2.3790-sp1-windows-2003 i386
+SDT_NODE static_shadowssdt_5_2_3790_sp1_windows_2003_i386[665] = {
 /*0x000*/	{ "NtGdiAbortDoc" , 1 } ,
 /*0x001*/	{ "NtGdiAbortPath" , 1 } ,
 /*0x002*/	{ "NtGdiAddFontResourceW" , 6 } ,
@@ -4041,8 +4041,8 @@ SDT_NODE static_shadow_5_2_3790_sp1_windows_2003_i386[665] = {
 
 
 
-// shadow table for 5.2.3790-sp2-windows-2003 i386
-SDT_NODE static_shadow_5_2_3790_sp2_windows_2003_i386[665] = {
+// shadowssdt table for 5.2.3790-sp2-windows-2003 i386
+SDT_NODE static_shadowssdt_5_2_3790_sp2_windows_2003_i386[665] = {
 /*0x000*/	{ "NtGdiAbortDoc" , 1 } ,
 /*0x001*/	{ "NtGdiAbortPath" , 1 } ,
 /*0x002*/	{ "NtGdiAddFontResourceW" , 6 } ,
@@ -4714,8 +4714,8 @@ SDT_NODE static_shadow_5_2_3790_sp2_windows_2003_i386[665] = {
 
 
 
-// shadow table for 6.0.6000-sp0-windows-vista i386
-SDT_NODE static_shadow_6_0_6000_sp0_windows_vista_i386[772] = {
+// shadowssdt table for 6.0.6000-sp0-windows-vista i386
+SDT_NODE static_shadowssdt_6_0_6000_sp0_windows_vista_i386[772] = {
 /*0x000*/	{ "NtGdiAbortDoc" , 1 } ,
 /*0x001*/	{ "NtGdiAbortPath" , 1 } ,
 /*0x002*/	{ "NtGdiAddFontResourceW" , 6 } ,
@@ -5494,8 +5494,8 @@ SDT_NODE static_shadow_6_0_6000_sp0_windows_vista_i386[772] = {
 
 
 
-// shadow table for 6.0.6001-sp1-windows-vista i386
-SDT_NODE static_shadow_6_0_6001_sp1_windows_vista_i386[772] = {
+// shadowssdt table for 6.0.6001-sp1-windows-vista i386
+SDT_NODE static_shadowssdt_6_0_6001_sp1_windows_vista_i386[772] = {
 /*0x000*/	{ "NtGdiAbortDoc" , 1 } ,
 /*0x001*/	{ "NtGdiAbortPath" , 1 } ,
 /*0x002*/	{ "NtGdiAddFontResourceW" , 6 } ,
@@ -6274,8 +6274,8 @@ SDT_NODE static_shadow_6_0_6001_sp1_windows_vista_i386[772] = {
 
 
 
-// shadow table for 6.0.6002-sp2-windows-vista i386
-SDT_NODE static_shadow_6_0_6002_sp2_windows_vista_i386[772] = {
+// shadowssdt table for 6.0.6002-sp2-windows-vista i386
+SDT_NODE static_shadowssdt_6_0_6002_sp2_windows_vista_i386[772] = {
 /*0x000*/	{ "NtGdiAbortDoc" , 1 } ,
 /*0x001*/	{ "NtGdiAbortPath" , 1 } ,
 /*0x002*/	{ "NtGdiAddFontResourceW" , 6 } ,
@@ -7054,8 +7054,8 @@ SDT_NODE static_shadow_6_0_6002_sp2_windows_vista_i386[772] = {
 
 
 
-// shadow table for 6.1.7600-sp0-windows-7 i386
-SDT_NODE static_shadow_6_1_7600_sp0_windows_7_i386[825] = {
+// shadowssdt table for 6.1.7600-sp0-windows-7 i386
+SDT_NODE static_shadowssdt_6_1_7600_sp0_windows_7_i386[825] = {
 /*0x000*/	{ "NtGdiAbortDoc" , 1 } ,
 /*0x001*/	{ "NtGdiAbortPath" , 1 } ,
 /*0x002*/	{ "NtGdiAddFontResourceW" , 6 } ,
@@ -7887,8 +7887,8 @@ SDT_NODE static_shadow_6_1_7600_sp0_windows_7_i386[825] = {
 
 
 
-// shadow table for 6.1.7601-sp1-windows-7 i386
-SDT_NODE static_shadow_6_1_7601_sp1_windows_7_i386[825] = {
+// shadowssdt table for 6.1.7601-sp1-windows-7 i386
+SDT_NODE static_shadowssdt_6_1_7601_sp1_windows_7_i386[825] = {
 /*0x000*/	{ "NtGdiAbortDoc" , 1 } ,
 /*0x001*/	{ "NtGdiAbortPath" , 1 } ,
 /*0x002*/	{ "NtGdiAddFontResourceW" , 6 } ,
@@ -8720,8 +8720,8 @@ SDT_NODE static_shadow_6_1_7601_sp1_windows_7_i386[825] = {
 
 
 
-// shadow table for 6.2.9200-sp0-windows-8 i386
-SDT_NODE static_shadow_6_2_9200_sp0_windows_8_i386[984] = {
+// shadowssdt table for 6.2.9200-sp0-windows-8 i386
+SDT_NODE static_shadowssdt_6_2_9200_sp0_windows_8_i386[984] = {
 /*0x000*/	{ "NtUserYieldTask" , 0 } ,
 /*0x001*/	{ "NtGdiWidenPath" , 1 } ,
 /*0x002*/	{ "NtGdiUpdateColors" , 1 } ,
@@ -9712,8 +9712,8 @@ SDT_NODE static_shadow_6_2_9200_sp0_windows_8_i386[984] = {
 
 
 
-// shadow table for 6.3.9600-sp0-windows-8.1 i386
-SDT_NODE static_shadow_6_3_9600_sp0_windows_8_1_i386[1036] = {
+// shadowssdt table for 6.3.9600-sp0-windows-8.1 i386
+SDT_NODE static_shadowssdt_6_3_9600_sp0_windows_8_1_i386[1036] = {
 /*0x000*/	{ "NtUserYieldTask" , 0 } ,
 /*0x001*/	{ "NtUserSetSensorPresence" , 1 } ,
 /*0x002*/	{ "NtGdiWidenPath" , 1 } ,
@@ -10756,8 +10756,8 @@ SDT_NODE static_shadow_6_3_9600_sp0_windows_8_1_i386[1036] = {
 
 
 
-// shadow table for 10.0.10240-sp0-windows-10-th1-1507 i386
-SDT_NODE static_shadow_10_0_10240_sp0_windows_10_th1_1507_i386[1128] = {
+// shadowssdt table for 10.0.10240-sp0-windows-10-th1-1507 i386
+SDT_NODE static_shadowssdt_10_0_10240_sp0_windows_10_th1_1507_i386[1128] = {
 /*0x000*/	{ "NtUserGetOwnerTransformedMonitorRect" , 4 } ,
 /*0x001*/	{ "NtUserYieldTask" , 0 } ,
 /*0x002*/	{ "NtUserSetSensorPresence" , 1 } ,
@@ -11892,8 +11892,8 @@ SDT_NODE static_shadow_10_0_10240_sp0_windows_10_th1_1507_i386[1128] = {
 
 
 
-// shadow table for 10.0.10586-sp0-windows-10-th2-1511 i386
-SDT_NODE static_shadow_10_0_10586_sp0_windows_10_th2_1511_i386[1133] = {
+// shadowssdt table for 10.0.10586-sp0-windows-10-th2-1511 i386
+SDT_NODE static_shadowssdt_10_0_10586_sp0_windows_10_th2_1511_i386[1133] = {
 /*0x000*/	{ "NtUserGetOwnerTransformedMonitorRect" , 4 } ,
 /*0x001*/	{ "NtUserYieldTask" , 0 } ,
 /*0x002*/	{ "NtUserSetSensorPresence" , 1 } ,
@@ -13033,8 +13033,8 @@ SDT_NODE static_shadow_10_0_10586_sp0_windows_10_th2_1511_i386[1133] = {
 
 
 
-// shadow table for 10.0.14393-sp0-windows-10-rs1-1607 i386
-SDT_NODE static_shadow_10_0_14393_sp0_windows_10_rs1_1607_i386[1136] = {
+// shadowssdt table for 10.0.14393-sp0-windows-10-rs1-1607 i386
+SDT_NODE static_shadowssdt_10_0_14393_sp0_windows_10_rs1_1607_i386[1136] = {
 /*0x000*/	{ "NtUserGetOwnerTransformedMonitorRect" , 4 } ,
 /*0x001*/	{ "NtUserYieldTask" , 0 } ,
 /*0x002*/	{ "NtUserSetSensorPresence" , 1 } ,
@@ -14177,8 +14177,8 @@ SDT_NODE static_shadow_10_0_14393_sp0_windows_10_rs1_1607_i386[1136] = {
 
 
 
-// shadow table for 10.0.15063-sp0-windows-10-rs2-1703 i386
-SDT_NODE static_shadow_10_0_15063_sp0_windows_10_rs2_1703_i386[1132] = {
+// shadowssdt table for 10.0.15063-sp0-windows-10-rs2-1703 i386
+SDT_NODE static_shadowssdt_10_0_15063_sp0_windows_10_rs2_1703_i386[1132] = {
 /*0x000*/	{ "NtUserGetOwnerTransformedMonitorRect" , 4 } ,
 /*0x001*/	{ "NtUserYieldTask" , 0 } ,
 /*0x002*/	{ "NtUserSetSensorPresence" , 1 } ,

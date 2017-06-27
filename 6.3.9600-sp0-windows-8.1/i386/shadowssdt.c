@@ -1,5 +1,5 @@
-// shadow table for 6.3.9600-sp0-windows-8.1 i386
-SDT_NODE static_shadow_6_3_9600_sp0_windows_8_1_i386[1036] = {
+// shadowssdt table for 6.3.9600-sp0-windows-8.1 i386
+SDT_NODE static_shadowssdt_6_3_9600_sp0_windows_8_1_i386[1036] = {
 /*0x000*/	{ "NtUserYieldTask" , 0 } ,
 /*0x001*/	{ "NtUserSetSensorPresence" , 1 } ,
 /*0x002*/	{ "NtGdiWidenPath" , 1 } ,

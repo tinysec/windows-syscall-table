@@ -1,5 +1,5 @@
-// shadow table for 6.2.9200-sp0-windows-8 amd64
-SDT_NODE static_shadow_6_2_9200_sp0_windows_8_amd64[986] = {
+// shadowssdt table for 6.2.9200-sp0-windows-8 amd64
+SDT_NODE static_shadowssdt_6_2_9200_sp0_windows_8_amd64[986] = {
 /*0x000*/	{ "NtUserYieldTask" , 0 } ,
 /*0x001*/	{ "NtUserGetThreadState" , 1 } ,
 /*0x002*/	{ "NtUserPeekMessage" , 5 } ,

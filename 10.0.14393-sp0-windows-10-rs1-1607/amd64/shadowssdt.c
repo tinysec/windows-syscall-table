@@ -1,5 +1,5 @@
-// shadow table for 10.0.14393-sp0-windows-10-rs1-1607 amd64
-SDT_NODE static_shadow_10_0_14393_sp0_windows_10_rs1_1607_amd64[1138] = {
+// shadowssdt table for 10.0.14393-sp0-windows-10-rs1-1607 amd64
+SDT_NODE static_shadowssdt_10_0_14393_sp0_windows_10_rs1_1607_amd64[1138] = {
 /*0x000*/	{ "NtUserGetOwnerTransformedMonitorRect" , 4 } ,
 /*0x001*/	{ "NtUserYieldTask" , 0 } ,
 /*0x002*/	{ "NtUserSetSensorPresence" , 1 } ,

@@ -1,5 +1,5 @@
-// shadow table for 10.0.10586-sp0-windows-10-th2-1511 i386
-SDT_NODE static_shadow_10_0_10586_sp0_windows_10_th2_1511_i386[1133] = {
+// shadowssdt table for 10.0.10586-sp0-windows-10-th2-1511 i386
+SDT_NODE static_shadowssdt_10_0_10586_sp0_windows_10_th2_1511_i386[1133] = {
 /*0x000*/	{ "NtUserGetOwnerTransformedMonitorRect" , 4 } ,
 /*0x001*/	{ "NtUserYieldTask" , 0 } ,
 /*0x002*/	{ "NtUserSetSensorPresence" , 1 } ,

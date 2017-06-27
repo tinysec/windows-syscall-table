@@ -1,5 +1,5 @@
-// shadow table for 6.0.6002-sp2-windows-vista amd64
-SDT_NODE static_shadow_6_0_6002_sp2_windows_vista_amd64[774] = {
+// shadowssdt table for 6.0.6002-sp2-windows-vista amd64
+SDT_NODE static_shadowssdt_6_0_6002_sp2_windows_vista_amd64[774] = {
 /*0x000*/	{ "NtUserGetThreadState" , 1 } ,
 /*0x001*/	{ "NtUserPeekMessage" , 5 } ,
 /*0x002*/	{ "NtUserCallOneParam" , 2 } ,

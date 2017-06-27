@@ -1,5 +1,5 @@
-// shadow table for 6.0.6001-sp1-windows-vista i386
-SDT_NODE static_shadow_6_0_6001_sp1_windows_vista_i386[772] = {
+// shadowssdt table for 6.0.6001-sp1-windows-vista i386
+SDT_NODE static_shadowssdt_6_0_6001_sp1_windows_vista_i386[772] = {
 /*0x000*/	{ "NtGdiAbortDoc" , 1 } ,
 /*0x001*/	{ "NtGdiAbortPath" , 1 } ,
 /*0x002*/	{ "NtGdiAddFontResourceW" , 6 } ,

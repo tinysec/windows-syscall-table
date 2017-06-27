@@ -1,5 +1,5 @@
-// shadow table for 6.3.9600-sp0-windows-8.1 amd64
-SDT_NODE static_shadow_6_3_9600_sp0_windows_8_1_amd64[1038] = {
+// shadowssdt table for 6.3.9600-sp0-windows-8.1 amd64
+SDT_NODE static_shadowssdt_6_3_9600_sp0_windows_8_1_amd64[1038] = {
 /*0x000*/	{ "NtUserYieldTask" , 0 } ,
 /*0x001*/	{ "NtUserSetSensorPresence" , 1 } ,
 /*0x002*/	{ "NtUserGetThreadState" , 1 } ,

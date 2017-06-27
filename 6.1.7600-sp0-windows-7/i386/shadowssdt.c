@@ -1,5 +1,5 @@
-// shadow table for 6.1.7600-sp0-windows-7 i386
-SDT_NODE static_shadow_6_1_7600_sp0_windows_7_i386[825] = {
+// shadowssdt table for 6.1.7600-sp0-windows-7 i386
+SDT_NODE static_shadowssdt_6_1_7600_sp0_windows_7_i386[825] = {
 /*0x000*/	{ "NtGdiAbortDoc" , 1 } ,
 /*0x001*/	{ "NtGdiAbortPath" , 1 } ,
 /*0x002*/	{ "NtGdiAddFontResourceW" , 6 } ,

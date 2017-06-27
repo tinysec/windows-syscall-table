@@ -1,5 +1,5 @@
-// shadow table for 6.0.6000-sp0-windows-vista amd64
-SDT_NODE static_shadow_6_0_6000_sp0_windows_vista_amd64[774] = {
+// shadowssdt table for 6.0.6000-sp0-windows-vista amd64
+SDT_NODE static_shadowssdt_6_0_6000_sp0_windows_vista_amd64[774] = {
 /*0x000*/	{ "NtUserGetThreadState" , 1 } ,
 /*0x001*/	{ "NtUserPeekMessage" , 5 } ,
 /*0x002*/	{ "NtUserCallOneParam" , 2 } ,
@@ -780,8 +780,8 @@ SDT_NODE static_shadow_6_0_6000_sp0_windows_vista_amd64[774] = {
 
 
 
-// shadow table for 6.0.6001-sp1-windows-vista amd64
-SDT_NODE static_shadow_6_0_6001_sp1_windows_vista_amd64[774] = {
+// shadowssdt table for 6.0.6001-sp1-windows-vista amd64
+SDT_NODE static_shadowssdt_6_0_6001_sp1_windows_vista_amd64[774] = {
 /*0x000*/	{ "NtUserGetThreadState" , 1 } ,
 /*0x001*/	{ "NtUserPeekMessage" , 5 } ,
 /*0x002*/	{ "NtUserCallOneParam" , 2 } ,
@@ -1562,8 +1562,8 @@ SDT_NODE static_shadow_6_0_6001_sp1_windows_vista_amd64[774] = {
 
 
 
-// shadow table for 6.0.6002-sp2-windows-vista amd64
-SDT_NODE static_shadow_6_0_6002_sp2_windows_vista_amd64[774] = {
+// shadowssdt table for 6.0.6002-sp2-windows-vista amd64
+SDT_NODE static_shadowssdt_6_0_6002_sp2_windows_vista_amd64[774] = {
 /*0x000*/	{ "NtUserGetThreadState" , 1 } ,
 /*0x001*/	{ "NtUserPeekMessage" , 5 } ,
 /*0x002*/	{ "NtUserCallOneParam" , 2 } ,
@@ -2344,8 +2344,8 @@ SDT_NODE static_shadow_6_0_6002_sp2_windows_vista_amd64[774] = {
 
 
 
-// shadow table for 6.1.7600-sp0-windows-7 amd64
-SDT_NODE static_shadow_6_1_7600_sp0_windows_7_amd64[827] = {
+// shadowssdt table for 6.1.7600-sp0-windows-7 amd64
+SDT_NODE static_shadowssdt_6_1_7600_sp0_windows_7_amd64[827] = {
 /*0x000*/	{ "NtUserGetThreadState" , 1 } ,
 /*0x001*/	{ "NtUserPeekMessage" , 5 } ,
 /*0x002*/	{ "NtUserCallOneParam" , 2 } ,
@@ -3179,8 +3179,8 @@ SDT_NODE static_shadow_6_1_7600_sp0_windows_7_amd64[827] = {
 
 
 
-// shadow table for 6.1.7601-sp1-windows-7 amd64
-SDT_NODE static_shadow_6_1_7601_sp1_windows_7_amd64[827] = {
+// shadowssdt table for 6.1.7601-sp1-windows-7 amd64
+SDT_NODE static_shadowssdt_6_1_7601_sp1_windows_7_amd64[827] = {
 /*0x000*/	{ "NtUserGetThreadState" , 1 } ,
 /*0x001*/	{ "NtUserPeekMessage" , 5 } ,
 /*0x002*/	{ "NtUserCallOneParam" , 2 } ,
@@ -4014,8 +4014,8 @@ SDT_NODE static_shadow_6_1_7601_sp1_windows_7_amd64[827] = {
 
 
 
-// shadow table for 6.2.9200-sp0-windows-8 amd64
-SDT_NODE static_shadow_6_2_9200_sp0_windows_8_amd64[986] = {
+// shadowssdt table for 6.2.9200-sp0-windows-8 amd64
+SDT_NODE static_shadowssdt_6_2_9200_sp0_windows_8_amd64[986] = {
 /*0x000*/	{ "NtUserYieldTask" , 0 } ,
 /*0x001*/	{ "NtUserGetThreadState" , 1 } ,
 /*0x002*/	{ "NtUserPeekMessage" , 5 } ,
@@ -5008,8 +5008,8 @@ SDT_NODE static_shadow_6_2_9200_sp0_windows_8_amd64[986] = {
 
 
 
-// shadow table for 6.3.9600-sp0-windows-8.1 amd64
-SDT_NODE static_shadow_6_3_9600_sp0_windows_8_1_amd64[1038] = {
+// shadowssdt table for 6.3.9600-sp0-windows-8.1 amd64
+SDT_NODE static_shadowssdt_6_3_9600_sp0_windows_8_1_amd64[1038] = {
 /*0x000*/	{ "NtUserYieldTask" , 0 } ,
 /*0x001*/	{ "NtUserSetSensorPresence" , 1 } ,
 /*0x002*/	{ "NtUserGetThreadState" , 1 } ,
@@ -6054,8 +6054,8 @@ SDT_NODE static_shadow_6_3_9600_sp0_windows_8_1_amd64[1038] = {
 
 
 
-// shadow table for 10.0.10240-sp0-windows-10-th1-1507 amd64
-SDT_NODE static_shadow_10_0_10240_sp0_windows_10_th1_1507_amd64[1130] = {
+// shadowssdt table for 10.0.10240-sp0-windows-10-th1-1507 amd64
+SDT_NODE static_shadowssdt_10_0_10240_sp0_windows_10_th1_1507_amd64[1130] = {
 /*0x000*/	{ "NtUserGetOwnerTransformedMonitorRect" , 4 } ,
 /*0x001*/	{ "NtUserYieldTask" , 0 } ,
 /*0x002*/	{ "NtUserSetSensorPresence" , 1 } ,
@@ -7192,8 +7192,8 @@ SDT_NODE static_shadow_10_0_10240_sp0_windows_10_th1_1507_amd64[1130] = {
 
 
 
-// shadow table for 10.0.10586-sp0-windows-10-th2-1511 amd64
-SDT_NODE static_shadow_10_0_10586_sp0_windows_10_th2_1511_amd64[1135] = {
+// shadowssdt table for 10.0.10586-sp0-windows-10-th2-1511 amd64
+SDT_NODE static_shadowssdt_10_0_10586_sp0_windows_10_th2_1511_amd64[1135] = {
 /*0x000*/	{ "NtUserGetOwnerTransformedMonitorRect" , 4 } ,
 /*0x001*/	{ "NtUserYieldTask" , 0 } ,
 /*0x002*/	{ "NtUserSetSensorPresence" , 1 } ,
@@ -8335,8 +8335,8 @@ SDT_NODE static_shadow_10_0_10586_sp0_windows_10_th2_1511_amd64[1135] = {
 
 
 
-// shadow table for 10.0.14393-sp0-windows-10-rs1-1607 amd64
-SDT_NODE static_shadow_10_0_14393_sp0_windows_10_rs1_1607_amd64[1138] = {
+// shadowssdt table for 10.0.14393-sp0-windows-10-rs1-1607 amd64
+SDT_NODE static_shadowssdt_10_0_14393_sp0_windows_10_rs1_1607_amd64[1138] = {
 /*0x000*/	{ "NtUserGetOwnerTransformedMonitorRect" , 4 } ,
 /*0x001*/	{ "NtUserYieldTask" , 0 } ,
 /*0x002*/	{ "NtUserSetSensorPresence" , 1 } ,
@@ -9481,8 +9481,8 @@ SDT_NODE static_shadow_10_0_14393_sp0_windows_10_rs1_1607_amd64[1138] = {
 
 
 
-// shadow table for 10.0.15063-sp0-windows-10-rs2-1703 amd64
-SDT_NODE static_shadow_10_0_15063_sp0_windows_10_rs2_1703_amd64[1134] = {
+// shadowssdt table for 10.0.15063-sp0-windows-10-rs2-1703 amd64
+SDT_NODE static_shadowssdt_10_0_15063_sp0_windows_10_rs2_1703_amd64[1134] = {
 /*0x000*/	{ "NtUserGetOwnerTransformedMonitorRect" , 4 } ,
 /*0x001*/	{ "NtUserYieldTask" , 0 } ,
 /*0x002*/	{ "NtUserSetSensorPresence" , 1 } ,
