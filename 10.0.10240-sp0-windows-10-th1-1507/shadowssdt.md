@@ -1,1134 +1,1135 @@
-# 10.0.10240-sp0-windows-10-th1-1507 shadowssdt
+# shadowssdt database for 10.0.10240-sp0-windows-10-th1-1507
 
-|name|id32|id64|argc32|argc64|argcFrom
+| name | id32 | id64 | argc32 | argc64 | argcFrom
 | ------| ------ | ------ | ------ | ------ | ------
-|NtBindCompositionSurface|973|289|4|4|wow64
-|NtCompositionInputThread|997|290|4|4|wow64
-|NtCreateCompositionInputSink|990|291|2|2|wow64
-|NtCreateCompositionSurfaceHandle|971|292|3|3|wow64
-|NtCreateImplicitCompositionInputSink|991|293|2|2|wow64
-|NtDCompositionAddCrossDeviceVisualChild|1038|294|7|7|native
-|NtDCompositionAddVisualChild|1039|295|5|5|native
-|NtDCompositionBeginFrame|1009|296|3|3|wow64
-|NtDCompositionCapturePointer|1066|297|3|3|wow64
-|NtDCompositionCommitChannel|1024|298|4|4|wow64
-|NtDCompositionConfirmFrame|1010|299|2|2|wow64
-|NtDCompositionConnectPipe|1059|300|3|3|wow64
-|NtDCompositionCreateAndBindSharedSection|1056|301|4|4|wow64
-|NtDCompositionCreateChannel|1052|302|1|1|wow64
-|NtDCompositionCreateConnection|1020|303|2|2|wow64
-|NtDCompositionCreateDwmChannel|1051|304|1|1|wow64
-|NtDCompositionCreateResource|1048|305|4|4|wow64
-|NtDCompositionCurrentBatchId|1034|306|3|3|wow64
-|NtDCompositionDestroyChannel|1021|307|1|1|wow64
-|NtDCompositionDestroyConnection|1015|308|1|1|wow64
-|NtDCompositionDiscardFrame|1012|309|2|2|wow64
-|NtDCompositionDuplicateHandleToProcess|1062|310|3|3|wow64
-|NtDCompositionDuplicateSwapchainHandleToDwm|1069|311|2|2|wow64
-|NtDCompositionEnableDDASupport|989|312|0|0|wow64
-|NtDCompositionEnableMMCSS|987|313|1|1|wow64
-|NtDCompositionGetAnimationTime|1064|314|4|4|wow64
-|NtDCompositionGetChannels|1058|315|4|4|wow64
-|NtDCompositionGetConnectionBatch|1016|316|3|3|wow64
-|NtDCompositionGetDeletedResources|1018|317|4|4|wow64
-|NtDCompositionGetFrameLegacyTokens|1014|318|3|3|wow64
-|NtDCompositionGetFrameStatistics|1017|319|3|3|wow64
-|NtDCompositionGetFrameSurfaceUpdates|1013|320|3|3|wow64
-|NtDCompositionOpenSharedResource|1049|321|5|5|native
-|NtDCompositionOpenSharedResourceHandle|1050|322|3|3|wow64
-|NtDCompositionReferenceSharedResourceOnDwmChannel|1054|323|5|5|native
-|NtDCompositionRegisterThumbnailVisual|1060|324|9|9|native
-|NtDCompositionRegisterVirtualDesktopVisual|1061|325|3|3|wow64
-|NtDCompositionReleaseAllResources|1022|326|2|2|wow64
-|NtDCompositionReleaseResource|1035|327|3|3|wow64
-|NtDCompositionRemoveCrossDeviceVisualChild|1036|328|4|4|wow64
-|NtDCompositionRemoveVisualChild|1037|329|3|3|wow64
-|NtDCompositionReplaceVisualChildren|1040|330|3|3|wow64
-|NtDCompositionRetireFrame|1011|331|3|3|wow64
-|NtDCompositionSetChannelCallbackId|1067|332|4|4|wow64
-|NtDCompositionSetChannelCommitCompletionEvent|1026|333|2|2|wow64
-|NtDCompositionSetDebugCounter|1057|334|2|2|wow64
-|NtDCompositionSetResourceAnimationProperty|1041|335|4|4|wow64
-|NtDCompositionSetResourceBufferProperty|1044|336|6|6|native
-|NtDCompositionSetResourceCallbackId|1068|337|3|3|wow64
-|NtDCompositionSetResourceDeletedNotificationTag|1019|338|4|4|wow64
-|NtDCompositionSetResourceFloatProperty|1046|339|4|4|wow64
-|NtDCompositionSetResourceHandleProperty|1047|340|4|4|wow64
-|NtDCompositionSetResourceIntegerProperty|1045|341|4|4|wow64
-|NtDCompositionSetResourceReferenceArrayProperty|1042|342|6|6|native
-|NtDCompositionSetResourceReferenceProperty|1043|343|5|5|native
-|NtDCompositionSetVisualInputSink|1063|344|3|3|wow64
-|NtDCompositionSignalGpuFence|1055|345|4|4|wow64
-|NtDCompositionSubmitDWMBatch|1023|346|2|2|wow64
-|NtDCompositionSynchronize|1053|347|2|2|wow64
-|NtDCompositionTelemetryAnimationScenarioBegin|1031|348|3|3|wow64
-|NtDCompositionTelemetryAnimationScenarioReference|1032|349|3|3|wow64
-|NtDCompositionTelemetryAnimationScenarioUnreference|1033|350|3|3|wow64
-|NtDCompositionTelemetrySetApplicationId|1030|351|3|3|wow64
-|NtDCompositionTelemetryTouchInteractionBegin|1027|352|3|3|wow64
-|NtDCompositionTelemetryTouchInteractionEnd|1029|353|2|2|wow64
-|NtDCompositionTelemetryTouchInteractionUpdate|1028|354|3|3|wow64
-|NtDCompositionUpdatePointerCapture|1065|355|2|2|wow64
-|NtDCompositionWaitForChannel|1025|356|2|2|wow64
-|NtDesktopCaptureBits|986|357|8|8|native
-|NtDuplicateCompositionInputSink|992|358|2|2|wow64
-|NtGdiAbortDoc|319|359|1|1|wow64
-|NtGdiAbortPath|318|360|1|1|wow64
-|NtGdiAddEmbFontToDC|92|361|2|2|wow64
-|NtGdiAddFontMemResourceEx|315|274|5|5|native
-|NtGdiAddFontResourceW|317|362|6|6|native
-|NtGdiAddRemoteFontToDC|316|363|4|4|wow64
-|NtGdiAddRemoteMMInstanceToDC|313|364|3|3|wow64
-|NtGdiAlphaBlend|312|126|12|12|native
-|NtGdiAngleArc|311|365|6|6|native
-|NtGdiAnyLinkedFonts|310|366|0|0|wow64
-|NtGdiArcInternal|308|367|10|10|native
-|NtGdiBRUSHOBJ_DeleteRbrush|790|368|2|2|wow64
-|NtGdiBRUSHOBJ_hGetColorTransform|760|369|1|1|wow64
-|NtGdiBRUSHOBJ_pvAllocRbrush|762|370|2|2|wow64
-|NtGdiBRUSHOBJ_pvGetRbrush|761|371|1|1|wow64
-|NtGdiBRUSHOBJ_ulGetBrushColor|763|372|1|1|wow64
-|NtGdiBeginGdiRendering|307|373|3|3|wow64
-|NtGdiBeginPath|306|267|1|1|wow64
-|NtGdiBitBlt|305|11|11|11|native
-|NtGdiCLIPOBJ_bEnum|759|374|3|3|wow64
-|NtGdiCLIPOBJ_cEnumStart|758|375|5|5|native
-|NtGdiCLIPOBJ_ppoGetPath|757|376|1|1|wow64
-|NtGdiCancelDC|304|377|1|1|wow64
-|NtGdiChangeGhostFont|93|378|2|2|wow64
-|NtGdiCheckBitmapBits|303|379|8|8|native
-|NtGdiClearBitmapAttributes|301|380|2|2|wow64
-|NtGdiClearBrushAttributes|300|381|2|2|wow64
-|NtGdiCloseFigure|302|258|1|1|wow64
-|NtGdiColorCorrectPalette|299|382|6|6|native
-|NtGdiCombineRgn|298|55|4|4|wow64
-|NtGdiCombineTransform|297|242|3|3|wow64
-|NtGdiComputeXformCoefficients|296|141|1|1|wow64
-|NtGdiConfigureOPMProtectedOutput|295|383|4|4|wow64
-|NtGdiConvertMetafileRect|294|384|2|2|wow64
-|NtGdiCreateBitmap|293|111|5|5|native
-|NtGdiCreateBitmapFromDxSurface|292|385|5|5|native
-|NtGdiCreateBitmapFromDxSurface2|291|386|7|7|native
-|NtGdiCreateClientObj|290|188|1|1|wow64
-|NtGdiCreateColorSpace|289|286|1|1|wow64
-|NtGdiCreateColorTransform|288|387|8|8|native
-|NtGdiCreateCompatibleBitmap|287|78|3|3|wow64
-|NtGdiCreateCompatibleDC|286|87|1|1|wow64
-|NtGdiCreateDIBBrush|285|118|6|6|native
-|NtGdiCreateDIBSection|283|156|9|9|native
-|NtGdiCreateDIBitmapInternal|284|161|11|11|native
-|NtGdiCreateEllipticRgn|281|388|4|4|wow64
-|NtGdiCreateHalftonePalette|280|239|1|1|wow64
-|NtGdiCreateHatchBrushInternal|279|389|3|3|wow64
-|NtGdiCreateMetafileDC|278|390|1|1|wow64
-|NtGdiCreateOPMProtectedOutputs|277|391|5|5|native
-|NtGdiCreatePaletteInternal|276|174|2|2|wow64
-|NtGdiCreatePatternBrushInternal|275|179|3|3|wow64
-|NtGdiCreatePen|274|89|4|4|wow64
-|NtGdiCreateRectRgn|273|134|4|4|wow64
-|NtGdiCreateRoundRectRgn|272|392|6|6|native
-|NtGdiCreateServerMetaFile|271|393|6|6|native
-|NtGdiCreateSessionMappedDIBSection|282|394|8|8|native
-|NtGdiCreateSolidBrush|270|186|2|2|wow64
-|NtGdiD3dContextCreate|269|395|4|4|wow64
-|NtGdiD3dContextDestroy|268|396|1|1|wow64
-|NtGdiD3dContextDestroyAll|267|397|1|1|wow64
-|NtGdiD3dDrawPrimitives2|265|103|7|7|native
-|NtGdiD3dValidateTextureStageState|266|398|1|1|wow64
-|NtGdiDDCCIGetCapabilitiesString|954|399|3|3|wow64
-|NtGdiDDCCIGetCapabilitiesStringLength|955|400|2|2|wow64
-|NtGdiDDCCIGetTimingReport|953|401|2|2|wow64
-|NtGdiDDCCIGetVCPFeature|958|402|5|5|native
-|NtGdiDDCCISaveCurrentSettings|956|403|1|1|wow64
-|NtGdiDDCCISetVCPFeature|957|404|3|3|wow64
-|NtGdiDdAddAttachedSurface|263|405|3|3|wow64
-|NtGdiDdAlphaBlt|262|406|3|3|wow64
-|NtGdiDdAttachSurface|261|407|2|2|wow64
-|NtGdiDdBeginMoCompFrame|260|408|2|2|wow64
-|NtGdiDdBlt|259|127|3|3|wow64
-|NtGdiDdCanCreateD3DBuffer|257|409|2|2|wow64
-|NtGdiDdCanCreateSurface|258|164|2|2|wow64
-|NtGdiDdColorControl|256|410|2|2|wow64
-|NtGdiDdCreateD3DBuffer|253|411|8|8|native
-|NtGdiDdCreateDirectDrawObject|255|412|1|1|wow64
-|NtGdiDdCreateFullscreenSprite|962|413|4|4|wow64
-|NtGdiDdCreateMoComp|252|414|2|2|wow64
-|NtGdiDdCreateSurface|254|165|8|8|native
-|NtGdiDdCreateSurfaceEx|220|196|3|3|wow64
-|NtGdiDdCreateSurfaceObject|251|197|6|6|native
-|NtGdiDdDDIAbandonSwapChain|936|415|1|1|wow64
-|NtGdiDdDDIAcquireKeyedMutex|876|416|1|1|wow64
-|NtGdiDdDDIAcquireKeyedMutex2|861|417|1|1|wow64
-|NtGdiDdDDIAcquireSwapChain|934|418|1|1|wow64
-|NtGdiDdDDIAdjustFullscreenGamma|944|419|1|1|wow64
-|NtGdiDdDDICacheHybridQueryValue|921|420|1|1|wow64
-|NtGdiDdDDIChangeVideoMemoryReservation|930|421|1|1|wow64
-|NtGdiDdDDICheckExclusiveOwnership|883|422|0|0|wow64
-|NtGdiDdDDICheckMonitorPowerState|884|423|1|1|wow64
-|NtGdiDdDDICheckMultiPlaneOverlaySupport|900|424|1|1|wow64
-|NtGdiDdDDICheckMultiPlaneOverlaySupport2|938|425|1|1|wow64
-|NtGdiDdDDICheckOcclusion|886|426|1|1|wow64
-|NtGdiDdDDICheckSharedResourceAccess|871|427|1|1|wow64
-|NtGdiDdDDICheckVidPnExclusiveOwnership|872|428|1|1|wow64
-|NtGdiDdDDICloseAdapter|819|429|1|1|wow64
-|NtGdiDdDDIConfigureSharedResource|874|430|1|1|wow64
-|NtGdiDdDDICreateAllocation|856|431|1|1|wow64
-|NtGdiDdDDICreateContext|840|432|1|1|wow64
-|NtGdiDdDDICreateContextVirtual|918|433|1|1|wow64
-|NtGdiDdDDICreateDCFromMemory|804|434|1|1|wow64
-|NtGdiDdDDICreateDevice|842|435|1|1|wow64
-|NtGdiDdDDICreateKeyedMutex|879|436|1|1|wow64
-|NtGdiDdDDICreateKeyedMutex2|863|437|1|1|wow64
-|NtGdiDdDDICreateOutputDupl|868|438|1|1|wow64
-|NtGdiDdDDICreateOverlay|811|439|1|1|wow64
-|NtGdiDdDDICreatePagingQueue|908|440|1|1|wow64
-|NtGdiDdDDICreateSwapChain|931|441|1|1|wow64
-|NtGdiDdDDICreateSynchronizationObject|838|442|1|1|wow64
-|NtGdiDdDDIDestroyAllocation|845|443|1|1|wow64
-|NtGdiDdDDIDestroyAllocation2|846|444|1|1|wow64
-|NtGdiDdDDIDestroyContext|839|445|1|1|wow64
-|NtGdiDdDDIDestroyDCFromMemory|803|446|1|1|wow64
-|NtGdiDdDDIDestroyDevice|841|447|1|1|wow64
-|NtGdiDdDDIDestroyKeyedMutex|877|448|1|1|wow64
-|NtGdiDdDDIDestroyOutputDupl|867|449|1|1|wow64
-|NtGdiDdDDIDestroyOverlay|808|450|1|1|wow64
-|NtGdiDdDDIDestroyPagingQueue|909|451|1|1|wow64
-|NtGdiDdDDIDestroySynchronizationObject|836|452|1|1|wow64
-|NtGdiDdDDIEnumAdapters|821|453|1|1|wow64
-|NtGdiDdDDIEnumAdapters2|822|454|1|1|wow64
-|NtGdiDdDDIEscape|817|455|1|1|wow64
-|NtGdiDdDDIEvict|902|456|1|1|wow64
-|NtGdiDdDDIFlipOverlay|809|457|1|1|wow64
-|NtGdiDdDDIFreeGpuVirtualAddress|916|458|1|1|wow64
-|NtGdiDdDDIGetCachedHybridQueryValue|920|459|1|1|wow64
-|NtGdiDdDDIGetContextInProcessSchedulingPriority|896|460|1|1|wow64
-|NtGdiDdDDIGetContextSchedulingPriority|801|461|1|1|wow64
-|NtGdiDdDDIGetDWMVerticalBlankEvent|893|462|1|1|wow64
-|NtGdiDdDDIGetDeviceState|805|463|1|1|wow64
-|NtGdiDdDDIGetDisplayModeList|829|464|1|1|wow64
-|NtGdiDdDDIGetMultisampleMethodList|827|465|1|1|wow64
-|NtGdiDdDDIGetOverlayState|873|466|1|1|wow64
-|NtGdiDdDDIGetPresentHistory|813|467|1|1|wow64
-|NtGdiDdDDIGetPresentQueueEvent|812|468|2|2|wow64
-|NtGdiDdDDIGetProcessSchedulingPriorityClass|799|469|2|2|wow64
-|NtGdiDdDDIGetResourcePresentPrivateDriverData|913|470|1|1|wow64
-|NtGdiDdDDIGetRuntimeData|833|471|1|1|wow64
-|NtGdiDdDDIGetScanLine|797|472|1|1|wow64
-|NtGdiDdDDIGetSetSwapChainMetadata|933|473|1|1|wow64
-|NtGdiDdDDIGetSharedPrimaryHandle|818|474|1|1|wow64
-|NtGdiDdDDIGetSharedResourceAdapterLuid|897|475|1|1|wow64
-|NtGdiDdDDIInvalidateActiveVidPn|887|476|1|1|wow64
-|NtGdiDdDDIInvalidateCache|912|477|1|1|wow64
-|NtGdiDdDDILock|831|478|1|1|wow64
-|NtGdiDdDDILock2|910|479|1|1|wow64
-|NtGdiDdDDIMakeResident|901|480|1|1|wow64
-|NtGdiDdDDIMapGpuVirtualAddress|914|481|1|1|wow64
-|NtGdiDdDDIMarkDeviceAsError|946|482|1|1|wow64
-|NtGdiDdDDINetDispGetNextChunkInfo|922|483|7|7|native
-|NtGdiDdDDINetDispQueryMiracastDisplayDeviceStatus|927|484|2|2|wow64
-|NtGdiDdDDINetDispQueryMiracastDisplayDeviceSupport|923|485|1|1|wow64
-|NtGdiDdDDINetDispStartMiracastDisplayDevice|924|486|3|3|wow64
-|NtGdiDdDDINetDispStartMiracastDisplayDeviceEx|925|487|1|1|wow64
-|NtGdiDdDDINetDispStopMiracastDisplayDevice|926|488|2|2|wow64
-|NtGdiDdDDINetDispStopSessions|928|489|1|1|wow64
-|NtGdiDdDDIOfferAllocations|870|490|1|1|wow64
-|NtGdiDdDDIOpenAdapterFromDeviceName|824|491|1|1|wow64
-|NtGdiDdDDIOpenAdapterFromHdc|823|492|1|1|wow64
-|NtGdiDdDDIOpenAdapterFromLuid|820|493|1|1|wow64
-|NtGdiDdDDIOpenKeyedMutex|878|494|1|1|wow64
-|NtGdiDdDDIOpenKeyedMutex2|862|495|1|1|wow64
-|NtGdiDdDDIOpenNtHandleFromName|851|496|1|1|wow64
-|NtGdiDdDDIOpenResource|850|497|1|1|wow64
-|NtGdiDdDDIOpenResourceFromNtHandle|847|498|1|1|wow64
-|NtGdiDdDDIOpenSwapChain|932|499|1|1|wow64
-|NtGdiDdDDIOpenSyncObjectFromNtHandle|848|500|1|1|wow64
-|NtGdiDdDDIOpenSyncObjectFromNtHandle2|849|501|1|1|wow64
-|NtGdiDdDDIOpenSyncObjectNtHandleFromName|852|502|1|1|wow64
-|NtGdiDdDDIOpenSynchronizationObject|837|503|1|1|wow64
-|NtGdiDdDDIOutputDuplGetFrameInfo|866|504|1|1|wow64
-|NtGdiDdDDIOutputDuplGetMetaData|865|505|1|1|wow64
-|NtGdiDdDDIOutputDuplGetPointerShapeData|864|506|1|1|wow64
-|NtGdiDdDDIOutputDuplPresent|859|507|1|1|wow64
-|NtGdiDdDDIOutputDuplReleaseFrame|857|508|1|1|wow64
-|NtGdiDdDDIPinDirectFlipResources|890|509|1|1|wow64
-|NtGdiDdDDIPollDisplayChildren|888|510|1|1|wow64
-|NtGdiDdDDIPresent|826|511|1|1|wow64
-|NtGdiDdDDIPresentMultiPlaneOverlay|899|512|1|1|wow64
-|NtGdiDdDDIPresentMultiPlaneOverlay2|939|513|1|1|wow64
-|NtGdiDdDDIQueryAdapterInfo|832|514|1|1|wow64
-|NtGdiDdDDIQueryAllocationResidency|843|515|1|1|wow64
-|NtGdiDdDDIQueryClockCalibration|942|516|1|1|wow64
-|NtGdiDdDDIQueryRemoteVidPnSourceFromGdiDisplayName|858|517|1|1|wow64
-|NtGdiDdDDIQueryResourceInfo|855|518|1|1|wow64
-|NtGdiDdDDIQueryResourceInfoFromNtHandle|854|519|1|1|wow64
-|NtGdiDdDDIQueryStatistics|816|520|1|1|wow64
-|NtGdiDdDDIQueryVidPnExclusiveOwnership|943|521|1|1|wow64
-|NtGdiDdDDIQueryVideoMemoryInfo|929|522|1|1|wow64
-|NtGdiDdDDIReclaimAllocations|869|523|1|1|wow64
-|NtGdiDdDDIReclaimAllocations2|940|524|1|1|wow64
-|NtGdiDdDDIReleaseKeyedMutex|875|525|1|1|wow64
-|NtGdiDdDDIReleaseKeyedMutex2|860|526|1|1|wow64
-|NtGdiDdDDIReleaseProcessVidPnSourceOwners|798|527|1|1|wow64
-|NtGdiDdDDIReleaseSwapChain|935|528|1|1|wow64
-|NtGdiDdDDIRender|825|529|1|1|wow64
-|NtGdiDdDDIReserveGpuVirtualAddress|915|530|1|1|wow64
-|NtGdiDdDDISetAllocationPriority|844|531|1|1|wow64
-|NtGdiDdDDISetContextInProcessSchedulingPriority|895|532|1|1|wow64
-|NtGdiDdDDISetContextSchedulingPriority|802|533|1|1|wow64
-|NtGdiDdDDISetDisplayMode|828|534|1|1|wow64
-|NtGdiDdDDISetDisplayPrivateDriverFormat|882|535|1|1|wow64
-|NtGdiDdDDISetDodIndirectSwapchain|937|536|1|1|wow64
-|NtGdiDdDDISetGammaRamp|806|537|1|1|wow64
-|NtGdiDdDDISetProcessSchedulingPriorityClass|800|538|2|2|wow64
-|NtGdiDdDDISetQueuedLimit|889|539|1|1|wow64
-|NtGdiDdDDISetStablePowerState|941|540|1|1|wow64
-|NtGdiDdDDISetStereoEnabled|898|541|1|1|wow64
-|NtGdiDdDDISetSyncRefreshCountWaitTarget|894|542|1|1|wow64
-|NtGdiDdDDISetVidPnSourceHwProtection|945|543|1|1|wow64
-|NtGdiDdDDISetVidPnSourceOwner|815|544|1|1|wow64
-|NtGdiDdDDISetVidPnSourceOwner1|814|545|1|1|wow64
-|NtGdiDdDDIShareObjects|853|546|5|5|native
-|NtGdiDdDDISharedPrimaryLockNotification|881|547|1|1|wow64
-|NtGdiDdDDISharedPrimaryUnLockNotification|880|548|1|1|wow64
-|NtGdiDdDDISignalSynchronizationObject|834|549|1|1|wow64
-|NtGdiDdDDISignalSynchronizationObjectFromCpu|904|550|1|1|wow64
-|NtGdiDdDDISignalSynchronizationObjectFromGpu|906|551|1|1|wow64
-|NtGdiDdDDISignalSynchronizationObjectFromGpu2|907|552|1|1|wow64
-|NtGdiDdDDISubmitCommand|919|553|1|1|wow64
-|NtGdiDdDDIUnlock|830|554|1|1|wow64
-|NtGdiDdDDIUnlock2|911|555|1|1|wow64
-|NtGdiDdDDIUnpinDirectFlipResources|891|556|1|1|wow64
-|NtGdiDdDDIUpdateGpuVirtualAddress|917|557|1|1|wow64
-|NtGdiDdDDIUpdateOverlay|810|558|1|1|wow64
-|NtGdiDdDDIWaitForIdle|885|559|1|1|wow64
-|NtGdiDdDDIWaitForSynchronizationObject|835|560|1|1|wow64
-|NtGdiDdDDIWaitForSynchronizationObjectFromCpu|903|561|1|1|wow64
-|NtGdiDdDDIWaitForSynchronizationObjectFromGpu|905|562|1|1|wow64
-|NtGdiDdDDIWaitForVerticalBlankEvent|807|563|1|1|wow64
-|NtGdiDdDDIWaitForVerticalBlankEvent2|892|564|1|1|wow64
-|NtGdiDdDeleteDirectDrawObject|250|565|1|1|wow64
-|NtGdiDdDeleteSurfaceObject|249|163|1|1|wow64
-|NtGdiDdDestroyD3DBuffer|246|566|1|1|wow64
-|NtGdiDdDestroyFullscreenSprite|960|567|2|2|wow64
-|NtGdiDdDestroyMoComp|248|568|2|2|wow64
-|NtGdiDdDestroySurface|247|167|2|2|wow64
-|NtGdiDdEndMoCompFrame|245|569|2|2|wow64
-|NtGdiDdFlip|244|570|5|5|native
-|NtGdiDdFlipToGDISurface|243|571|2|2|wow64
-|NtGdiDdGetAvailDriverMemory|242|572|2|2|wow64
-|NtGdiDdGetBltStatus|241|573|2|2|wow64
-|NtGdiDdGetDC|240|574|2|2|wow64
-|NtGdiDdGetDriverInfo|239|575|2|2|wow64
-|NtGdiDdGetDriverState|264|576|1|1|wow64
-|NtGdiDdGetDxHandle|238|577|3|3|wow64
-|NtGdiDdGetFlipStatus|237|578|2|2|wow64
-|NtGdiDdGetInternalMoCompInfo|236|579|2|2|wow64
-|NtGdiDdGetMoCompBuffInfo|235|580|2|2|wow64
-|NtGdiDdGetMoCompFormats|233|581|2|2|wow64
-|NtGdiDdGetMoCompGuids|234|582|2|2|wow64
-|NtGdiDdGetScanLine|232|583|2|2|wow64
-|NtGdiDdLock|231|584|3|3|wow64
-|NtGdiDdLockD3D|230|199|2|2|wow64
-|NtGdiDdNotifyFullscreenSpriteUpdate|961|585|2|2|wow64
-|NtGdiDdQueryDirectDrawObject|229|586|11|11|native
-|NtGdiDdQueryMoCompStatus|228|587|2|2|wow64
-|NtGdiDdQueryVisRgnUniqueness|959|588|0|0|wow64
-|NtGdiDdReenableDirectDrawObject|227|589|2|2|wow64
-|NtGdiDdReleaseDC|226|590|1|1|wow64
-|NtGdiDdRenderMoComp|225|591|2|2|wow64
-|NtGdiDdResetVisrgn|224|172|2|2|wow64
-|NtGdiDdSetColorKey|223|592|2|2|wow64
-|NtGdiDdSetExclusiveMode|222|593|2|2|wow64
-|NtGdiDdSetGammaRamp|221|594|3|3|wow64
-|NtGdiDdSetOverlayPosition|219|595|3|3|wow64
-|NtGdiDdUnattachSurface|218|596|2|2|wow64
-|NtGdiDdUnlock|217|597|2|2|wow64
-|NtGdiDdUnlockD3D|216|200|2|2|wow64
-|NtGdiDdUpdateOverlay|215|598|3|3|wow64
-|NtGdiDdWaitForVerticalBlank|214|599|2|2|wow64
-|NtGdiDeleteClientObj|195|137|1|1|wow64
-|NtGdiDeleteColorSpace|194|287|1|1|wow64
-|NtGdiDeleteColorTransform|193|600|2|2|wow64
-|NtGdiDeleteObjectApp|192|38|1|1|wow64
-|NtGdiDescribePixelFormat|191|601|4|4|wow64
-|NtGdiDestroyOPMProtectedOutput|190|602|1|1|wow64
-|NtGdiDestroyPhysicalMonitor|949|603|1|1|wow64
-|NtGdiDoBanding|188|604|4|4|wow64
-|NtGdiDoPalette|187|74|6|6|native
-|NtGdiDrawEscape|186|605|4|4|wow64
-|NtGdiDrawStream|793|100|3|3|wow64
-|NtGdiDvpAcquireNotification|198|606|3|3|wow64
-|NtGdiDvpCanCreateVideoPort|213|607|2|2|wow64
-|NtGdiDvpColorControl|212|608|2|2|wow64
-|NtGdiDvpCreateVideoPort|211|609|2|2|wow64
-|NtGdiDvpDestroyVideoPort|210|610|2|2|wow64
-|NtGdiDvpFlipVideoPort|209|611|4|4|wow64
-|NtGdiDvpGetVideoPortBandwidth|208|612|2|2|wow64
-|NtGdiDvpGetVideoPortConnectInfo|202|613|2|2|wow64
-|NtGdiDvpGetVideoPortField|207|614|2|2|wow64
-|NtGdiDvpGetVideoPortFlipStatus|206|615|2|2|wow64
-|NtGdiDvpGetVideoPortInputFormats|205|616|2|2|wow64
-|NtGdiDvpGetVideoPortLine|204|617|2|2|wow64
-|NtGdiDvpGetVideoPortOutputFormats|203|618|2|2|wow64
-|NtGdiDvpGetVideoSignalStatus|201|619|2|2|wow64
-|NtGdiDvpReleaseNotification|197|620|2|2|wow64
-|NtGdiDvpUpdateVideoPort|200|621|4|4|wow64
-|NtGdiDvpWaitForVideoPortSync|199|622|2|2|wow64
-|NtGdiDwmCreatedBitmapRemotingOutput|796|623|0|0|wow64
-|NtGdiDxgGenericThunk|196|624|6|6|native
-|NtGdiEllipse|185|625|5|5|native
-|NtGdiEnableEudc|184|626|1|1|wow64
-|NtGdiEndDoc|183|627|1|1|wow64
-|NtGdiEndGdiRendering|182|628|4|4|wow64
-|NtGdiEndPage|181|629|1|1|wow64
-|NtGdiEndPath|180|268|1|1|wow64
-|NtGdiEngAlphaBlend|692|630|7|7|native
-|NtGdiEngAssociateSurface|713|631|3|3|wow64
-|NtGdiEngBitBlt|701|632|11|11|native
-|NtGdiEngCheckAbort|784|633|1|1|wow64
-|NtGdiEngComputeGlyphSet|708|634|3|3|wow64
-|NtGdiEngCopyBits|707|635|6|6|native
-|NtGdiEngCreateBitmap|712|636|6|6|native
-|NtGdiEngCreateClip|755|637|0|0|wow64
-|NtGdiEngCreateDeviceBitmap|710|638|4|4|wow64
-|NtGdiEngCreateDeviceSurface|711|639|4|4|wow64
-|NtGdiEngCreatePalette|709|640|6|6|native
-|NtGdiEngDeleteClip|754|641|1|1|wow64
-|NtGdiEngDeletePalette|706|642|1|1|wow64
-|NtGdiEngDeletePath|756|643|1|1|wow64
-|NtGdiEngDeleteSurface|705|644|1|1|wow64
-|NtGdiEngEraseSurface|704|645|3|3|wow64
-|NtGdiEngFillPath|696|646|7|7|native
-|NtGdiEngGradientFill|691|647|10|10|native
-|NtGdiEngLineTo|693|648|9|9|native
-|NtGdiEngLockSurface|702|649|1|1|wow64
-|NtGdiEngMarkBandingSurface|698|650|1|1|wow64
-|NtGdiEngPaint|694|651|5|5|native
-|NtGdiEngPlgBlt|699|652|11|11|native
-|NtGdiEngStretchBlt|700|653|11|11|native
-|NtGdiEngStretchBltROP|688|654|13|13|native
-|NtGdiEngStrokeAndFillPath|695|655|10|10|native
-|NtGdiEngStrokePath|697|656|8|8|native
-|NtGdiEngTextOut|689|657|10|10|native
-|NtGdiEngTransparentBlt|690|658|8|8|native
-|NtGdiEngUnlockSurface|703|659|1|1|wow64
-|NtGdiEnumFonts|179|660|8|8|native
-|NtGdiEnumObjects|178|661|4|4|wow64
-|NtGdiEqualRgn|177|275|2|2|wow64
-|NtGdiEudcLoadUnloadLink|176|662|7|7|native
-|NtGdiExcludeClipRect|175|155|5|5|native
-|NtGdiExtCreatePen|174|173|11|11|native
-|NtGdiExtCreateRegion|173|140|3|3|wow64
-|NtGdiExtEscape|172|280|8|8|native
-|NtGdiExtFloodFill|171|663|5|5|native
-|NtGdiExtGetObjectW|170|85|3|3|wow64
-|NtGdiExtSelectClipRgn|169|49|3|3|wow64
-|NtGdiExtTextOutW|168|59|9|9|native
-|NtGdiFONTOBJ_cGetAllGlyphHandles|772|664|2|2|wow64
-|NtGdiFONTOBJ_cGetGlyphs|769|665|5|5|native
-|NtGdiFONTOBJ_pQueryGlyphAttrs|766|666|2|2|wow64
-|NtGdiFONTOBJ_pfdg|767|667|1|1|wow64
-|NtGdiFONTOBJ_pifi|768|668|1|1|wow64
-|NtGdiFONTOBJ_pvTrueTypeFontFile|773|669|2|2|wow64
-|NtGdiFONTOBJ_pxoGetXform|770|670|1|1|wow64
-|NtGdiFONTOBJ_vGetInfo|771|671|3|3|wow64
-|NtGdiFillPath|167|269|1|1|wow64
-|NtGdiFillRgn|166|214|3|3|wow64
-|NtGdiFlattenPath|165|672|1|1|wow64
-|NtGdiFlush|164|21|0|0|wow64
-|NtGdiFontIsLinked|309|673|1|1|wow64
-|NtGdiForceUFIMapping|163|674|2|2|wow64
-|NtGdiFrameRgn|162|675|5|5|native
-|NtGdiFullscreenControl|161|676|5|5|native
-|NtGdiGetAndSetDCDword|160|106|4|4|wow64
-|NtGdiGetAppClipBox|159|70|2|2|wow64
-|NtGdiGetBitmapBits|158|224|3|3|wow64
-|NtGdiGetBitmapDimension|157|254|2|2|wow64
-|NtGdiGetBoundsRect|156|677|3|3|wow64
-|NtGdiGetCOPPCompatibleOPMInformation|146|678|3|3|wow64
-|NtGdiGetCertificate|155|679|4|4|wow64
-|NtGdiGetCertificateSize|154|680|3|3|wow64
-|NtGdiGetCharABCWidthsW|153|681|6|6|native
-|NtGdiGetCharSet|151|12|1|1|wow64
-|NtGdiGetCharWidthInfo|149|206|2|2|wow64
-|NtGdiGetCharWidthW|150|201|6|6|native
-|NtGdiGetCharacterPlacementW|152|682|6|6|native
-|NtGdiGetColorAdjustment|148|683|2|2|wow64
-|NtGdiGetColorSpaceforBitmap|147|684|1|1|wow64
-|NtGdiGetCurrentDpiInfo|145|685|2|2|wow64
-|NtGdiGetDCDword|144|66|3|3|wow64
-|NtGdiGetDCObject|142|56|2|2|wow64
-|NtGdiGetDCPoint|141|117|3|3|wow64
-|NtGdiGetDCforBitmap|143|157|1|1|wow64
-|NtGdiGetDIBitsInternal|137|135|9|9|native
-|NtGdiGetDeviceCaps|140|686|2|2|wow64
-|NtGdiGetDeviceCapsAll|138|687|2|2|wow64
-|NtGdiGetDeviceGammaRamp|139|688|2|2|wow64
-|NtGdiGetDeviceWidth|27|689|1|1|wow64
-|NtGdiGetDhpdev|785|690|1|1|wow64
-|NtGdiGetETM|136|691|2|2|wow64
-|NtGdiGetEmbUFI|96|692|7|7|native
-|NtGdiGetEmbedFonts|94|693|0|0|wow64
-|NtGdiGetEudcTimeStampEx|135|694|3|3|wow64
-|NtGdiGetFontData|134|217|5|5|native
-|NtGdiGetFontFileData|133|695|5|5|native
-|NtGdiGetFontFileInfo|132|696|5|5|native
-|NtGdiGetFontResourceInfoInternalW|131|697|7|7|native
-|NtGdiGetFontUnicodeRanges|91|698|2|2|wow64
-|NtGdiGetGlyphIndicesW|130|699|5|5|native
-|NtGdiGetGlyphIndicesWInternal|129|700|6|6|native
-|NtGdiGetGlyphOutline|128|701|8|8|native
-|NtGdiGetKerningPairs|126|702|3|3|wow64
-|NtGdiGetLinkedUFIs|125|703|3|3|wow64
-|NtGdiGetMiterLimit|124|704|2|2|wow64
-|NtGdiGetMonitorID|123|705|3|3|wow64
-|NtGdiGetNearestColor|122|115|2|2|wow64
-|NtGdiGetNearestPaletteIndex|121|198|2|2|wow64
-|NtGdiGetNumberOfPhysicalMonitors|952|706|2|2|wow64
-|NtGdiGetOPMInformation|127|707|3|3|wow64
-|NtGdiGetOPMRandomNumber|119|708|2|2|wow64
-|NtGdiGetObjectBitmapHandle|120|709|2|2|wow64
-|NtGdiGetOutlineTextMetricsInternalW|118|181|4|4|wow64
-|NtGdiGetPath|117|710|4|4|wow64
-|NtGdiGetPerBandInfo|189|711|2|2|wow64
-|NtGdiGetPhysicalMonitorDescription|950|712|3|3|wow64
-|NtGdiGetPhysicalMonitors|951|713|4|4|wow64
-|NtGdiGetPixel|116|193|3|3|wow64
-|NtGdiGetRandomRgn|115|46|3|3|wow64
-|NtGdiGetRasterizerCaps|114|233|2|2|wow64
-|NtGdiGetRealizationInfo|113|714|2|2|wow64
-|NtGdiGetRegionData|112|67|3|3|wow64
-|NtGdiGetRgnBox|111|105|2|2|wow64
-|NtGdiGetServerMetaFileBits|110|715|7|7|native
-|NtGdiGetSpoolMessage|109|716|4|4|wow64
-|NtGdiGetStats|108|717|5|5|native
-|NtGdiGetStockObject|107|210|1|1|wow64
-|NtGdiGetStringBitmapW|106|718|5|5|native
-|NtGdiGetSuggestedOPMProtectedOutputArraySize|105|719|2|2|wow64
-|NtGdiGetSystemPaletteUse|104|276|1|1|wow64
-|NtGdiGetTextCharsetInfo|103|80|3|3|wow64
-|NtGdiGetTextExtent|102|150|5|5|native
-|NtGdiGetTextExtentExW|101|720|8|8|native
-|NtGdiGetTextFaceW|100|130|4|4|wow64
-|NtGdiGetTextMetricsW|99|119|3|3|wow64
-|NtGdiGetTransform|98|222|3|3|wow64
-|NtGdiGetUFI|97|721|6|6|native
-|NtGdiGetUFIPathname|95|722|10|10|native
-|NtGdiGetWidthTable|90|108|7|7|native
-|NtGdiGradientFill|89|723|6|6|native
-|NtGdiHLSurfGetInformation|795|724|4|4|wow64
-|NtGdiHLSurfSetInformation|794|725|4|4|wow64
-|NtGdiHT_Get8BPPFormatPalette|787|726|4|4|wow64
-|NtGdiHT_Get8BPPMaskPalette|786|727|6|6|native
-|NtGdiHfontCreate|88|95|5|5|native
-|NtGdiIcmBrushInfo|87|728|8|8|native
-|NtGdiInit|86|729|0|0|wow64
-|NtGdiInitSpool|85|730|0|0|wow64
-|NtGdiIntersectClipRect|84|35|5|5|native
-|NtGdiInvertRgn|83|104|2|2|wow64
-|NtGdiLineTo|82|68|3|3|wow64
-|NtGdiMakeFontDir|81|731|5|5|native
-|NtGdiMakeInfoDC|80|732|2|2|wow64
-|NtGdiMakeObjectUnXferable|947|733|1|1|wow64
-|NtGdiMakeObjectXferable|948|734|2|2|wow64
-|NtGdiMaskBlt|79|107|13|13|native
-|NtGdiMirrorWindowOrg|26|735|1|1|wow64
-|NtGdiModifyWorldTransform|78|216|3|3|wow64
-|NtGdiMonoBitmap|77|736|1|1|wow64
-|NtGdiMoveTo|76|737|4|4|wow64
-|NtGdiOffsetClipRgn|75|738|3|3|wow64
-|NtGdiOffsetRgn|74|128|3|3|wow64
-|NtGdiOpenDCW|73|220|9|9|native
-|NtGdiPATHOBJ_bEnum|782|739|2|2|wow64
-|NtGdiPATHOBJ_bEnumClipLines|779|740|3|3|wow64
-|NtGdiPATHOBJ_vEnumStart|781|741|1|1|wow64
-|NtGdiPATHOBJ_vEnumStartClipLines|780|742|4|4|wow64
-|NtGdiPATHOBJ_vGetBounds|783|743|2|2|wow64
-|NtGdiPatBlt|72|92|6|6|native
-|NtGdiPathToRegion|70|744|1|1|wow64
-|NtGdiPlgBlt|69|745|11|11|native
-|NtGdiPolyDraw|68|746|4|4|wow64
-|NtGdiPolyPatBlt|71|113|5|5|native
-|NtGdiPolyPolyDraw|67|75|5|5|native
-|NtGdiPolyTextOutW|66|747|4|4|wow64
-|NtGdiPtInRegion|65|748|3|3|wow64
-|NtGdiPtVisible|64|749|3|3|wow64
-|NtGdiQueryFontAssocInfo|62|247|1|1|wow64
-|NtGdiQueryFonts|63|750|3|3|wow64
-|NtGdiRectInRegion|60|191|2|2|wow64
-|NtGdiRectVisible|59|54|2|2|wow64
-|NtGdiRectangle|61|146|5|5|native
-|NtGdiRemoveFontMemResourceEx|57|277|1|1|wow64
-|NtGdiRemoveFontResourceW|58|751|6|6|native
-|NtGdiRemoveMergeFont|314|752|2|2|wow64
-|NtGdiResetDC|56|753|5|5|native
-|NtGdiResizePalette|55|754|2|2|wow64
-|NtGdiRestoreDC|54|61|2|2|wow64
-|NtGdiRoundRect|53|755|7|7|native
-|NtGdiSTROBJ_bEnum|778|756|3|3|wow64
-|NtGdiSTROBJ_bEnumPositionsOnly|777|757|3|3|wow64
-|NtGdiSTROBJ_bGetAdvanceWidths|776|758|4|4|wow64
-|NtGdiSTROBJ_dwGetCodePage|774|759|1|1|wow64
-|NtGdiSTROBJ_vEnumStart|775|760|1|1|wow64
-|NtGdiSaveDC|52|62|1|1|wow64
-|NtGdiScaleViewportExtEx|51|761|6|6|native
-|NtGdiScaleWindowExtEx|50|762|6|6|native
-|NtGdiSelectBitmap|49|14|2|2|wow64
-|NtGdiSelectBrush|48|763|2|2|wow64
-|NtGdiSelectClipPath|47|764|2|2|wow64
-|NtGdiSelectFont|46|60|2|2|wow64
-|NtGdiSelectPen|45|765|2|2|wow64
-|NtGdiSetBitmapAttributes|44|766|2|2|wow64
-|NtGdiSetBitmapBits|43|182|3|3|wow64
-|NtGdiSetBitmapDimension|42|281|4|4|wow64
-|NtGdiSetBoundsRect|41|253|3|3|wow64
-|NtGdiSetBrushAttributes|40|767|2|2|wow64
-|NtGdiSetBrushOrg|39|175|4|4|wow64
-|NtGdiSetColorAdjustment|38|768|2|2|wow64
-|NtGdiSetColorSpace|37|769|2|2|wow64
-|NtGdiSetDIBitsToDeviceInternal|35|44|16|16|native
-|NtGdiSetDeviceGammaRamp|36|770|2|2|wow64
-|NtGdiSetFontEnumeration|34|282|1|1|wow64
-|NtGdiSetFontXform|33|771|3|3|wow64
-|NtGdiSetIcmMode|32|772|3|3|wow64
-|NtGdiSetLayout|25|152|3|3|wow64
-|NtGdiSetLinkedUFIs|31|773|3|3|wow64
-|NtGdiSetMagicColors|30|774|3|3|wow64
-|NtGdiSetMetaRgn|29|230|1|1|wow64
-|NtGdiSetMiterLimit|28|231|3|3|wow64
-|NtGdiSetOPMSigningKeyAndSequenceNumbers|24|775|2|2|wow64
-|NtGdiSetPUMPDOBJ|791|776|4|4|wow64
-|NtGdiSetPixel|23|177|4|4|wow64
-|NtGdiSetPixelFormat|22|777|2|2|wow64
-|NtGdiSetRectRgn|21|778|5|5|native
-|NtGdiSetSizeDevice|17|779|3|3|wow64
-|NtGdiSetSystemPaletteUse|20|780|2|2|wow64
-|NtGdiSetTextJustification|19|781|3|3|wow64
-|NtGdiSetUMPDSandboxState|792|782|1|1|wow64
-|NtGdiSetVirtualResolution|18|232|5|5|native
-|NtGdiStartDoc|16|783|4|4|wow64
-|NtGdiStartPage|15|784|1|1|wow64
-|NtGdiStretchBlt|14|52|12|12|native
-|NtGdiStretchDIBitsInternal|13|131|16|16|native
-|NtGdiStrokeAndFillPath|12|785|1|1|wow64
-|NtGdiStrokePath|11|786|1|1|wow64
-|NtGdiSwapBuffers|10|787|1|1|wow64
-|NtGdiTransformPoints|9|116|5|5|native
-|NtGdiTransparentBlt|8|788|11|11|native
-|NtGdiUMPDEngFreeUserMem|789|789|1|1|wow64
-|NtGdiUnloadPrinterDriver|7|790|2|2|wow64
-|NtGdiUnmapMemFont|6|791|1|1|wow64
-|NtGdiUnrealizeObject|5|144|1|1|wow64
-|NtGdiUpdateColors|4|792|1|1|wow64
-|NtGdiUpdateTransform|788|793|1|1|wow64
-|NtGdiWidenPath|3|794|1|1|wow64
-|NtGdiXFORMOBJ_bApplyXform|765|795|5|5|native
-|NtGdiXFORMOBJ_iGetXform|764|796|2|2|wow64
-|NtGdiXLATEOBJ_cGetPalette|753|797|4|4|wow64
-|NtGdiXLATEOBJ_hGetColorTransform|751|798|1|1|wow64
-|NtGdiXLATEOBJ_iXlate|752|799|2|2|wow64
-|NtHWCursorUpdatePointer|1127|800|2|2|wow64
-|NtNotifyPresentToCompositionSurface|976|801|2|2|wow64
-|NtOpenCompositionSurfaceDirtyRegion|981|802|4|4|wow64
-|NtOpenCompositionSurfaceSectionInfo|978|803|4|4|wow64
-|NtOpenCompositionSurfaceSwapChainHandleInfo|979|804|3|3|wow64
-|NtQueryCompositionInputIsImplicit|999|805|2|2|wow64
-|NtQueryCompositionInputQueueAndTransform|998|806|4|4|wow64
-|NtQueryCompositionInputSink|993|807|2|2|wow64
-|NtQueryCompositionInputSinkLuid|994|808|2|2|wow64
-|NtQueryCompositionInputSinkViewId|995|809|2|2|wow64
-|NtQueryCompositionSurfaceBinding|975|810|3|3|wow64
-|NtQueryCompositionSurfaceRenderingRealization|980|811|2|2|wow64
-|NtQueryCompositionSurfaceStatistics|977|812|2|2|wow64
-|NtRIMAddInputObserver|1119|813|7|7|native
-|NtRIMGetDevicePreparsedDataLockfree|1123|814|3|3|wow64
-|NtRIMObserveNextInput|1122|815|1|1|wow64
-|NtRIMRemoveInputObserver|1120|816|1|1|wow64
-|NtRIMUpdateInputObserverRegistration|1121|817|4|4|wow64
-|NtSetCompositionSurfaceAnalogExclusive|1008|818|2|2|wow64
-|NtSetCompositionSurfaceBufferCompositionMode|984|819|3|3|wow64
-|NtSetCompositionSurfaceIndependentFlipInfo|985|820|7|7|native
-|NtSetCompositionSurfaceOutOfFrameDirectFlipNotification|982|821|3|3|wow64
-|NtSetCompositionSurfaceStatistics|983|822|3|3|wow64
-|NtTokenManagerConfirmOutstandingAnalogToken|1007|823|0|0|wow64
-|NtTokenManagerCreateCompositionTokenHandle|1004|824|5|5|native
-|NtTokenManagerDeleteOutstandingDirectFlipTokens|1003|825|0|0|wow64
-|NtTokenManagerGetAnalogExclusiveSurfaceUpdates|1006|826|5|5|native
-|NtTokenManagerGetAnalogExclusiveTokenEvent|1005|827|1|1|wow64
-|NtTokenManagerGetOutOfFrameDirectFlipSurfaceUpdates|1002|828|6|6|native
-|NtTokenManagerOpenSectionAndEvents|1000|829|4|4|wow64
-|NtTokenManagerThread|1001|830|1|1|wow64
-|NtUnBindCompositionSurface|974|831|2|2|wow64
-|NtUpdateInputSinkTransforms|996|832|2|2|wow64
-|NtUserAcquireIAMKey|1081|833|1|1|wow64
-|NtUserActivateKeyboardLayout|372|288|2|2|wow64
-|NtUserAddClipboardFormatListener|371|834|1|1|wow64
-|NtUserAlterWindowStyle|370|213|3|3|wow64
-|NtUserAssociateInputContext|369|835|3|3|wow64
-|NtUserAttachThreadInput|368|238|3|3|wow64
-|NtUserAutoPromoteMouseInPointer|1095|836|1|1|wow64
-|NtUserAutoRotateScreen|1080|837|1|1|wow64
-|NtUserBeginPaint|367|26|2|2|wow64
-|NtUserBitBltSysBmp|366|205|8|8|native
-|NtUserBlockInput|365|838|1|1|wow64
-|NtUserBuildHimcList|364|839|4|4|wow64
-|NtUserBuildHwndList|363|31|8|8|native
-|NtUserBuildNameList|362|176|4|4|wow64
-|NtUserBuildPropList|361|840|4|4|wow64
-|NtUserCalcMenuBar|543|153|5|5|native
-|NtUserCalculatePopupWindowPosition|544|841|5|5|native
-|NtUserCallHwnd|360|270|2|2|wow64
-|NtUserCallHwndLock|359|36|2|2|wow64
-|NtUserCallHwndOpt|358|842|2|2|wow64
-|NtUserCallHwndParam|357|160|3|3|wow64
-|NtUserCallHwndParamLock|356|42|3|3|wow64
-|NtUserCallMsgFilter|355|24|2|2|wow64
-|NtUserCallNextHookEx|354|33|4|4|wow64
-|NtUserCallNoParam|353|8|1|1|wow64
-|NtUserCallOneParam|352|5|2|2|wow64
-|NtUserCallTwoParam|351|45|3|3|wow64
-|NtUserCanBrokerForceForeground|323|843|1|1|wow64
-|NtUserChangeClipboardChain|350|283|2|2|wow64
-|NtUserChangeDisplaySettings|349|844|4|4|wow64
-|NtUserChangeWindowMessageFilterEx|750|845|4|4|wow64
-|NtUserCheckAccessForIntegrityLevel|343|846|3|3|wow64
-|NtUserCheckMenuItem|340|261|3|3|wow64
-|NtUserCheckProcessForClipboardAccess|1099|847|2|2|wow64
-|NtUserCheckProcessSession|653|848|1|1|wow64
-|NtUserCheckWindowThreadDesktop|341|849|2|2|wow64
-|NtUserChildWindowFromPointEx|339|850|4|4|wow64
-|NtUserClearForeground|1086|851|0|0|wow64
-|NtUserClipCursor|338|852|1|1|wow64
-|NtUserCloseClipboard|337|208|0|0|wow64
-|NtUserCloseDesktop|336|168|1|1|wow64
-|NtUserCloseWindowStation|335|183|1|1|wow64
-|NtUserCompositionInputSinkLuidFromPoint|1102|853|2|2|wow64
-|NtUserConsoleControl|334|225|3|3|wow64
-|NtUserConvertMemHandle|333|255|2|2|wow64
-|NtUserCopyAcceleratorTable|332|47|3|3|wow64
-|NtUserCountClipboardFormats|331|273|0|0|wow64
-|NtUserCreateAcceleratorTable|330|243|2|2|wow64
-|NtUserCreateCaret|329|53|4|4|wow64
-|NtUserCreateDCompositionHwndTarget|1071|854|3|3|wow64
-|NtUserCreateDesktopEx|328|855|6|6|native
-|NtUserCreateInputContext|327|856|1|1|wow64
-|NtUserCreateLocalMemHandle|326|237|4|4|wow64
-|NtUserCreateWindowEx|325|120|17|17|native
-|NtUserCreateWindowStation|324|857|8|8|native
-|NtUserCtxDisplayIOCtl|656|858|3|3|wow64
-|NtUserDdeInitialize|322|271|5|5|native
-|NtUserDefSetText|320|129|2|2|wow64
-|NtUserDeferWindowPosAndBand|321|859|10|10|native
-|NtUserDelegateCapturePointers|373|860|3|3|wow64
-|NtUserDelegateInput|374|861|6|6|native
-|NtUserDeleteMenu|383|190|3|3|wow64
-|NtUserDestroyAcceleratorTable|382|256|1|1|wow64
-|NtUserDestroyCursor|381|158|2|2|wow64
-|NtUserDestroyDCompositionHwndTarget|1070|862|2|2|wow64
-|NtUserDestroyInputContext|380|863|1|1|wow64
-|NtUserDestroyMenu|379|223|1|1|wow64
-|NtUserDestroyWindow|378|159|1|1|wow64
-|NtUserDisableImmersiveOwner|1085|864|1|1|wow64
-|NtUserDisableProcessWindowFiltering|376|865|0|0|wow64
-|NtUserDisableThreadIme|377|866|1|1|wow64
-|NtUserDiscardPointerFrameMessages|738|867|1|1|wow64
-|NtUserDispatchMessage|375|57|1|1|wow64
-|NtUserDisplayConfigGetDeviceInfo|345|868|1|1|wow64
-|NtUserDisplayConfigSetDeviceInfo|344|869|1|1|wow64
-|NtUserDoSoundConnect|385|870|0|0|wow64
-|NtUserDoSoundDisconnect|384|871|0|0|wow64
-|NtUserDragDetect|482|872|3|3|wow64
-|NtUserDragObject|481|873|5|5|native
-|NtUserDrawAnimatedRects|480|874|4|4|wow64
-|NtUserDrawCaption|479|875|4|4|wow64
-|NtUserDrawCaptionTemp|478|876|7|7|native
-|NtUserDrawIconEx|477|98|11|11|native
-|NtUserDrawMenuBarTemp|476|877|5|5|native
-|NtUserDwmGetRemoteSessionOcclusionEvent|648|878|0|0|wow64
-|NtUserDwmGetRemoteSessionOcclusionState|649|879|0|0|wow64
-|NtUserDwmKernelShutdown|650|880|0|0|wow64
-|NtUserDwmKernelStartup|651|881|0|0|wow64
-|NtUserDwmValidateWindow|342|882|2|2|wow64
-|NtUserEmptyClipboard|475|250|0|0|wow64
-|NtUserEnableChildWindowDpiMessage|581|883|2|2|wow64
-|NtUserEnableIAMAccess|1087|884|3|3|wow64
-|NtUserEnableMenuItem|474|212|3|3|wow64
-|NtUserEnableMouseInPointer|1092|885|1|1|wow64
-|NtUserEnableMouseInputForCursorSuppression|1096|886|1|1|wow64
-|NtUserEnableScrollBar|473|185|3|3|wow64
-|NtUserEnableTouchPad|734|887|1|1|wow64
-|NtUserEndDeferWindowPosEx|472|41|2|2|wow64
-|NtUserEndMenu|471|888|0|0|wow64
-|NtUserEndPaint|470|28|2|2|wow64
-|NtUserEnumDisplayDevices|469|249|4|4|wow64
-|NtUserEnumDisplayMonitors|468|77|4|4|wow64
-|NtUserEnumDisplaySettings|467|278|4|4|wow64
-|NtUserEvent|466|889|1|1|wow64
-|NtUserExcludeUpdateRgn|465|83|2|2|wow64
-|NtUserFillWindow|464|139|4|4|wow64
-|NtUserFindExistingCursorIcon|463|65|3|3|wow64
-|NtUserFindWindowEx|462|112|5|5|native
-|NtUserFlashWindowEx|461|890|1|1|wow64
-|NtUserFrostCrashedWindow|460|891|2|2|wow64
-|NtUserGetAltTabInfo|459|245|6|6|native
-|NtUserGetAncestor|458|180|2|2|wow64
-|NtUserGetAppImeLevel|457|892|1|1|wow64
-|NtUserGetAsyncKeyState|456|71|1|1|wow64
-|NtUserGetAtomName|455|171|2|2|wow64
-|NtUserGetAutoRotationState|1079|893|1|1|wow64
-|NtUserGetCIMSSM|440|894|1|1|wow64
-|NtUserGetCPD|441|72|3|3|wow64
-|NtUserGetCaretBlinkTime|454|246|0|0|wow64
-|NtUserGetCaretPos|453|895|1|1|wow64
-|NtUserGetClassInfoEx|452|187|5|5|native
-|NtUserGetClassName|451|125|3|3|wow64
-|NtUserGetClipCursor|445|896|1|1|wow64
-|NtUserGetClipboardAccessToken|1100|897|2|2|wow64
-|NtUserGetClipboardData|450|251|2|2|wow64
-|NtUserGetClipboardFormatName|449|235|3|3|wow64
-|NtUserGetClipboardOwner|448|203|0|0|wow64
-|NtUserGetClipboardSequenceNumber|447|88|0|0|wow64
-|NtUserGetClipboardViewer|446|898|0|0|wow64
-|NtUserGetComboBoxInfo|444|899|2|2|wow64
-|NtUserGetControlBrush|443|124|3|3|wow64
-|NtUserGetControlColor|442|229|4|4|wow64
-|NtUserGetCurrentInputMessageSource|439|900|1|1|wow64
-|NtUserGetCursorDims|1111|901|1|1|wow64
-|NtUserGetCursorFrameInfo|438|244|4|4|wow64
-|NtUserGetCursorInfo|437|902|1|1|wow64
-|NtUserGetDC|436|13|1|1|wow64
-|NtUserGetDCEx|435|148|3|3|wow64
-|NtUserGetDManipHookInitFunction|638|903|2|2|wow64
-|NtUserGetDesktopID|434|904|2|2|wow64
-|NtUserGetDisplayAutoRotationPreferences|1076|905|1|1|wow64
-|NtUserGetDisplayAutoRotationPreferencesByProcessId|1075|906|3|3|wow64
-|NtUserGetDisplayConfigBufferSizes|348|907|3|3|wow64
-|NtUserGetDoubleClickTime|433|184|0|0|wow64
-|NtUserGetDpiForMonitor|1108|908|4|4|wow64
-|NtUserGetDpiSystemMetrics|432|909|2|2|wow64
-|NtUserGetForegroundWindow|431|63|0|0|wow64
-|NtUserGetGUIThreadInfo|429|257|2|2|wow64
-|NtUserGetGestureConfig|745|910|6|6|native
-|NtUserGetGestureExtArgs|747|911|3|3|wow64
-|NtUserGetGestureInfo|748|912|2|2|wow64
-|NtUserGetGuiResources|430|913|2|2|wow64
-|NtUserGetHimetricScaleFactorFromPixelLocation|1106|914|5|5|native
-|NtUserGetIconInfo|428|82|6|6|native
-|NtUserGetIconSize|427|138|4|4|wow64
-|NtUserGetImeHotKey|426|915|4|4|wow64
-|NtUserGetImeInfoEx|425|916|2|2|wow64
-|NtUserGetInputLocaleInfo|424|917|2|2|wow64
-|NtUserGetInternalWindowPos|423|918|3|3|wow64
-|NtUserGetKeyNameText|419|919|3|3|wow64
-|NtUserGetKeyState|418|6|1|1|wow64
-|NtUserGetKeyboardLayoutList|422|91|2|2|wow64
-|NtUserGetKeyboardLayoutName|421|920|1|1|wow64
-|NtUserGetKeyboardState|420|122|1|1|wow64
-|NtUserGetLayeredWindowAttributes|674|921|4|4|wow64
-|NtUserGetListBoxInfo|417|922|1|1|wow64
-|NtUserGetMenuBarInfo|416|195|4|4|wow64
-|NtUserGetMenuIndex|415|923|2|2|wow64
-|NtUserGetMenuItemRect|414|924|4|4|wow64
-|NtUserGetMessage|413|9|4|4|wow64
-|NtUserGetMouseMovePointsEx|412|925|5|5|native
-|NtUserGetObjectInformation|411|110|5|5|native
-|NtUserGetOpenClipboardWindow|410|218|0|0|wow64
-|NtUserGetOwnerTransformedMonitorRect|0|0|4|4|wow64
-|NtUserGetPhysicalDeviceRect|725|926|2|2|wow64
-|NtUserGetPointerCursorId|743|927|2|2|wow64
-|NtUserGetPointerDevice|732|928|2|2|wow64
-|NtUserGetPointerDeviceCursors|728|929|3|3|wow64
-|NtUserGetPointerDeviceProperties|731|930|3|3|wow64
-|NtUserGetPointerDeviceRects|729|931|3|3|wow64
-|NtUserGetPointerDevices|733|932|2|2|wow64
-|NtUserGetPointerFrameArrivalTimes|740|933|3|3|wow64
-|NtUserGetPointerInfoList|742|934|8|8|native
-|NtUserGetPointerInputTransform|741|935|3|3|wow64
-|NtUserGetPointerType|744|936|2|2|wow64
-|NtUserGetPrecisionTouchPadConfiguration|735|937|1|1|wow64
-|NtUserGetPriorityClipboardFormat|409|938|2|2|wow64
-|NtUserGetProcessDpiAwareness|1107|939|2|2|wow64
-|NtUserGetProcessUIContextInformation|1088|940|2|2|wow64
-|NtUserGetProcessWindowStation|408|37|0|0|wow64
-|NtUserGetProp|597|17|2|2|wow64
-|NtUserGetQueueEventStatus|1101|941|0|0|wow64
-|NtUserGetRawInputBuffer|407|942|3|3|wow64
-|NtUserGetRawInputData|406|943|5|5|native
-|NtUserGetRawInputDeviceInfo|405|944|4|4|wow64
-|NtUserGetRawInputDeviceList|404|945|3|3|wow64
-|NtUserGetRawPointerDeviceData|727|946|5|5|native
-|NtUserGetRegisteredRawInputDevices|403|947|3|3|wow64
-|NtUserGetScrollBarInfo|402|149|3|3|wow64
-|NtUserGetSystemMenu|401|99|2|2|wow64
-|NtUserGetThreadDesktop|400|133|1|1|wow64
-|NtUserGetThreadState|399|3|1|1|wow64
-|NtUserGetTitleBarInfo|398|145|2|2|wow64
-|NtUserGetTopLevelWindow|397|948|1|1|wow64
-|NtUserGetTouchInputInfo|685|949|4|4|wow64
-|NtUserGetTouchValidationStatus|719|950|1|1|wow64
-|NtUserGetUpdateRect|395|86|3|3|wow64
-|NtUserGetUpdateRgn|394|136|3|3|wow64
-|NtUserGetUpdatedClipboardFormats|396|951|3|3|wow64
-|NtUserGetWOWClass|387|952|2|2|wow64
-|NtUserGetWindowBand|393|953|2|2|wow64
-|NtUserGetWindowCompositionAttribute|391|954|2|2|wow64
-|NtUserGetWindowCompositionInfo|392|955|2|2|wow64
-|NtUserGetWindowDC|390|102|1|1|wow64
-|NtUserGetWindowDisplayAffinity|389|956|2|2|wow64
-|NtUserGetWindowFeedbackSetting|717|957|5|5|native
-|NtUserGetWindowMinimizeRect|647|958|2|2|wow64
-|NtUserGetWindowPlacement|388|215|2|2|wow64
-|NtUserGetWindowRgnEx|568|959|3|3|wow64
-|NtUserGhostWindowFromHungWindow|386|960|1|1|wow64
-|NtUserHandleDelegatedInput|483|961|2|2|wow64
-|NtUserHardErrorControl|536|962|3|3|wow64
-|NtUserHideCaret|535|34|1|1|wow64
-|NtUserHidePointerContactVisualization|718|963|1|1|wow64
-|NtUserHiliteMenuItem|534|964|4|4|wow64
-|NtUserHungWindowFromGhostWindow|533|965|1|1|wow64
-|NtUserHwndQueryRedirectionInfo|970|966|4|4|wow64
-|NtUserHwndSetRedirectionInfo|969|967|4|4|wow64
-|NtUserImpersonateDdeClientWindow|532|968|2|2|wow64
-|NtUserInitTask|529|969|12|12|native
-|NtUserInitialize|531|970|2|2|wow64
-|NtUserInitializeClientPfnArrays|530|971|4|4|wow64
-|NtUserInitializeInputDeviceInjection|1112|972|7|7|native
-|NtUserInitializePointerDeviceInjection|1113|973|5|5|native
-|NtUserInitializeTouchInjection|720|974|2|2|wow64
-|NtUserInjectDeviceInput|1115|975|3|3|wow64
-|NtUserInjectGesture|749|976|5|5|native
-|NtUserInjectKeyboardInput|1117|977|2|2|wow64
-|NtUserInjectMouseInput|1116|978|2|2|wow64
-|NtUserInjectPointerInput|1118|979|3|3|wow64
-|NtUserInjectTouchInput|721|980|2|2|wow64
-|NtUserInternalClipCursor|1098|981|2|2|wow64
-|NtUserInternalGetWindowIcon|527|982|2|2|wow64
-|NtUserInternalGetWindowText|528|101|3|3|wow64
-|NtUserInvalidateRect|526|7|3|3|wow64
-|NtUserInvalidateRgn|525|202|3|3|wow64
-|NtUserIsChildWindowDpiMessageEnabled|582|983|1|1|wow64
-|NtUserIsClipboardFormatAvailable|524|50|1|1|wow64
-|NtUserIsMouseInPointerEnabled|1093|984|0|0|wow64
-|NtUserIsMouseInputEnabled|1097|985|0|0|wow64
-|NtUserIsTopLevelWindow|523|986|1|1|wow64
-|NtUserIsTouchWindow|686|987|2|2|wow64
-|NtUserIsWindowBroadcastingDpiToChildren|583|988|1|1|wow64
-|NtUserKillTimer|522|30|2|2|wow64
-|NtUserLayoutCompleted|515|989|1|1|wow64
-|NtUserLinkDpiCursor|1110|990|3|3|wow64
-|NtUserLoadKeyboardLayoutEx|521|991|8|8|native
-|NtUserLockWindowStation|520|992|1|1|wow64
-|NtUserLockWindowUpdate|519|264|1|1|wow64
-|NtUserLockWorkStation|518|993|0|0|wow64
-|NtUserLogicalToPerMonitorDPIPhysicalPoint|516|994|2|2|wow64
-|NtUserLogicalToPhysicalPoint|517|995|2|2|wow64
-|NtUserMNDragLeave|510|996|0|0|wow64
-|NtUserMNDragOver|509|997|2|2|wow64
-|NtUserMagControl|967|998|2|2|wow64
-|NtUserMagGetContextInformation|965|999|4|4|wow64
-|NtUserMagSetContextInformation|966|1000|4|4|wow64
-|NtUserMapVirtualKeyEx|514|93|4|4|wow64
-|NtUserMenuItemFromPoint|513|1001|4|4|wow64
-|NtUserMessageCall|512|10|7|7|native
-|NtUserMinMaximize|511|1002|3|3|wow64
-|NtUserModifyUserStartupInfoFlags|508|272|2|2|wow64
-|NtUserModifyWindowTouchCapability|687|1003|3|3|wow64
-|NtUserMoveWindow|507|96|6|6|native
-|NtUserNavigateFocus|1126|1004|2|2|wow64
-|NtUserNotifyIMEStatus|506|1005|3|3|wow64
-|NtUserNotifyProcessCreate|505|143|4|4|wow64
-|NtUserNotifyWinEvent|504|48|4|4|wow64
-|NtUserOpenClipboard|503|209|2|2|wow64
-|NtUserOpenDesktop|502|169|3|3|wow64
-|NtUserOpenInputDesktop|501|1006|3|3|wow64
-|NtUserOpenThreadDesktop|500|1007|4|4|wow64
-|NtUserOpenWindowStation|499|162|2|2|wow64
-|NtUserPaintDesktop|498|279|1|1|wow64
-|NtUserPaintMenuBar|542|240|6|6|native
-|NtUserPaintMonitor|497|1008|3|3|wow64
-|NtUserPeekMessage|496|4|5|5|native
-|NtUserPerMonitorDPIPhysicalToLogicalPoint|490|1009|2|2|wow64
-|NtUserPhysicalToLogicalPoint|495|1010|2|2|wow64
-|NtUserPostMessage|494|18|4|4|wow64
-|NtUserPostThreadMessage|493|97|4|4|wow64
-|NtUserPrintWindow|492|1011|3|3|wow64
-|NtUserProcessConnect|491|248|2|2|wow64
-|NtUserPromoteMouseInPointer|1094|1012|1|1|wow64
-|NtUserPromotePointer|737|1013|2|2|wow64
-|NtUserQueryBSDRWindow|489|1014|0|0|wow64
-|NtUserQueryDisplayConfig|346|1015|6|6|native
-|NtUserQueryInformationThread|488|1016|4|4|wow64
-|NtUserQueryInputContext|487|1017|2|2|wow64
-|NtUserQuerySendMessage|486|1018|1|1|wow64
-|NtUserQueryWindow|485|19|2|2|wow64
-|NtUserRealChildWindowFromPoint|484|1019|3|3|wow64
-|NtUserRealInternalGetMessage|537|236|6|6|native
-|NtUserRealWaitMessageEx|538|1020|2|2|wow64
-|NtUserRedrawWindow|645|22|4|4|wow64
-|NtUserRegisterBSDRWindow|644|1021|2|2|wow64
-|NtUserRegisterClassExWOW|643|178|7|7|native
-|NtUserRegisterDManipHook|637|1022|4|4|wow64
-|NtUserRegisterEdgy|715|1023|3|3|wow64
-|NtUserRegisterErrorReportingDialog|642|1024|2|2|wow64
-|NtUserRegisterHotKey|636|1025|4|4|wow64
-|NtUserRegisterManipulationThread|639|1026|1|1|wow64
-|NtUserRegisterPointerDeviceNotifications|730|1027|2|2|wow64
-|NtUserRegisterPointerInputTarget|739|1028|3|3|wow64
-|NtUserRegisterRawInputDevices|635|1029|3|3|wow64
-|NtUserRegisterServicesProcess|634|1030|1|1|wow64
-|NtUserRegisterSessionPort|655|1031|1|1|wow64
-|NtUserRegisterShellPTPListener|716|1032|2|2|wow64
-|NtUserRegisterTasklist|633|1033|1|1|wow64
-|NtUserRegisterTouchHitTestingWindow|722|1034|2|2|wow64
-|NtUserRegisterTouchPadCapable|726|1035|1|1|wow64
-|NtUserRegisterUserApiHook|641|1036|4|4|wow64
-|NtUserRegisterWindowMessage|632|58|1|1|wow64
-|NtUserReleaseDwmHitTestWaiters|539|1037|0|0|wow64
-|NtUserRemoteConnect|660|1038|3|3|wow64
-|NtUserRemoteRedrawRectangle|659|1039|4|4|wow64
-|NtUserRemoteRedrawScreen|658|1040|0|0|wow64
-|NtUserRemoteStopScreenUpdates|657|1041|0|0|wow64
-|NtUserRemoveClipboardFormatListener|631|1042|1|1|wow64
-|NtUserRemoveMenu|630|252|3|3|wow64
-|NtUserRemoveProp|629|73|2|2|wow64
-|NtUserReportInertia|1109|1043|5|5|native
-|NtUserResolveDesktopForWOW|628|1044|1|1|wow64
-|NtUserSBGetParms|627|81|4|4|wow64
-|NtUserScrollDC|626|109|7|7|native
-|NtUserScrollWindowEx|625|192|8|8|native
-|NtUserSelectPalette|624|32|3|3|wow64
-|NtUserSendEventMessage|551|1045|4|4|wow64
-|NtUserSendInput|623|132|3|3|wow64
-|NtUserSetActivationFilter|1082|1046|2|2|wow64
-|NtUserSetActiveProcessForMonitor|1074|1047|2|2|wow64
-|NtUserSetActiveWindow|622|226|1|1|wow64
-|NtUserSetAppImeLevel|621|1048|2|2|wow64
-|NtUserSetAutoRotation|1078|1049|1|1|wow64
-|NtUserSetBrokeredForeground|1084|1050|1|1|wow64
-|NtUserSetCalibrationData|724|1051|4|4|wow64
-|NtUserSetCapture|620|76|1|1|wow64
-|NtUserSetChildWindowNoActivate|619|1052|1|1|wow64
-|NtUserSetClassLong|618|194|4|4|wow64
-|NtUserSetClassLongPtr|-1|1128|-1|4|i386
-|NtUserSetClassWord|617|1053|3|3|wow64
-|NtUserSetClipboardData|616|211|3|3|wow64
-|NtUserSetClipboardViewer|615|284|1|1|wow64
-|NtUserSetCoreWindow|1124|1054|2|2|wow64
-|NtUserSetCoreWindowPartner|1125|1055|3|3|wow64
-|NtUserSetCursor|614|29|1|1|wow64
-|NtUserSetCursorContents|613|1056|2|2|wow64
-|NtUserSetCursorIconData|612|166|4|4|wow64
-|NtUserSetDisplayAutoRotationPreferences|1077|1057|1|1|wow64
-|NtUserSetDisplayConfig|347|1058|5|5|native
-|NtUserSetDisplayMapping|723|1059|2|2|wow64
-|NtUserSetFallbackForeground|1083|1060|2|2|wow64
-|NtUserSetFeatureReportResponse|1114|1061|3|3|wow64
-|NtUserSetFocus|611|84|1|1|wow64
-|NtUserSetGestureConfig|746|1062|5|5|native
-|NtUserSetImeHotKey|610|1063|5|5|native
-|NtUserSetImeInfoEx|609|1064|1|1|wow64
-|NtUserSetImeOwnerWindow|608|1065|2|2|wow64
-|NtUserSetImmersiveBackgroundWindow|594|1066|1|1|wow64
-|NtUserSetInformationThread|607|227|4|4|wow64
-|NtUserSetInternalWindowPos|606|1067|4|4|wow64
-|NtUserSetKeyboardState|605|241|1|1|wow64
-|NtUserSetLayeredWindowAttributes|673|1068|4|4|wow64
-|NtUserSetManipulationInputTarget|640|1069|4|4|wow64
-|NtUserSetMenu|604|1070|3|3|wow64
-|NtUserSetMenuContextHelpId|603|1071|2|2|wow64
-|NtUserSetMenuDefaultItem|602|260|3|3|wow64
-|NtUserSetMenuFlagRtoL|601|1072|1|1|wow64
-|NtUserSetMirrorRendering|964|1073|2|2|wow64
-|NtUserSetObjectInformation|600|1074|4|4|wow64
-|NtUserSetParent|599|121|2|2|wow64
-|NtUserSetPrecisionTouchPadConfiguration|736|1075|1|1|wow64
-|NtUserSetProcessDpiAwareness|580|1076|2|2|wow64
-|NtUserSetProcessRestrictionExemption|1089|1077|1|1|wow64
-|NtUserSetProcessUIAccessZorder|579|1078|0|0|wow64
-|NtUserSetProcessWindowStation|598|170|1|1|wow64
-|NtUserSetProp|596|79|3|3|wow64
-|NtUserSetScrollInfo|595|51|4|4|wow64
-|NtUserSetSensorPresence|2|2|1|1|wow64
-|NtUserSetShellWindowEx|593|1079|2|2|wow64
-|NtUserSetSysColors|592|1080|4|4|wow64
-|NtUserSetSystemCursor|591|1081|2|2|wow64
-|NtUserSetSystemMenu|590|265|2|2|wow64
-|NtUserSetSystemTimer|589|1082|3|3|wow64
-|NtUserSetThreadDesktop|587|147|1|1|wow64
-|NtUserSetThreadInputBlocked|588|1083|2|2|wow64
-|NtUserSetThreadLayoutHandles|586|1084|2|2|wow64
-|NtUserSetThreadState|585|219|2|2|wow64
-|NtUserSetTimer|584|27|5|5|native
-|NtUserSetWinEventHook|562|262|8|8|native
-|NtUserSetWindowArrangement|1090|1085|3|3|wow64
-|NtUserSetWindowBand|578|1086|3|3|wow64
-|NtUserSetWindowCompositionAttribute|577|1087|2|2|wow64
-|NtUserSetWindowCompositionTransition|575|1088|7|7|native
-|NtUserSetWindowDisplayAffinity|574|1089|2|2|wow64
-|NtUserSetWindowFNID|573|151|2|2|wow64
-|NtUserSetWindowFeedbackSetting|714|1090|5|5|native
-|NtUserSetWindowLong|572|94|4|4|wow64
-|NtUserSetWindowLongPtr|-1|1129|-1|4|i386
-|NtUserSetWindowPlacement|571|228|2|2|wow64
-|NtUserSetWindowPos|570|39|7|7|native
-|NtUserSetWindowRgn|569|204|3|3|wow64
-|NtUserSetWindowRgnEx|567|1091|3|3|wow64
-|NtUserSetWindowShowState|1091|1092|2|2|wow64
-|NtUserSetWindowStationUser|564|1093|4|4|wow64
-|NtUserSetWindowWord|563|234|3|3|wow64
-|NtUserSetWindowsHookAW|566|259|3|3|wow64
-|NtUserSetWindowsHookEx|565|142|6|6|native
-|NtUserShowCaret|561|40|1|1|wow64
-|NtUserShowScrollBar|560|64|3|3|wow64
-|NtUserShowSystemCursor|963|1094|1|1|wow64
-|NtUserShowWindow|559|90|2|2|wow64
-|NtUserShowWindowAsync|558|285|2|2|wow64
-|NtUserShutdownBlockReasonCreate|557|1095|3|3|wow64
-|NtUserShutdownBlockReasonQuery|556|1096|3|3|wow64
-|NtUserShutdownReasonDestroy|555|1097|1|1|wow64
-|NtUserSignalRedirectionStartComplete|1073|1098|0|0|wow64
-|NtUserSlicerControl|968|1099|4|4|wow64
-|NtUserSoundSentry|554|1100|0|0|wow64
-|NtUserSwitchDesktop|553|1101|3|3|wow64
-|NtUserSystemParametersInfo|552|69|4|4|wow64
-|NtUserTestForInteractiveUser|550|1102|1|1|wow64
-|NtUserThunkedMenuInfo|549|266|2|2|wow64
-|NtUserThunkedMenuItemInfo|548|154|6|6|native
-|NtUserToUnicodeEx|547|123|7|7|native
-|NtUserTrackMouseEvent|546|221|1|1|wow64
-|NtUserTrackPopupMenuEx|545|1103|6|6|native
-|NtUserTransformPoint|1104|1104|3|3|wow64
-|NtUserTransformRect|1105|1105|3|3|wow64
-|NtUserTranslateAccelerator|541|20|3|3|wow64
-|NtUserTranslateMessage|540|16|2|2|wow64
-|NtUserUndelegateInput|646|1106|2|2|wow64
-|NtUserUnhookWinEvent|683|263|1|1|wow64
-|NtUserUnhookWindowsHookEx|684|114|1|1|wow64
-|NtUserUnloadKeyboardLayout|682|1107|1|1|wow64
-|NtUserUnlockWindowStation|681|1108|1|1|wow64
-|NtUserUnregisterClass|680|189|3|3|wow64
-|NtUserUnregisterHotKey|678|1109|2|2|wow64
-|NtUserUnregisterSessionPort|654|1110|0|0|wow64
-|NtUserUnregisterUserApiHook|679|1111|0|0|wow64
-|NtUserUpdateDefaultDesktopThumbnail|576|1112|5|5|native
-|NtUserUpdateInputContext|677|1113|3|3|wow64
-|NtUserUpdateInstance|676|1114|3|3|wow64
-|NtUserUpdateLayeredWindow|675|1115|10|10|native
-|NtUserUpdatePerUserSystemParameters|672|1116|1|1|wow64
-|NtUserUpdateWindowInputSinkHints|1103|1117|2|2|wow64
-|NtUserUpdateWindowTransform|652|1118|3|3|wow64
-|NtUserUserHandleGrantAccess|671|1119|3|3|wow64
-|NtUserValidateHandleSecure|670|1120|1|1|wow64
-|NtUserValidateRect|669|207|2|2|wow64
-|NtUserValidateTimerCallback|668|25|1|1|wow64
-|NtUserVkKeyScanEx|667|43|3|3|wow64
-|NtUserWaitAvailableMessageEx|661|1121|2|2|wow64
-|NtUserWaitForInputIdle|666|1122|3|3|wow64
-|NtUserWaitForMsgAndEvent|665|1123|1|1|wow64
-|NtUserWaitForRedirectionStartComplete|1072|1124|0|0|wow64
-|NtUserWaitMessage|664|15|0|0|wow64
-|NtUserWindowFromPhysicalPoint|663|1125|2|2|wow64
-|NtUserWindowFromPoint|662|23|2|2|wow64
-|NtUserYieldTask|1|1|0|0|wow64
-|NtValidateCompositionSurfaceHandle|972|1126|2|2|wow64
-|NtVisualCaptureBits|988|1127|9|9|native
+| NtBindCompositionSurface | 973 | 289 | 4 | 4 | wow64
+| NtCompositionInputThread | 997 | 290 | 4 | 4 | wow64
+| NtCreateCompositionInputSink | 990 | 291 | 2 | 2 | wow64
+| NtCreateCompositionSurfaceHandle | 971 | 292 | 3 | 3 | wow64
+| NtCreateImplicitCompositionInputSink | 991 | 293 | 2 | 2 | wow64
+| NtDCompositionAddCrossDeviceVisualChild | 1038 | 294 | 7 | 7 | native
+| NtDCompositionAddVisualChild | 1039 | 295 | 5 | 5 | native
+| NtDCompositionBeginFrame | 1009 | 296 | 3 | 3 | wow64
+| NtDCompositionCapturePointer | 1066 | 297 | 3 | 3 | wow64
+| NtDCompositionCommitChannel | 1024 | 298 | 4 | 4 | wow64
+| NtDCompositionConfirmFrame | 1010 | 299 | 2 | 2 | wow64
+| NtDCompositionConnectPipe | 1059 | 300 | 3 | 3 | wow64
+| NtDCompositionCreateAndBindSharedSection | 1056 | 301 | 4 | 4 | wow64
+| NtDCompositionCreateChannel | 1052 | 302 | 1 | 1 | wow64
+| NtDCompositionCreateConnection | 1020 | 303 | 2 | 2 | wow64
+| NtDCompositionCreateDwmChannel | 1051 | 304 | 1 | 1 | wow64
+| NtDCompositionCreateResource | 1048 | 305 | 4 | 4 | wow64
+| NtDCompositionCurrentBatchId | 1034 | 306 | 3 | 3 | wow64
+| NtDCompositionDestroyChannel | 1021 | 307 | 1 | 1 | wow64
+| NtDCompositionDestroyConnection | 1015 | 308 | 1 | 1 | wow64
+| NtDCompositionDiscardFrame | 1012 | 309 | 2 | 2 | wow64
+| NtDCompositionDuplicateHandleToProcess | 1062 | 310 | 3 | 3 | wow64
+| NtDCompositionDuplicateSwapchainHandleToDwm | 1069 | 311 | 2 | 2 | wow64
+| NtDCompositionEnableDDASupport | 989 | 312 | 0 | 0 | wow64
+| NtDCompositionEnableMMCSS | 987 | 313 | 1 | 1 | wow64
+| NtDCompositionGetAnimationTime | 1064 | 314 | 4 | 4 | wow64
+| NtDCompositionGetChannels | 1058 | 315 | 4 | 4 | wow64
+| NtDCompositionGetConnectionBatch | 1016 | 316 | 3 | 3 | wow64
+| NtDCompositionGetDeletedResources | 1018 | 317 | 4 | 4 | wow64
+| NtDCompositionGetFrameLegacyTokens | 1014 | 318 | 3 | 3 | wow64
+| NtDCompositionGetFrameStatistics | 1017 | 319 | 3 | 3 | wow64
+| NtDCompositionGetFrameSurfaceUpdates | 1013 | 320 | 3 | 3 | wow64
+| NtDCompositionOpenSharedResource | 1049 | 321 | 5 | 5 | native
+| NtDCompositionOpenSharedResourceHandle | 1050 | 322 | 3 | 3 | wow64
+| NtDCompositionReferenceSharedResourceOnDwmChannel | 1054 | 323 | 5 | 5 | native
+| NtDCompositionRegisterThumbnailVisual | 1060 | 324 | 9 | 9 | native
+| NtDCompositionRegisterVirtualDesktopVisual | 1061 | 325 | 3 | 3 | wow64
+| NtDCompositionReleaseAllResources | 1022 | 326 | 2 | 2 | wow64
+| NtDCompositionReleaseResource | 1035 | 327 | 3 | 3 | wow64
+| NtDCompositionRemoveCrossDeviceVisualChild | 1036 | 328 | 4 | 4 | wow64
+| NtDCompositionRemoveVisualChild | 1037 | 329 | 3 | 3 | wow64
+| NtDCompositionReplaceVisualChildren | 1040 | 330 | 3 | 3 | wow64
+| NtDCompositionRetireFrame | 1011 | 331 | 3 | 3 | wow64
+| NtDCompositionSetChannelCallbackId | 1067 | 332 | 4 | 4 | wow64
+| NtDCompositionSetChannelCommitCompletionEvent | 1026 | 333 | 2 | 2 | wow64
+| NtDCompositionSetDebugCounter | 1057 | 334 | 2 | 2 | wow64
+| NtDCompositionSetResourceAnimationProperty | 1041 | 335 | 4 | 4 | wow64
+| NtDCompositionSetResourceBufferProperty | 1044 | 336 | 6 | 6 | native
+| NtDCompositionSetResourceCallbackId | 1068 | 337 | 3 | 3 | wow64
+| NtDCompositionSetResourceDeletedNotificationTag | 1019 | 338 | 4 | 4 | wow64
+| NtDCompositionSetResourceFloatProperty | 1046 | 339 | 4 | 4 | wow64
+| NtDCompositionSetResourceHandleProperty | 1047 | 340 | 4 | 4 | wow64
+| NtDCompositionSetResourceIntegerProperty | 1045 | 341 | 4 | 4 | wow64
+| NtDCompositionSetResourceReferenceArrayProperty | 1042 | 342 | 6 | 6 | native
+| NtDCompositionSetResourceReferenceProperty | 1043 | 343 | 5 | 5 | native
+| NtDCompositionSetVisualInputSink | 1063 | 344 | 3 | 3 | wow64
+| NtDCompositionSignalGpuFence | 1055 | 345 | 4 | 4 | wow64
+| NtDCompositionSubmitDWMBatch | 1023 | 346 | 2 | 2 | wow64
+| NtDCompositionSynchronize | 1053 | 347 | 2 | 2 | wow64
+| NtDCompositionTelemetryAnimationScenarioBegin | 1031 | 348 | 3 | 3 | wow64
+| NtDCompositionTelemetryAnimationScenarioReference | 1032 | 349 | 3 | 3 | wow64
+| NtDCompositionTelemetryAnimationScenarioUnreference | 1033 | 350 | 3 | 3 | wow64
+| NtDCompositionTelemetrySetApplicationId | 1030 | 351 | 3 | 3 | wow64
+| NtDCompositionTelemetryTouchInteractionBegin | 1027 | 352 | 3 | 3 | wow64
+| NtDCompositionTelemetryTouchInteractionEnd | 1029 | 353 | 2 | 2 | wow64
+| NtDCompositionTelemetryTouchInteractionUpdate | 1028 | 354 | 3 | 3 | wow64
+| NtDCompositionUpdatePointerCapture | 1065 | 355 | 2 | 2 | wow64
+| NtDCompositionWaitForChannel | 1025 | 356 | 2 | 2 | wow64
+| NtDesktopCaptureBits | 986 | 357 | 8 | 8 | native
+| NtDuplicateCompositionInputSink | 992 | 358 | 2 | 2 | wow64
+| NtGdiAbortDoc | 319 | 359 | 1 | 1 | wow64
+| NtGdiAbortPath | 318 | 360 | 1 | 1 | wow64
+| NtGdiAddEmbFontToDC | 92 | 361 | 2 | 2 | wow64
+| NtGdiAddFontMemResourceEx | 315 | 274 | 5 | 5 | native
+| NtGdiAddFontResourceW | 317 | 362 | 6 | 6 | native
+| NtGdiAddRemoteFontToDC | 316 | 363 | 4 | 4 | wow64
+| NtGdiAddRemoteMMInstanceToDC | 313 | 364 | 3 | 3 | wow64
+| NtGdiAlphaBlend | 312 | 126 | 12 | 12 | native
+| NtGdiAngleArc | 311 | 365 | 6 | 6 | native
+| NtGdiAnyLinkedFonts | 310 | 366 | 0 | 0 | wow64
+| NtGdiArcInternal | 308 | 367 | 10 | 10 | native
+| NtGdiBRUSHOBJ_DeleteRbrush | 790 | 368 | 2 | 2 | wow64
+| NtGdiBRUSHOBJ_hGetColorTransform | 760 | 369 | 1 | 1 | wow64
+| NtGdiBRUSHOBJ_pvAllocRbrush | 762 | 370 | 2 | 2 | wow64
+| NtGdiBRUSHOBJ_pvGetRbrush | 761 | 371 | 1 | 1 | wow64
+| NtGdiBRUSHOBJ_ulGetBrushColor | 763 | 372 | 1 | 1 | wow64
+| NtGdiBeginGdiRendering | 307 | 373 | 3 | 3 | wow64
+| NtGdiBeginPath | 306 | 267 | 1 | 1 | wow64
+| NtGdiBitBlt | 305 | 11 | 11 | 11 | native
+| NtGdiCLIPOBJ_bEnum | 759 | 374 | 3 | 3 | wow64
+| NtGdiCLIPOBJ_cEnumStart | 758 | 375 | 5 | 5 | native
+| NtGdiCLIPOBJ_ppoGetPath | 757 | 376 | 1 | 1 | wow64
+| NtGdiCancelDC | 304 | 377 | 1 | 1 | wow64
+| NtGdiChangeGhostFont | 93 | 378 | 2 | 2 | wow64
+| NtGdiCheckBitmapBits | 303 | 379 | 8 | 8 | native
+| NtGdiClearBitmapAttributes | 301 | 380 | 2 | 2 | wow64
+| NtGdiClearBrushAttributes | 300 | 381 | 2 | 2 | wow64
+| NtGdiCloseFigure | 302 | 258 | 1 | 1 | wow64
+| NtGdiColorCorrectPalette | 299 | 382 | 6 | 6 | native
+| NtGdiCombineRgn | 298 | 55 | 4 | 4 | wow64
+| NtGdiCombineTransform | 297 | 242 | 3 | 3 | wow64
+| NtGdiComputeXformCoefficients | 296 | 141 | 1 | 1 | wow64
+| NtGdiConfigureOPMProtectedOutput | 295 | 383 | 4 | 4 | wow64
+| NtGdiConvertMetafileRect | 294 | 384 | 2 | 2 | wow64
+| NtGdiCreateBitmap | 293 | 111 | 5 | 5 | native
+| NtGdiCreateBitmapFromDxSurface | 292 | 385 | 5 | 5 | native
+| NtGdiCreateBitmapFromDxSurface2 | 291 | 386 | 7 | 7 | native
+| NtGdiCreateClientObj | 290 | 188 | 1 | 1 | wow64
+| NtGdiCreateColorSpace | 289 | 286 | 1 | 1 | wow64
+| NtGdiCreateColorTransform | 288 | 387 | 8 | 8 | native
+| NtGdiCreateCompatibleBitmap | 287 | 78 | 3 | 3 | wow64
+| NtGdiCreateCompatibleDC | 286 | 87 | 1 | 1 | wow64
+| NtGdiCreateDIBBrush | 285 | 118 | 6 | 6 | native
+| NtGdiCreateDIBSection | 283 | 156 | 9 | 9 | native
+| NtGdiCreateDIBitmapInternal | 284 | 161 | 11 | 11 | native
+| NtGdiCreateEllipticRgn | 281 | 388 | 4 | 4 | wow64
+| NtGdiCreateHalftonePalette | 280 | 239 | 1 | 1 | wow64
+| NtGdiCreateHatchBrushInternal | 279 | 389 | 3 | 3 | wow64
+| NtGdiCreateMetafileDC | 278 | 390 | 1 | 1 | wow64
+| NtGdiCreateOPMProtectedOutputs | 277 | 391 | 5 | 5 | native
+| NtGdiCreatePaletteInternal | 276 | 174 | 2 | 2 | wow64
+| NtGdiCreatePatternBrushInternal | 275 | 179 | 3 | 3 | wow64
+| NtGdiCreatePen | 274 | 89 | 4 | 4 | wow64
+| NtGdiCreateRectRgn | 273 | 134 | 4 | 4 | wow64
+| NtGdiCreateRoundRectRgn | 272 | 392 | 6 | 6 | native
+| NtGdiCreateServerMetaFile | 271 | 393 | 6 | 6 | native
+| NtGdiCreateSessionMappedDIBSection | 282 | 394 | 8 | 8 | native
+| NtGdiCreateSolidBrush | 270 | 186 | 2 | 2 | wow64
+| NtGdiD3dContextCreate | 269 | 395 | 4 | 4 | wow64
+| NtGdiD3dContextDestroy | 268 | 396 | 1 | 1 | wow64
+| NtGdiD3dContextDestroyAll | 267 | 397 | 1 | 1 | wow64
+| NtGdiD3dDrawPrimitives2 | 265 | 103 | 7 | 7 | native
+| NtGdiD3dValidateTextureStageState | 266 | 398 | 1 | 1 | wow64
+| NtGdiDDCCIGetCapabilitiesString | 954 | 399 | 3 | 3 | wow64
+| NtGdiDDCCIGetCapabilitiesStringLength | 955 | 400 | 2 | 2 | wow64
+| NtGdiDDCCIGetTimingReport | 953 | 401 | 2 | 2 | wow64
+| NtGdiDDCCIGetVCPFeature | 958 | 402 | 5 | 5 | native
+| NtGdiDDCCISaveCurrentSettings | 956 | 403 | 1 | 1 | wow64
+| NtGdiDDCCISetVCPFeature | 957 | 404 | 3 | 3 | wow64
+| NtGdiDdAddAttachedSurface | 263 | 405 | 3 | 3 | wow64
+| NtGdiDdAlphaBlt | 262 | 406 | 3 | 3 | wow64
+| NtGdiDdAttachSurface | 261 | 407 | 2 | 2 | wow64
+| NtGdiDdBeginMoCompFrame | 260 | 408 | 2 | 2 | wow64
+| NtGdiDdBlt | 259 | 127 | 3 | 3 | wow64
+| NtGdiDdCanCreateD3DBuffer | 257 | 409 | 2 | 2 | wow64
+| NtGdiDdCanCreateSurface | 258 | 164 | 2 | 2 | wow64
+| NtGdiDdColorControl | 256 | 410 | 2 | 2 | wow64
+| NtGdiDdCreateD3DBuffer | 253 | 411 | 8 | 8 | native
+| NtGdiDdCreateDirectDrawObject | 255 | 412 | 1 | 1 | wow64
+| NtGdiDdCreateFullscreenSprite | 962 | 413 | 4 | 4 | wow64
+| NtGdiDdCreateMoComp | 252 | 414 | 2 | 2 | wow64
+| NtGdiDdCreateSurface | 254 | 165 | 8 | 8 | native
+| NtGdiDdCreateSurfaceEx | 220 | 196 | 3 | 3 | wow64
+| NtGdiDdCreateSurfaceObject | 251 | 197 | 6 | 6 | native
+| NtGdiDdDDIAbandonSwapChain | 936 | 415 | 1 | 1 | wow64
+| NtGdiDdDDIAcquireKeyedMutex | 876 | 416 | 1 | 1 | wow64
+| NtGdiDdDDIAcquireKeyedMutex2 | 861 | 417 | 1 | 1 | wow64
+| NtGdiDdDDIAcquireSwapChain | 934 | 418 | 1 | 1 | wow64
+| NtGdiDdDDIAdjustFullscreenGamma | 944 | 419 | 1 | 1 | wow64
+| NtGdiDdDDICacheHybridQueryValue | 921 | 420 | 1 | 1 | wow64
+| NtGdiDdDDIChangeVideoMemoryReservation | 930 | 421 | 1 | 1 | wow64
+| NtGdiDdDDICheckExclusiveOwnership | 883 | 422 | 0 | 0 | wow64
+| NtGdiDdDDICheckMonitorPowerState | 884 | 423 | 1 | 1 | wow64
+| NtGdiDdDDICheckMultiPlaneOverlaySupport | 900 | 424 | 1 | 1 | wow64
+| NtGdiDdDDICheckMultiPlaneOverlaySupport2 | 938 | 425 | 1 | 1 | wow64
+| NtGdiDdDDICheckOcclusion | 886 | 426 | 1 | 1 | wow64
+| NtGdiDdDDICheckSharedResourceAccess | 871 | 427 | 1 | 1 | wow64
+| NtGdiDdDDICheckVidPnExclusiveOwnership | 872 | 428 | 1 | 1 | wow64
+| NtGdiDdDDICloseAdapter | 819 | 429 | 1 | 1 | wow64
+| NtGdiDdDDIConfigureSharedResource | 874 | 430 | 1 | 1 | wow64
+| NtGdiDdDDICreateAllocation | 856 | 431 | 1 | 1 | wow64
+| NtGdiDdDDICreateContext | 840 | 432 | 1 | 1 | wow64
+| NtGdiDdDDICreateContextVirtual | 918 | 433 | 1 | 1 | wow64
+| NtGdiDdDDICreateDCFromMemory | 804 | 434 | 1 | 1 | wow64
+| NtGdiDdDDICreateDevice | 842 | 435 | 1 | 1 | wow64
+| NtGdiDdDDICreateKeyedMutex | 879 | 436 | 1 | 1 | wow64
+| NtGdiDdDDICreateKeyedMutex2 | 863 | 437 | 1 | 1 | wow64
+| NtGdiDdDDICreateOutputDupl | 868 | 438 | 1 | 1 | wow64
+| NtGdiDdDDICreateOverlay | 811 | 439 | 1 | 1 | wow64
+| NtGdiDdDDICreatePagingQueue | 908 | 440 | 1 | 1 | wow64
+| NtGdiDdDDICreateSwapChain | 931 | 441 | 1 | 1 | wow64
+| NtGdiDdDDICreateSynchronizationObject | 838 | 442 | 1 | 1 | wow64
+| NtGdiDdDDIDestroyAllocation | 845 | 443 | 1 | 1 | wow64
+| NtGdiDdDDIDestroyAllocation2 | 846 | 444 | 1 | 1 | wow64
+| NtGdiDdDDIDestroyContext | 839 | 445 | 1 | 1 | wow64
+| NtGdiDdDDIDestroyDCFromMemory | 803 | 446 | 1 | 1 | wow64
+| NtGdiDdDDIDestroyDevice | 841 | 447 | 1 | 1 | wow64
+| NtGdiDdDDIDestroyKeyedMutex | 877 | 448 | 1 | 1 | wow64
+| NtGdiDdDDIDestroyOutputDupl | 867 | 449 | 1 | 1 | wow64
+| NtGdiDdDDIDestroyOverlay | 808 | 450 | 1 | 1 | wow64
+| NtGdiDdDDIDestroyPagingQueue | 909 | 451 | 1 | 1 | wow64
+| NtGdiDdDDIDestroySynchronizationObject | 836 | 452 | 1 | 1 | wow64
+| NtGdiDdDDIEnumAdapters | 821 | 453 | 1 | 1 | wow64
+| NtGdiDdDDIEnumAdapters2 | 822 | 454 | 1 | 1 | wow64
+| NtGdiDdDDIEscape | 817 | 455 | 1 | 1 | wow64
+| NtGdiDdDDIEvict | 902 | 456 | 1 | 1 | wow64
+| NtGdiDdDDIFlipOverlay | 809 | 457 | 1 | 1 | wow64
+| NtGdiDdDDIFreeGpuVirtualAddress | 916 | 458 | 1 | 1 | wow64
+| NtGdiDdDDIGetCachedHybridQueryValue | 920 | 459 | 1 | 1 | wow64
+| NtGdiDdDDIGetContextInProcessSchedulingPriority | 896 | 460 | 1 | 1 | wow64
+| NtGdiDdDDIGetContextSchedulingPriority | 801 | 461 | 1 | 1 | wow64
+| NtGdiDdDDIGetDWMVerticalBlankEvent | 893 | 462 | 1 | 1 | wow64
+| NtGdiDdDDIGetDeviceState | 805 | 463 | 1 | 1 | wow64
+| NtGdiDdDDIGetDisplayModeList | 829 | 464 | 1 | 1 | wow64
+| NtGdiDdDDIGetMultisampleMethodList | 827 | 465 | 1 | 1 | wow64
+| NtGdiDdDDIGetOverlayState | 873 | 466 | 1 | 1 | wow64
+| NtGdiDdDDIGetPresentHistory | 813 | 467 | 1 | 1 | wow64
+| NtGdiDdDDIGetPresentQueueEvent | 812 | 468 | 2 | 2 | wow64
+| NtGdiDdDDIGetProcessSchedulingPriorityClass | 799 | 469 | 2 | 2 | wow64
+| NtGdiDdDDIGetResourcePresentPrivateDriverData | 913 | 470 | 1 | 1 | wow64
+| NtGdiDdDDIGetRuntimeData | 833 | 471 | 1 | 1 | wow64
+| NtGdiDdDDIGetScanLine | 797 | 472 | 1 | 1 | wow64
+| NtGdiDdDDIGetSetSwapChainMetadata | 933 | 473 | 1 | 1 | wow64
+| NtGdiDdDDIGetSharedPrimaryHandle | 818 | 474 | 1 | 1 | wow64
+| NtGdiDdDDIGetSharedResourceAdapterLuid | 897 | 475 | 1 | 1 | wow64
+| NtGdiDdDDIInvalidateActiveVidPn | 887 | 476 | 1 | 1 | wow64
+| NtGdiDdDDIInvalidateCache | 912 | 477 | 1 | 1 | wow64
+| NtGdiDdDDILock | 831 | 478 | 1 | 1 | wow64
+| NtGdiDdDDILock2 | 910 | 479 | 1 | 1 | wow64
+| NtGdiDdDDIMakeResident | 901 | 480 | 1 | 1 | wow64
+| NtGdiDdDDIMapGpuVirtualAddress | 914 | 481 | 1 | 1 | wow64
+| NtGdiDdDDIMarkDeviceAsError | 946 | 482 | 1 | 1 | wow64
+| NtGdiDdDDINetDispGetNextChunkInfo | 922 | 483 | 7 | 7 | native
+| NtGdiDdDDINetDispQueryMiracastDisplayDeviceStatus | 927 | 484 | 2 | 2 | wow64
+| NtGdiDdDDINetDispQueryMiracastDisplayDeviceSupport | 923 | 485 | 1 | 1 | wow64
+| NtGdiDdDDINetDispStartMiracastDisplayDevice | 924 | 486 | 3 | 3 | wow64
+| NtGdiDdDDINetDispStartMiracastDisplayDeviceEx | 925 | 487 | 1 | 1 | wow64
+| NtGdiDdDDINetDispStopMiracastDisplayDevice | 926 | 488 | 2 | 2 | wow64
+| NtGdiDdDDINetDispStopSessions | 928 | 489 | 1 | 1 | wow64
+| NtGdiDdDDIOfferAllocations | 870 | 490 | 1 | 1 | wow64
+| NtGdiDdDDIOpenAdapterFromDeviceName | 824 | 491 | 1 | 1 | wow64
+| NtGdiDdDDIOpenAdapterFromHdc | 823 | 492 | 1 | 1 | wow64
+| NtGdiDdDDIOpenAdapterFromLuid | 820 | 493 | 1 | 1 | wow64
+| NtGdiDdDDIOpenKeyedMutex | 878 | 494 | 1 | 1 | wow64
+| NtGdiDdDDIOpenKeyedMutex2 | 862 | 495 | 1 | 1 | wow64
+| NtGdiDdDDIOpenNtHandleFromName | 851 | 496 | 1 | 1 | wow64
+| NtGdiDdDDIOpenResource | 850 | 497 | 1 | 1 | wow64
+| NtGdiDdDDIOpenResourceFromNtHandle | 847 | 498 | 1 | 1 | wow64
+| NtGdiDdDDIOpenSwapChain | 932 | 499 | 1 | 1 | wow64
+| NtGdiDdDDIOpenSyncObjectFromNtHandle | 848 | 500 | 1 | 1 | wow64
+| NtGdiDdDDIOpenSyncObjectFromNtHandle2 | 849 | 501 | 1 | 1 | wow64
+| NtGdiDdDDIOpenSyncObjectNtHandleFromName | 852 | 502 | 1 | 1 | wow64
+| NtGdiDdDDIOpenSynchronizationObject | 837 | 503 | 1 | 1 | wow64
+| NtGdiDdDDIOutputDuplGetFrameInfo | 866 | 504 | 1 | 1 | wow64
+| NtGdiDdDDIOutputDuplGetMetaData | 865 | 505 | 1 | 1 | wow64
+| NtGdiDdDDIOutputDuplGetPointerShapeData | 864 | 506 | 1 | 1 | wow64
+| NtGdiDdDDIOutputDuplPresent | 859 | 507 | 1 | 1 | wow64
+| NtGdiDdDDIOutputDuplReleaseFrame | 857 | 508 | 1 | 1 | wow64
+| NtGdiDdDDIPinDirectFlipResources | 890 | 509 | 1 | 1 | wow64
+| NtGdiDdDDIPollDisplayChildren | 888 | 510 | 1 | 1 | wow64
+| NtGdiDdDDIPresent | 826 | 511 | 1 | 1 | wow64
+| NtGdiDdDDIPresentMultiPlaneOverlay | 899 | 512 | 1 | 1 | wow64
+| NtGdiDdDDIPresentMultiPlaneOverlay2 | 939 | 513 | 1 | 1 | wow64
+| NtGdiDdDDIQueryAdapterInfo | 832 | 514 | 1 | 1 | wow64
+| NtGdiDdDDIQueryAllocationResidency | 843 | 515 | 1 | 1 | wow64
+| NtGdiDdDDIQueryClockCalibration | 942 | 516 | 1 | 1 | wow64
+| NtGdiDdDDIQueryRemoteVidPnSourceFromGdiDisplayName | 858 | 517 | 1 | 1 | wow64
+| NtGdiDdDDIQueryResourceInfo | 855 | 518 | 1 | 1 | wow64
+| NtGdiDdDDIQueryResourceInfoFromNtHandle | 854 | 519 | 1 | 1 | wow64
+| NtGdiDdDDIQueryStatistics | 816 | 520 | 1 | 1 | wow64
+| NtGdiDdDDIQueryVidPnExclusiveOwnership | 943 | 521 | 1 | 1 | wow64
+| NtGdiDdDDIQueryVideoMemoryInfo | 929 | 522 | 1 | 1 | wow64
+| NtGdiDdDDIReclaimAllocations | 869 | 523 | 1 | 1 | wow64
+| NtGdiDdDDIReclaimAllocations2 | 940 | 524 | 1 | 1 | wow64
+| NtGdiDdDDIReleaseKeyedMutex | 875 | 525 | 1 | 1 | wow64
+| NtGdiDdDDIReleaseKeyedMutex2 | 860 | 526 | 1 | 1 | wow64
+| NtGdiDdDDIReleaseProcessVidPnSourceOwners | 798 | 527 | 1 | 1 | wow64
+| NtGdiDdDDIReleaseSwapChain | 935 | 528 | 1 | 1 | wow64
+| NtGdiDdDDIRender | 825 | 529 | 1 | 1 | wow64
+| NtGdiDdDDIReserveGpuVirtualAddress | 915 | 530 | 1 | 1 | wow64
+| NtGdiDdDDISetAllocationPriority | 844 | 531 | 1 | 1 | wow64
+| NtGdiDdDDISetContextInProcessSchedulingPriority | 895 | 532 | 1 | 1 | wow64
+| NtGdiDdDDISetContextSchedulingPriority | 802 | 533 | 1 | 1 | wow64
+| NtGdiDdDDISetDisplayMode | 828 | 534 | 1 | 1 | wow64
+| NtGdiDdDDISetDisplayPrivateDriverFormat | 882 | 535 | 1 | 1 | wow64
+| NtGdiDdDDISetDodIndirectSwapchain | 937 | 536 | 1 | 1 | wow64
+| NtGdiDdDDISetGammaRamp | 806 | 537 | 1 | 1 | wow64
+| NtGdiDdDDISetProcessSchedulingPriorityClass | 800 | 538 | 2 | 2 | wow64
+| NtGdiDdDDISetQueuedLimit | 889 | 539 | 1 | 1 | wow64
+| NtGdiDdDDISetStablePowerState | 941 | 540 | 1 | 1 | wow64
+| NtGdiDdDDISetStereoEnabled | 898 | 541 | 1 | 1 | wow64
+| NtGdiDdDDISetSyncRefreshCountWaitTarget | 894 | 542 | 1 | 1 | wow64
+| NtGdiDdDDISetVidPnSourceHwProtection | 945 | 543 | 1 | 1 | wow64
+| NtGdiDdDDISetVidPnSourceOwner | 815 | 544 | 1 | 1 | wow64
+| NtGdiDdDDISetVidPnSourceOwner1 | 814 | 545 | 1 | 1 | wow64
+| NtGdiDdDDIShareObjects | 853 | 546 | 5 | 5 | native
+| NtGdiDdDDISharedPrimaryLockNotification | 881 | 547 | 1 | 1 | wow64
+| NtGdiDdDDISharedPrimaryUnLockNotification | 880 | 548 | 1 | 1 | wow64
+| NtGdiDdDDISignalSynchronizationObject | 834 | 549 | 1 | 1 | wow64
+| NtGdiDdDDISignalSynchronizationObjectFromCpu | 904 | 550 | 1 | 1 | wow64
+| NtGdiDdDDISignalSynchronizationObjectFromGpu | 906 | 551 | 1 | 1 | wow64
+| NtGdiDdDDISignalSynchronizationObjectFromGpu2 | 907 | 552 | 1 | 1 | wow64
+| NtGdiDdDDISubmitCommand | 919 | 553 | 1 | 1 | wow64
+| NtGdiDdDDIUnlock | 830 | 554 | 1 | 1 | wow64
+| NtGdiDdDDIUnlock2 | 911 | 555 | 1 | 1 | wow64
+| NtGdiDdDDIUnpinDirectFlipResources | 891 | 556 | 1 | 1 | wow64
+| NtGdiDdDDIUpdateGpuVirtualAddress | 917 | 557 | 1 | 1 | wow64
+| NtGdiDdDDIUpdateOverlay | 810 | 558 | 1 | 1 | wow64
+| NtGdiDdDDIWaitForIdle | 885 | 559 | 1 | 1 | wow64
+| NtGdiDdDDIWaitForSynchronizationObject | 835 | 560 | 1 | 1 | wow64
+| NtGdiDdDDIWaitForSynchronizationObjectFromCpu | 903 | 561 | 1 | 1 | wow64
+| NtGdiDdDDIWaitForSynchronizationObjectFromGpu | 905 | 562 | 1 | 1 | wow64
+| NtGdiDdDDIWaitForVerticalBlankEvent | 807 | 563 | 1 | 1 | wow64
+| NtGdiDdDDIWaitForVerticalBlankEvent2 | 892 | 564 | 1 | 1 | wow64
+| NtGdiDdDeleteDirectDrawObject | 250 | 565 | 1 | 1 | wow64
+| NtGdiDdDeleteSurfaceObject | 249 | 163 | 1 | 1 | wow64
+| NtGdiDdDestroyD3DBuffer | 246 | 566 | 1 | 1 | wow64
+| NtGdiDdDestroyFullscreenSprite | 960 | 567 | 2 | 2 | wow64
+| NtGdiDdDestroyMoComp | 248 | 568 | 2 | 2 | wow64
+| NtGdiDdDestroySurface | 247 | 167 | 2 | 2 | wow64
+| NtGdiDdEndMoCompFrame | 245 | 569 | 2 | 2 | wow64
+| NtGdiDdFlip | 244 | 570 | 5 | 5 | native
+| NtGdiDdFlipToGDISurface | 243 | 571 | 2 | 2 | wow64
+| NtGdiDdGetAvailDriverMemory | 242 | 572 | 2 | 2 | wow64
+| NtGdiDdGetBltStatus | 241 | 573 | 2 | 2 | wow64
+| NtGdiDdGetDC | 240 | 574 | 2 | 2 | wow64
+| NtGdiDdGetDriverInfo | 239 | 575 | 2 | 2 | wow64
+| NtGdiDdGetDriverState | 264 | 576 | 1 | 1 | wow64
+| NtGdiDdGetDxHandle | 238 | 577 | 3 | 3 | wow64
+| NtGdiDdGetFlipStatus | 237 | 578 | 2 | 2 | wow64
+| NtGdiDdGetInternalMoCompInfo | 236 | 579 | 2 | 2 | wow64
+| NtGdiDdGetMoCompBuffInfo | 235 | 580 | 2 | 2 | wow64
+| NtGdiDdGetMoCompFormats | 233 | 581 | 2 | 2 | wow64
+| NtGdiDdGetMoCompGuids | 234 | 582 | 2 | 2 | wow64
+| NtGdiDdGetScanLine | 232 | 583 | 2 | 2 | wow64
+| NtGdiDdLock | 231 | 584 | 3 | 3 | wow64
+| NtGdiDdLockD3D | 230 | 199 | 2 | 2 | wow64
+| NtGdiDdNotifyFullscreenSpriteUpdate | 961 | 585 | 2 | 2 | wow64
+| NtGdiDdQueryDirectDrawObject | 229 | 586 | 11 | 11 | native
+| NtGdiDdQueryMoCompStatus | 228 | 587 | 2 | 2 | wow64
+| NtGdiDdQueryVisRgnUniqueness | 959 | 588 | 0 | 0 | wow64
+| NtGdiDdReenableDirectDrawObject | 227 | 589 | 2 | 2 | wow64
+| NtGdiDdReleaseDC | 226 | 590 | 1 | 1 | wow64
+| NtGdiDdRenderMoComp | 225 | 591 | 2 | 2 | wow64
+| NtGdiDdResetVisrgn | 224 | 172 | 2 | 2 | wow64
+| NtGdiDdSetColorKey | 223 | 592 | 2 | 2 | wow64
+| NtGdiDdSetExclusiveMode | 222 | 593 | 2 | 2 | wow64
+| NtGdiDdSetGammaRamp | 221 | 594 | 3 | 3 | wow64
+| NtGdiDdSetOverlayPosition | 219 | 595 | 3 | 3 | wow64
+| NtGdiDdUnattachSurface | 218 | 596 | 2 | 2 | wow64
+| NtGdiDdUnlock | 217 | 597 | 2 | 2 | wow64
+| NtGdiDdUnlockD3D | 216 | 200 | 2 | 2 | wow64
+| NtGdiDdUpdateOverlay | 215 | 598 | 3 | 3 | wow64
+| NtGdiDdWaitForVerticalBlank | 214 | 599 | 2 | 2 | wow64
+| NtGdiDeleteClientObj | 195 | 137 | 1 | 1 | wow64
+| NtGdiDeleteColorSpace | 194 | 287 | 1 | 1 | wow64
+| NtGdiDeleteColorTransform | 193 | 600 | 2 | 2 | wow64
+| NtGdiDeleteObjectApp | 192 | 38 | 1 | 1 | wow64
+| NtGdiDescribePixelFormat | 191 | 601 | 4 | 4 | wow64
+| NtGdiDestroyOPMProtectedOutput | 190 | 602 | 1 | 1 | wow64
+| NtGdiDestroyPhysicalMonitor | 949 | 603 | 1 | 1 | wow64
+| NtGdiDoBanding | 188 | 604 | 4 | 4 | wow64
+| NtGdiDoPalette | 187 | 74 | 6 | 6 | native
+| NtGdiDrawEscape | 186 | 605 | 4 | 4 | wow64
+| NtGdiDrawStream | 793 | 100 | 3 | 3 | wow64
+| NtGdiDvpAcquireNotification | 198 | 606 | 3 | 3 | wow64
+| NtGdiDvpCanCreateVideoPort | 213 | 607 | 2 | 2 | wow64
+| NtGdiDvpColorControl | 212 | 608 | 2 | 2 | wow64
+| NtGdiDvpCreateVideoPort | 211 | 609 | 2 | 2 | wow64
+| NtGdiDvpDestroyVideoPort | 210 | 610 | 2 | 2 | wow64
+| NtGdiDvpFlipVideoPort | 209 | 611 | 4 | 4 | wow64
+| NtGdiDvpGetVideoPortBandwidth | 208 | 612 | 2 | 2 | wow64
+| NtGdiDvpGetVideoPortConnectInfo | 202 | 613 | 2 | 2 | wow64
+| NtGdiDvpGetVideoPortField | 207 | 614 | 2 | 2 | wow64
+| NtGdiDvpGetVideoPortFlipStatus | 206 | 615 | 2 | 2 | wow64
+| NtGdiDvpGetVideoPortInputFormats | 205 | 616 | 2 | 2 | wow64
+| NtGdiDvpGetVideoPortLine | 204 | 617 | 2 | 2 | wow64
+| NtGdiDvpGetVideoPortOutputFormats | 203 | 618 | 2 | 2 | wow64
+| NtGdiDvpGetVideoSignalStatus | 201 | 619 | 2 | 2 | wow64
+| NtGdiDvpReleaseNotification | 197 | 620 | 2 | 2 | wow64
+| NtGdiDvpUpdateVideoPort | 200 | 621 | 4 | 4 | wow64
+| NtGdiDvpWaitForVideoPortSync | 199 | 622 | 2 | 2 | wow64
+| NtGdiDwmCreatedBitmapRemotingOutput | 796 | 623 | 0 | 0 | wow64
+| NtGdiDxgGenericThunk | 196 | 624 | 6 | 6 | native
+| NtGdiEllipse | 185 | 625 | 5 | 5 | native
+| NtGdiEnableEudc | 184 | 626 | 1 | 1 | wow64
+| NtGdiEndDoc | 183 | 627 | 1 | 1 | wow64
+| NtGdiEndGdiRendering | 182 | 628 | 4 | 4 | wow64
+| NtGdiEndPage | 181 | 629 | 1 | 1 | wow64
+| NtGdiEndPath | 180 | 268 | 1 | 1 | wow64
+| NtGdiEngAlphaBlend | 692 | 630 | 7 | 7 | native
+| NtGdiEngAssociateSurface | 713 | 631 | 3 | 3 | wow64
+| NtGdiEngBitBlt | 701 | 632 | 11 | 11 | native
+| NtGdiEngCheckAbort | 784 | 633 | 1 | 1 | wow64
+| NtGdiEngComputeGlyphSet | 708 | 634 | 3 | 3 | wow64
+| NtGdiEngCopyBits | 707 | 635 | 6 | 6 | native
+| NtGdiEngCreateBitmap | 712 | 636 | 6 | 6 | native
+| NtGdiEngCreateClip | 755 | 637 | 0 | 0 | wow64
+| NtGdiEngCreateDeviceBitmap | 710 | 638 | 4 | 4 | wow64
+| NtGdiEngCreateDeviceSurface | 711 | 639 | 4 | 4 | wow64
+| NtGdiEngCreatePalette | 709 | 640 | 6 | 6 | native
+| NtGdiEngDeleteClip | 754 | 641 | 1 | 1 | wow64
+| NtGdiEngDeletePalette | 706 | 642 | 1 | 1 | wow64
+| NtGdiEngDeletePath | 756 | 643 | 1 | 1 | wow64
+| NtGdiEngDeleteSurface | 705 | 644 | 1 | 1 | wow64
+| NtGdiEngEraseSurface | 704 | 645 | 3 | 3 | wow64
+| NtGdiEngFillPath | 696 | 646 | 7 | 7 | native
+| NtGdiEngGradientFill | 691 | 647 | 10 | 10 | native
+| NtGdiEngLineTo | 693 | 648 | 9 | 9 | native
+| NtGdiEngLockSurface | 702 | 649 | 1 | 1 | wow64
+| NtGdiEngMarkBandingSurface | 698 | 650 | 1 | 1 | wow64
+| NtGdiEngPaint | 694 | 651 | 5 | 5 | native
+| NtGdiEngPlgBlt | 699 | 652 | 11 | 11 | native
+| NtGdiEngStretchBlt | 700 | 653 | 11 | 11 | native
+| NtGdiEngStretchBltROP | 688 | 654 | 13 | 13 | native
+| NtGdiEngStrokeAndFillPath | 695 | 655 | 10 | 10 | native
+| NtGdiEngStrokePath | 697 | 656 | 8 | 8 | native
+| NtGdiEngTextOut | 689 | 657 | 10 | 10 | native
+| NtGdiEngTransparentBlt | 690 | 658 | 8 | 8 | native
+| NtGdiEngUnlockSurface | 703 | 659 | 1 | 1 | wow64
+| NtGdiEnumFonts | 179 | 660 | 8 | 8 | native
+| NtGdiEnumObjects | 178 | 661 | 4 | 4 | wow64
+| NtGdiEqualRgn | 177 | 275 | 2 | 2 | wow64
+| NtGdiEudcLoadUnloadLink | 176 | 662 | 7 | 7 | native
+| NtGdiExcludeClipRect | 175 | 155 | 5 | 5 | native
+| NtGdiExtCreatePen | 174 | 173 | 11 | 11 | native
+| NtGdiExtCreateRegion | 173 | 140 | 3 | 3 | wow64
+| NtGdiExtEscape | 172 | 280 | 8 | 8 | native
+| NtGdiExtFloodFill | 171 | 663 | 5 | 5 | native
+| NtGdiExtGetObjectW | 170 | 85 | 3 | 3 | wow64
+| NtGdiExtSelectClipRgn | 169 | 49 | 3 | 3 | wow64
+| NtGdiExtTextOutW | 168 | 59 | 9 | 9 | native
+| NtGdiFONTOBJ_cGetAllGlyphHandles | 772 | 664 | 2 | 2 | wow64
+| NtGdiFONTOBJ_cGetGlyphs | 769 | 665 | 5 | 5 | native
+| NtGdiFONTOBJ_pQueryGlyphAttrs | 766 | 666 | 2 | 2 | wow64
+| NtGdiFONTOBJ_pfdg | 767 | 667 | 1 | 1 | wow64
+| NtGdiFONTOBJ_pifi | 768 | 668 | 1 | 1 | wow64
+| NtGdiFONTOBJ_pvTrueTypeFontFile | 773 | 669 | 2 | 2 | wow64
+| NtGdiFONTOBJ_pxoGetXform | 770 | 670 | 1 | 1 | wow64
+| NtGdiFONTOBJ_vGetInfo | 771 | 671 | 3 | 3 | wow64
+| NtGdiFillPath | 167 | 269 | 1 | 1 | wow64
+| NtGdiFillRgn | 166 | 214 | 3 | 3 | wow64
+| NtGdiFlattenPath | 165 | 672 | 1 | 1 | wow64
+| NtGdiFlush | 164 | 21 | 0 | 0 | wow64
+| NtGdiFontIsLinked | 309 | 673 | 1 | 1 | wow64
+| NtGdiForceUFIMapping | 163 | 674 | 2 | 2 | wow64
+| NtGdiFrameRgn | 162 | 675 | 5 | 5 | native
+| NtGdiFullscreenControl | 161 | 676 | 5 | 5 | native
+| NtGdiGetAndSetDCDword | 160 | 106 | 4 | 4 | wow64
+| NtGdiGetAppClipBox | 159 | 70 | 2 | 2 | wow64
+| NtGdiGetBitmapBits | 158 | 224 | 3 | 3 | wow64
+| NtGdiGetBitmapDimension | 157 | 254 | 2 | 2 | wow64
+| NtGdiGetBoundsRect | 156 | 677 | 3 | 3 | wow64
+| NtGdiGetCOPPCompatibleOPMInformation | 146 | 678 | 3 | 3 | wow64
+| NtGdiGetCertificate | 155 | 679 | 4 | 4 | wow64
+| NtGdiGetCertificateSize | 154 | 680 | 3 | 3 | wow64
+| NtGdiGetCharABCWidthsW | 153 | 681 | 6 | 6 | native
+| NtGdiGetCharSet | 151 | 12 | 1 | 1 | wow64
+| NtGdiGetCharWidthInfo | 149 | 206 | 2 | 2 | wow64
+| NtGdiGetCharWidthW | 150 | 201 | 6 | 6 | native
+| NtGdiGetCharacterPlacementW | 152 | 682 | 6 | 6 | native
+| NtGdiGetColorAdjustment | 148 | 683 | 2 | 2 | wow64
+| NtGdiGetColorSpaceforBitmap | 147 | 684 | 1 | 1 | wow64
+| NtGdiGetCurrentDpiInfo | 145 | 685 | 2 | 2 | wow64
+| NtGdiGetDCDword | 144 | 66 | 3 | 3 | wow64
+| NtGdiGetDCObject | 142 | 56 | 2 | 2 | wow64
+| NtGdiGetDCPoint | 141 | 117 | 3 | 3 | wow64
+| NtGdiGetDCforBitmap | 143 | 157 | 1 | 1 | wow64
+| NtGdiGetDIBitsInternal | 137 | 135 | 9 | 9 | native
+| NtGdiGetDeviceCaps | 140 | 686 | 2 | 2 | wow64
+| NtGdiGetDeviceCapsAll | 138 | 687 | 2 | 2 | wow64
+| NtGdiGetDeviceGammaRamp | 139 | 688 | 2 | 2 | wow64
+| NtGdiGetDeviceWidth | 27 | 689 | 1 | 1 | wow64
+| NtGdiGetDhpdev | 785 | 690 | 1 | 1 | wow64
+| NtGdiGetETM | 136 | 691 | 2 | 2 | wow64
+| NtGdiGetEmbUFI | 96 | 692 | 7 | 7 | native
+| NtGdiGetEmbedFonts | 94 | 693 | 0 | 0 | wow64
+| NtGdiGetEudcTimeStampEx | 135 | 694 | 3 | 3 | wow64
+| NtGdiGetFontData | 134 | 217 | 5 | 5 | native
+| NtGdiGetFontFileData | 133 | 695 | 5 | 5 | native
+| NtGdiGetFontFileInfo | 132 | 696 | 5 | 5 | native
+| NtGdiGetFontResourceInfoInternalW | 131 | 697 | 7 | 7 | native
+| NtGdiGetFontUnicodeRanges | 91 | 698 | 2 | 2 | wow64
+| NtGdiGetGlyphIndicesW | 130 | 699 | 5 | 5 | native
+| NtGdiGetGlyphIndicesWInternal | 129 | 700 | 6 | 6 | native
+| NtGdiGetGlyphOutline | 128 | 701 | 8 | 8 | native
+| NtGdiGetKerningPairs | 126 | 702 | 3 | 3 | wow64
+| NtGdiGetLinkedUFIs | 125 | 703 | 3 | 3 | wow64
+| NtGdiGetMiterLimit | 124 | 704 | 2 | 2 | wow64
+| NtGdiGetMonitorID | 123 | 705 | 3 | 3 | wow64
+| NtGdiGetNearestColor | 122 | 115 | 2 | 2 | wow64
+| NtGdiGetNearestPaletteIndex | 121 | 198 | 2 | 2 | wow64
+| NtGdiGetNumberOfPhysicalMonitors | 952 | 706 | 2 | 2 | wow64
+| NtGdiGetOPMInformation | 127 | 707 | 3 | 3 | wow64
+| NtGdiGetOPMRandomNumber | 119 | 708 | 2 | 2 | wow64
+| NtGdiGetObjectBitmapHandle | 120 | 709 | 2 | 2 | wow64
+| NtGdiGetOutlineTextMetricsInternalW | 118 | 181 | 4 | 4 | wow64
+| NtGdiGetPath | 117 | 710 | 4 | 4 | wow64
+| NtGdiGetPerBandInfo | 189 | 711 | 2 | 2 | wow64
+| NtGdiGetPhysicalMonitorDescription | 950 | 712 | 3 | 3 | wow64
+| NtGdiGetPhysicalMonitors | 951 | 713 | 4 | 4 | wow64
+| NtGdiGetPixel | 116 | 193 | 3 | 3 | wow64
+| NtGdiGetRandomRgn | 115 | 46 | 3 | 3 | wow64
+| NtGdiGetRasterizerCaps | 114 | 233 | 2 | 2 | wow64
+| NtGdiGetRealizationInfo | 113 | 714 | 2 | 2 | wow64
+| NtGdiGetRegionData | 112 | 67 | 3 | 3 | wow64
+| NtGdiGetRgnBox | 111 | 105 | 2 | 2 | wow64
+| NtGdiGetServerMetaFileBits | 110 | 715 | 7 | 7 | native
+| NtGdiGetSpoolMessage | 109 | 716 | 4 | 4 | wow64
+| NtGdiGetStats | 108 | 717 | 5 | 5 | native
+| NtGdiGetStockObject | 107 | 210 | 1 | 1 | wow64
+| NtGdiGetStringBitmapW | 106 | 718 | 5 | 5 | native
+| NtGdiGetSuggestedOPMProtectedOutputArraySize | 105 | 719 | 2 | 2 | wow64
+| NtGdiGetSystemPaletteUse | 104 | 276 | 1 | 1 | wow64
+| NtGdiGetTextCharsetInfo | 103 | 80 | 3 | 3 | wow64
+| NtGdiGetTextExtent | 102 | 150 | 5 | 5 | native
+| NtGdiGetTextExtentExW | 101 | 720 | 8 | 8 | native
+| NtGdiGetTextFaceW | 100 | 130 | 4 | 4 | wow64
+| NtGdiGetTextMetricsW | 99 | 119 | 3 | 3 | wow64
+| NtGdiGetTransform | 98 | 222 | 3 | 3 | wow64
+| NtGdiGetUFI | 97 | 721 | 6 | 6 | native
+| NtGdiGetUFIPathname | 95 | 722 | 10 | 10 | native
+| NtGdiGetWidthTable | 90 | 108 | 7 | 7 | native
+| NtGdiGradientFill | 89 | 723 | 6 | 6 | native
+| NtGdiHLSurfGetInformation | 795 | 724 | 4 | 4 | wow64
+| NtGdiHLSurfSetInformation | 794 | 725 | 4 | 4 | wow64
+| NtGdiHT_Get8BPPFormatPalette | 787 | 726 | 4 | 4 | wow64
+| NtGdiHT_Get8BPPMaskPalette | 786 | 727 | 6 | 6 | native
+| NtGdiHfontCreate | 88 | 95 | 5 | 5 | native
+| NtGdiIcmBrushInfo | 87 | 728 | 8 | 8 | native
+| NtGdiInit | 86 | 729 | 0 | 0 | wow64
+| NtGdiInitSpool | 85 | 730 | 0 | 0 | wow64
+| NtGdiIntersectClipRect | 84 | 35 | 5 | 5 | native
+| NtGdiInvertRgn | 83 | 104 | 2 | 2 | wow64
+| NtGdiLineTo | 82 | 68 | 3 | 3 | wow64
+| NtGdiMakeFontDir | 81 | 731 | 5 | 5 | native
+| NtGdiMakeInfoDC | 80 | 732 | 2 | 2 | wow64
+| NtGdiMakeObjectUnXferable | 947 | 733 | 1 | 1 | wow64
+| NtGdiMakeObjectXferable | 948 | 734 | 2 | 2 | wow64
+| NtGdiMaskBlt | 79 | 107 | 13 | 13 | native
+| NtGdiMirrorWindowOrg | 26 | 735 | 1 | 1 | wow64
+| NtGdiModifyWorldTransform | 78 | 216 | 3 | 3 | wow64
+| NtGdiMonoBitmap | 77 | 736 | 1 | 1 | wow64
+| NtGdiMoveTo | 76 | 737 | 4 | 4 | wow64
+| NtGdiOffsetClipRgn | 75 | 738 | 3 | 3 | wow64
+| NtGdiOffsetRgn | 74 | 128 | 3 | 3 | wow64
+| NtGdiOpenDCW | 73 | 220 | 9 | 9 | native
+| NtGdiPATHOBJ_bEnum | 782 | 739 | 2 | 2 | wow64
+| NtGdiPATHOBJ_bEnumClipLines | 779 | 740 | 3 | 3 | wow64
+| NtGdiPATHOBJ_vEnumStart | 781 | 741 | 1 | 1 | wow64
+| NtGdiPATHOBJ_vEnumStartClipLines | 780 | 742 | 4 | 4 | wow64
+| NtGdiPATHOBJ_vGetBounds | 783 | 743 | 2 | 2 | wow64
+| NtGdiPatBlt | 72 | 92 | 6 | 6 | native
+| NtGdiPathToRegion | 70 | 744 | 1 | 1 | wow64
+| NtGdiPlgBlt | 69 | 745 | 11 | 11 | native
+| NtGdiPolyDraw | 68 | 746 | 4 | 4 | wow64
+| NtGdiPolyPatBlt | 71 | 113 | 5 | 5 | native
+| NtGdiPolyPolyDraw | 67 | 75 | 5 | 5 | native
+| NtGdiPolyTextOutW | 66 | 747 | 4 | 4 | wow64
+| NtGdiPtInRegion | 65 | 748 | 3 | 3 | wow64
+| NtGdiPtVisible | 64 | 749 | 3 | 3 | wow64
+| NtGdiQueryFontAssocInfo | 62 | 247 | 1 | 1 | wow64
+| NtGdiQueryFonts | 63 | 750 | 3 | 3 | wow64
+| NtGdiRectInRegion | 60 | 191 | 2 | 2 | wow64
+| NtGdiRectVisible | 59 | 54 | 2 | 2 | wow64
+| NtGdiRectangle | 61 | 146 | 5 | 5 | native
+| NtGdiRemoveFontMemResourceEx | 57 | 277 | 1 | 1 | wow64
+| NtGdiRemoveFontResourceW | 58 | 751 | 6 | 6 | native
+| NtGdiRemoveMergeFont | 314 | 752 | 2 | 2 | wow64
+| NtGdiResetDC | 56 | 753 | 5 | 5 | native
+| NtGdiResizePalette | 55 | 754 | 2 | 2 | wow64
+| NtGdiRestoreDC | 54 | 61 | 2 | 2 | wow64
+| NtGdiRoundRect | 53 | 755 | 7 | 7 | native
+| NtGdiSTROBJ_bEnum | 778 | 756 | 3 | 3 | wow64
+| NtGdiSTROBJ_bEnumPositionsOnly | 777 | 757 | 3 | 3 | wow64
+| NtGdiSTROBJ_bGetAdvanceWidths | 776 | 758 | 4 | 4 | wow64
+| NtGdiSTROBJ_dwGetCodePage | 774 | 759 | 1 | 1 | wow64
+| NtGdiSTROBJ_vEnumStart | 775 | 760 | 1 | 1 | wow64
+| NtGdiSaveDC | 52 | 62 | 1 | 1 | wow64
+| NtGdiScaleViewportExtEx | 51 | 761 | 6 | 6 | native
+| NtGdiScaleWindowExtEx | 50 | 762 | 6 | 6 | native
+| NtGdiSelectBitmap | 49 | 14 | 2 | 2 | wow64
+| NtGdiSelectBrush | 48 | 763 | 2 | 2 | wow64
+| NtGdiSelectClipPath | 47 | 764 | 2 | 2 | wow64
+| NtGdiSelectFont | 46 | 60 | 2 | 2 | wow64
+| NtGdiSelectPen | 45 | 765 | 2 | 2 | wow64
+| NtGdiSetBitmapAttributes | 44 | 766 | 2 | 2 | wow64
+| NtGdiSetBitmapBits | 43 | 182 | 3 | 3 | wow64
+| NtGdiSetBitmapDimension | 42 | 281 | 4 | 4 | wow64
+| NtGdiSetBoundsRect | 41 | 253 | 3 | 3 | wow64
+| NtGdiSetBrushAttributes | 40 | 767 | 2 | 2 | wow64
+| NtGdiSetBrushOrg | 39 | 175 | 4 | 4 | wow64
+| NtGdiSetColorAdjustment | 38 | 768 | 2 | 2 | wow64
+| NtGdiSetColorSpace | 37 | 769 | 2 | 2 | wow64
+| NtGdiSetDIBitsToDeviceInternal | 35 | 44 | 16 | 16 | native
+| NtGdiSetDeviceGammaRamp | 36 | 770 | 2 | 2 | wow64
+| NtGdiSetFontEnumeration | 34 | 282 | 1 | 1 | wow64
+| NtGdiSetFontXform | 33 | 771 | 3 | 3 | wow64
+| NtGdiSetIcmMode | 32 | 772 | 3 | 3 | wow64
+| NtGdiSetLayout | 25 | 152 | 3 | 3 | wow64
+| NtGdiSetLinkedUFIs | 31 | 773 | 3 | 3 | wow64
+| NtGdiSetMagicColors | 30 | 774 | 3 | 3 | wow64
+| NtGdiSetMetaRgn | 29 | 230 | 1 | 1 | wow64
+| NtGdiSetMiterLimit | 28 | 231 | 3 | 3 | wow64
+| NtGdiSetOPMSigningKeyAndSequenceNumbers | 24 | 775 | 2 | 2 | wow64
+| NtGdiSetPUMPDOBJ | 791 | 776 | 4 | 4 | wow64
+| NtGdiSetPixel | 23 | 177 | 4 | 4 | wow64
+| NtGdiSetPixelFormat | 22 | 777 | 2 | 2 | wow64
+| NtGdiSetRectRgn | 21 | 778 | 5 | 5 | native
+| NtGdiSetSizeDevice | 17 | 779 | 3 | 3 | wow64
+| NtGdiSetSystemPaletteUse | 20 | 780 | 2 | 2 | wow64
+| NtGdiSetTextJustification | 19 | 781 | 3 | 3 | wow64
+| NtGdiSetUMPDSandboxState | 792 | 782 | 1 | 1 | wow64
+| NtGdiSetVirtualResolution | 18 | 232 | 5 | 5 | native
+| NtGdiStartDoc | 16 | 783 | 4 | 4 | wow64
+| NtGdiStartPage | 15 | 784 | 1 | 1 | wow64
+| NtGdiStretchBlt | 14 | 52 | 12 | 12 | native
+| NtGdiStretchDIBitsInternal | 13 | 131 | 16 | 16 | native
+| NtGdiStrokeAndFillPath | 12 | 785 | 1 | 1 | wow64
+| NtGdiStrokePath | 11 | 786 | 1 | 1 | wow64
+| NtGdiSwapBuffers | 10 | 787 | 1 | 1 | wow64
+| NtGdiTransformPoints | 9 | 116 | 5 | 5 | native
+| NtGdiTransparentBlt | 8 | 788 | 11 | 11 | native
+| NtGdiUMPDEngFreeUserMem | 789 | 789 | 1 | 1 | wow64
+| NtGdiUnloadPrinterDriver | 7 | 790 | 2 | 2 | wow64
+| NtGdiUnmapMemFont | 6 | 791 | 1 | 1 | wow64
+| NtGdiUnrealizeObject | 5 | 144 | 1 | 1 | wow64
+| NtGdiUpdateColors | 4 | 792 | 1 | 1 | wow64
+| NtGdiUpdateTransform | 788 | 793 | 1 | 1 | wow64
+| NtGdiWidenPath | 3 | 794 | 1 | 1 | wow64
+| NtGdiXFORMOBJ_bApplyXform | 765 | 795 | 5 | 5 | native
+| NtGdiXFORMOBJ_iGetXform | 764 | 796 | 2 | 2 | wow64
+| NtGdiXLATEOBJ_cGetPalette | 753 | 797 | 4 | 4 | wow64
+| NtGdiXLATEOBJ_hGetColorTransform | 751 | 798 | 1 | 1 | wow64
+| NtGdiXLATEOBJ_iXlate | 752 | 799 | 2 | 2 | wow64
+| NtHWCursorUpdatePointer | 1127 | 800 | 2 | 2 | wow64
+| NtNotifyPresentToCompositionSurface | 976 | 801 | 2 | 2 | wow64
+| NtOpenCompositionSurfaceDirtyRegion | 981 | 802 | 4 | 4 | wow64
+| NtOpenCompositionSurfaceSectionInfo | 978 | 803 | 4 | 4 | wow64
+| NtOpenCompositionSurfaceSwapChainHandleInfo | 979 | 804 | 3 | 3 | wow64
+| NtQueryCompositionInputIsImplicit | 999 | 805 | 2 | 2 | wow64
+| NtQueryCompositionInputQueueAndTransform | 998 | 806 | 4 | 4 | wow64
+| NtQueryCompositionInputSink | 993 | 807 | 2 | 2 | wow64
+| NtQueryCompositionInputSinkLuid | 994 | 808 | 2 | 2 | wow64
+| NtQueryCompositionInputSinkViewId | 995 | 809 | 2 | 2 | wow64
+| NtQueryCompositionSurfaceBinding | 975 | 810 | 3 | 3 | wow64
+| NtQueryCompositionSurfaceRenderingRealization | 980 | 811 | 2 | 2 | wow64
+| NtQueryCompositionSurfaceStatistics | 977 | 812 | 2 | 2 | wow64
+| NtRIMAddInputObserver | 1119 | 813 | 7 | 7 | native
+| NtRIMGetDevicePreparsedDataLockfree | 1123 | 814 | 3 | 3 | wow64
+| NtRIMObserveNextInput | 1122 | 815 | 1 | 1 | wow64
+| NtRIMRemoveInputObserver | 1120 | 816 | 1 | 1 | wow64
+| NtRIMUpdateInputObserverRegistration | 1121 | 817 | 4 | 4 | wow64
+| NtSetCompositionSurfaceAnalogExclusive | 1008 | 818 | 2 | 2 | wow64
+| NtSetCompositionSurfaceBufferCompositionMode | 984 | 819 | 3 | 3 | wow64
+| NtSetCompositionSurfaceIndependentFlipInfo | 985 | 820 | 7 | 7 | native
+| NtSetCompositionSurfaceOutOfFrameDirectFlipNotification | 982 | 821 | 3 | 3 | wow64
+| NtSetCompositionSurfaceStatistics | 983 | 822 | 3 | 3 | wow64
+| NtTokenManagerConfirmOutstandingAnalogToken | 1007 | 823 | 0 | 0 | wow64
+| NtTokenManagerCreateCompositionTokenHandle | 1004 | 824 | 5 | 5 | native
+| NtTokenManagerDeleteOutstandingDirectFlipTokens | 1003 | 825 | 0 | 0 | wow64
+| NtTokenManagerGetAnalogExclusiveSurfaceUpdates | 1006 | 826 | 5 | 5 | native
+| NtTokenManagerGetAnalogExclusiveTokenEvent | 1005 | 827 | 1 | 1 | wow64
+| NtTokenManagerGetOutOfFrameDirectFlipSurfaceUpdates | 1002 | 828 | 6 | 6 | native
+| NtTokenManagerOpenSectionAndEvents | 1000 | 829 | 4 | 4 | wow64
+| NtTokenManagerThread | 1001 | 830 | 1 | 1 | wow64
+| NtUnBindCompositionSurface | 974 | 831 | 2 | 2 | wow64
+| NtUpdateInputSinkTransforms | 996 | 832 | 2 | 2 | wow64
+| NtUserAcquireIAMKey | 1081 | 833 | 1 | 1 | wow64
+| NtUserActivateKeyboardLayout | 372 | 288 | 2 | 2 | wow64
+| NtUserAddClipboardFormatListener | 371 | 834 | 1 | 1 | wow64
+| NtUserAlterWindowStyle | 370 | 213 | 3 | 3 | wow64
+| NtUserAssociateInputContext | 369 | 835 | 3 | 3 | wow64
+| NtUserAttachThreadInput | 368 | 238 | 3 | 3 | wow64
+| NtUserAutoPromoteMouseInPointer | 1095 | 836 | 1 | 1 | wow64
+| NtUserAutoRotateScreen | 1080 | 837 | 1 | 1 | wow64
+| NtUserBeginPaint | 367 | 26 | 2 | 2 | wow64
+| NtUserBitBltSysBmp | 366 | 205 | 8 | 8 | native
+| NtUserBlockInput | 365 | 838 | 1 | 1 | wow64
+| NtUserBuildHimcList | 364 | 839 | 4 | 4 | wow64
+| NtUserBuildHwndList | 363 | 31 | 8 | 8 | native
+| NtUserBuildNameList | 362 | 176 | 4 | 4 | wow64
+| NtUserBuildPropList | 361 | 840 | 4 | 4 | wow64
+| NtUserCalcMenuBar | 543 | 153 | 5 | 5 | native
+| NtUserCalculatePopupWindowPosition | 544 | 841 | 5 | 5 | native
+| NtUserCallHwnd | 360 | 270 | 2 | 2 | wow64
+| NtUserCallHwndLock | 359 | 36 | 2 | 2 | wow64
+| NtUserCallHwndOpt | 358 | 842 | 2 | 2 | wow64
+| NtUserCallHwndParam | 357 | 160 | 3 | 3 | wow64
+| NtUserCallHwndParamLock | 356 | 42 | 3 | 3 | wow64
+| NtUserCallMsgFilter | 355 | 24 | 2 | 2 | wow64
+| NtUserCallNextHookEx | 354 | 33 | 4 | 4 | wow64
+| NtUserCallNoParam | 353 | 8 | 1 | 1 | wow64
+| NtUserCallOneParam | 352 | 5 | 2 | 2 | wow64
+| NtUserCallTwoParam | 351 | 45 | 3 | 3 | wow64
+| NtUserCanBrokerForceForeground | 323 | 843 | 1 | 1 | wow64
+| NtUserChangeClipboardChain | 350 | 283 | 2 | 2 | wow64
+| NtUserChangeDisplaySettings | 349 | 844 | 4 | 4 | wow64
+| NtUserChangeWindowMessageFilterEx | 750 | 845 | 4 | 4 | wow64
+| NtUserCheckAccessForIntegrityLevel | 343 | 846 | 3 | 3 | wow64
+| NtUserCheckMenuItem | 340 | 261 | 3 | 3 | wow64
+| NtUserCheckProcessForClipboardAccess | 1099 | 847 | 2 | 2 | wow64
+| NtUserCheckProcessSession | 653 | 848 | 1 | 1 | wow64
+| NtUserCheckWindowThreadDesktop | 341 | 849 | 2 | 2 | wow64
+| NtUserChildWindowFromPointEx | 339 | 850 | 4 | 4 | wow64
+| NtUserClearForeground | 1086 | 851 | 0 | 0 | wow64
+| NtUserClipCursor | 338 | 852 | 1 | 1 | wow64
+| NtUserCloseClipboard | 337 | 208 | 0 | 0 | wow64
+| NtUserCloseDesktop | 336 | 168 | 1 | 1 | wow64
+| NtUserCloseWindowStation | 335 | 183 | 1 | 1 | wow64
+| NtUserCompositionInputSinkLuidFromPoint | 1102 | 853 | 2 | 2 | wow64
+| NtUserConsoleControl | 334 | 225 | 3 | 3 | wow64
+| NtUserConvertMemHandle | 333 | 255 | 2 | 2 | wow64
+| NtUserCopyAcceleratorTable | 332 | 47 | 3 | 3 | wow64
+| NtUserCountClipboardFormats | 331 | 273 | 0 | 0 | wow64
+| NtUserCreateAcceleratorTable | 330 | 243 | 2 | 2 | wow64
+| NtUserCreateCaret | 329 | 53 | 4 | 4 | wow64
+| NtUserCreateDCompositionHwndTarget | 1071 | 854 | 3 | 3 | wow64
+| NtUserCreateDesktopEx | 328 | 855 | 6 | 6 | native
+| NtUserCreateInputContext | 327 | 856 | 1 | 1 | wow64
+| NtUserCreateLocalMemHandle | 326 | 237 | 4 | 4 | wow64
+| NtUserCreateWindowEx | 325 | 120 | 17 | 17 | native
+| NtUserCreateWindowStation | 324 | 857 | 8 | 8 | native
+| NtUserCtxDisplayIOCtl | 656 | 858 | 3 | 3 | wow64
+| NtUserDdeInitialize | 322 | 271 | 5 | 5 | native
+| NtUserDefSetText | 320 | 129 | 2 | 2 | wow64
+| NtUserDeferWindowPosAndBand | 321 | 859 | 10 | 10 | native
+| NtUserDelegateCapturePointers | 373 | 860 | 3 | 3 | wow64
+| NtUserDelegateInput | 374 | 861 | 6 | 6 | native
+| NtUserDeleteMenu | 383 | 190 | 3 | 3 | wow64
+| NtUserDestroyAcceleratorTable | 382 | 256 | 1 | 1 | wow64
+| NtUserDestroyCursor | 381 | 158 | 2 | 2 | wow64
+| NtUserDestroyDCompositionHwndTarget | 1070 | 862 | 2 | 2 | wow64
+| NtUserDestroyInputContext | 380 | 863 | 1 | 1 | wow64
+| NtUserDestroyMenu | 379 | 223 | 1 | 1 | wow64
+| NtUserDestroyWindow | 378 | 159 | 1 | 1 | wow64
+| NtUserDisableImmersiveOwner | 1085 | 864 | 1 | 1 | wow64
+| NtUserDisableProcessWindowFiltering | 376 | 865 | 0 | 0 | wow64
+| NtUserDisableThreadIme | 377 | 866 | 1 | 1 | wow64
+| NtUserDiscardPointerFrameMessages | 738 | 867 | 1 | 1 | wow64
+| NtUserDispatchMessage | 375 | 57 | 1 | 1 | wow64
+| NtUserDisplayConfigGetDeviceInfo | 345 | 868 | 1 | 1 | wow64
+| NtUserDisplayConfigSetDeviceInfo | 344 | 869 | 1 | 1 | wow64
+| NtUserDoSoundConnect | 385 | 870 | 0 | 0 | wow64
+| NtUserDoSoundDisconnect | 384 | 871 | 0 | 0 | wow64
+| NtUserDragDetect | 482 | 872 | 3 | 3 | wow64
+| NtUserDragObject | 481 | 873 | 5 | 5 | native
+| NtUserDrawAnimatedRects | 480 | 874 | 4 | 4 | wow64
+| NtUserDrawCaption | 479 | 875 | 4 | 4 | wow64
+| NtUserDrawCaptionTemp | 478 | 876 | 7 | 7 | native
+| NtUserDrawIconEx | 477 | 98 | 11 | 11 | native
+| NtUserDrawMenuBarTemp | 476 | 877 | 5 | 5 | native
+| NtUserDwmGetRemoteSessionOcclusionEvent | 648 | 878 | 0 | 0 | wow64
+| NtUserDwmGetRemoteSessionOcclusionState | 649 | 879 | 0 | 0 | wow64
+| NtUserDwmKernelShutdown | 650 | 880 | 0 | 0 | wow64
+| NtUserDwmKernelStartup | 651 | 881 | 0 | 0 | wow64
+| NtUserDwmValidateWindow | 342 | 882 | 2 | 2 | wow64
+| NtUserEmptyClipboard | 475 | 250 | 0 | 0 | wow64
+| NtUserEnableChildWindowDpiMessage | 581 | 883 | 2 | 2 | wow64
+| NtUserEnableIAMAccess | 1087 | 884 | 3 | 3 | wow64
+| NtUserEnableMenuItem | 474 | 212 | 3 | 3 | wow64
+| NtUserEnableMouseInPointer | 1092 | 885 | 1 | 1 | wow64
+| NtUserEnableMouseInputForCursorSuppression | 1096 | 886 | 1 | 1 | wow64
+| NtUserEnableScrollBar | 473 | 185 | 3 | 3 | wow64
+| NtUserEnableTouchPad | 734 | 887 | 1 | 1 | wow64
+| NtUserEndDeferWindowPosEx | 472 | 41 | 2 | 2 | wow64
+| NtUserEndMenu | 471 | 888 | 0 | 0 | wow64
+| NtUserEndPaint | 470 | 28 | 2 | 2 | wow64
+| NtUserEnumDisplayDevices | 469 | 249 | 4 | 4 | wow64
+| NtUserEnumDisplayMonitors | 468 | 77 | 4 | 4 | wow64
+| NtUserEnumDisplaySettings | 467 | 278 | 4 | 4 | wow64
+| NtUserEvent | 466 | 889 | 1 | 1 | wow64
+| NtUserExcludeUpdateRgn | 465 | 83 | 2 | 2 | wow64
+| NtUserFillWindow | 464 | 139 | 4 | 4 | wow64
+| NtUserFindExistingCursorIcon | 463 | 65 | 3 | 3 | wow64
+| NtUserFindWindowEx | 462 | 112 | 5 | 5 | native
+| NtUserFlashWindowEx | 461 | 890 | 1 | 1 | wow64
+| NtUserFrostCrashedWindow | 460 | 891 | 2 | 2 | wow64
+| NtUserGetAltTabInfo | 459 | 245 | 6 | 6 | native
+| NtUserGetAncestor | 458 | 180 | 2 | 2 | wow64
+| NtUserGetAppImeLevel | 457 | 892 | 1 | 1 | wow64
+| NtUserGetAsyncKeyState | 456 | 71 | 1 | 1 | wow64
+| NtUserGetAtomName | 455 | 171 | 2 | 2 | wow64
+| NtUserGetAutoRotationState | 1079 | 893 | 1 | 1 | wow64
+| NtUserGetCIMSSM | 440 | 894 | 1 | 1 | wow64
+| NtUserGetCPD | 441 | 72 | 3 | 3 | wow64
+| NtUserGetCaretBlinkTime | 454 | 246 | 0 | 0 | wow64
+| NtUserGetCaretPos | 453 | 895 | 1 | 1 | wow64
+| NtUserGetClassInfoEx | 452 | 187 | 5 | 5 | native
+| NtUserGetClassName | 451 | 125 | 3 | 3 | wow64
+| NtUserGetClipCursor | 445 | 896 | 1 | 1 | wow64
+| NtUserGetClipboardAccessToken | 1100 | 897 | 2 | 2 | wow64
+| NtUserGetClipboardData | 450 | 251 | 2 | 2 | wow64
+| NtUserGetClipboardFormatName | 449 | 235 | 3 | 3 | wow64
+| NtUserGetClipboardOwner | 448 | 203 | 0 | 0 | wow64
+| NtUserGetClipboardSequenceNumber | 447 | 88 | 0 | 0 | wow64
+| NtUserGetClipboardViewer | 446 | 898 | 0 | 0 | wow64
+| NtUserGetComboBoxInfo | 444 | 899 | 2 | 2 | wow64
+| NtUserGetControlBrush | 443 | 124 | 3 | 3 | wow64
+| NtUserGetControlColor | 442 | 229 | 4 | 4 | wow64
+| NtUserGetCurrentInputMessageSource | 439 | 900 | 1 | 1 | wow64
+| NtUserGetCursorDims | 1111 | 901 | 1 | 1 | wow64
+| NtUserGetCursorFrameInfo | 438 | 244 | 4 | 4 | wow64
+| NtUserGetCursorInfo | 437 | 902 | 1 | 1 | wow64
+| NtUserGetDC | 436 | 13 | 1 | 1 | wow64
+| NtUserGetDCEx | 435 | 148 | 3 | 3 | wow64
+| NtUserGetDManipHookInitFunction | 638 | 903 | 2 | 2 | wow64
+| NtUserGetDesktopID | 434 | 904 | 2 | 2 | wow64
+| NtUserGetDisplayAutoRotationPreferences | 1076 | 905 | 1 | 1 | wow64
+| NtUserGetDisplayAutoRotationPreferencesByProcessId | 1075 | 906 | 3 | 3 | wow64
+| NtUserGetDisplayConfigBufferSizes | 348 | 907 | 3 | 3 | wow64
+| NtUserGetDoubleClickTime | 433 | 184 | 0 | 0 | wow64
+| NtUserGetDpiForMonitor | 1108 | 908 | 4 | 4 | wow64
+| NtUserGetDpiSystemMetrics | 432 | 909 | 2 | 2 | wow64
+| NtUserGetForegroundWindow | 431 | 63 | 0 | 0 | wow64
+| NtUserGetGUIThreadInfo | 429 | 257 | 2 | 2 | wow64
+| NtUserGetGestureConfig | 745 | 910 | 6 | 6 | native
+| NtUserGetGestureExtArgs | 747 | 911 | 3 | 3 | wow64
+| NtUserGetGestureInfo | 748 | 912 | 2 | 2 | wow64
+| NtUserGetGuiResources | 430 | 913 | 2 | 2 | wow64
+| NtUserGetHimetricScaleFactorFromPixelLocation | 1106 | 914 | 5 | 5 | native
+| NtUserGetIconInfo | 428 | 82 | 6 | 6 | native
+| NtUserGetIconSize | 427 | 138 | 4 | 4 | wow64
+| NtUserGetImeHotKey | 426 | 915 | 4 | 4 | wow64
+| NtUserGetImeInfoEx | 425 | 916 | 2 | 2 | wow64
+| NtUserGetInputLocaleInfo | 424 | 917 | 2 | 2 | wow64
+| NtUserGetInternalWindowPos | 423 | 918 | 3 | 3 | wow64
+| NtUserGetKeyNameText | 419 | 919 | 3 | 3 | wow64
+| NtUserGetKeyState | 418 | 6 | 1 | 1 | wow64
+| NtUserGetKeyboardLayoutList | 422 | 91 | 2 | 2 | wow64
+| NtUserGetKeyboardLayoutName | 421 | 920 | 1 | 1 | wow64
+| NtUserGetKeyboardState | 420 | 122 | 1 | 1 | wow64
+| NtUserGetLayeredWindowAttributes | 674 | 921 | 4 | 4 | wow64
+| NtUserGetListBoxInfo | 417 | 922 | 1 | 1 | wow64
+| NtUserGetMenuBarInfo | 416 | 195 | 4 | 4 | wow64
+| NtUserGetMenuIndex | 415 | 923 | 2 | 2 | wow64
+| NtUserGetMenuItemRect | 414 | 924 | 4 | 4 | wow64
+| NtUserGetMessage | 413 | 9 | 4 | 4 | wow64
+| NtUserGetMouseMovePointsEx | 412 | 925 | 5 | 5 | native
+| NtUserGetObjectInformation | 411 | 110 | 5 | 5 | native
+| NtUserGetOpenClipboardWindow | 410 | 218 | 0 | 0 | wow64
+| NtUserGetOwnerTransformedMonitorRect | 0 | 0 | 4 | 4 | wow64
+| NtUserGetPhysicalDeviceRect | 725 | 926 | 2 | 2 | wow64
+| NtUserGetPointerCursorId | 743 | 927 | 2 | 2 | wow64
+| NtUserGetPointerDevice | 732 | 928 | 2 | 2 | wow64
+| NtUserGetPointerDeviceCursors | 728 | 929 | 3 | 3 | wow64
+| NtUserGetPointerDeviceProperties | 731 | 930 | 3 | 3 | wow64
+| NtUserGetPointerDeviceRects | 729 | 931 | 3 | 3 | wow64
+| NtUserGetPointerDevices | 733 | 932 | 2 | 2 | wow64
+| NtUserGetPointerFrameArrivalTimes | 740 | 933 | 3 | 3 | wow64
+| NtUserGetPointerInfoList | 742 | 934 | 8 | 8 | native
+| NtUserGetPointerInputTransform | 741 | 935 | 3 | 3 | wow64
+| NtUserGetPointerType | 744 | 936 | 2 | 2 | wow64
+| NtUserGetPrecisionTouchPadConfiguration | 735 | 937 | 1 | 1 | wow64
+| NtUserGetPriorityClipboardFormat | 409 | 938 | 2 | 2 | wow64
+| NtUserGetProcessDpiAwareness | 1107 | 939 | 2 | 2 | wow64
+| NtUserGetProcessUIContextInformation | 1088 | 940 | 2 | 2 | wow64
+| NtUserGetProcessWindowStation | 408 | 37 | 0 | 0 | wow64
+| NtUserGetProp | 597 | 17 | 2 | 2 | wow64
+| NtUserGetQueueEventStatus | 1101 | 941 | 0 | 0 | wow64
+| NtUserGetRawInputBuffer | 407 | 942 | 3 | 3 | wow64
+| NtUserGetRawInputData | 406 | 943 | 5 | 5 | native
+| NtUserGetRawInputDeviceInfo | 405 | 944 | 4 | 4 | wow64
+| NtUserGetRawInputDeviceList | 404 | 945 | 3 | 3 | wow64
+| NtUserGetRawPointerDeviceData | 727 | 946 | 5 | 5 | native
+| NtUserGetRegisteredRawInputDevices | 403 | 947 | 3 | 3 | wow64
+| NtUserGetScrollBarInfo | 402 | 149 | 3 | 3 | wow64
+| NtUserGetSystemMenu | 401 | 99 | 2 | 2 | wow64
+| NtUserGetThreadDesktop | 400 | 133 | 1 | 1 | wow64
+| NtUserGetThreadState | 399 | 3 | 1 | 1 | wow64
+| NtUserGetTitleBarInfo | 398 | 145 | 2 | 2 | wow64
+| NtUserGetTopLevelWindow | 397 | 948 | 1 | 1 | wow64
+| NtUserGetTouchInputInfo | 685 | 949 | 4 | 4 | wow64
+| NtUserGetTouchValidationStatus | 719 | 950 | 1 | 1 | wow64
+| NtUserGetUpdateRect | 395 | 86 | 3 | 3 | wow64
+| NtUserGetUpdateRgn | 394 | 136 | 3 | 3 | wow64
+| NtUserGetUpdatedClipboardFormats | 396 | 951 | 3 | 3 | wow64
+| NtUserGetWOWClass | 387 | 952 | 2 | 2 | wow64
+| NtUserGetWindowBand | 393 | 953 | 2 | 2 | wow64
+| NtUserGetWindowCompositionAttribute | 391 | 954 | 2 | 2 | wow64
+| NtUserGetWindowCompositionInfo | 392 | 955 | 2 | 2 | wow64
+| NtUserGetWindowDC | 390 | 102 | 1 | 1 | wow64
+| NtUserGetWindowDisplayAffinity | 389 | 956 | 2 | 2 | wow64
+| NtUserGetWindowFeedbackSetting | 717 | 957 | 5 | 5 | native
+| NtUserGetWindowMinimizeRect | 647 | 958 | 2 | 2 | wow64
+| NtUserGetWindowPlacement | 388 | 215 | 2 | 2 | wow64
+| NtUserGetWindowRgnEx | 568 | 959 | 3 | 3 | wow64
+| NtUserGhostWindowFromHungWindow | 386 | 960 | 1 | 1 | wow64
+| NtUserHandleDelegatedInput | 483 | 961 | 2 | 2 | wow64
+| NtUserHardErrorControl | 536 | 962 | 3 | 3 | wow64
+| NtUserHideCaret | 535 | 34 | 1 | 1 | wow64
+| NtUserHidePointerContactVisualization | 718 | 963 | 1 | 1 | wow64
+| NtUserHiliteMenuItem | 534 | 964 | 4 | 4 | wow64
+| NtUserHungWindowFromGhostWindow | 533 | 965 | 1 | 1 | wow64
+| NtUserHwndQueryRedirectionInfo | 970 | 966 | 4 | 4 | wow64
+| NtUserHwndSetRedirectionInfo | 969 | 967 | 4 | 4 | wow64
+| NtUserImpersonateDdeClientWindow | 532 | 968 | 2 | 2 | wow64
+| NtUserInitTask | 529 | 969 | 12 | 12 | native
+| NtUserInitialize | 531 | 970 | 2 | 2 | wow64
+| NtUserInitializeClientPfnArrays | 530 | 971 | 4 | 4 | wow64
+| NtUserInitializeInputDeviceInjection | 1112 | 972 | 7 | 7 | native
+| NtUserInitializePointerDeviceInjection | 1113 | 973 | 5 | 5 | native
+| NtUserInitializeTouchInjection | 720 | 974 | 2 | 2 | wow64
+| NtUserInjectDeviceInput | 1115 | 975 | 3 | 3 | wow64
+| NtUserInjectGesture | 749 | 976 | 5 | 5 | native
+| NtUserInjectKeyboardInput | 1117 | 977 | 2 | 2 | wow64
+| NtUserInjectMouseInput | 1116 | 978 | 2 | 2 | wow64
+| NtUserInjectPointerInput | 1118 | 979 | 3 | 3 | wow64
+| NtUserInjectTouchInput | 721 | 980 | 2 | 2 | wow64
+| NtUserInternalClipCursor | 1098 | 981 | 2 | 2 | wow64
+| NtUserInternalGetWindowIcon | 527 | 982 | 2 | 2 | wow64
+| NtUserInternalGetWindowText | 528 | 101 | 3 | 3 | wow64
+| NtUserInvalidateRect | 526 | 7 | 3 | 3 | wow64
+| NtUserInvalidateRgn | 525 | 202 | 3 | 3 | wow64
+| NtUserIsChildWindowDpiMessageEnabled | 582 | 983 | 1 | 1 | wow64
+| NtUserIsClipboardFormatAvailable | 524 | 50 | 1 | 1 | wow64
+| NtUserIsMouseInPointerEnabled | 1093 | 984 | 0 | 0 | wow64
+| NtUserIsMouseInputEnabled | 1097 | 985 | 0 | 0 | wow64
+| NtUserIsTopLevelWindow | 523 | 986 | 1 | 1 | wow64
+| NtUserIsTouchWindow | 686 | 987 | 2 | 2 | wow64
+| NtUserIsWindowBroadcastingDpiToChildren | 583 | 988 | 1 | 1 | wow64
+| NtUserKillTimer | 522 | 30 | 2 | 2 | wow64
+| NtUserLayoutCompleted | 515 | 989 | 1 | 1 | wow64
+| NtUserLinkDpiCursor | 1110 | 990 | 3 | 3 | wow64
+| NtUserLoadKeyboardLayoutEx | 521 | 991 | 8 | 8 | native
+| NtUserLockWindowStation | 520 | 992 | 1 | 1 | wow64
+| NtUserLockWindowUpdate | 519 | 264 | 1 | 1 | wow64
+| NtUserLockWorkStation | 518 | 993 | 0 | 0 | wow64
+| NtUserLogicalToPerMonitorDPIPhysicalPoint | 516 | 994 | 2 | 2 | wow64
+| NtUserLogicalToPhysicalPoint | 517 | 995 | 2 | 2 | wow64
+| NtUserMNDragLeave | 510 | 996 | 0 | 0 | wow64
+| NtUserMNDragOver | 509 | 997 | 2 | 2 | wow64
+| NtUserMagControl | 967 | 998 | 2 | 2 | wow64
+| NtUserMagGetContextInformation | 965 | 999 | 4 | 4 | wow64
+| NtUserMagSetContextInformation | 966 | 1000 | 4 | 4 | wow64
+| NtUserMapVirtualKeyEx | 514 | 93 | 4 | 4 | wow64
+| NtUserMenuItemFromPoint | 513 | 1001 | 4 | 4 | wow64
+| NtUserMessageCall | 512 | 10 | 7 | 7 | native
+| NtUserMinMaximize | 511 | 1002 | 3 | 3 | wow64
+| NtUserModifyUserStartupInfoFlags | 508 | 272 | 2 | 2 | wow64
+| NtUserModifyWindowTouchCapability | 687 | 1003 | 3 | 3 | wow64
+| NtUserMoveWindow | 507 | 96 | 6 | 6 | native
+| NtUserNavigateFocus | 1126 | 1004 | 2 | 2 | wow64
+| NtUserNotifyIMEStatus | 506 | 1005 | 3 | 3 | wow64
+| NtUserNotifyProcessCreate | 505 | 143 | 4 | 4 | wow64
+| NtUserNotifyWinEvent | 504 | 48 | 4 | 4 | wow64
+| NtUserOpenClipboard | 503 | 209 | 2 | 2 | wow64
+| NtUserOpenDesktop | 502 | 169 | 3 | 3 | wow64
+| NtUserOpenInputDesktop | 501 | 1006 | 3 | 3 | wow64
+| NtUserOpenThreadDesktop | 500 | 1007 | 4 | 4 | wow64
+| NtUserOpenWindowStation | 499 | 162 | 2 | 2 | wow64
+| NtUserPaintDesktop | 498 | 279 | 1 | 1 | wow64
+| NtUserPaintMenuBar | 542 | 240 | 6 | 6 | native
+| NtUserPaintMonitor | 497 | 1008 | 3 | 3 | wow64
+| NtUserPeekMessage | 496 | 4 | 5 | 5 | native
+| NtUserPerMonitorDPIPhysicalToLogicalPoint | 490 | 1009 | 2 | 2 | wow64
+| NtUserPhysicalToLogicalPoint | 495 | 1010 | 2 | 2 | wow64
+| NtUserPostMessage | 494 | 18 | 4 | 4 | wow64
+| NtUserPostThreadMessage | 493 | 97 | 4 | 4 | wow64
+| NtUserPrintWindow | 492 | 1011 | 3 | 3 | wow64
+| NtUserProcessConnect | 491 | 248 | 2 | 2 | wow64
+| NtUserPromoteMouseInPointer | 1094 | 1012 | 1 | 1 | wow64
+| NtUserPromotePointer | 737 | 1013 | 2 | 2 | wow64
+| NtUserQueryBSDRWindow | 489 | 1014 | 0 | 0 | wow64
+| NtUserQueryDisplayConfig | 346 | 1015 | 6 | 6 | native
+| NtUserQueryInformationThread | 488 | 1016 | 4 | 4 | wow64
+| NtUserQueryInputContext | 487 | 1017 | 2 | 2 | wow64
+| NtUserQuerySendMessage | 486 | 1018 | 1 | 1 | wow64
+| NtUserQueryWindow | 485 | 19 | 2 | 2 | wow64
+| NtUserRealChildWindowFromPoint | 484 | 1019 | 3 | 3 | wow64
+| NtUserRealInternalGetMessage | 537 | 236 | 6 | 6 | native
+| NtUserRealWaitMessageEx | 538 | 1020 | 2 | 2 | wow64
+| NtUserRedrawWindow | 645 | 22 | 4 | 4 | wow64
+| NtUserRegisterBSDRWindow | 644 | 1021 | 2 | 2 | wow64
+| NtUserRegisterClassExWOW | 643 | 178 | 7 | 7 | native
+| NtUserRegisterDManipHook | 637 | 1022 | 4 | 4 | wow64
+| NtUserRegisterEdgy | 715 | 1023 | 3 | 3 | wow64
+| NtUserRegisterErrorReportingDialog | 642 | 1024 | 2 | 2 | wow64
+| NtUserRegisterHotKey | 636 | 1025 | 4 | 4 | wow64
+| NtUserRegisterManipulationThread | 639 | 1026 | 1 | 1 | wow64
+| NtUserRegisterPointerDeviceNotifications | 730 | 1027 | 2 | 2 | wow64
+| NtUserRegisterPointerInputTarget | 739 | 1028 | 3 | 3 | wow64
+| NtUserRegisterRawInputDevices | 635 | 1029 | 3 | 3 | wow64
+| NtUserRegisterServicesProcess | 634 | 1030 | 1 | 1 | wow64
+| NtUserRegisterSessionPort | 655 | 1031 | 1 | 1 | wow64
+| NtUserRegisterShellPTPListener | 716 | 1032 | 2 | 2 | wow64
+| NtUserRegisterTasklist | 633 | 1033 | 1 | 1 | wow64
+| NtUserRegisterTouchHitTestingWindow | 722 | 1034 | 2 | 2 | wow64
+| NtUserRegisterTouchPadCapable | 726 | 1035 | 1 | 1 | wow64
+| NtUserRegisterUserApiHook | 641 | 1036 | 4 | 4 | wow64
+| NtUserRegisterWindowMessage | 632 | 58 | 1 | 1 | wow64
+| NtUserReleaseDwmHitTestWaiters | 539 | 1037 | 0 | 0 | wow64
+| NtUserRemoteConnect | 660 | 1038 | 3 | 3 | wow64
+| NtUserRemoteRedrawRectangle | 659 | 1039 | 4 | 4 | wow64
+| NtUserRemoteRedrawScreen | 658 | 1040 | 0 | 0 | wow64
+| NtUserRemoteStopScreenUpdates | 657 | 1041 | 0 | 0 | wow64
+| NtUserRemoveClipboardFormatListener | 631 | 1042 | 1 | 1 | wow64
+| NtUserRemoveMenu | 630 | 252 | 3 | 3 | wow64
+| NtUserRemoveProp | 629 | 73 | 2 | 2 | wow64
+| NtUserReportInertia | 1109 | 1043 | 5 | 5 | native
+| NtUserResolveDesktopForWOW | 628 | 1044 | 1 | 1 | wow64
+| NtUserSBGetParms | 627 | 81 | 4 | 4 | wow64
+| NtUserScrollDC | 626 | 109 | 7 | 7 | native
+| NtUserScrollWindowEx | 625 | 192 | 8 | 8 | native
+| NtUserSelectPalette | 624 | 32 | 3 | 3 | wow64
+| NtUserSendEventMessage | 551 | 1045 | 4 | 4 | wow64
+| NtUserSendInput | 623 | 132 | 3 | 3 | wow64
+| NtUserSetActivationFilter | 1082 | 1046 | 2 | 2 | wow64
+| NtUserSetActiveProcessForMonitor | 1074 | 1047 | 2 | 2 | wow64
+| NtUserSetActiveWindow | 622 | 226 | 1 | 1 | wow64
+| NtUserSetAppImeLevel | 621 | 1048 | 2 | 2 | wow64
+| NtUserSetAutoRotation | 1078 | 1049 | 1 | 1 | wow64
+| NtUserSetBrokeredForeground | 1084 | 1050 | 1 | 1 | wow64
+| NtUserSetCalibrationData | 724 | 1051 | 4 | 4 | wow64
+| NtUserSetCapture | 620 | 76 | 1 | 1 | wow64
+| NtUserSetChildWindowNoActivate | 619 | 1052 | 1 | 1 | wow64
+| NtUserSetClassLong | 618 | 194 | 4 | 4 | wow64
+| NtUserSetClassLongPtr | -1 | 1128 | -1 | 4 | i386
+| NtUserSetClassWord | 617 | 1053 | 3 | 3 | wow64
+| NtUserSetClipboardData | 616 | 211 | 3 | 3 | wow64
+| NtUserSetClipboardViewer | 615 | 284 | 1 | 1 | wow64
+| NtUserSetCoreWindow | 1124 | 1054 | 2 | 2 | wow64
+| NtUserSetCoreWindowPartner | 1125 | 1055 | 3 | 3 | wow64
+| NtUserSetCursor | 614 | 29 | 1 | 1 | wow64
+| NtUserSetCursorContents | 613 | 1056 | 2 | 2 | wow64
+| NtUserSetCursorIconData | 612 | 166 | 4 | 4 | wow64
+| NtUserSetDisplayAutoRotationPreferences | 1077 | 1057 | 1 | 1 | wow64
+| NtUserSetDisplayConfig | 347 | 1058 | 5 | 5 | native
+| NtUserSetDisplayMapping | 723 | 1059 | 2 | 2 | wow64
+| NtUserSetFallbackForeground | 1083 | 1060 | 2 | 2 | wow64
+| NtUserSetFeatureReportResponse | 1114 | 1061 | 3 | 3 | wow64
+| NtUserSetFocus | 611 | 84 | 1 | 1 | wow64
+| NtUserSetGestureConfig | 746 | 1062 | 5 | 5 | native
+| NtUserSetImeHotKey | 610 | 1063 | 5 | 5 | native
+| NtUserSetImeInfoEx | 609 | 1064 | 1 | 1 | wow64
+| NtUserSetImeOwnerWindow | 608 | 1065 | 2 | 2 | wow64
+| NtUserSetImmersiveBackgroundWindow | 594 | 1066 | 1 | 1 | wow64
+| NtUserSetInformationThread | 607 | 227 | 4 | 4 | wow64
+| NtUserSetInternalWindowPos | 606 | 1067 | 4 | 4 | wow64
+| NtUserSetKeyboardState | 605 | 241 | 1 | 1 | wow64
+| NtUserSetLayeredWindowAttributes | 673 | 1068 | 4 | 4 | wow64
+| NtUserSetManipulationInputTarget | 640 | 1069 | 4 | 4 | wow64
+| NtUserSetMenu | 604 | 1070 | 3 | 3 | wow64
+| NtUserSetMenuContextHelpId | 603 | 1071 | 2 | 2 | wow64
+| NtUserSetMenuDefaultItem | 602 | 260 | 3 | 3 | wow64
+| NtUserSetMenuFlagRtoL | 601 | 1072 | 1 | 1 | wow64
+| NtUserSetMirrorRendering | 964 | 1073 | 2 | 2 | wow64
+| NtUserSetObjectInformation | 600 | 1074 | 4 | 4 | wow64
+| NtUserSetParent | 599 | 121 | 2 | 2 | wow64
+| NtUserSetPrecisionTouchPadConfiguration | 736 | 1075 | 1 | 1 | wow64
+| NtUserSetProcessDpiAwareness | 580 | 1076 | 2 | 2 | wow64
+| NtUserSetProcessRestrictionExemption | 1089 | 1077 | 1 | 1 | wow64
+| NtUserSetProcessUIAccessZorder | 579 | 1078 | 0 | 0 | wow64
+| NtUserSetProcessWindowStation | 598 | 170 | 1 | 1 | wow64
+| NtUserSetProp | 596 | 79 | 3 | 3 | wow64
+| NtUserSetScrollInfo | 595 | 51 | 4 | 4 | wow64
+| NtUserSetSensorPresence | 2 | 2 | 1 | 1 | wow64
+| NtUserSetShellWindowEx | 593 | 1079 | 2 | 2 | wow64
+| NtUserSetSysColors | 592 | 1080 | 4 | 4 | wow64
+| NtUserSetSystemCursor | 591 | 1081 | 2 | 2 | wow64
+| NtUserSetSystemMenu | 590 | 265 | 2 | 2 | wow64
+| NtUserSetSystemTimer | 589 | 1082 | 3 | 3 | wow64
+| NtUserSetThreadDesktop | 587 | 147 | 1 | 1 | wow64
+| NtUserSetThreadInputBlocked | 588 | 1083 | 2 | 2 | wow64
+| NtUserSetThreadLayoutHandles | 586 | 1084 | 2 | 2 | wow64
+| NtUserSetThreadState | 585 | 219 | 2 | 2 | wow64
+| NtUserSetTimer | 584 | 27 | 5 | 5 | native
+| NtUserSetWinEventHook | 562 | 262 | 8 | 8 | native
+| NtUserSetWindowArrangement | 1090 | 1085 | 3 | 3 | wow64
+| NtUserSetWindowBand | 578 | 1086 | 3 | 3 | wow64
+| NtUserSetWindowCompositionAttribute | 577 | 1087 | 2 | 2 | wow64
+| NtUserSetWindowCompositionTransition | 575 | 1088 | 7 | 7 | native
+| NtUserSetWindowDisplayAffinity | 574 | 1089 | 2 | 2 | wow64
+| NtUserSetWindowFNID | 573 | 151 | 2 | 2 | wow64
+| NtUserSetWindowFeedbackSetting | 714 | 1090 | 5 | 5 | native
+| NtUserSetWindowLong | 572 | 94 | 4 | 4 | wow64
+| NtUserSetWindowLongPtr | -1 | 1129 | -1 | 4 | i386
+| NtUserSetWindowPlacement | 571 | 228 | 2 | 2 | wow64
+| NtUserSetWindowPos | 570 | 39 | 7 | 7 | native
+| NtUserSetWindowRgn | 569 | 204 | 3 | 3 | wow64
+| NtUserSetWindowRgnEx | 567 | 1091 | 3 | 3 | wow64
+| NtUserSetWindowShowState | 1091 | 1092 | 2 | 2 | wow64
+| NtUserSetWindowStationUser | 564 | 1093 | 4 | 4 | wow64
+| NtUserSetWindowWord | 563 | 234 | 3 | 3 | wow64
+| NtUserSetWindowsHookAW | 566 | 259 | 3 | 3 | wow64
+| NtUserSetWindowsHookEx | 565 | 142 | 6 | 6 | native
+| NtUserShowCaret | 561 | 40 | 1 | 1 | wow64
+| NtUserShowScrollBar | 560 | 64 | 3 | 3 | wow64
+| NtUserShowSystemCursor | 963 | 1094 | 1 | 1 | wow64
+| NtUserShowWindow | 559 | 90 | 2 | 2 | wow64
+| NtUserShowWindowAsync | 558 | 285 | 2 | 2 | wow64
+| NtUserShutdownBlockReasonCreate | 557 | 1095 | 3 | 3 | wow64
+| NtUserShutdownBlockReasonQuery | 556 | 1096 | 3 | 3 | wow64
+| NtUserShutdownReasonDestroy | 555 | 1097 | 1 | 1 | wow64
+| NtUserSignalRedirectionStartComplete | 1073 | 1098 | 0 | 0 | wow64
+| NtUserSlicerControl | 968 | 1099 | 4 | 4 | wow64
+| NtUserSoundSentry | 554 | 1100 | 0 | 0 | wow64
+| NtUserSwitchDesktop | 553 | 1101 | 3 | 3 | wow64
+| NtUserSystemParametersInfo | 552 | 69 | 4 | 4 | wow64
+| NtUserTestForInteractiveUser | 550 | 1102 | 1 | 1 | wow64
+| NtUserThunkedMenuInfo | 549 | 266 | 2 | 2 | wow64
+| NtUserThunkedMenuItemInfo | 548 | 154 | 6 | 6 | native
+| NtUserToUnicodeEx | 547 | 123 | 7 | 7 | native
+| NtUserTrackMouseEvent | 546 | 221 | 1 | 1 | wow64
+| NtUserTrackPopupMenuEx | 545 | 1103 | 6 | 6 | native
+| NtUserTransformPoint | 1104 | 1104 | 3 | 3 | wow64
+| NtUserTransformRect | 1105 | 1105 | 3 | 3 | wow64
+| NtUserTranslateAccelerator | 541 | 20 | 3 | 3 | wow64
+| NtUserTranslateMessage | 540 | 16 | 2 | 2 | wow64
+| NtUserUndelegateInput | 646 | 1106 | 2 | 2 | wow64
+| NtUserUnhookWinEvent | 683 | 263 | 1 | 1 | wow64
+| NtUserUnhookWindowsHookEx | 684 | 114 | 1 | 1 | wow64
+| NtUserUnloadKeyboardLayout | 682 | 1107 | 1 | 1 | wow64
+| NtUserUnlockWindowStation | 681 | 1108 | 1 | 1 | wow64
+| NtUserUnregisterClass | 680 | 189 | 3 | 3 | wow64
+| NtUserUnregisterHotKey | 678 | 1109 | 2 | 2 | wow64
+| NtUserUnregisterSessionPort | 654 | 1110 | 0 | 0 | wow64
+| NtUserUnregisterUserApiHook | 679 | 1111 | 0 | 0 | wow64
+| NtUserUpdateDefaultDesktopThumbnail | 576 | 1112 | 5 | 5 | native
+| NtUserUpdateInputContext | 677 | 1113 | 3 | 3 | wow64
+| NtUserUpdateInstance | 676 | 1114 | 3 | 3 | wow64
+| NtUserUpdateLayeredWindow | 675 | 1115 | 10 | 10 | native
+| NtUserUpdatePerUserSystemParameters | 672 | 1116 | 1 | 1 | wow64
+| NtUserUpdateWindowInputSinkHints | 1103 | 1117 | 2 | 2 | wow64
+| NtUserUpdateWindowTransform | 652 | 1118 | 3 | 3 | wow64
+| NtUserUserHandleGrantAccess | 671 | 1119 | 3 | 3 | wow64
+| NtUserValidateHandleSecure | 670 | 1120 | 1 | 1 | wow64
+| NtUserValidateRect | 669 | 207 | 2 | 2 | wow64
+| NtUserValidateTimerCallback | 668 | 25 | 1 | 1 | wow64
+| NtUserVkKeyScanEx | 667 | 43 | 3 | 3 | wow64
+| NtUserWaitAvailableMessageEx | 661 | 1121 | 2 | 2 | wow64
+| NtUserWaitForInputIdle | 666 | 1122 | 3 | 3 | wow64
+| NtUserWaitForMsgAndEvent | 665 | 1123 | 1 | 1 | wow64
+| NtUserWaitForRedirectionStartComplete | 1072 | 1124 | 0 | 0 | wow64
+| NtUserWaitMessage | 664 | 15 | 0 | 0 | wow64
+| NtUserWindowFromPhysicalPoint | 663 | 1125 | 2 | 2 | wow64
+| NtUserWindowFromPoint | 662 | 23 | 2 | 2 | wow64
+| NtUserYieldTask | 1 | 1 | 0 | 0 | wow64
+| NtValidateCompositionSurfaceHandle | 972 | 1126 | 2 | 2 | wow64
+| NtVisualCaptureBits | 988 | 1127 | 9 | 9 | native
+

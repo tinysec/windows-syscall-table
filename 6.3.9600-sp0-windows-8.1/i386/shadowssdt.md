@@ -1,1040 +1,1041 @@
-# 6.3.9600-sp0-windows-8.1 i386 shadowssdt
+# shadowssdt database for 6.3.9600-sp0-windows-8.1 i386
 
 |id|name|argc|argc64
 | ------| ------ | ------ | ------
-|0x000(000)|NtUserYieldTask|0|0
-|0x001(001)|NtUserSetSensorPresence|1|1
-|0x002(002)|NtGdiWidenPath|1|1
-|0x003(003)|NtGdiUpdateColors|1|1
-|0x004(004)|NtGdiUnrealizeObject|1|1
-|0x005(005)|NtGdiUnmapMemFont|1|-1
-|0x006(006)|NtGdiSetBrushAttributes|2|2
-|0x007(007)|NtGdiTransparentBlt|11|11
-|0x008(008)|NtGdiTransformPoints|5|5
-|0x009(009)|NtGdiSwapBuffers|1|1
-|0x00A(010)|NtGdiStrokePath|1|1
-|0x00B(011)|NtGdiStrokeAndFillPath|1|1
-|0x00C(012)|NtGdiStretchDIBitsInternal|16|16
-|0x00D(013)|NtGdiStretchBlt|12|12
-|0x00E(014)|NtGdiStartPage|1|1
-|0x00F(015)|NtGdiStartDoc|4|4
-|0x010(016)|NtGdiSetSizeDevice|3|3
-|0x011(017)|NtGdiSetVirtualResolution|5|5
-|0x012(018)|NtGdiSetTextJustification|3|3
-|0x013(019)|NtGdiSetSystemPaletteUse|2|2
-|0x014(020)|NtGdiSetRectRgn|5|5
-|0x015(021)|NtGdiSetPixelFormat|2|2
-|0x016(022)|NtGdiSetPixel|4|4
-|0x017(023)|NtGdiSetOPMSigningKeyAndSequenceNumbers|2|2
-|0x018(024)|NtGdiSetLayout|3|3
-|0x019(025)|NtGdiMirrorWindowOrg|1|1
-|0x01A(026)|NtGdiGetDeviceWidth|1|1
-|0x01B(027)|NtGdiSetMiterLimit|3|3
-|0x01C(028)|NtGdiSetMetaRgn|1|1
-|0x01D(029)|NtGdiSetMagicColors|3|3
-|0x01E(030)|NtGdiSetLinkedUFIs|3|3
-|0x01F(031)|NtGdiSetIcmMode|3|3
-|0x020(032)|NtGdiSetFontXform|3|3
-|0x021(033)|NtGdiSetFontEnumeration|1|1
-|0x022(034)|NtGdiSetDIBitsToDeviceInternal|16|16
-|0x023(035)|NtGdiSetDeviceGammaRamp|2|2
-|0x024(036)|NtGdiSetColorSpace|2|2
-|0x025(037)|NtGdiSetColorAdjustment|2|2
-|0x026(038)|NtGdiSetBrushOrg|4|4
-|0x027(039)|NtGdiSetBrushAttributes|2|2
-|0x028(040)|NtGdiSetBoundsRect|3|3
-|0x029(041)|NtGdiSetBitmapDimension|4|4
-|0x02A(042)|NtGdiSetBitmapBits|3|3
-|0x02B(043)|NtGdiSetBitmapAttributes|2|2
-|0x02C(044)|NtGdiSelectPen|2|2
-|0x02D(045)|NtGdiSelectFont|2|2
-|0x02E(046)|NtGdiSelectClipPath|2|2
-|0x02F(047)|NtGdiSelectBrush|2|2
-|0x030(048)|NtGdiSelectBitmap|2|2
-|0x031(049)|NtGdiScaleWindowExtEx|6|6
-|0x032(050)|NtGdiScaleViewportExtEx|6|6
-|0x033(051)|NtGdiSaveDC|1|1
-|0x034(052)|NtGdiRoundRect|7|7
-|0x035(053)|NtGdiRestoreDC|2|2
-|0x036(054)|NtGdiResizePalette|2|2
-|0x037(055)|NtGdiResetDC|5|5
-|0x038(056)|NtGdiRemoveFontMemResourceEx|1|1
-|0x039(057)|NtGdiRemoveFontResourceW|6|6
-|0x03A(058)|NtGdiRectVisible|2|2
-|0x03B(059)|NtGdiRectInRegion|2|2
-|0x03C(060)|NtGdiRectangle|5|5
-|0x03D(061)|NtGdiQueryFontAssocInfo|1|1
-|0x03E(062)|NtGdiQueryFonts|3|3
-|0x03F(063)|NtGdiPtVisible|3|3
-|0x040(064)|NtGdiPtInRegion|3|3
-|0x041(065)|NtGdiPolyTextOutW|4|4
-|0x042(066)|NtGdiPolyPolyDraw|5|5
-|0x043(067)|NtGdiPolyDraw|4|4
-|0x044(068)|NtGdiPlgBlt|11|11
-|0x045(069)|NtGdiPathToRegion|1|1
-|0x046(070)|NtGdiPolyPatBlt|5|5
-|0x047(071)|NtGdiPatBlt|6|6
-|0x048(072)|NtGdiOpenDCW|9|9
-|0x049(073)|NtGdiOffsetRgn|3|3
-|0x04A(074)|NtGdiOffsetClipRgn|3|3
-|0x04B(075)|NtGdiMoveTo|4|4
-|0x04C(076)|NtGdiMonoBitmap|1|1
-|0x04D(077)|NtGdiModifyWorldTransform|3|3
-|0x04E(078)|NtGdiMaskBlt|13|13
-|0x04F(079)|NtGdiMakeInfoDC|2|2
-|0x050(080)|NtGdiMakeFontDir|5|5
-|0x051(081)|NtGdiLineTo|3|3
-|0x052(082)|NtGdiInvertRgn|2|2
-|0x053(083)|NtGdiIntersectClipRect|5|5
-|0x054(084)|NtGdiInitSpool|0|0
-|0x055(085)|CIgnoreInputQueue::AddRef|0|-1
-|0x056(086)|NtGdiIcmBrushInfo|8|8
-|0x057(087)|NtGdiHfontCreate|5|5
-|0x058(088)|NtGdiGradientFill|6|6
-|0x059(089)|NtGdiGetWidthTable|7|7
-|0x05A(090)|NtGdiGetFontUnicodeRanges|2|2
-|0x05B(091)|NtGdiAddEmbFontToDC|2|2
-|0x05C(092)|NtGdiChangeGhostFont|2|2
-|0x05D(093)|NtGdiGetEmbedFonts|0|0
-|0x05E(094)|NtGdiGetUFIPathname|10|10
-|0x05F(095)|NtGdiGetEmbUFI|7|7
-|0x060(096)|NtGdiGetUFI|6|6
-|0x061(097)|NtGdiGetTransform|3|3
-|0x062(098)|NtGdiGetTextMetricsW|3|3
-|0x063(099)|NtGdiGetTextFaceW|4|4
-|0x064(100)|NtGdiGetTextExtentExW|8|8
-|0x065(101)|NtGdiGetTextExtent|5|5
-|0x066(102)|NtGdiGetTextCharsetInfo|3|3
-|0x067(103)|NtGdiGetSystemPaletteUse|1|1
-|0x068(104)|NtGdiGetSuggestedOPMProtectedOutputArraySize|2|2
-|0x069(105)|NtGdiGetStringBitmapW|5|5
-|0x06A(106)|NtGdiGetStockObject|1|1
-|0x06B(107)|NtGdiGetStats|5|5
-|0x06C(108)|NtGdiGetSpoolMessage|4|-1
-|0x06D(109)|NtGdiGetServerMetaFileBits|7|7
-|0x06E(110)|NtGdiGetRgnBox|2|2
-|0x06F(111)|NtGdiGetRegionData|3|3
-|0x070(112)|NtGdiGetRealizationInfo|2|2
-|0x071(113)|NtGdiGetRasterizerCaps|2|2
-|0x072(114)|NtGdiGetRandomRgn|3|3
-|0x073(115)|NtGdiGetPixel|3|3
-|0x074(116)|NtGdiGetPath|4|4
-|0x075(117)|NtGdiGetOutlineTextMetricsInternalW|4|4
-|0x076(118)|NtGdiGetOPMRandomNumber|2|2
-|0x077(119)|NtGdiGetObjectBitmapHandle|2|2
-|0x078(120)|NtGdiGetNearestPaletteIndex|2|2
-|0x079(121)|NtGdiGetNearestColor|2|2
-|0x07A(122)|NtGdiGetMonitorID|3|3
-|0x07B(123)|NtGdiGetMiterLimit|2|2
-|0x07C(124)|NtGdiGetLinkedUFIs|3|3
-|0x07D(125)|NtGdiGetKerningPairs|3|3
-|0x07E(126)|NtGdiGetOPMInformation|3|3
-|0x07F(127)|NtGdiGetGlyphOutline|8|8
-|0x080(128)|NtGdiGetGlyphIndicesWInternal|6|6
-|0x081(129)|NtGdiGetGlyphIndicesW|5|5
-|0x082(130)|NtGdiGetFontResourceInfoInternalW|7|7
-|0x083(131)|NtGdiGetFontFileInfo|5|5
-|0x084(132)|NtGdiGetFontFileData|5|5
-|0x085(133)|NtGdiGetFontData|5|5
-|0x086(134)|NtGdiGetEudcTimeStampEx|3|3
-|0x087(135)|NtGdiGetETM|2|2
-|0x088(136)|NtGdiGetDIBitsInternal|9|9
-|0x089(137)|NtGdiGetDeviceCapsAll|2|2
-|0x08A(138)|NtGdiGetDeviceGammaRamp|2|2
-|0x08B(139)|NtGdiGetDeviceCaps|2|2
-|0x08C(140)|NtGdiGetDCPoint|3|3
-|0x08D(141)|NtGdiGetDCObject|2|2
-|0x08E(142)|NtGdiGetDCforBitmap|1|1
-|0x08F(143)|NtGdiGetDCDword|3|3
-|0x090(144)|NtGdiGetCurrentDpiInfo|2|2
-|0x091(145)|NtGdiGetCOPPCompatibleOPMInformation|3|3
-|0x092(146)|NtGdiGetColorSpaceforBitmap|1|1
-|0x093(147)|NtGdiGetColorAdjustment|2|2
-|0x094(148)|NtGdiGetCharWidthInfo|2|2
-|0x095(149)|NtGdiGetCharWidthW|6|6
-|0x096(150)|NtGdiGetCharSet|1|1
-|0x097(151)|NtGdiGetCharacterPlacementW|6|6
-|0x098(152)|NtGdiGetCharABCWidthsW|6|6
-|0x099(153)|NtGdiGetCertificateSize|3|3
-|0x09A(154)|NtGdiGetCertificate|4|4
-|0x09B(155)|NtGdiGetBoundsRect|3|3
-|0x09C(156)|NtGdiGetBitmapDimension|2|2
-|0x09D(157)|NtGdiGetBitmapBits|3|3
-|0x09E(158)|NtGdiGetAppClipBox|2|2
-|0x09F(159)|NtGdiGetAndSetDCDword|4|4
-|0x0A0(160)|NtGdiFullscreenControl|5|-1
-|0x0A1(161)|NtGdiFrameRgn|5|5
-|0x0A2(162)|NtGdiForceUFIMapping|2|2
-|0x0A3(163)|NtGdiFlush|0|0
-|0x0A4(164)|NtGdiFlattenPath|1|1
-|0x0A5(165)|NtGdiFillRgn|3|3
-|0x0A6(166)|NtGdiFillPath|1|1
-|0x0A7(167)|NtGdiExtTextOutW|9|9
-|0x0A8(168)|NtGdiExtSelectClipRgn|3|3
-|0x0A9(169)|NtGdiExtGetObjectW|3|3
-|0x0AA(170)|NtGdiExtFloodFill|5|5
-|0x0AB(171)|NtGdiExtEscape|8|8
-|0x0AC(172)|NtGdiExtCreateRegion|3|3
-|0x0AD(173)|NtGdiExtCreatePen|11|11
-|0x0AE(174)|NtGdiExcludeClipRect|5|5
-|0x0AF(175)|NtGdiEudcLoadUnloadLink|7|7
-|0x0B0(176)|NtGdiEqualRgn|2|2
-|0x0B1(177)|NtGdiEnumObjects|4|4
-|0x0B2(178)|NtGdiEnumFonts|8|8
-|0x0B3(179)|NtGdiEndPath|1|1
-|0x0B4(180)|NtGdiEndPage|1|1
-|0x0B5(181)|NtGdiEndGdiRendering|4|4
-|0x0B6(182)|NtGdiEndDoc|1|1
-|0x0B7(183)|NtGdiEnableEudc|1|1
-|0x0B8(184)|NtGdiEllipse|5|5
-|0x0B9(185)|NtGdiDrawEscape|4|4
-|0x0BA(186)|NtGdiDoPalette|6|6
-|0x0BB(187)|NtGdiDoBanding|4|4
-|0x0BC(188)|NtGdiGetPerBandInfo|2|2
-|0x0BD(189)|NtGdiDestroyOPMProtectedOutput|1|1
-|0x0BE(190)|NtGdiDescribePixelFormat|4|4
-|0x0BF(191)|NtGdiDeleteObjectApp|1|1
-|0x0C0(192)|NtGdiDeleteColorTransform|2|2
-|0x0C1(193)|NtGdiDeleteColorSpace|1|1
-|0x0C2(194)|NtGdiDeleteClientObj|1|1
-|0x0C3(195)|NtGdiDxgGenericThunk|6|-1
-|0x0C4(196)|NtGdiDdQueryMoCompStatus|2|-1
-|0x0C5(197)|NtGdiDdUpdateOverlay|3|-1
-|0x0C6(198)|NtGdiDdQueryMoCompStatus|2|-1
-|0x0C7(199)|NtGdiD3dContextCreate|4|-1
-|0x0C8(200)|NtGdiDdQueryMoCompStatus|2|-1
-|0x0C9(201)|NtGdiDdQueryMoCompStatus|2|-1
-|0x0CA(202)|NtGdiDdQueryMoCompStatus|2|-1
-|0x0CB(203)|NtGdiDdQueryMoCompStatus|2|-1
-|0x0CC(204)|NtGdiDdQueryMoCompStatus|2|-1
-|0x0CD(205)|NtGdiDdQueryMoCompStatus|2|-1
-|0x0CE(206)|NtGdiDdQueryMoCompStatus|2|-1
-|0x0CF(207)|NtGdiDdQueryMoCompStatus|2|-1
-|0x0D0(208)|NtGdiD3dContextCreate|4|-1
-|0x0D1(209)|NtGdiDdQueryMoCompStatus|2|-1
-|0x0D2(210)|NtGdiDdQueryMoCompStatus|2|-1
-|0x0D3(211)|NtGdiDdQueryMoCompStatus|2|-1
-|0x0D4(212)|NtGdiDdQueryMoCompStatus|2|-1
-|0x0D5(213)|NtGdiDdQueryMoCompStatus|2|-1
-|0x0D6(214)|NtGdiDdUpdateOverlay|3|-1
-|0x0D7(215)|NtGdiDdQueryMoCompStatus|2|-1
-|0x0D8(216)|NtGdiDdQueryMoCompStatus|2|-1
-|0x0D9(217)|NtGdiDdUnattachSurface|2|2
-|0x0DA(218)|NtGdiDdUpdateOverlay|3|-1
-|0x0DB(219)|NtGdiDdUpdateOverlay|3|-1
-|0x0DC(220)|NtGdiDdUpdateOverlay|3|-1
-|0x0DD(221)|NtGdiDdQueryMoCompStatus|2|-1
-|0x0DE(222)|NtGdiDdQueryMoCompStatus|2|-1
-|0x0DF(223)|NtGdiDdQueryMoCompStatus|2|-1
-|0x0E0(224)|NtGdiDdQueryMoCompStatus|2|-1
-|0x0E1(225)|NtGdiDdGetDriverState|1|-1
-|0x0E2(226)|NtGdiDdQueryMoCompStatus|2|-1
-|0x0E3(227)|NtGdiDdQueryMoCompStatus|2|-1
-|0x0E4(228)|NtGdiDdQueryDirectDrawObject|11|-1
-|0x0E5(229)|NtGdiDdQueryMoCompStatus|2|-1
-|0x0E6(230)|NtGdiDdUpdateOverlay|3|-1
-|0x0E7(231)|NtGdiDdQueryMoCompStatus|2|-1
-|0x0E8(232)|NtGdiDdQueryMoCompStatus|2|-1
-|0x0E9(233)|NtGdiDdQueryMoCompStatus|2|-1
-|0x0EA(234)|NtGdiDdQueryMoCompStatus|2|-1
-|0x0EB(235)|NtGdiDdQueryMoCompStatus|2|-1
-|0x0EC(236)|NtGdiDdQueryMoCompStatus|2|-1
-|0x0ED(237)|NtGdiDdUpdateOverlay|3|-1
-|0x0EE(238)|NtGdiDdQueryMoCompStatus|2|-1
-|0x0EF(239)|NtGdiDdQueryMoCompStatus|2|-1
-|0x0F0(240)|NtGdiDdQueryMoCompStatus|2|-1
-|0x0F1(241)|NtGdiDdQueryMoCompStatus|2|-1
-|0x0F2(242)|NtGdiDdQueryMoCompStatus|2|-1
-|0x0F3(243)|HeapVidMemAllocAligned|5|-1
-|0x0F4(244)|NtGdiDdQueryMoCompStatus|2|-1
-|0x0F5(245)|NtGdiDdGetDriverState|1|-1
-|0x0F6(246)|NtGdiDdQueryMoCompStatus|2|-1
-|0x0F7(247)|NtGdiDdQueryMoCompStatus|2|-1
-|0x0F8(248)|NtGdiDdGetDriverState|1|-1
-|0x0F9(249)|NtGdiDdGetDriverState|1|-1
-|0x0FA(250)|NtGdiDxgGenericThunk|6|-1
-|0x0FB(251)|NtGdiDdQueryMoCompStatus|2|-1
-|0x0FC(252)|NtGdiDdCreateSurface|8|-1
-|0x0FD(253)|NtGdiDdCreateSurface|8|-1
-|0x0FE(254)|NtGdiDdGetDriverState|1|-1
-|0x0FF(255)|NtGdiDdQueryMoCompStatus|2|-1
-|0x100(256)|NtGdiDdQueryMoCompStatus|2|-1
-|0x101(257)|NtGdiDdQueryMoCompStatus|2|-1
-|0x102(258)|NtGdiDdUpdateOverlay|3|-1
-|0x103(259)|NtGdiDdQueryMoCompStatus|2|-1
-|0x104(260)|NtGdiDdQueryMoCompStatus|2|-1
-|0x105(261)|NtGdiDdUpdateOverlay|3|-1
-|0x106(262)|NtGdiDdUpdateOverlay|3|-1
-|0x107(263)|NtGdiDdGetDriverState|1|-1
-|0x108(264)|NtGdiD3dDrawPrimitives2|7|-1
-|0x109(265)|NtGdiDdGetDriverState|1|-1
-|0x10A(266)|NtGdiDdGetDriverState|1|-1
-|0x10B(267)|NtGdiDdGetDriverState|1|-1
-|0x10C(268)|NtGdiD3dContextCreate|4|-1
-|0x10D(269)|NtGdiCreateSolidBrush|2|2
-|0x10E(270)|NtGdiCreateServerMetaFile|6|6
-|0x10F(271)|NtGdiCreateRoundRectRgn|6|6
-|0x110(272)|NtGdiCreateRectRgn|4|4
-|0x111(273)|NtGdiCreatePen|4|4
-|0x112(274)|NtGdiCreatePatternBrushInternal|3|3
-|0x113(275)|NtGdiCreatePaletteInternal|2|2
-|0x114(276)|NtGdiCreateOPMProtectedOutputs|5|5
-|0x115(277)|NtGdiCreateMetafileDC|1|1
-|0x116(278)|NtGdiCreateHatchBrushInternal|3|3
-|0x117(279)|NtGdiCreateHalftonePalette|1|1
-|0x118(280)|NtGdiCreateEllipticRgn|4|4
-|0x119(281)|NtGdiCreateSessionMappedDIBSection|8|8
-|0x11A(282)|NtGdiCreateDIBSection|9|9
-|0x11B(283)|NtGdiCreateDIBitmapInternal|11|11
-|0x11C(284)|NtGdiCreateDIBBrush|6|6
-|0x11D(285)|NtGdiCreateCompatibleDC|1|1
-|0x11E(286)|NtGdiCreateCompatibleBitmap|3|3
-|0x11F(287)|NtGdiCreateColorTransform|8|8
-|0x120(288)|NtGdiCreateColorSpace|1|1
-|0x121(289)|NtGdiCreateClientObj|1|1
-|0x122(290)|NtGdiCreateBitmapFromDxSurface2|7|7
-|0x123(291)|NtGdiCreateBitmapFromDxSurface|5|5
-|0x124(292)|NtGdiCreateBitmap|5|5
-|0x125(293)|NtGdiConvertMetafileRect|2|2
-|0x126(294)|NtGdiConfigureOPMProtectedOutput|4|4
-|0x127(295)|NtGdiComputeXformCoefficients|1|1
-|0x128(296)|NtGdiCombineTransform|3|3
-|0x129(297)|NtGdiCombineRgn|4|4
-|0x12A(298)|NtGdiColorCorrectPalette|6|6
-|0x12B(299)|NtGdiSetBrushAttributes|2|2
-|0x12C(300)|NtGdiClearBitmapAttributes|2|2
-|0x12D(301)|NtGdiCloseFigure|1|1
-|0x12E(302)|NtGdiCheckBitmapBits|8|8
-|0x12F(303)|NtGdiCancelDC|1|1
-|0x130(304)|NtGdiBitBlt|11|11
-|0x131(305)|NtGdiBeginPath|1|1
-|0x132(306)|NtGdiBeginGdiRendering|3|3
-|0x133(307)|NtGdiArcInternal|10|10
-|0x134(308)|NtGdiFontIsLinked|1|1
-|0x135(309)|NtGdiAnyLinkedFonts|0|0
-|0x136(310)|NtGdiAngleArc|6|6
-|0x137(311)|NtGdiAlphaBlend|12|12
-|0x138(312)|NtGdiAddRemoteMMInstanceToDC|3|3
-|0x139(313)|NtGdiRemoveMergeFont|2|2
-|0x13A(314)|NtGdiAddFontMemResourceEx|5|5
-|0x13B(315)|NtGdiAddRemoteFontToDC|4|4
-|0x13C(316)|NtGdiAddFontResourceW|6|6
-|0x13D(317)|NtGdiAbortPath|1|1
-|0x13E(318)|NtGdiAbortDoc|1|1
-|0x13F(319)|NtUserDefSetText|2|2
-|0x140(320)|NtUserDeferWindowPosAndBand|10|10
-|0x141(321)|NtUserDdeInitialize|5|5
-|0x142(322)|NtUserCanBrokerForceForeground|1|1
-|0x143(323)|NtUserCreateWindowStation|8|8
-|0x144(324)|NtUserCreateWindowEx|16|16
-|0x145(325)|NtUserCreateLocalMemHandle|4|4
-|0x146(326)|NtUserCreateInputContext|1|1
-|0x147(327)|NtUserCreateDesktopEx|6|6
-|0x148(328)|NtUserCreateCaret|4|4
-|0x149(329)|NtUserCreateAcceleratorTable|2|2
-|0x14A(330)|NtUserCountClipboardFormats|0|0
-|0x14B(331)|NtUserCopyAcceleratorTable|3|3
-|0x14C(332)|NtUserConvertMemHandle|2|2
-|0x14D(333)|NtUserConsoleControl|3|3
-|0x14E(334)|NtUserCloseWindowStation|1|1
-|0x14F(335)|NtUserCloseDesktop|1|1
-|0x150(336)|NtUserCloseClipboard|0|0
-|0x151(337)|NtUserClipCursor|1|1
-|0x152(338)|NtUserChildWindowFromPointEx|4|4
-|0x153(339)|NtUserCheckMenuItem|3|3
-|0x154(340)|NtUserCheckWindowThreadDesktop|2|2
-|0x155(341)|NtUserDwmValidateWindow|2|2
-|0x156(342)|NtUserCheckAccessForIntegrityLevel|3|3
-|0x157(343)|NtUserDisplayConfigSetDeviceInfo|1|1
-|0x158(344)|NtUserDisplayConfigGetDeviceInfo|1|1
-|0x159(345)|NtUserQueryDisplayConfig|6|6
-|0x15A(346)|NtUserSetDisplayConfig|5|5
-|0x15B(347)|NtUserGetDisplayConfigBufferSizes|3|3
-|0x15C(348)|NtUserChangeDisplaySettings|4|4
-|0x15D(349)|NtUserChangeClipboardChain|2|2
-|0x15E(350)|NtUserCallTwoParam|3|3
-|0x15F(351)|NtUserCallOneParam|2|2
-|0x160(352)|NtUserCallNoParam|1|1
-|0x161(353)|NtUserCallNextHookEx|4|4
-|0x162(354)|NtUserCallMsgFilter|2|2
-|0x163(355)|NtUserCallHwndParamLock|3|3
-|0x164(356)|NtUserCallHwndParam|3|3
-|0x165(357)|NtUserCallHwndOpt|2|2
-|0x166(358)|NtUserCallHwndLock|2|2
-|0x167(359)|NtUserCallHwnd|2|2
-|0x168(360)|NtUserBuildPropList|4|4
-|0x169(361)|NtUserBuildNameList|4|4
-|0x16A(362)|NtUserBuildHwndList|8|8
-|0x16B(363)|NtUserBuildHimcList|4|4
-|0x16C(364)|NtUserBlockInput|1|1
-|0x16D(365)|NtUserBitBltSysBmp|8|8
-|0x16E(366)|NtUserBeginPaint|2|2
-|0x16F(367)|NtUserAttachThreadInput|3|3
-|0x170(368)|NtUserAssociateInputContext|3|3
-|0x171(369)|NtUserAlterWindowStyle|3|3
-|0x172(370)|NtUserAddClipboardFormatListener|1|1
-|0x173(371)|NtUserActivateKeyboardLayout|2|2
-|0x174(372)|NtUserDelegateCapturePointers|3|3
-|0x175(373)|NtUserDelegateInput|6|6
-|0x176(374)|NtUserDispatchMessage|1|1
-|0x177(375)|NtUserDisableProcessWindowFiltering|0|0
-|0x178(376)|NtUserDisableThreadIme|1|1
-|0x179(377)|NtUserDestroyWindow|1|1
-|0x17A(378)|NtUserDestroyMenu|1|1
-|0x17B(379)|NtUserDestroyInputContext|1|1
-|0x17C(380)|NtUserDestroyCursor|2|2
-|0x17D(381)|NtUserDestroyAcceleratorTable|1|1
-|0x17E(382)|NtUserDeleteMenu|3|3
-|0x17F(383)|NtUserDoSoundDisconnect|0|0
-|0x180(384)|NtUserDoSoundConnect|0|0
-|0x181(385)|NtUserGhostWindowFromHungWindow|1|1
-|0x182(386)|NtUserGetWOWClass|2|2
-|0x183(387)|NtUserGetWindowPlacement|2|2
-|0x184(388)|NtUserGetWindowDisplayAffinity|2|2
-|0x185(389)|NtUserGetWindowDC|1|1
-|0x186(390)|NtUserGetWindowCompositionAttribute|2|2
-|0x187(391)|NtUserGetWindowCompositionInfo|2|2
-|0x188(392)|NtUserGetWindowBand|2|2
-|0x189(393)|NtUserGetUpdateRgn|3|3
-|0x18A(394)|NtUserGetUpdateRect|3|3
-|0x18B(395)|NtUserGetUpdatedClipboardFormats|3|3
-|0x18C(396)|NtUserGetTopLevelWindow|1|1
-|0x18D(397)|NtUserGetTitleBarInfo|2|2
-|0x18E(398)|NtUserGetThreadState|1|1
-|0x18F(399)|NtUserGetThreadDesktop|1|1
-|0x190(400)|NtUserGetSystemMenu|2|2
-|0x191(401)|NtUserGetScrollBarInfo|3|3
-|0x192(402)|NtUserGetRegisteredRawInputDevices|3|3
-|0x193(403)|NtUserGetRawInputDeviceList|3|3
-|0x194(404)|NtUserGetRawInputDeviceInfo|4|4
-|0x195(405)|NtUserGetRawInputData|5|5
-|0x196(406)|NtUserGetRawInputBuffer|3|3
-|0x197(407)|NtUserGetProcessWindowStation|0|0
-|0x198(408)|NtUserGetPriorityClipboardFormat|2|2
-|0x199(409)|NtUserGetOpenClipboardWindow|0|0
-|0x19A(410)|NtUserGetObjectInformation|5|5
-|0x19B(411)|NtUserGetMouseMovePointsEx|5|5
-|0x19C(412)|NtUserGetMessage|4|4
-|0x19D(413)|NtUserGetMenuItemRect|4|4
-|0x19E(414)|NtUserGetMenuIndex|2|2
-|0x19F(415)|NtUserGetMenuBarInfo|4|4
-|0x1A0(416)|NtUserGetListBoxInfo|1|1
-|0x1A1(417)|NtUserGetKeyState|1|1
-|0x1A2(418)|NtUserGetKeyNameText|3|3
-|0x1A3(419)|NtUserGetKeyboardState|1|1
-|0x1A4(420)|NtUserGetKeyboardLayoutName|1|1
-|0x1A5(421)|NtUserGetKeyboardLayoutList|2|2
-|0x1A6(422)|NtUserGetInternalWindowPos|3|3
-|0x1A7(423)|NtUserGetInputLocaleInfo|2|2
-|0x1A8(424)|NtUserGetImeInfoEx|2|2
-|0x1A9(425)|NtUserGetImeHotKey|4|4
-|0x1AA(426)|NtUserGetIconSize|4|4
-|0x1AB(427)|NtUserGetIconInfo|6|6
-|0x1AC(428)|NtUserGetGUIThreadInfo|2|2
-|0x1AD(429)|NtUserGetGuiResources|2|2
-|0x1AE(430)|NtUserGetForegroundWindow|0|0
-|0x1AF(431)|NtUserGetDoubleClickTime|0|0
-|0x1B0(432)|NtUserGetDesktopID|2|2
-|0x1B1(433)|NtUserGetDCEx|3|3
-|0x1B2(434)|NtUserGetDC|1|1
-|0x1B3(435)|NtUserGetCursorInfo|1|1
-|0x1B4(436)|NtUserGetCursorFrameInfo|4|4
-|0x1B5(437)|NtUserGetCurrentInputMessageSource|1|1
-|0x1B6(438)|NtUserGetCIMSSM|1|1
-|0x1B7(439)|NtUserGetCPD|3|3
-|0x1B8(440)|NtUserGetControlColor|4|4
-|0x1B9(441)|NtUserGetControlBrush|3|3
-|0x1BA(442)|NtUserGetComboBoxInfo|2|2
-|0x1BB(443)|NtUserGetClipCursor|1|1
-|0x1BC(444)|NtUserGetClipboardViewer|0|0
-|0x1BD(445)|NtUserGetClipboardSequenceNumber|0|0
-|0x1BE(446)|NtUserGetClipboardOwner|0|0
-|0x1BF(447)|NtUserGetClipboardFormatName|3|3
-|0x1C0(448)|NtUserGetClipboardData|2|2
-|0x1C1(449)|NtUserGetClassName|3|3
-|0x1C2(450)|NtUserGetClassInfoEx|5|5
-|0x1C3(451)|NtUserGetCaretPos|1|1
-|0x1C4(452)|NtUserGetCaretBlinkTime|0|0
-|0x1C5(453)|NtUserGetAtomName|2|2
-|0x1C6(454)|NtUserGetAsyncKeyState|1|1
-|0x1C7(455)|NtUserGetAppImeLevel|1|1
-|0x1C8(456)|NtUserGetAncestor|2|2
-|0x1C9(457)|NtUserGetAltTabInfo|6|6
-|0x1CA(458)|NtUserFrostCrashedWindow|2|2
-|0x1CB(459)|NtUserFlashWindowEx|1|1
-|0x1CC(460)|NtUserFindWindowEx|5|5
-|0x1CD(461)|NtUserFindExistingCursorIcon|3|3
-|0x1CE(462)|NtUserFillWindow|4|4
-|0x1CF(463)|NtUserExcludeUpdateRgn|2|2
-|0x1D0(464)|NtUserEvent|1|1
-|0x1D1(465)|NtUserEnumDisplaySettings|4|4
-|0x1D2(466)|NtUserEnumDisplayMonitors|4|4
-|0x1D3(467)|NtUserEnumDisplayDevices|4|4
-|0x1D4(468)|NtUserEndPaint|2|2
-|0x1D5(469)|NtUserEndMenu|0|0
-|0x1D6(470)|NtUserEndDeferWindowPosEx|2|2
-|0x1D7(471)|NtUserEnableScrollBar|3|3
-|0x1D8(472)|NtUserEnableMenuItem|3|3
-|0x1D9(473)|NtUserEmptyClipboard|0|0
-|0x1DA(474)|NtUserDrawMenuBarTemp|5|5
-|0x1DB(475)|NtUserDrawIconEx|11|11
-|0x1DC(476)|NtUserDrawCaptionTemp|7|7
-|0x1DD(477)|NtUserDrawCaption|4|4
-|0x1DE(478)|NtUserDrawAnimatedRects|4|4
-|0x1DF(479)|NtUserDragObject|5|5
-|0x1E0(480)|NtUserDragDetect|3|3
-|0x1E1(481)|NtUserHandleDelegatedInput|2|2
-|0x1E2(482)|NtUserRealChildWindowFromPoint|3|3
-|0x1E3(483)|NtUserQueryWindow|2|2
-|0x1E4(484)|NtUserQuerySendMessage|1|1
-|0x1E5(485)|NtUserQueryInputContext|2|2
-|0x1E6(486)|NtUserQueryInformationThread|4|4
-|0x1E7(487)|NtUserQueryBSDRWindow|0|0
-|0x1E8(488)|NtUserPerMonitorDPIPhysicalToLogicalPoint|2|2
-|0x1E9(489)|NtUserProcessConnect|2|2
-|0x1EA(490)|NtUserPrintWindow|3|3
-|0x1EB(491)|NtUserPostThreadMessage|4|4
-|0x1EC(492)|NtUserPostMessage|4|4
-|0x1ED(493)|NtUserPhysicalToLogicalPoint|2|2
-|0x1EE(494)|NtUserPeekMessage|5|5
-|0x1EF(495)|NtUserPaintMonitor|3|3
-|0x1F0(496)|NtUserPaintDesktop|1|1
-|0x1F1(497)|NtUserOpenWindowStation|2|2
-|0x1F2(498)|NtUserOpenThreadDesktop|4|4
-|0x1F3(499)|NtUserOpenInputDesktop|3|3
-|0x1F4(500)|NtUserOpenDesktop|3|3
-|0x1F5(501)|NtUserOpenClipboard|2|2
-|0x1F6(502)|NtUserNotifyWinEvent|4|4
-|0x1F7(503)|NtUserNotifyProcessCreate|4|4
-|0x1F8(504)|NtUserNotifyIMEStatus|3|3
-|0x1F9(505)|NtUserMoveWindow|6|6
-|0x1FA(506)|NtUserModifyUserStartupInfoFlags|2|2
-|0x1FB(507)|NtUserMNDragOver|2|2
-|0x1FC(508)|NtUserMNDragLeave|0|0
-|0x1FD(509)|NtUserMinMaximize|3|3
-|0x1FE(510)|NtUserMessageCall|7|7
-|0x1FF(511)|NtUserMenuItemFromPoint|4|4
-|0x200(512)|NtUserMapVirtualKeyEx|4|4
-|0x201(513)|NtUserLayoutCompleted|1|1
-|0x202(514)|NtUserLogicalToPerMonitorDPIPhysicalPoint|2|2
-|0x203(515)|NtUserLogicalToPhysicalPoint|2|2
-|0x204(516)|NtUserLockWorkStation|0|0
-|0x205(517)|NtUserLockWindowUpdate|1|1
-|0x206(518)|NtUserLockWindowStation|1|1
-|0x207(519)|NtUserLoadKeyboardLayoutEx|8|8
-|0x208(520)|NtUserKillTimer|2|2
-|0x209(521)|NtUserIsTopLevelWindow|1|1
-|0x20A(522)|NtUserIsClipboardFormatAvailable|1|1
-|0x20B(523)|NtUserInvalidateRgn|3|3
-|0x20C(524)|NtUserInvalidateRect|3|3
-|0x20D(525)|NtUserInternalGetWindowIcon|2|2
-|0x20E(526)|NtUserInternalGetWindowText|3|3
-|0x20F(527)|NtUserInitTask|12|-1
-|0x210(528)|NtUserInitializeClientPfnArrays|4|4
-|0x211(529)|NtUserInitialize|2|2
-|0x212(530)|NtUserImpersonateDdeClientWindow|2|2
-|0x213(531)|NtUserHungWindowFromGhostWindow|1|1
-|0x214(532)|NtUserHiliteMenuItem|4|4
-|0x215(533)|NtUserHideCaret|1|1
-|0x216(534)|NtUserHardErrorControl|3|3
-|0x217(535)|NtUserRealInternalGetMessage|6|6
-|0x218(536)|NtUserRealWaitMessageEx|2|2
-|0x219(537)|NtUserTranslateMessage|2|2
-|0x21A(538)|NtUserTranslateAccelerator|3|3
-|0x21B(539)|NtUserPaintMenuBar|6|6
-|0x21C(540)|NtUserCalcMenuBar|5|5
-|0x21D(541)|NtUserCalculatePopupWindowPosition|5|5
-|0x21E(542)|NtUserTrackPopupMenuEx|6|6
-|0x21F(543)|NtUserTrackMouseEvent|1|1
-|0x220(544)|NtUserToUnicodeEx|7|7
-|0x221(545)|NtUserThunkedMenuItemInfo|6|6
-|0x222(546)|NtUserThunkedMenuInfo|2|2
-|0x223(547)|NtUserTestForInteractiveUser|1|1
-|0x224(548)|NtUserSendEventMessage|4|4
-|0x225(549)|NtUserSystemParametersInfo|4|4
-|0x226(550)|NtUserSwitchDesktop|3|3
-|0x227(551)|NtUserSoundSentry|0|0
-|0x228(552)|NtUserShutdownReasonDestroy|1|1
-|0x229(553)|NtUserShutdownBlockReasonQuery|3|3
-|0x22A(554)|NtUserShutdownBlockReasonCreate|3|3
-|0x22B(555)|NtUserShowWindowAsync|2|2
-|0x22C(556)|NtUserShowWindow|2|2
-|0x22D(557)|NtUserShowScrollBar|3|3
-|0x22E(558)|NtUserShowCaret|1|1
-|0x22F(559)|NtUserSetWinEventHook|8|8
-|0x230(560)|NtUserSetWindowWord|3|3
-|0x231(561)|NtUserSetWindowStationUser|4|4
-|0x232(562)|NtUserSetWindowsHookEx|6|6
-|0x233(563)|NtUserSetWindowsHookAW|3|3
-|0x234(564)|NtUserSetWindowRgnEx|3|3
-|0x235(565)|NtUserGetWindowRgnEx|3|3
-|0x236(566)|NtUserSetWindowRgn|3|3
-|0x237(567)|NtUserSetWindowPos|7|7
-|0x238(568)|NtUserSetWindowPlacement|2|2
-|0x239(569)|NtUserSetWindowLong|4|4
-|0x23A(570)|NtUserSetWindowFNID|2|2
-|0x23B(571)|NtUserSetWindowDisplayAffinity|2|2
-|0x23C(572)|NtUserSetWindowCompositionTransition|7|7
-|0x23D(573)|NtUserUpdateDefaultDesktopThumbnail|5|5
-|0x23E(574)|NtUserSetWindowCompositionAttribute|2|2
-|0x23F(575)|NtUserSetWindowBand|3|3
-|0x240(576)|NtUserSetProcessUIAccessZorder|0|0
-|0x241(577)|NtUserSetProcessDpiAwareness|2|2
-|0x242(578)|NtUserSetTimer|5|5
-|0x243(579)|NtUserSetThreadState|2|2
-|0x244(580)|NtUserSetThreadLayoutHandles|2|2
-|0x245(581)|NtUserSetThreadDesktop|1|1
-|0x246(582)|NtUserSetThreadInputBlocked|2|2
-|0x247(583)|NtUserSetSystemTimer|3|3
-|0x248(584)|NtUserSetSystemMenu|2|2
-|0x249(585)|NtUserSetSystemCursor|2|2
-|0x24A(586)|NtUserSetSysColors|4|4
-|0x24B(587)|NtUserSetShellWindowEx|2|2
-|0x24C(588)|NtUserSetImmersiveBackgroundWindow|1|1
-|0x24D(589)|NtUserSetScrollInfo|4|4
-|0x24E(590)|NtUserSetProp|3|3
-|0x24F(591)|NtUserGetProp|2|2
-|0x250(592)|NtUserSetProcessWindowStation|1|1
-|0x251(593)|NtUserSetParent|2|2
-|0x252(594)|NtUserSetObjectInformation|4|4
-|0x253(595)|NtUserSetMenuFlagRtoL|1|1
-|0x254(596)|NtUserSetMenuDefaultItem|3|3
-|0x255(597)|NtUserSetMenuContextHelpId|2|2
-|0x256(598)|NtUserSetMenu|3|3
-|0x257(599)|NtUserSetKeyboardState|1|1
-|0x258(600)|NtUserSetInternalWindowPos|4|4
-|0x259(601)|NtUserSetInformationThread|4|4
-|0x25A(602)|NtUserSetImeOwnerWindow|2|2
-|0x25B(603)|NtUserSetImeInfoEx|1|1
-|0x25C(604)|NtUserSetImeHotKey|5|5
-|0x25D(605)|NtUserSetFocus|1|1
-|0x25E(606)|NtUserSetCursorIconData|4|4
-|0x25F(607)|NtUserSetCursorContents|2|2
-|0x260(608)|NtUserSetCursor|1|1
-|0x261(609)|NtUserSetClipboardViewer|1|1
-|0x262(610)|NtUserSetClipboardData|3|3
-|0x263(611)|NtUserSetClassWord|3|3
-|0x264(612)|NtUserSetClassLong|4|4
-|0x265(613)|NtUserSetChildWindowNoActivate|1|1
-|0x266(614)|NtUserSetCapture|1|1
-|0x267(615)|NtUserSetAppImeLevel|2|2
-|0x268(616)|NtUserSetActiveWindow|1|1
-|0x269(617)|NtUserSendInput|3|3
-|0x26A(618)|NtUserSelectPalette|3|3
-|0x26B(619)|NtUserScrollWindowEx|8|8
-|0x26C(620)|NtUserScrollDC|7|7
-|0x26D(621)|NtUserSBGetParms|4|4
-|0x26E(622)|NtUserResolveDesktopForWOW|1|1
-|0x26F(623)|NtUserRemoveProp|2|2
-|0x270(624)|NtUserRemoveMenu|3|3
-|0x271(625)|NtUserRemoveClipboardFormatListener|1|1
-|0x272(626)|NtUserRegisterWindowMessage|1|1
-|0x273(627)|NtUserRegisterTasklist|1|1
-|0x274(628)|NtUserRegisterServicesProcess|1|1
-|0x275(629)|NtUserRegisterRawInputDevices|3|3
-|0x276(630)|NtUserRegisterHotKey|4|4
-|0x277(631)|NtUserRegisterUserApiHook|4|4
-|0x278(632)|NtUserRegisterErrorReportingDialog|2|2
-|0x279(633)|NtUserRegisterClassExWOW|7|7
-|0x27A(634)|NtUserRegisterBSDRWindow|2|2
-|0x27B(635)|NtUserRedrawWindow|4|4
-|0x27C(636)|NtUserUndelegateInput|2|2
-|0x27D(637)|NtUserGetWindowMinimizeRect|2|2
-|0x27E(638)|NtUserDwmStopRedirection|0|0
-|0x27F(639)|NtUserDwmStartRedirection|2|2
-|0x280(640)|NtUserDwmGetRemoteSessionOcclusionEvent|0|0
-|0x281(641)|NtUserDwmGetRemoteSessionOcclusionState|0|0
-|0x282(642)|NtUserUpdateWindowTransform|3|-1
-|0x283(643)|NtUserCheckProcessSession|1|1
-|0x284(644)|NtUserUnregisterSessionPort|0|0
-|0x285(645)|NtUserRegisterSessionPort|1|1
-|0x286(646)|NtUserCtxDisplayIOCtl|3|3
-|0x287(647)|NtUserRemoteStopScreenUpdates|0|0
-|0x288(648)|NtUserRemoteRedrawScreen|0|0
-|0x289(649)|NtUserRemoteRedrawRectangle|4|4
-|0x28A(650)|NtUserRemoteConnect|3|3
-|0x28B(651)|NtUserWaitAvailableMessageEx|2|2
-|0x28C(652)|NtUserWindowFromPoint|2|2
-|0x28D(653)|NtUserWindowFromPoint|2|2
-|0x28E(654)|NtUserWaitMessage|0|0
-|0x28F(655)|NtUserWaitForMsgAndEvent|1|1
-|0x290(656)|NtUserWaitForInputIdle|3|3
-|0x291(657)|NtUserVkKeyScanEx|3|3
-|0x292(658)|NtUserValidateTimerCallback|1|1
-|0x293(659)|NtUserValidateRect|2|2
-|0x294(660)|NtUserValidateHandleSecure|1|1
-|0x295(661)|NtUserUserHandleGrantAccess|3|3
-|0x296(662)|NtUserUpdatePerUserSystemParameters|1|1
-|0x297(663)|NtUserSetLayeredWindowAttributes|4|4
-|0x298(664)|NtUserGetLayeredWindowAttributes|4|4
-|0x299(665)|NtUserUpdateLayeredWindow|10|10
-|0x29A(666)|NtUserUpdateInstance|3|3
-|0x29B(667)|NtUserUpdateInputContext|3|3
-|0x29C(668)|NtUserUnregisterHotKey|2|2
-|0x29D(669)|NtUserUnregisterUserApiHook|0|0
-|0x29E(670)|NtUserUnregisterClass|3|3
-|0x29F(671)|NtUserUnlockWindowStation|1|1
-|0x2A0(672)|NtUserUnloadKeyboardLayout|1|1
-|0x2A1(673)|NtUserUnhookWinEvent|1|1
-|0x2A2(674)|NtUserUnhookWindowsHookEx|1|1
-|0x2A3(675)|NtUserGetTouchInputInfo|4|4
-|0x2A4(676)|NtUserIsTouchWindow|2|2
-|0x2A5(677)|NtUserModifyWindowTouchCapability|3|3
-|0x2A6(678)|NtGdiEngStretchBltROP|13|13
-|0x2A7(679)|NtGdiEngTextOut|10|10
-|0x2A8(680)|NtGdiEngTransparentBlt|8|8
-|0x2A9(681)|NtGdiEngGradientFill|10|10
-|0x2AA(682)|NtGdiEngAlphaBlend|7|7
-|0x2AB(683)|NtGdiEngLineTo|9|9
-|0x2AC(684)|NtGdiEngPaint|5|5
-|0x2AD(685)|NtGdiEngStrokeAndFillPath|10|10
-|0x2AE(686)|NtGdiEngFillPath|7|7
-|0x2AF(687)|NtGdiEngStrokePath|8|8
-|0x2B0(688)|NtGdiEngMarkBandingSurface|1|1
-|0x2B1(689)|NtGdiEngPlgBlt|11|11
-|0x2B2(690)|NtGdiEngStretchBlt|11|11
-|0x2B3(691)|NtGdiEngBitBlt|11|11
-|0x2B4(692)|NtGdiEngLockSurface|1|1
-|0x2B5(693)|NtGdiEngUnlockSurface|1|1
-|0x2B6(694)|NtGdiEngEraseSurface|3|3
-|0x2B7(695)|NtGdiEngDeleteSurface|1|1
-|0x2B8(696)|NtGdiEngDeletePalette|1|1
-|0x2B9(697)|NtGdiEngCopyBits|6|6
-|0x2BA(698)|NtGdiEngComputeGlyphSet|3|3
-|0x2BB(699)|NtGdiEngCreatePalette|6|6
-|0x2BC(700)|NtGdiEngCreateDeviceBitmap|4|4
-|0x2BD(701)|NtGdiEngCreateDeviceSurface|4|4
-|0x2BE(702)|NtGdiEngCreateBitmap|6|6
-|0x2BF(703)|NtGdiEngAssociateSurface|3|3
-|0x2C0(704)|NtUserSetWindowFeedbackSetting|5|5
-|0x2C1(705)|NtUserRegisterEdgy|3|3
-|0x2C2(706)|NtUserGetWindowFeedbackSetting|5|5
-|0x2C3(707)|NtUserHidePointerContactVisualization|1|1
-|0x2C4(708)|NtUserGetTouchValidationStatus|1|1
-|0x2C5(709)|NtUserInitializeTouchInjection|2|2
-|0x2C6(710)|NtUserInjectTouchInput|2|2
-|0x2C7(711)|NtUserRegisterTouchHitTestingWindow|2|2
-|0x2C8(712)|NtUserSetDisplayMapping|2|2
-|0x2C9(713)|NtUserSetCalibrationData|4|4
-|0x2CA(714)|NtUserGetPhysicalDeviceRect|2|2
-|0x2CB(715)|NtUserRegisterTouchPadCapable|1|1
-|0x2CC(716)|NtUserGetRawPointerDeviceData|5|5
-|0x2CD(717)|NtUserGetPointerDeviceCursors|3|3
-|0x2CE(718)|NtUserGetPointerDeviceRects|3|3
-|0x2CF(719)|NtUserRegisterPointerDeviceNotifications|2|2
-|0x2D0(720)|NtUserGetPointerDeviceProperties|3|3
-|0x2D1(721)|NtUserGetPointerDevice|2|2
-|0x2D2(722)|NtUserGetPointerDevices|2|2
-|0x2D3(723)|NtUserEnableTouchPad|1|1
-|0x2D4(724)|NtUserGetPrecisionTouchPadConfiguration|1|1
-|0x2D5(725)|NtUserSetPrecisionTouchPadConfiguration|1|1
-|0x2D6(726)|NtUserPromotePointer|2|2
-|0x2D7(727)|NtUserDiscardPointerFrameMessages|1|1
-|0x2D8(728)|NtUserRegisterPointerInputTarget|3|3
-|0x2D9(729)|NtUserGetPointerInputTransform|3|3
-|0x2DA(730)|NtUserGetPointerInfoList|8|8
-|0x2DB(731)|NtUserGetPointerCursorId|2|2
-|0x2DC(732)|NtUserGetPointerType|2|2
-|0x2DD(733)|NtUserGetGestureConfig|6|6
-|0x2DE(734)|NtUserSetGestureConfig|5|5
-|0x2DF(735)|NtUserGetGestureExtArgs|3|3
-|0x2E0(736)|NtUserGetGestureInfo|2|2
-|0x2E1(737)|NtUserInjectGesture|5|5
-|0x2E2(738)|NtUserChangeWindowMessageFilterEx|4|4
-|0x2E3(739)|NtGdiXLATEOBJ_hGetColorTransform|1|1
-|0x2E4(740)|NtGdiXLATEOBJ_iXlate|2|2
-|0x2E5(741)|NtGdiXLATEOBJ_cGetPalette|4|4
-|0x2E6(742)|NtGdiEngDeleteClip|1|1
-|0x2E7(743)|NtGdiEngCreateClip|0|0
-|0x2E8(744)|NtGdiEngDeletePath|1|1
-|0x2E9(745)|NtGdiCLIPOBJ_ppoGetPath|1|1
-|0x2EA(746)|NtGdiCLIPOBJ_cEnumStart|5|5
-|0x2EB(747)|NtGdiCLIPOBJ_bEnum|3|3
-|0x2EC(748)|NtGdiBRUSHOBJ_hGetColorTransform|1|1
-|0x2ED(749)|NtGdiBRUSHOBJ_pvGetRbrush|1|1
-|0x2EE(750)|NtGdiBRUSHOBJ_pvAllocRbrush|2|2
-|0x2EF(751)|NtGdiBRUSHOBJ_ulGetBrushColor|1|1
-|0x2F0(752)|NtGdiXFORMOBJ_iGetXform|2|2
-|0x2F1(753)|NtGdiXFORMOBJ_bApplyXform|5|5
-|0x2F2(754)|NtGdiFONTOBJ_pQueryGlyphAttrs|2|2
-|0x2F3(755)|NtGdiFONTOBJ_pfdg|1|1
-|0x2F4(756)|NtGdiFONTOBJ_pifi|1|1
-|0x2F5(757)|NtGdiFONTOBJ_cGetGlyphs|5|5
-|0x2F6(758)|NtGdiFONTOBJ_pxoGetXform|1|1
-|0x2F7(759)|NtGdiFONTOBJ_vGetInfo|3|3
-|0x2F8(760)|NtGdiFONTOBJ_cGetAllGlyphHandles|2|2
-|0x2F9(761)|NtGdiFONTOBJ_pvTrueTypeFontFile|2|2
-|0x2FA(762)|NtGdiSTROBJ_dwGetCodePage|1|1
-|0x2FB(763)|NtGdiSTROBJ_vEnumStart|1|1
-|0x2FC(764)|NtGdiSTROBJ_bGetAdvanceWidths|4|4
-|0x2FD(765)|NtGdiSTROBJ_bEnumPositionsOnly|3|3
-|0x2FE(766)|NtGdiSTROBJ_bEnum|3|3
-|0x2FF(767)|NtGdiPATHOBJ_bEnumClipLines|3|3
-|0x300(768)|NtGdiPATHOBJ_vEnumStartClipLines|4|4
-|0x301(769)|NtGdiPATHOBJ_vEnumStart|1|1
-|0x302(770)|NtGdiPATHOBJ_bEnum|2|2
-|0x303(771)|NtGdiPATHOBJ_vGetBounds|2|2
-|0x304(772)|NtGdiEngCheckAbort|1|1
-|0x305(773)|NtGdiGetDhpdev|1|1
-|0x306(774)|NtGdiHT_Get8BPPMaskPalette|6|6
-|0x307(775)|NtGdiHT_Get8BPPFormatPalette|4|4
-|0x308(776)|NtGdiUpdateTransform|1|1
-|0x309(777)|NtGdiUMPDEngFreeUserMem|1|1
-|0x30A(778)|NtGdiBRUSHOBJ_DeleteRbrush|2|2
-|0x30B(779)|NtGdiSetPUMPDOBJ|4|4
-|0x30C(780)|NtGdiSetUMPDSandboxState|1|1
-|0x30D(781)|NtGdiDrawStream|3|3
-|0x30E(782)|NtGdiHLSurfSetInformation|4|4
-|0x30F(783)|NtGdiHLSurfGetInformation|4|4
-|0x310(784)|NtGdiDwmCreatedBitmapRemotingOutput|0|0
-|0x311(785)|NtGdiDdDDIGetScanLine|1|1
-|0x312(786)|NtGdiDdDDIReleaseProcessVidPnSourceOwners|1|1
-|0x313(787)|NtGdiDdDDIGetProcessSchedulingPriorityClass|2|2
-|0x314(788)|NtGdiDdDDISetProcessSchedulingPriorityClass|2|2
-|0x315(789)|NtGdiDdDDIGetContextSchedulingPriority|1|1
-|0x316(790)|NtGdiDdDDISetContextSchedulingPriority|1|1
-|0x317(791)|NtGdiDdDDIDestroyDCFromMemory|1|1
-|0x318(792)|NtGdiDdDDICreateDCFromMemory|1|1
-|0x319(793)|NtGdiDdDDIGetDeviceState|1|1
-|0x31A(794)|NtGdiDdDDISetGammaRamp|1|1
-|0x31B(795)|NtGdiDdDDIWaitForVerticalBlankEvent|1|1
-|0x31C(796)|NtGdiDdDDIDestroyOverlay|1|1
-|0x31D(797)|NtGdiDdDDIFlipOverlay|1|1
-|0x31E(798)|NtGdiDdDDIUpdateOverlay|1|1
-|0x31F(799)|NtGdiDdDDICreateOverlay|1|1
-|0x320(800)|NtGdiDdDDIGetPresentQueueEvent|2|2
-|0x321(801)|NtGdiDdDDIGetPresentHistory|1|1
-|0x322(802)|NtGdiDdDDISetVidPnSourceOwner1|1|1
-|0x323(803)|NtGdiDdDDISetVidPnSourceOwner|1|1
-|0x324(804)|NtGdiDdDDIQueryStatistics|1|1
-|0x325(805)|NtGdiDdDDIEscape|1|1
-|0x326(806)|NtGdiDdDDIGetSharedPrimaryHandle|1|1
-|0x327(807)|NtGdiDdDDICloseAdapter|1|1
-|0x328(808)|NtGdiDdDDIOpenAdapterFromLuid|1|1
-|0x329(809)|NtGdiDdDDIEnumAdapters|1|1
-|0x32A(810)|NtGdiDdDDIOpenAdapterFromHdc|1|1
-|0x32B(811)|NtGdiDdDDIOpenAdapterFromDeviceName|1|1
-|0x32C(812)|NtGdiDdDDIRender|1|1
-|0x32D(813)|NtGdiDdDDIPresent|1|1
-|0x32E(814)|NtGdiDdDDIGetMultisampleMethodList|1|1
-|0x32F(815)|NtGdiDdDDISetDisplayMode|1|1
-|0x330(816)|NtGdiDdDDIGetDisplayModeList|1|1
-|0x331(817)|NtGdiDdDDIUnlock|1|1
-|0x332(818)|NtGdiDdDDILock|1|1
-|0x333(819)|NtGdiDdDDIQueryAdapterInfo|1|1
-|0x334(820)|NtGdiDdDDIGetRuntimeData|1|1
-|0x335(821)|NtGdiDdDDISignalSynchronizationObject|1|1
-|0x336(822)|NtGdiDdDDIWaitForSynchronizationObject|1|1
-|0x337(823)|NtGdiDdDDIDestroySynchronizationObject|1|1
-|0x338(824)|NtGdiDdDDIOpenSynchronizationObject|1|1
-|0x339(825)|NtGdiDdDDICreateSynchronizationObject|1|1
-|0x33A(826)|NtGdiDdDDIDestroyContext|1|1
-|0x33B(827)|NtGdiDdDDICreateContext|1|1
-|0x33C(828)|NtGdiDdDDIDestroyDevice|1|1
-|0x33D(829)|NtGdiDdDDICreateDevice|1|1
-|0x33E(830)|NtGdiDdDDIQueryAllocationResidency|1|1
-|0x33F(831)|NtGdiDdDDISetAllocationPriority|1|1
-|0x340(832)|NtGdiDdDDIDestroyAllocation|1|1
-|0x341(833)|NtGdiDdDDIOpenResourceFromNtHandle|1|1
-|0x342(834)|NtGdiDdDDIOpenSyncObjectFromNtHandle|1|1
-|0x343(835)|NtGdiDdDDIOpenResource|1|1
-|0x344(836)|NtGdiDdDDIOpenNtHandleFromName|1|1
-|0x345(837)|NtGdiDdDDIShareObjects|5|5
-|0x346(838)|NtGdiDdDDIQueryResourceInfoFromNtHandle|1|1
-|0x347(839)|NtGdiDdDDIQueryResourceInfo|1|1
-|0x348(840)|NtGdiDdDDICreateAllocation|1|1
-|0x349(841)|NtGdiDdDDIOutputDuplReleaseFrame|1|1
-|0x34A(842)|NtGdiDdDDIQueryRemoteVidPnSourceFromGdiDisplayName|1|1
-|0x34B(843)|NtGdiDdDDIOutputDuplPresent|1|1
-|0x34C(844)|NtGdiDdDDIReleaseKeyedMutex2|1|1
-|0x34D(845)|NtGdiDdDDIAcquireKeyedMutex2|1|1
-|0x34E(846)|NtGdiDdDDIOpenKeyedMutex2|1|1
-|0x34F(847)|NtGdiDdDDICreateKeyedMutex2|1|1
-|0x350(848)|NtGdiDdDDIOutputDuplGetPointerShapeData|1|1
-|0x351(849)|NtGdiDdDDIOutputDuplGetMetaData|1|1
-|0x352(850)|NtGdiDdDDIOutputDuplGetFrameInfo|1|1
-|0x353(851)|NtGdiDdDDIDestroyOutputDupl|1|1
-|0x354(852)|NtGdiDdDDICreateOutputDupl|1|1
-|0x355(853)|NtGdiDdDDIReclaimAllocations|1|1
-|0x356(854)|NtGdiDdDDIOfferAllocations|1|1
-|0x357(855)|NtGdiDdDDICheckSharedResourceAccess|1|1
-|0x358(856)|NtGdiDdDDICheckVidPnExclusiveOwnership|1|1
-|0x359(857)|NtGdiDdDDIGetOverlayState|1|1
-|0x35A(858)|NtGdiDdDDIConfigureSharedResource|1|1
-|0x35B(859)|NtGdiDdDDIReleaseKeyedMutex|1|1
-|0x35C(860)|NtGdiDdDDIAcquireKeyedMutex|1|1
-|0x35D(861)|NtGdiDdDDIDestroyKeyedMutex|1|1
-|0x35E(862)|NtGdiDdDDIOpenKeyedMutex|1|1
-|0x35F(863)|NtGdiDdDDICreateKeyedMutex|1|1
-|0x360(864)|NtGdiDdDDISharedPrimaryUnLockNotification|1|1
-|0x361(865)|NtGdiDdDDISharedPrimaryLockNotification|1|1
-|0x362(866)|NtGdiDdDDISetDisplayPrivateDriverFormat|1|1
-|0x363(867)|NtGdiDdDDICheckExclusiveOwnership|0|0
-|0x364(868)|NtGdiDdDDICheckMonitorPowerState|1|1
-|0x365(869)|NtGdiDdDDIWaitForIdle|1|1
-|0x366(870)|NtGdiDdDDICheckOcclusion|1|1
-|0x367(871)|NtGdiDdDDIInvalidateActiveVidPn|1|1
-|0x368(872)|NtGdiDdDDIPollDisplayChildren|1|1
-|0x369(873)|NtGdiDdDDISetQueuedLimit|1|1
-|0x36A(874)|NtGdiDdDDIPinDirectFlipResources|1|1
-|0x36B(875)|NtGdiDdDDIUnpinDirectFlipResources|1|1
-|0x36C(876)|NtGdiDdDDIWaitForVerticalBlankEvent2|1|1
-|0x36D(877)|NtGdiDdDDISetContextInProcessSchedulingPriority|1|1
-|0x36E(878)|NtGdiDdDDIGetContextInProcessSchedulingPriority|1|1
-|0x36F(879)|NtGdiDdDDIGetSharedResourceAdapterLuid|1|1
-|0x370(880)|NtGdiDdDDISetStereoEnabled|1|1
-|0x371(881)|NtGdiDdDDIPresentMultiPlaneOverlay|1|1
-|0x372(882)|NtGdiDdDDICheckMultiPlaneOverlaySupport|1|1
-|0x373(883)|NtGdiDdDDIGetCachedHybridQueryValue|1|1
-|0x374(884)|NtGdiDdDDICacheHybridQueryValue|1|1
-|0x375(885)|NtGdiDdDDINetDispGetNextChunkInfo|7|7
-|0x376(886)|NtGdiDdDDINetDispQueryMiracastDisplayDeviceSupport|1|1
-|0x377(887)|NtGdiDdDDINetDispStartMiracastDisplayDevice|3|2
-|0x378(888)|NtGdiDdDDINetDispStopMiracastDisplayDevice|2|2
-|0x379(889)|NtGdiDdDDINetDispQueryMiracastDisplayDeviceStatus|2|2
-|0x37A(890)|NtGdiMakeObjectUnXferable|1|1
-|0x37B(891)|NtGdiMakeObjectXferable|2|2
-|0x37C(892)|NtGdiDestroyPhysicalMonitor|1|-1
-|0x37D(893)|NtGdiGetPhysicalMonitorDescription|3|3
-|0x37E(894)|NtGdiGetPhysicalMonitors|4|4
-|0x37F(895)|NtGdiGetNumberOfPhysicalMonitors|2|2
-|0x380(896)|NtGdiDDCCIGetTimingReport|2|2
-|0x381(897)|NtGdiDDCCIGetCapabilitiesString|3|3
-|0x382(898)|NtGdiDDCCIGetCapabilitiesStringLength|2|2
-|0x383(899)|NtGdiDDCCISaveCurrentSettings|1|1
-|0x384(900)|NtGdiDDCCISetVCPFeature|3|3
-|0x385(901)|NtGdiDDCCIGetVCPFeature|5|5
-|0x386(902)|NtGdiDdQueryVisRgnUniqueness|0|0
-|0x387(903)|NtGdiDdDestroyFullscreenSprite|2|2
-|0x388(904)|NtGdiDdNotifyFullscreenSpriteUpdate|2|2
-|0x389(905)|NtGdiDdCreateFullscreenSprite|4|4
-|0x38A(906)|NtUserShowSystemCursor|1|1
-|0x38B(907)|NtUserSetMirrorRendering|2|2
-|0x38C(908)|NtUserMagGetContextInformation|4|4
-|0x38D(909)|NtUserMagSetContextInformation|4|4
-|0x38E(910)|NtUserMagControl|2|2
-|0x38F(911)|NtUserSlicerControl|4|4
-|0x390(912)|NtUserHwndSetRedirectionInfo|4|4
-|0x391(913)|NtUserHwndQueryRedirectionInfo|4|4
-|0x392(914)|NtCreateCompositionSurfaceHandle|3|3
-|0x393(915)|NtValidateCompositionSurfaceHandle|2|2
-|0x394(916)|NtBindCompositionSurface|4|4
-|0x395(917)|NtUnBindCompositionSurface|2|2
-|0x396(918)|NtQueryCompositionSurfaceBinding|3|3
-|0x397(919)|CFlipExBuffer::RemoveRealization|2|2
-|0x398(920)|NtQueryCompositionSurfaceStatistics|2|2
-|0x399(921)|NtOpenCompositionSurfaceSectionInfo|4|4
-|0x39A(922)|NtOpenCompositionSurfaceSwapChainHandleInfo|3|3
-|0x39B(923)|NtQueryCompositionSurfaceRenderingRealization|2|2
-|0x39C(924)|NtOpenCompositionSurfaceDirtyRegion|4|4
-|0x39D(925)|NtSetCompositionSurfaceOutOfFrameDirectFlipNotification|3|3
-|0x39E(926)|NtSetCompositionSurfaceStatistics|3|3
-|0x39F(927)|NtSetCompositionSurfaceBufferCompositionMode|3|3
-|0x3A0(928)|NtSetCompositionSurfaceIndependentFlipInfo|7|7
-|0x3A1(929)|NtCreateCompositionInputSink|2|2
-|0x3A2(930)|NtDuplicateCompositionInputSink|2|2
-|0x3A3(931)|NtQueryCompositionInputSink|2|2
-|0x3A4(932)|NtQueryCompositionInputSinkLuid|2|2
-|0x3A5(933)|NtUpdateInputSinkTransforms|2|2
-|0x3A6(934)|NtCompositionInputThread|4|4
-|0x3A7(935)|NtTokenManagerOpenSection|2|2
-|0x3A8(936)|NtTokenManagerOpenEvent|1|1
-|0x3A9(937)|NtTokenManagerThread|1|1
-|0x3AA(938)|NtTokenManagerGetOutOfFrameDirectFlipSurfaceUpdates|6|6
-|0x3AB(939)|NtTokenManagerDeleteOutstandingDirectFlipTokens|0|0
-|0x3AC(940)|NtTokenManagerCreateCompositionTokenHandle|5|5
-|0x3AD(941)|NtDCompositionBeginFrame|3|3
-|0x3AE(942)|NtDCompositionConfirmFrame|2|2
-|0x3AF(943)|NtDCompositionRetireFrame|3|3
-|0x3B0(944)|NtDCompositionDiscardFrame|2|2
-|0x3B1(945)|NtDCompositionGetFrameSurfaceUpdates|3|3
-|0x3B2(946)|NtDCompositionGetFrameLegacyTokens|3|3
-|0x3B3(947)|NtDCompositionDestroyConnection|1|1
-|0x3B4(948)|NtDCompositionGetConnectionBatch|3|3
-|0x3B5(949)|NtDCompositionGetFrameStatistics|2|2
-|0x3B6(950)|NtDCompositionGetDeletedResources|4|4
-|0x3B7(951)|NtDCompositionSetResourceDeletedNotificationTag|4|4
-|0x3B8(952)|NtDCompositionCreateConnection|2|2
-|0x3B9(953)|NtDCompositionDestroyChannel|1|1
-|0x3BA(954)|NtDCompositionReleaseAllResources|2|2
-|0x3BB(955)|NtDCompositionSubmitDWMBatch|2|2
-|0x3BC(956)|NtDCompositionCommitChannel|4|4
-|0x3BD(957)|NtDCompositionWaitForChannel|2|2
-|0x3BE(958)|NtDCompositionSetChannelCommitCompletionEvent|2|2
-|0x3BF(959)|NtDCompositionTelemetryTouchInteractionBegin|6|6
-|0x3C0(960)|NtDCompositionTelemetryTouchInteractionUpdate|4|4
-|0x3C1(961)|NtDCompositionTelemetryTouchInteractionEnd|2|2
-|0x3C2(962)|NtDCompositionTelemetrySetApplicationId|3|3
-|0x3C3(963)|NtDCompositionTelemetryAnimationScenarioBegin|3|3
-|0x3C4(964)|NtDCompositionTelemetryAnimationScenarioReference|3|3
-|0x3C5(965)|NtDCompositionTelemetryAnimationScenarioUnreference|3|3
-|0x3C6(966)|NtDCompositionCurrentBatchId|3|3
-|0x3C7(967)|NtDCompositionReleaseResource|3|3
-|0x3C8(968)|NtDCompositionRemoveCrossDeviceVisualChild|4|4
-|0x3C9(969)|NtDCompositionRemoveVisualChild|3|3
-|0x3CA(970)|NtDCompositionAddCrossDeviceVisualChild|7|7
-|0x3CB(971)|NtDCompositionAddVisualChild|5|5
-|0x3CC(972)|NtDCompositionReplaceVisualChildren|3|3
-|0x3CD(973)|NtDCompositionSetResourceAnimationProperty|4|4
-|0x3CE(974)|NtDCompositionSetResourceReferenceArrayProperty|6|6
-|0x3CF(975)|NtDCompositionSetResourceReferenceProperty|5|5
-|0x3D0(976)|NtDCompositionSetResourceBufferProperty|6|6
-|0x3D1(977)|NtDCompositionSetResourceIntegerProperty|4|4
-|0x3D2(978)|NtDCompositionSetResourceFloatProperty|4|4
-|0x3D3(979)|NtDCompositionSetResourceHandleProperty|4|4
-|0x3D4(980)|NtDCompositionCreateResource|4|4
-|0x3D5(981)|NtDCompositionOpenSharedResource|4|4
-|0x3D6(982)|NtDCompositionOpenSharedResourceHandle|3|3
-|0x3D7(983)|NtDCompositionCreateDwmChannel|1|1
-|0x3D8(984)|NtDCompositionCreateChannel|1|1
-|0x3D9(985)|NtDCompositionSynchronize|2|2
-|0x3DA(986)|NtDCompositionDwmSyncFlush|0|0
-|0x3DB(987)|NtDCompositionReferenceSharedResourceOnDwmChannel|5|5
-|0x3DC(988)|NtDCompositionSignalGpuFence|4|4
-|0x3DD(989)|NtDCompositionCreateAndBindSharedSection|4|4
-|0x3DE(990)|NtDCompositionSetDebugCounter|2|2
-|0x3DF(991)|NtDCompositionGetChannels|4|-1
-|0x3E0(992)|NtDCompositionConnectPipe|3|3
-|0x3E1(993)|NtDCompositionRegisterThumbnailVisual|9|9
-|0x3E2(994)|NtDCompositionDuplicateHandleToProcess|3|3
-|0x3E3(995)|NtUserDestroyDCompositionHwndTarget|2|2
-|0x3E4(996)|NtUserCreateDCompositionHwndTarget|3|3
-|0x3E5(997)|NtUserWaitForRedirectionStartComplete|0|0
-|0x3E6(998)|NtUserSignalRedirectionStartComplete|0|0
-|0x3E7(999)|NtUserSetActiveProcess|1|1
-|0x3E8(000)|NtUserGetDisplayAutoRotationPreferencesByProcessId|3|3
-|0x3E9(001)|NtUserGetDisplayAutoRotationPreferences|1|1
-|0x3EA(002)|NtUserSetDisplayAutoRotationPreferences|1|1
-|0x3EB(003)|NtUserSetAutoRotation|1|1
-|0x3EC(004)|NtUserGetAutoRotationState|1|1
-|0x3ED(005)|NtUserAutoRotateScreen|2|2
-|0x3EE(006)|NtUserAcquireIAMKey|1|1
-|0x3EF(007)|NtUserSetActivationFilter|2|2
-|0x3F0(008)|NtUserSetFallbackForeground|2|2
-|0x3F1(009)|NtUserSetBrokeredForeground|1|1
-|0x3F2(010)|NtUserDisableImmersiveOwner|1|1
-|0x3F3(011)|NtUserClearForeground|0|0
-|0x3F4(012)|NtUserEnableIAMAccess|3|3
-|0x3F5(013)|NtUserGetProcessUIContextInformation|2|2
-|0x3F6(014)|NtUserSetProcessRestrictionExemption|1|1
-|0x3F7(015)|NtUserEnableMouseInPointer|1|1
-|0x3F8(016)|NtUserIsMouseInPointerEnabled|0|0
-|0x3F9(017)|NtUserPromoteMouseInPointer|1|1
-|0x3FA(018)|NtUserAutoPromoteMouseInPointer|1|1
-|0x3FB(019)|NtUserEnableMouseInputForCursorSuppression|1|1
-|0x3FC(020)|NtUserIsMouseInputEnabled|0|0
-|0x3FD(021)|NtUserInternalClipCursor|2|2
-|0x3FE(022)|NtUserCheckProcessForClipboardAccess|2|2
-|0x3FF(023)|NtUserGetClipboardAccessToken|2|2
-|0x400(024)|NtUserGetQueueEventStatus|0|0
-|0x401(025)|NtUserCompositionInputSinkLuidFromPoint|2|2
-|0x402(026)|NtUserUpdateWindowInputSinkHints|2|2
-|0x403(027)|NtUserTransformPoint|3|3
-|0x404(028)|NtUserTransformRect|3|3
-|0x405(029)|NtUserGetHimetricScaleFactorFromPixelLocation|5|5
-|0x406(030)|NtUserGetProcessDpiAwareness|2|2
-|0x407(031)|NtUserGetDpiForMonitor|4|4
-|0x408(032)|NtUserReportInertia|5|5
-|0x409(033)|NtUserLinkDpiCursor|3|3
-|0x40A(034)|NtUserGetCursorDims|1|1
-|0x40B(035)|NtUserGetOwnerTransformedMonitorRect|4|4
+| 0x000(000) | NtUserYieldTask | 0 | 0
+| 0x001(001) | NtUserSetSensorPresence | 1 | 1
+| 0x002(002) | NtGdiWidenPath | 1 | 1
+| 0x003(003) | NtGdiUpdateColors | 1 | 1
+| 0x004(004) | NtGdiUnrealizeObject | 1 | 1
+| 0x005(005) | NtGdiUnmapMemFont | 1 | -1
+| 0x006(006) | NtGdiSetBrushAttributes | 2 | 2
+| 0x007(007) | NtGdiTransparentBlt | 11 | 11
+| 0x008(008) | NtGdiTransformPoints | 5 | 5
+| 0x009(009) | NtGdiSwapBuffers | 1 | 1
+| 0x00A(010) | NtGdiStrokePath | 1 | 1
+| 0x00B(011) | NtGdiStrokeAndFillPath | 1 | 1
+| 0x00C(012) | NtGdiStretchDIBitsInternal | 16 | 16
+| 0x00D(013) | NtGdiStretchBlt | 12 | 12
+| 0x00E(014) | NtGdiStartPage | 1 | 1
+| 0x00F(015) | NtGdiStartDoc | 4 | 4
+| 0x010(016) | NtGdiSetSizeDevice | 3 | 3
+| 0x011(017) | NtGdiSetVirtualResolution | 5 | 5
+| 0x012(018) | NtGdiSetTextJustification | 3 | 3
+| 0x013(019) | NtGdiSetSystemPaletteUse | 2 | 2
+| 0x014(020) | NtGdiSetRectRgn | 5 | 5
+| 0x015(021) | NtGdiSetPixelFormat | 2 | 2
+| 0x016(022) | NtGdiSetPixel | 4 | 4
+| 0x017(023) | NtGdiSetOPMSigningKeyAndSequenceNumbers | 2 | 2
+| 0x018(024) | NtGdiSetLayout | 3 | 3
+| 0x019(025) | NtGdiMirrorWindowOrg | 1 | 1
+| 0x01A(026) | NtGdiGetDeviceWidth | 1 | 1
+| 0x01B(027) | NtGdiSetMiterLimit | 3 | 3
+| 0x01C(028) | NtGdiSetMetaRgn | 1 | 1
+| 0x01D(029) | NtGdiSetMagicColors | 3 | 3
+| 0x01E(030) | NtGdiSetLinkedUFIs | 3 | 3
+| 0x01F(031) | NtGdiSetIcmMode | 3 | 3
+| 0x020(032) | NtGdiSetFontXform | 3 | 3
+| 0x021(033) | NtGdiSetFontEnumeration | 1 | 1
+| 0x022(034) | NtGdiSetDIBitsToDeviceInternal | 16 | 16
+| 0x023(035) | NtGdiSetDeviceGammaRamp | 2 | 2
+| 0x024(036) | NtGdiSetColorSpace | 2 | 2
+| 0x025(037) | NtGdiSetColorAdjustment | 2 | 2
+| 0x026(038) | NtGdiSetBrushOrg | 4 | 4
+| 0x027(039) | NtGdiSetBrushAttributes | 2 | 2
+| 0x028(040) | NtGdiSetBoundsRect | 3 | 3
+| 0x029(041) | NtGdiSetBitmapDimension | 4 | 4
+| 0x02A(042) | NtGdiSetBitmapBits | 3 | 3
+| 0x02B(043) | NtGdiSetBitmapAttributes | 2 | 2
+| 0x02C(044) | NtGdiSelectPen | 2 | 2
+| 0x02D(045) | NtGdiSelectFont | 2 | 2
+| 0x02E(046) | NtGdiSelectClipPath | 2 | 2
+| 0x02F(047) | NtGdiSelectBrush | 2 | 2
+| 0x030(048) | NtGdiSelectBitmap | 2 | 2
+| 0x031(049) | NtGdiScaleWindowExtEx | 6 | 6
+| 0x032(050) | NtGdiScaleViewportExtEx | 6 | 6
+| 0x033(051) | NtGdiSaveDC | 1 | 1
+| 0x034(052) | NtGdiRoundRect | 7 | 7
+| 0x035(053) | NtGdiRestoreDC | 2 | 2
+| 0x036(054) | NtGdiResizePalette | 2 | 2
+| 0x037(055) | NtGdiResetDC | 5 | 5
+| 0x038(056) | NtGdiRemoveFontMemResourceEx | 1 | 1
+| 0x039(057) | NtGdiRemoveFontResourceW | 6 | 6
+| 0x03A(058) | NtGdiRectVisible | 2 | 2
+| 0x03B(059) | NtGdiRectInRegion | 2 | 2
+| 0x03C(060) | NtGdiRectangle | 5 | 5
+| 0x03D(061) | NtGdiQueryFontAssocInfo | 1 | 1
+| 0x03E(062) | NtGdiQueryFonts | 3 | 3
+| 0x03F(063) | NtGdiPtVisible | 3 | 3
+| 0x040(064) | NtGdiPtInRegion | 3 | 3
+| 0x041(065) | NtGdiPolyTextOutW | 4 | 4
+| 0x042(066) | NtGdiPolyPolyDraw | 5 | 5
+| 0x043(067) | NtGdiPolyDraw | 4 | 4
+| 0x044(068) | NtGdiPlgBlt | 11 | 11
+| 0x045(069) | NtGdiPathToRegion | 1 | 1
+| 0x046(070) | NtGdiPolyPatBlt | 5 | 5
+| 0x047(071) | NtGdiPatBlt | 6 | 6
+| 0x048(072) | NtGdiOpenDCW | 9 | 9
+| 0x049(073) | NtGdiOffsetRgn | 3 | 3
+| 0x04A(074) | NtGdiOffsetClipRgn | 3 | 3
+| 0x04B(075) | NtGdiMoveTo | 4 | 4
+| 0x04C(076) | NtGdiMonoBitmap | 1 | 1
+| 0x04D(077) | NtGdiModifyWorldTransform | 3 | 3
+| 0x04E(078) | NtGdiMaskBlt | 13 | 13
+| 0x04F(079) | NtGdiMakeInfoDC | 2 | 2
+| 0x050(080) | NtGdiMakeFontDir | 5 | 5
+| 0x051(081) | NtGdiLineTo | 3 | 3
+| 0x052(082) | NtGdiInvertRgn | 2 | 2
+| 0x053(083) | NtGdiIntersectClipRect | 5 | 5
+| 0x054(084) | NtGdiInitSpool | 0 | 0
+| 0x055(085) | CIgnoreInputQueue::AddRef | 0 | -1
+| 0x056(086) | NtGdiIcmBrushInfo | 8 | 8
+| 0x057(087) | NtGdiHfontCreate | 5 | 5
+| 0x058(088) | NtGdiGradientFill | 6 | 6
+| 0x059(089) | NtGdiGetWidthTable | 7 | 7
+| 0x05A(090) | NtGdiGetFontUnicodeRanges | 2 | 2
+| 0x05B(091) | NtGdiAddEmbFontToDC | 2 | 2
+| 0x05C(092) | NtGdiChangeGhostFont | 2 | 2
+| 0x05D(093) | NtGdiGetEmbedFonts | 0 | 0
+| 0x05E(094) | NtGdiGetUFIPathname | 10 | 10
+| 0x05F(095) | NtGdiGetEmbUFI | 7 | 7
+| 0x060(096) | NtGdiGetUFI | 6 | 6
+| 0x061(097) | NtGdiGetTransform | 3 | 3
+| 0x062(098) | NtGdiGetTextMetricsW | 3 | 3
+| 0x063(099) | NtGdiGetTextFaceW | 4 | 4
+| 0x064(100) | NtGdiGetTextExtentExW | 8 | 8
+| 0x065(101) | NtGdiGetTextExtent | 5 | 5
+| 0x066(102) | NtGdiGetTextCharsetInfo | 3 | 3
+| 0x067(103) | NtGdiGetSystemPaletteUse | 1 | 1
+| 0x068(104) | NtGdiGetSuggestedOPMProtectedOutputArraySize | 2 | 2
+| 0x069(105) | NtGdiGetStringBitmapW | 5 | 5
+| 0x06A(106) | NtGdiGetStockObject | 1 | 1
+| 0x06B(107) | NtGdiGetStats | 5 | 5
+| 0x06C(108) | NtGdiGetSpoolMessage | 4 | -1
+| 0x06D(109) | NtGdiGetServerMetaFileBits | 7 | 7
+| 0x06E(110) | NtGdiGetRgnBox | 2 | 2
+| 0x06F(111) | NtGdiGetRegionData | 3 | 3
+| 0x070(112) | NtGdiGetRealizationInfo | 2 | 2
+| 0x071(113) | NtGdiGetRasterizerCaps | 2 | 2
+| 0x072(114) | NtGdiGetRandomRgn | 3 | 3
+| 0x073(115) | NtGdiGetPixel | 3 | 3
+| 0x074(116) | NtGdiGetPath | 4 | 4
+| 0x075(117) | NtGdiGetOutlineTextMetricsInternalW | 4 | 4
+| 0x076(118) | NtGdiGetOPMRandomNumber | 2 | 2
+| 0x077(119) | NtGdiGetObjectBitmapHandle | 2 | 2
+| 0x078(120) | NtGdiGetNearestPaletteIndex | 2 | 2
+| 0x079(121) | NtGdiGetNearestColor | 2 | 2
+| 0x07A(122) | NtGdiGetMonitorID | 3 | 3
+| 0x07B(123) | NtGdiGetMiterLimit | 2 | 2
+| 0x07C(124) | NtGdiGetLinkedUFIs | 3 | 3
+| 0x07D(125) | NtGdiGetKerningPairs | 3 | 3
+| 0x07E(126) | NtGdiGetOPMInformation | 3 | 3
+| 0x07F(127) | NtGdiGetGlyphOutline | 8 | 8
+| 0x080(128) | NtGdiGetGlyphIndicesWInternal | 6 | 6
+| 0x081(129) | NtGdiGetGlyphIndicesW | 5 | 5
+| 0x082(130) | NtGdiGetFontResourceInfoInternalW | 7 | 7
+| 0x083(131) | NtGdiGetFontFileInfo | 5 | 5
+| 0x084(132) | NtGdiGetFontFileData | 5 | 5
+| 0x085(133) | NtGdiGetFontData | 5 | 5
+| 0x086(134) | NtGdiGetEudcTimeStampEx | 3 | 3
+| 0x087(135) | NtGdiGetETM | 2 | 2
+| 0x088(136) | NtGdiGetDIBitsInternal | 9 | 9
+| 0x089(137) | NtGdiGetDeviceCapsAll | 2 | 2
+| 0x08A(138) | NtGdiGetDeviceGammaRamp | 2 | 2
+| 0x08B(139) | NtGdiGetDeviceCaps | 2 | 2
+| 0x08C(140) | NtGdiGetDCPoint | 3 | 3
+| 0x08D(141) | NtGdiGetDCObject | 2 | 2
+| 0x08E(142) | NtGdiGetDCforBitmap | 1 | 1
+| 0x08F(143) | NtGdiGetDCDword | 3 | 3
+| 0x090(144) | NtGdiGetCurrentDpiInfo | 2 | 2
+| 0x091(145) | NtGdiGetCOPPCompatibleOPMInformation | 3 | 3
+| 0x092(146) | NtGdiGetColorSpaceforBitmap | 1 | 1
+| 0x093(147) | NtGdiGetColorAdjustment | 2 | 2
+| 0x094(148) | NtGdiGetCharWidthInfo | 2 | 2
+| 0x095(149) | NtGdiGetCharWidthW | 6 | 6
+| 0x096(150) | NtGdiGetCharSet | 1 | 1
+| 0x097(151) | NtGdiGetCharacterPlacementW | 6 | 6
+| 0x098(152) | NtGdiGetCharABCWidthsW | 6 | 6
+| 0x099(153) | NtGdiGetCertificateSize | 3 | 3
+| 0x09A(154) | NtGdiGetCertificate | 4 | 4
+| 0x09B(155) | NtGdiGetBoundsRect | 3 | 3
+| 0x09C(156) | NtGdiGetBitmapDimension | 2 | 2
+| 0x09D(157) | NtGdiGetBitmapBits | 3 | 3
+| 0x09E(158) | NtGdiGetAppClipBox | 2 | 2
+| 0x09F(159) | NtGdiGetAndSetDCDword | 4 | 4
+| 0x0A0(160) | NtGdiFullscreenControl | 5 | -1
+| 0x0A1(161) | NtGdiFrameRgn | 5 | 5
+| 0x0A2(162) | NtGdiForceUFIMapping | 2 | 2
+| 0x0A3(163) | NtGdiFlush | 0 | 0
+| 0x0A4(164) | NtGdiFlattenPath | 1 | 1
+| 0x0A5(165) | NtGdiFillRgn | 3 | 3
+| 0x0A6(166) | NtGdiFillPath | 1 | 1
+| 0x0A7(167) | NtGdiExtTextOutW | 9 | 9
+| 0x0A8(168) | NtGdiExtSelectClipRgn | 3 | 3
+| 0x0A9(169) | NtGdiExtGetObjectW | 3 | 3
+| 0x0AA(170) | NtGdiExtFloodFill | 5 | 5
+| 0x0AB(171) | NtGdiExtEscape | 8 | 8
+| 0x0AC(172) | NtGdiExtCreateRegion | 3 | 3
+| 0x0AD(173) | NtGdiExtCreatePen | 11 | 11
+| 0x0AE(174) | NtGdiExcludeClipRect | 5 | 5
+| 0x0AF(175) | NtGdiEudcLoadUnloadLink | 7 | 7
+| 0x0B0(176) | NtGdiEqualRgn | 2 | 2
+| 0x0B1(177) | NtGdiEnumObjects | 4 | 4
+| 0x0B2(178) | NtGdiEnumFonts | 8 | 8
+| 0x0B3(179) | NtGdiEndPath | 1 | 1
+| 0x0B4(180) | NtGdiEndPage | 1 | 1
+| 0x0B5(181) | NtGdiEndGdiRendering | 4 | 4
+| 0x0B6(182) | NtGdiEndDoc | 1 | 1
+| 0x0B7(183) | NtGdiEnableEudc | 1 | 1
+| 0x0B8(184) | NtGdiEllipse | 5 | 5
+| 0x0B9(185) | NtGdiDrawEscape | 4 | 4
+| 0x0BA(186) | NtGdiDoPalette | 6 | 6
+| 0x0BB(187) | NtGdiDoBanding | 4 | 4
+| 0x0BC(188) | NtGdiGetPerBandInfo | 2 | 2
+| 0x0BD(189) | NtGdiDestroyOPMProtectedOutput | 1 | 1
+| 0x0BE(190) | NtGdiDescribePixelFormat | 4 | 4
+| 0x0BF(191) | NtGdiDeleteObjectApp | 1 | 1
+| 0x0C0(192) | NtGdiDeleteColorTransform | 2 | 2
+| 0x0C1(193) | NtGdiDeleteColorSpace | 1 | 1
+| 0x0C2(194) | NtGdiDeleteClientObj | 1 | 1
+| 0x0C3(195) | NtGdiDxgGenericThunk | 6 | -1
+| 0x0C4(196) | NtGdiDdQueryMoCompStatus | 2 | -1
+| 0x0C5(197) | NtGdiDdUpdateOverlay | 3 | -1
+| 0x0C6(198) | NtGdiDdQueryMoCompStatus | 2 | -1
+| 0x0C7(199) | NtGdiD3dContextCreate | 4 | -1
+| 0x0C8(200) | NtGdiDdQueryMoCompStatus | 2 | -1
+| 0x0C9(201) | NtGdiDdQueryMoCompStatus | 2 | -1
+| 0x0CA(202) | NtGdiDdQueryMoCompStatus | 2 | -1
+| 0x0CB(203) | NtGdiDdQueryMoCompStatus | 2 | -1
+| 0x0CC(204) | NtGdiDdQueryMoCompStatus | 2 | -1
+| 0x0CD(205) | NtGdiDdQueryMoCompStatus | 2 | -1
+| 0x0CE(206) | NtGdiDdQueryMoCompStatus | 2 | -1
+| 0x0CF(207) | NtGdiDdQueryMoCompStatus | 2 | -1
+| 0x0D0(208) | NtGdiD3dContextCreate | 4 | -1
+| 0x0D1(209) | NtGdiDdQueryMoCompStatus | 2 | -1
+| 0x0D2(210) | NtGdiDdQueryMoCompStatus | 2 | -1
+| 0x0D3(211) | NtGdiDdQueryMoCompStatus | 2 | -1
+| 0x0D4(212) | NtGdiDdQueryMoCompStatus | 2 | -1
+| 0x0D5(213) | NtGdiDdQueryMoCompStatus | 2 | -1
+| 0x0D6(214) | NtGdiDdUpdateOverlay | 3 | -1
+| 0x0D7(215) | NtGdiDdQueryMoCompStatus | 2 | -1
+| 0x0D8(216) | NtGdiDdQueryMoCompStatus | 2 | -1
+| 0x0D9(217) | NtGdiDdUnattachSurface | 2 | 2
+| 0x0DA(218) | NtGdiDdUpdateOverlay | 3 | -1
+| 0x0DB(219) | NtGdiDdUpdateOverlay | 3 | -1
+| 0x0DC(220) | NtGdiDdUpdateOverlay | 3 | -1
+| 0x0DD(221) | NtGdiDdQueryMoCompStatus | 2 | -1
+| 0x0DE(222) | NtGdiDdQueryMoCompStatus | 2 | -1
+| 0x0DF(223) | NtGdiDdQueryMoCompStatus | 2 | -1
+| 0x0E0(224) | NtGdiDdQueryMoCompStatus | 2 | -1
+| 0x0E1(225) | NtGdiDdGetDriverState | 1 | -1
+| 0x0E2(226) | NtGdiDdQueryMoCompStatus | 2 | -1
+| 0x0E3(227) | NtGdiDdQueryMoCompStatus | 2 | -1
+| 0x0E4(228) | NtGdiDdQueryDirectDrawObject | 11 | -1
+| 0x0E5(229) | NtGdiDdQueryMoCompStatus | 2 | -1
+| 0x0E6(230) | NtGdiDdUpdateOverlay | 3 | -1
+| 0x0E7(231) | NtGdiDdQueryMoCompStatus | 2 | -1
+| 0x0E8(232) | NtGdiDdQueryMoCompStatus | 2 | -1
+| 0x0E9(233) | NtGdiDdQueryMoCompStatus | 2 | -1
+| 0x0EA(234) | NtGdiDdQueryMoCompStatus | 2 | -1
+| 0x0EB(235) | NtGdiDdQueryMoCompStatus | 2 | -1
+| 0x0EC(236) | NtGdiDdQueryMoCompStatus | 2 | -1
+| 0x0ED(237) | NtGdiDdUpdateOverlay | 3 | -1
+| 0x0EE(238) | NtGdiDdQueryMoCompStatus | 2 | -1
+| 0x0EF(239) | NtGdiDdQueryMoCompStatus | 2 | -1
+| 0x0F0(240) | NtGdiDdQueryMoCompStatus | 2 | -1
+| 0x0F1(241) | NtGdiDdQueryMoCompStatus | 2 | -1
+| 0x0F2(242) | NtGdiDdQueryMoCompStatus | 2 | -1
+| 0x0F3(243) | HeapVidMemAllocAligned | 5 | -1
+| 0x0F4(244) | NtGdiDdQueryMoCompStatus | 2 | -1
+| 0x0F5(245) | NtGdiDdGetDriverState | 1 | -1
+| 0x0F6(246) | NtGdiDdQueryMoCompStatus | 2 | -1
+| 0x0F7(247) | NtGdiDdQueryMoCompStatus | 2 | -1
+| 0x0F8(248) | NtGdiDdGetDriverState | 1 | -1
+| 0x0F9(249) | NtGdiDdGetDriverState | 1 | -1
+| 0x0FA(250) | NtGdiDxgGenericThunk | 6 | -1
+| 0x0FB(251) | NtGdiDdQueryMoCompStatus | 2 | -1
+| 0x0FC(252) | NtGdiDdCreateSurface | 8 | -1
+| 0x0FD(253) | NtGdiDdCreateSurface | 8 | -1
+| 0x0FE(254) | NtGdiDdGetDriverState | 1 | -1
+| 0x0FF(255) | NtGdiDdQueryMoCompStatus | 2 | -1
+| 0x100(256) | NtGdiDdQueryMoCompStatus | 2 | -1
+| 0x101(257) | NtGdiDdQueryMoCompStatus | 2 | -1
+| 0x102(258) | NtGdiDdUpdateOverlay | 3 | -1
+| 0x103(259) | NtGdiDdQueryMoCompStatus | 2 | -1
+| 0x104(260) | NtGdiDdQueryMoCompStatus | 2 | -1
+| 0x105(261) | NtGdiDdUpdateOverlay | 3 | -1
+| 0x106(262) | NtGdiDdUpdateOverlay | 3 | -1
+| 0x107(263) | NtGdiDdGetDriverState | 1 | -1
+| 0x108(264) | NtGdiD3dDrawPrimitives2 | 7 | -1
+| 0x109(265) | NtGdiDdGetDriverState | 1 | -1
+| 0x10A(266) | NtGdiDdGetDriverState | 1 | -1
+| 0x10B(267) | NtGdiDdGetDriverState | 1 | -1
+| 0x10C(268) | NtGdiD3dContextCreate | 4 | -1
+| 0x10D(269) | NtGdiCreateSolidBrush | 2 | 2
+| 0x10E(270) | NtGdiCreateServerMetaFile | 6 | 6
+| 0x10F(271) | NtGdiCreateRoundRectRgn | 6 | 6
+| 0x110(272) | NtGdiCreateRectRgn | 4 | 4
+| 0x111(273) | NtGdiCreatePen | 4 | 4
+| 0x112(274) | NtGdiCreatePatternBrushInternal | 3 | 3
+| 0x113(275) | NtGdiCreatePaletteInternal | 2 | 2
+| 0x114(276) | NtGdiCreateOPMProtectedOutputs | 5 | 5
+| 0x115(277) | NtGdiCreateMetafileDC | 1 | 1
+| 0x116(278) | NtGdiCreateHatchBrushInternal | 3 | 3
+| 0x117(279) | NtGdiCreateHalftonePalette | 1 | 1
+| 0x118(280) | NtGdiCreateEllipticRgn | 4 | 4
+| 0x119(281) | NtGdiCreateSessionMappedDIBSection | 8 | 8
+| 0x11A(282) | NtGdiCreateDIBSection | 9 | 9
+| 0x11B(283) | NtGdiCreateDIBitmapInternal | 11 | 11
+| 0x11C(284) | NtGdiCreateDIBBrush | 6 | 6
+| 0x11D(285) | NtGdiCreateCompatibleDC | 1 | 1
+| 0x11E(286) | NtGdiCreateCompatibleBitmap | 3 | 3
+| 0x11F(287) | NtGdiCreateColorTransform | 8 | 8
+| 0x120(288) | NtGdiCreateColorSpace | 1 | 1
+| 0x121(289) | NtGdiCreateClientObj | 1 | 1
+| 0x122(290) | NtGdiCreateBitmapFromDxSurface2 | 7 | 7
+| 0x123(291) | NtGdiCreateBitmapFromDxSurface | 5 | 5
+| 0x124(292) | NtGdiCreateBitmap | 5 | 5
+| 0x125(293) | NtGdiConvertMetafileRect | 2 | 2
+| 0x126(294) | NtGdiConfigureOPMProtectedOutput | 4 | 4
+| 0x127(295) | NtGdiComputeXformCoefficients | 1 | 1
+| 0x128(296) | NtGdiCombineTransform | 3 | 3
+| 0x129(297) | NtGdiCombineRgn | 4 | 4
+| 0x12A(298) | NtGdiColorCorrectPalette | 6 | 6
+| 0x12B(299) | NtGdiSetBrushAttributes | 2 | 2
+| 0x12C(300) | NtGdiClearBitmapAttributes | 2 | 2
+| 0x12D(301) | NtGdiCloseFigure | 1 | 1
+| 0x12E(302) | NtGdiCheckBitmapBits | 8 | 8
+| 0x12F(303) | NtGdiCancelDC | 1 | 1
+| 0x130(304) | NtGdiBitBlt | 11 | 11
+| 0x131(305) | NtGdiBeginPath | 1 | 1
+| 0x132(306) | NtGdiBeginGdiRendering | 3 | 3
+| 0x133(307) | NtGdiArcInternal | 10 | 10
+| 0x134(308) | NtGdiFontIsLinked | 1 | 1
+| 0x135(309) | NtGdiAnyLinkedFonts | 0 | 0
+| 0x136(310) | NtGdiAngleArc | 6 | 6
+| 0x137(311) | NtGdiAlphaBlend | 12 | 12
+| 0x138(312) | NtGdiAddRemoteMMInstanceToDC | 3 | 3
+| 0x139(313) | NtGdiRemoveMergeFont | 2 | 2
+| 0x13A(314) | NtGdiAddFontMemResourceEx | 5 | 5
+| 0x13B(315) | NtGdiAddRemoteFontToDC | 4 | 4
+| 0x13C(316) | NtGdiAddFontResourceW | 6 | 6
+| 0x13D(317) | NtGdiAbortPath | 1 | 1
+| 0x13E(318) | NtGdiAbortDoc | 1 | 1
+| 0x13F(319) | NtUserDefSetText | 2 | 2
+| 0x140(320) | NtUserDeferWindowPosAndBand | 10 | 10
+| 0x141(321) | NtUserDdeInitialize | 5 | 5
+| 0x142(322) | NtUserCanBrokerForceForeground | 1 | 1
+| 0x143(323) | NtUserCreateWindowStation | 8 | 8
+| 0x144(324) | NtUserCreateWindowEx | 16 | 16
+| 0x145(325) | NtUserCreateLocalMemHandle | 4 | 4
+| 0x146(326) | NtUserCreateInputContext | 1 | 1
+| 0x147(327) | NtUserCreateDesktopEx | 6 | 6
+| 0x148(328) | NtUserCreateCaret | 4 | 4
+| 0x149(329) | NtUserCreateAcceleratorTable | 2 | 2
+| 0x14A(330) | NtUserCountClipboardFormats | 0 | 0
+| 0x14B(331) | NtUserCopyAcceleratorTable | 3 | 3
+| 0x14C(332) | NtUserConvertMemHandle | 2 | 2
+| 0x14D(333) | NtUserConsoleControl | 3 | 3
+| 0x14E(334) | NtUserCloseWindowStation | 1 | 1
+| 0x14F(335) | NtUserCloseDesktop | 1 | 1
+| 0x150(336) | NtUserCloseClipboard | 0 | 0
+| 0x151(337) | NtUserClipCursor | 1 | 1
+| 0x152(338) | NtUserChildWindowFromPointEx | 4 | 4
+| 0x153(339) | NtUserCheckMenuItem | 3 | 3
+| 0x154(340) | NtUserCheckWindowThreadDesktop | 2 | 2
+| 0x155(341) | NtUserDwmValidateWindow | 2 | 2
+| 0x156(342) | NtUserCheckAccessForIntegrityLevel | 3 | 3
+| 0x157(343) | NtUserDisplayConfigSetDeviceInfo | 1 | 1
+| 0x158(344) | NtUserDisplayConfigGetDeviceInfo | 1 | 1
+| 0x159(345) | NtUserQueryDisplayConfig | 6 | 6
+| 0x15A(346) | NtUserSetDisplayConfig | 5 | 5
+| 0x15B(347) | NtUserGetDisplayConfigBufferSizes | 3 | 3
+| 0x15C(348) | NtUserChangeDisplaySettings | 4 | 4
+| 0x15D(349) | NtUserChangeClipboardChain | 2 | 2
+| 0x15E(350) | NtUserCallTwoParam | 3 | 3
+| 0x15F(351) | NtUserCallOneParam | 2 | 2
+| 0x160(352) | NtUserCallNoParam | 1 | 1
+| 0x161(353) | NtUserCallNextHookEx | 4 | 4
+| 0x162(354) | NtUserCallMsgFilter | 2 | 2
+| 0x163(355) | NtUserCallHwndParamLock | 3 | 3
+| 0x164(356) | NtUserCallHwndParam | 3 | 3
+| 0x165(357) | NtUserCallHwndOpt | 2 | 2
+| 0x166(358) | NtUserCallHwndLock | 2 | 2
+| 0x167(359) | NtUserCallHwnd | 2 | 2
+| 0x168(360) | NtUserBuildPropList | 4 | 4
+| 0x169(361) | NtUserBuildNameList | 4 | 4
+| 0x16A(362) | NtUserBuildHwndList | 8 | 8
+| 0x16B(363) | NtUserBuildHimcList | 4 | 4
+| 0x16C(364) | NtUserBlockInput | 1 | 1
+| 0x16D(365) | NtUserBitBltSysBmp | 8 | 8
+| 0x16E(366) | NtUserBeginPaint | 2 | 2
+| 0x16F(367) | NtUserAttachThreadInput | 3 | 3
+| 0x170(368) | NtUserAssociateInputContext | 3 | 3
+| 0x171(369) | NtUserAlterWindowStyle | 3 | 3
+| 0x172(370) | NtUserAddClipboardFormatListener | 1 | 1
+| 0x173(371) | NtUserActivateKeyboardLayout | 2 | 2
+| 0x174(372) | NtUserDelegateCapturePointers | 3 | 3
+| 0x175(373) | NtUserDelegateInput | 6 | 6
+| 0x176(374) | NtUserDispatchMessage | 1 | 1
+| 0x177(375) | NtUserDisableProcessWindowFiltering | 0 | 0
+| 0x178(376) | NtUserDisableThreadIme | 1 | 1
+| 0x179(377) | NtUserDestroyWindow | 1 | 1
+| 0x17A(378) | NtUserDestroyMenu | 1 | 1
+| 0x17B(379) | NtUserDestroyInputContext | 1 | 1
+| 0x17C(380) | NtUserDestroyCursor | 2 | 2
+| 0x17D(381) | NtUserDestroyAcceleratorTable | 1 | 1
+| 0x17E(382) | NtUserDeleteMenu | 3 | 3
+| 0x17F(383) | NtUserDoSoundDisconnect | 0 | 0
+| 0x180(384) | NtUserDoSoundConnect | 0 | 0
+| 0x181(385) | NtUserGhostWindowFromHungWindow | 1 | 1
+| 0x182(386) | NtUserGetWOWClass | 2 | 2
+| 0x183(387) | NtUserGetWindowPlacement | 2 | 2
+| 0x184(388) | NtUserGetWindowDisplayAffinity | 2 | 2
+| 0x185(389) | NtUserGetWindowDC | 1 | 1
+| 0x186(390) | NtUserGetWindowCompositionAttribute | 2 | 2
+| 0x187(391) | NtUserGetWindowCompositionInfo | 2 | 2
+| 0x188(392) | NtUserGetWindowBand | 2 | 2
+| 0x189(393) | NtUserGetUpdateRgn | 3 | 3
+| 0x18A(394) | NtUserGetUpdateRect | 3 | 3
+| 0x18B(395) | NtUserGetUpdatedClipboardFormats | 3 | 3
+| 0x18C(396) | NtUserGetTopLevelWindow | 1 | 1
+| 0x18D(397) | NtUserGetTitleBarInfo | 2 | 2
+| 0x18E(398) | NtUserGetThreadState | 1 | 1
+| 0x18F(399) | NtUserGetThreadDesktop | 1 | 1
+| 0x190(400) | NtUserGetSystemMenu | 2 | 2
+| 0x191(401) | NtUserGetScrollBarInfo | 3 | 3
+| 0x192(402) | NtUserGetRegisteredRawInputDevices | 3 | 3
+| 0x193(403) | NtUserGetRawInputDeviceList | 3 | 3
+| 0x194(404) | NtUserGetRawInputDeviceInfo | 4 | 4
+| 0x195(405) | NtUserGetRawInputData | 5 | 5
+| 0x196(406) | NtUserGetRawInputBuffer | 3 | 3
+| 0x197(407) | NtUserGetProcessWindowStation | 0 | 0
+| 0x198(408) | NtUserGetPriorityClipboardFormat | 2 | 2
+| 0x199(409) | NtUserGetOpenClipboardWindow | 0 | 0
+| 0x19A(410) | NtUserGetObjectInformation | 5 | 5
+| 0x19B(411) | NtUserGetMouseMovePointsEx | 5 | 5
+| 0x19C(412) | NtUserGetMessage | 4 | 4
+| 0x19D(413) | NtUserGetMenuItemRect | 4 | 4
+| 0x19E(414) | NtUserGetMenuIndex | 2 | 2
+| 0x19F(415) | NtUserGetMenuBarInfo | 4 | 4
+| 0x1A0(416) | NtUserGetListBoxInfo | 1 | 1
+| 0x1A1(417) | NtUserGetKeyState | 1 | 1
+| 0x1A2(418) | NtUserGetKeyNameText | 3 | 3
+| 0x1A3(419) | NtUserGetKeyboardState | 1 | 1
+| 0x1A4(420) | NtUserGetKeyboardLayoutName | 1 | 1
+| 0x1A5(421) | NtUserGetKeyboardLayoutList | 2 | 2
+| 0x1A6(422) | NtUserGetInternalWindowPos | 3 | 3
+| 0x1A7(423) | NtUserGetInputLocaleInfo | 2 | 2
+| 0x1A8(424) | NtUserGetImeInfoEx | 2 | 2
+| 0x1A9(425) | NtUserGetImeHotKey | 4 | 4
+| 0x1AA(426) | NtUserGetIconSize | 4 | 4
+| 0x1AB(427) | NtUserGetIconInfo | 6 | 6
+| 0x1AC(428) | NtUserGetGUIThreadInfo | 2 | 2
+| 0x1AD(429) | NtUserGetGuiResources | 2 | 2
+| 0x1AE(430) | NtUserGetForegroundWindow | 0 | 0
+| 0x1AF(431) | NtUserGetDoubleClickTime | 0 | 0
+| 0x1B0(432) | NtUserGetDesktopID | 2 | 2
+| 0x1B1(433) | NtUserGetDCEx | 3 | 3
+| 0x1B2(434) | NtUserGetDC | 1 | 1
+| 0x1B3(435) | NtUserGetCursorInfo | 1 | 1
+| 0x1B4(436) | NtUserGetCursorFrameInfo | 4 | 4
+| 0x1B5(437) | NtUserGetCurrentInputMessageSource | 1 | 1
+| 0x1B6(438) | NtUserGetCIMSSM | 1 | 1
+| 0x1B7(439) | NtUserGetCPD | 3 | 3
+| 0x1B8(440) | NtUserGetControlColor | 4 | 4
+| 0x1B9(441) | NtUserGetControlBrush | 3 | 3
+| 0x1BA(442) | NtUserGetComboBoxInfo | 2 | 2
+| 0x1BB(443) | NtUserGetClipCursor | 1 | 1
+| 0x1BC(444) | NtUserGetClipboardViewer | 0 | 0
+| 0x1BD(445) | NtUserGetClipboardSequenceNumber | 0 | 0
+| 0x1BE(446) | NtUserGetClipboardOwner | 0 | 0
+| 0x1BF(447) | NtUserGetClipboardFormatName | 3 | 3
+| 0x1C0(448) | NtUserGetClipboardData | 2 | 2
+| 0x1C1(449) | NtUserGetClassName | 3 | 3
+| 0x1C2(450) | NtUserGetClassInfoEx | 5 | 5
+| 0x1C3(451) | NtUserGetCaretPos | 1 | 1
+| 0x1C4(452) | NtUserGetCaretBlinkTime | 0 | 0
+| 0x1C5(453) | NtUserGetAtomName | 2 | 2
+| 0x1C6(454) | NtUserGetAsyncKeyState | 1 | 1
+| 0x1C7(455) | NtUserGetAppImeLevel | 1 | 1
+| 0x1C8(456) | NtUserGetAncestor | 2 | 2
+| 0x1C9(457) | NtUserGetAltTabInfo | 6 | 6
+| 0x1CA(458) | NtUserFrostCrashedWindow | 2 | 2
+| 0x1CB(459) | NtUserFlashWindowEx | 1 | 1
+| 0x1CC(460) | NtUserFindWindowEx | 5 | 5
+| 0x1CD(461) | NtUserFindExistingCursorIcon | 3 | 3
+| 0x1CE(462) | NtUserFillWindow | 4 | 4
+| 0x1CF(463) | NtUserExcludeUpdateRgn | 2 | 2
+| 0x1D0(464) | NtUserEvent | 1 | 1
+| 0x1D1(465) | NtUserEnumDisplaySettings | 4 | 4
+| 0x1D2(466) | NtUserEnumDisplayMonitors | 4 | 4
+| 0x1D3(467) | NtUserEnumDisplayDevices | 4 | 4
+| 0x1D4(468) | NtUserEndPaint | 2 | 2
+| 0x1D5(469) | NtUserEndMenu | 0 | 0
+| 0x1D6(470) | NtUserEndDeferWindowPosEx | 2 | 2
+| 0x1D7(471) | NtUserEnableScrollBar | 3 | 3
+| 0x1D8(472) | NtUserEnableMenuItem | 3 | 3
+| 0x1D9(473) | NtUserEmptyClipboard | 0 | 0
+| 0x1DA(474) | NtUserDrawMenuBarTemp | 5 | 5
+| 0x1DB(475) | NtUserDrawIconEx | 11 | 11
+| 0x1DC(476) | NtUserDrawCaptionTemp | 7 | 7
+| 0x1DD(477) | NtUserDrawCaption | 4 | 4
+| 0x1DE(478) | NtUserDrawAnimatedRects | 4 | 4
+| 0x1DF(479) | NtUserDragObject | 5 | 5
+| 0x1E0(480) | NtUserDragDetect | 3 | 3
+| 0x1E1(481) | NtUserHandleDelegatedInput | 2 | 2
+| 0x1E2(482) | NtUserRealChildWindowFromPoint | 3 | 3
+| 0x1E3(483) | NtUserQueryWindow | 2 | 2
+| 0x1E4(484) | NtUserQuerySendMessage | 1 | 1
+| 0x1E5(485) | NtUserQueryInputContext | 2 | 2
+| 0x1E6(486) | NtUserQueryInformationThread | 4 | 4
+| 0x1E7(487) | NtUserQueryBSDRWindow | 0 | 0
+| 0x1E8(488) | NtUserPerMonitorDPIPhysicalToLogicalPoint | 2 | 2
+| 0x1E9(489) | NtUserProcessConnect | 2 | 2
+| 0x1EA(490) | NtUserPrintWindow | 3 | 3
+| 0x1EB(491) | NtUserPostThreadMessage | 4 | 4
+| 0x1EC(492) | NtUserPostMessage | 4 | 4
+| 0x1ED(493) | NtUserPhysicalToLogicalPoint | 2 | 2
+| 0x1EE(494) | NtUserPeekMessage | 5 | 5
+| 0x1EF(495) | NtUserPaintMonitor | 3 | 3
+| 0x1F0(496) | NtUserPaintDesktop | 1 | 1
+| 0x1F1(497) | NtUserOpenWindowStation | 2 | 2
+| 0x1F2(498) | NtUserOpenThreadDesktop | 4 | 4
+| 0x1F3(499) | NtUserOpenInputDesktop | 3 | 3
+| 0x1F4(500) | NtUserOpenDesktop | 3 | 3
+| 0x1F5(501) | NtUserOpenClipboard | 2 | 2
+| 0x1F6(502) | NtUserNotifyWinEvent | 4 | 4
+| 0x1F7(503) | NtUserNotifyProcessCreate | 4 | 4
+| 0x1F8(504) | NtUserNotifyIMEStatus | 3 | 3
+| 0x1F9(505) | NtUserMoveWindow | 6 | 6
+| 0x1FA(506) | NtUserModifyUserStartupInfoFlags | 2 | 2
+| 0x1FB(507) | NtUserMNDragOver | 2 | 2
+| 0x1FC(508) | NtUserMNDragLeave | 0 | 0
+| 0x1FD(509) | NtUserMinMaximize | 3 | 3
+| 0x1FE(510) | NtUserMessageCall | 7 | 7
+| 0x1FF(511) | NtUserMenuItemFromPoint | 4 | 4
+| 0x200(512) | NtUserMapVirtualKeyEx | 4 | 4
+| 0x201(513) | NtUserLayoutCompleted | 1 | 1
+| 0x202(514) | NtUserLogicalToPerMonitorDPIPhysicalPoint | 2 | 2
+| 0x203(515) | NtUserLogicalToPhysicalPoint | 2 | 2
+| 0x204(516) | NtUserLockWorkStation | 0 | 0
+| 0x205(517) | NtUserLockWindowUpdate | 1 | 1
+| 0x206(518) | NtUserLockWindowStation | 1 | 1
+| 0x207(519) | NtUserLoadKeyboardLayoutEx | 8 | 8
+| 0x208(520) | NtUserKillTimer | 2 | 2
+| 0x209(521) | NtUserIsTopLevelWindow | 1 | 1
+| 0x20A(522) | NtUserIsClipboardFormatAvailable | 1 | 1
+| 0x20B(523) | NtUserInvalidateRgn | 3 | 3
+| 0x20C(524) | NtUserInvalidateRect | 3 | 3
+| 0x20D(525) | NtUserInternalGetWindowIcon | 2 | 2
+| 0x20E(526) | NtUserInternalGetWindowText | 3 | 3
+| 0x20F(527) | NtUserInitTask | 12 | -1
+| 0x210(528) | NtUserInitializeClientPfnArrays | 4 | 4
+| 0x211(529) | NtUserInitialize | 2 | 2
+| 0x212(530) | NtUserImpersonateDdeClientWindow | 2 | 2
+| 0x213(531) | NtUserHungWindowFromGhostWindow | 1 | 1
+| 0x214(532) | NtUserHiliteMenuItem | 4 | 4
+| 0x215(533) | NtUserHideCaret | 1 | 1
+| 0x216(534) | NtUserHardErrorControl | 3 | 3
+| 0x217(535) | NtUserRealInternalGetMessage | 6 | 6
+| 0x218(536) | NtUserRealWaitMessageEx | 2 | 2
+| 0x219(537) | NtUserTranslateMessage | 2 | 2
+| 0x21A(538) | NtUserTranslateAccelerator | 3 | 3
+| 0x21B(539) | NtUserPaintMenuBar | 6 | 6
+| 0x21C(540) | NtUserCalcMenuBar | 5 | 5
+| 0x21D(541) | NtUserCalculatePopupWindowPosition | 5 | 5
+| 0x21E(542) | NtUserTrackPopupMenuEx | 6 | 6
+| 0x21F(543) | NtUserTrackMouseEvent | 1 | 1
+| 0x220(544) | NtUserToUnicodeEx | 7 | 7
+| 0x221(545) | NtUserThunkedMenuItemInfo | 6 | 6
+| 0x222(546) | NtUserThunkedMenuInfo | 2 | 2
+| 0x223(547) | NtUserTestForInteractiveUser | 1 | 1
+| 0x224(548) | NtUserSendEventMessage | 4 | 4
+| 0x225(549) | NtUserSystemParametersInfo | 4 | 4
+| 0x226(550) | NtUserSwitchDesktop | 3 | 3
+| 0x227(551) | NtUserSoundSentry | 0 | 0
+| 0x228(552) | NtUserShutdownReasonDestroy | 1 | 1
+| 0x229(553) | NtUserShutdownBlockReasonQuery | 3 | 3
+| 0x22A(554) | NtUserShutdownBlockReasonCreate | 3 | 3
+| 0x22B(555) | NtUserShowWindowAsync | 2 | 2
+| 0x22C(556) | NtUserShowWindow | 2 | 2
+| 0x22D(557) | NtUserShowScrollBar | 3 | 3
+| 0x22E(558) | NtUserShowCaret | 1 | 1
+| 0x22F(559) | NtUserSetWinEventHook | 8 | 8
+| 0x230(560) | NtUserSetWindowWord | 3 | 3
+| 0x231(561) | NtUserSetWindowStationUser | 4 | 4
+| 0x232(562) | NtUserSetWindowsHookEx | 6 | 6
+| 0x233(563) | NtUserSetWindowsHookAW | 3 | 3
+| 0x234(564) | NtUserSetWindowRgnEx | 3 | 3
+| 0x235(565) | NtUserGetWindowRgnEx | 3 | 3
+| 0x236(566) | NtUserSetWindowRgn | 3 | 3
+| 0x237(567) | NtUserSetWindowPos | 7 | 7
+| 0x238(568) | NtUserSetWindowPlacement | 2 | 2
+| 0x239(569) | NtUserSetWindowLong | 4 | 4
+| 0x23A(570) | NtUserSetWindowFNID | 2 | 2
+| 0x23B(571) | NtUserSetWindowDisplayAffinity | 2 | 2
+| 0x23C(572) | NtUserSetWindowCompositionTransition | 7 | 7
+| 0x23D(573) | NtUserUpdateDefaultDesktopThumbnail | 5 | 5
+| 0x23E(574) | NtUserSetWindowCompositionAttribute | 2 | 2
+| 0x23F(575) | NtUserSetWindowBand | 3 | 3
+| 0x240(576) | NtUserSetProcessUIAccessZorder | 0 | 0
+| 0x241(577) | NtUserSetProcessDpiAwareness | 2 | 2
+| 0x242(578) | NtUserSetTimer | 5 | 5
+| 0x243(579) | NtUserSetThreadState | 2 | 2
+| 0x244(580) | NtUserSetThreadLayoutHandles | 2 | 2
+| 0x245(581) | NtUserSetThreadDesktop | 1 | 1
+| 0x246(582) | NtUserSetThreadInputBlocked | 2 | 2
+| 0x247(583) | NtUserSetSystemTimer | 3 | 3
+| 0x248(584) | NtUserSetSystemMenu | 2 | 2
+| 0x249(585) | NtUserSetSystemCursor | 2 | 2
+| 0x24A(586) | NtUserSetSysColors | 4 | 4
+| 0x24B(587) | NtUserSetShellWindowEx | 2 | 2
+| 0x24C(588) | NtUserSetImmersiveBackgroundWindow | 1 | 1
+| 0x24D(589) | NtUserSetScrollInfo | 4 | 4
+| 0x24E(590) | NtUserSetProp | 3 | 3
+| 0x24F(591) | NtUserGetProp | 2 | 2
+| 0x250(592) | NtUserSetProcessWindowStation | 1 | 1
+| 0x251(593) | NtUserSetParent | 2 | 2
+| 0x252(594) | NtUserSetObjectInformation | 4 | 4
+| 0x253(595) | NtUserSetMenuFlagRtoL | 1 | 1
+| 0x254(596) | NtUserSetMenuDefaultItem | 3 | 3
+| 0x255(597) | NtUserSetMenuContextHelpId | 2 | 2
+| 0x256(598) | NtUserSetMenu | 3 | 3
+| 0x257(599) | NtUserSetKeyboardState | 1 | 1
+| 0x258(600) | NtUserSetInternalWindowPos | 4 | 4
+| 0x259(601) | NtUserSetInformationThread | 4 | 4
+| 0x25A(602) | NtUserSetImeOwnerWindow | 2 | 2
+| 0x25B(603) | NtUserSetImeInfoEx | 1 | 1
+| 0x25C(604) | NtUserSetImeHotKey | 5 | 5
+| 0x25D(605) | NtUserSetFocus | 1 | 1
+| 0x25E(606) | NtUserSetCursorIconData | 4 | 4
+| 0x25F(607) | NtUserSetCursorContents | 2 | 2
+| 0x260(608) | NtUserSetCursor | 1 | 1
+| 0x261(609) | NtUserSetClipboardViewer | 1 | 1
+| 0x262(610) | NtUserSetClipboardData | 3 | 3
+| 0x263(611) | NtUserSetClassWord | 3 | 3
+| 0x264(612) | NtUserSetClassLong | 4 | 4
+| 0x265(613) | NtUserSetChildWindowNoActivate | 1 | 1
+| 0x266(614) | NtUserSetCapture | 1 | 1
+| 0x267(615) | NtUserSetAppImeLevel | 2 | 2
+| 0x268(616) | NtUserSetActiveWindow | 1 | 1
+| 0x269(617) | NtUserSendInput | 3 | 3
+| 0x26A(618) | NtUserSelectPalette | 3 | 3
+| 0x26B(619) | NtUserScrollWindowEx | 8 | 8
+| 0x26C(620) | NtUserScrollDC | 7 | 7
+| 0x26D(621) | NtUserSBGetParms | 4 | 4
+| 0x26E(622) | NtUserResolveDesktopForWOW | 1 | 1
+| 0x26F(623) | NtUserRemoveProp | 2 | 2
+| 0x270(624) | NtUserRemoveMenu | 3 | 3
+| 0x271(625) | NtUserRemoveClipboardFormatListener | 1 | 1
+| 0x272(626) | NtUserRegisterWindowMessage | 1 | 1
+| 0x273(627) | NtUserRegisterTasklist | 1 | 1
+| 0x274(628) | NtUserRegisterServicesProcess | 1 | 1
+| 0x275(629) | NtUserRegisterRawInputDevices | 3 | 3
+| 0x276(630) | NtUserRegisterHotKey | 4 | 4
+| 0x277(631) | NtUserRegisterUserApiHook | 4 | 4
+| 0x278(632) | NtUserRegisterErrorReportingDialog | 2 | 2
+| 0x279(633) | NtUserRegisterClassExWOW | 7 | 7
+| 0x27A(634) | NtUserRegisterBSDRWindow | 2 | 2
+| 0x27B(635) | NtUserRedrawWindow | 4 | 4
+| 0x27C(636) | NtUserUndelegateInput | 2 | 2
+| 0x27D(637) | NtUserGetWindowMinimizeRect | 2 | 2
+| 0x27E(638) | NtUserDwmStopRedirection | 0 | 0
+| 0x27F(639) | NtUserDwmStartRedirection | 2 | 2
+| 0x280(640) | NtUserDwmGetRemoteSessionOcclusionEvent | 0 | 0
+| 0x281(641) | NtUserDwmGetRemoteSessionOcclusionState | 0 | 0
+| 0x282(642) | NtUserUpdateWindowTransform | 3 | -1
+| 0x283(643) | NtUserCheckProcessSession | 1 | 1
+| 0x284(644) | NtUserUnregisterSessionPort | 0 | 0
+| 0x285(645) | NtUserRegisterSessionPort | 1 | 1
+| 0x286(646) | NtUserCtxDisplayIOCtl | 3 | 3
+| 0x287(647) | NtUserRemoteStopScreenUpdates | 0 | 0
+| 0x288(648) | NtUserRemoteRedrawScreen | 0 | 0
+| 0x289(649) | NtUserRemoteRedrawRectangle | 4 | 4
+| 0x28A(650) | NtUserRemoteConnect | 3 | 3
+| 0x28B(651) | NtUserWaitAvailableMessageEx | 2 | 2
+| 0x28C(652) | NtUserWindowFromPoint | 2 | 2
+| 0x28D(653) | NtUserWindowFromPoint | 2 | 2
+| 0x28E(654) | NtUserWaitMessage | 0 | 0
+| 0x28F(655) | NtUserWaitForMsgAndEvent | 1 | 1
+| 0x290(656) | NtUserWaitForInputIdle | 3 | 3
+| 0x291(657) | NtUserVkKeyScanEx | 3 | 3
+| 0x292(658) | NtUserValidateTimerCallback | 1 | 1
+| 0x293(659) | NtUserValidateRect | 2 | 2
+| 0x294(660) | NtUserValidateHandleSecure | 1 | 1
+| 0x295(661) | NtUserUserHandleGrantAccess | 3 | 3
+| 0x296(662) | NtUserUpdatePerUserSystemParameters | 1 | 1
+| 0x297(663) | NtUserSetLayeredWindowAttributes | 4 | 4
+| 0x298(664) | NtUserGetLayeredWindowAttributes | 4 | 4
+| 0x299(665) | NtUserUpdateLayeredWindow | 10 | 10
+| 0x29A(666) | NtUserUpdateInstance | 3 | 3
+| 0x29B(667) | NtUserUpdateInputContext | 3 | 3
+| 0x29C(668) | NtUserUnregisterHotKey | 2 | 2
+| 0x29D(669) | NtUserUnregisterUserApiHook | 0 | 0
+| 0x29E(670) | NtUserUnregisterClass | 3 | 3
+| 0x29F(671) | NtUserUnlockWindowStation | 1 | 1
+| 0x2A0(672) | NtUserUnloadKeyboardLayout | 1 | 1
+| 0x2A1(673) | NtUserUnhookWinEvent | 1 | 1
+| 0x2A2(674) | NtUserUnhookWindowsHookEx | 1 | 1
+| 0x2A3(675) | NtUserGetTouchInputInfo | 4 | 4
+| 0x2A4(676) | NtUserIsTouchWindow | 2 | 2
+| 0x2A5(677) | NtUserModifyWindowTouchCapability | 3 | 3
+| 0x2A6(678) | NtGdiEngStretchBltROP | 13 | 13
+| 0x2A7(679) | NtGdiEngTextOut | 10 | 10
+| 0x2A8(680) | NtGdiEngTransparentBlt | 8 | 8
+| 0x2A9(681) | NtGdiEngGradientFill | 10 | 10
+| 0x2AA(682) | NtGdiEngAlphaBlend | 7 | 7
+| 0x2AB(683) | NtGdiEngLineTo | 9 | 9
+| 0x2AC(684) | NtGdiEngPaint | 5 | 5
+| 0x2AD(685) | NtGdiEngStrokeAndFillPath | 10 | 10
+| 0x2AE(686) | NtGdiEngFillPath | 7 | 7
+| 0x2AF(687) | NtGdiEngStrokePath | 8 | 8
+| 0x2B0(688) | NtGdiEngMarkBandingSurface | 1 | 1
+| 0x2B1(689) | NtGdiEngPlgBlt | 11 | 11
+| 0x2B2(690) | NtGdiEngStretchBlt | 11 | 11
+| 0x2B3(691) | NtGdiEngBitBlt | 11 | 11
+| 0x2B4(692) | NtGdiEngLockSurface | 1 | 1
+| 0x2B5(693) | NtGdiEngUnlockSurface | 1 | 1
+| 0x2B6(694) | NtGdiEngEraseSurface | 3 | 3
+| 0x2B7(695) | NtGdiEngDeleteSurface | 1 | 1
+| 0x2B8(696) | NtGdiEngDeletePalette | 1 | 1
+| 0x2B9(697) | NtGdiEngCopyBits | 6 | 6
+| 0x2BA(698) | NtGdiEngComputeGlyphSet | 3 | 3
+| 0x2BB(699) | NtGdiEngCreatePalette | 6 | 6
+| 0x2BC(700) | NtGdiEngCreateDeviceBitmap | 4 | 4
+| 0x2BD(701) | NtGdiEngCreateDeviceSurface | 4 | 4
+| 0x2BE(702) | NtGdiEngCreateBitmap | 6 | 6
+| 0x2BF(703) | NtGdiEngAssociateSurface | 3 | 3
+| 0x2C0(704) | NtUserSetWindowFeedbackSetting | 5 | 5
+| 0x2C1(705) | NtUserRegisterEdgy | 3 | 3
+| 0x2C2(706) | NtUserGetWindowFeedbackSetting | 5 | 5
+| 0x2C3(707) | NtUserHidePointerContactVisualization | 1 | 1
+| 0x2C4(708) | NtUserGetTouchValidationStatus | 1 | 1
+| 0x2C5(709) | NtUserInitializeTouchInjection | 2 | 2
+| 0x2C6(710) | NtUserInjectTouchInput | 2 | 2
+| 0x2C7(711) | NtUserRegisterTouchHitTestingWindow | 2 | 2
+| 0x2C8(712) | NtUserSetDisplayMapping | 2 | 2
+| 0x2C9(713) | NtUserSetCalibrationData | 4 | 4
+| 0x2CA(714) | NtUserGetPhysicalDeviceRect | 2 | 2
+| 0x2CB(715) | NtUserRegisterTouchPadCapable | 1 | 1
+| 0x2CC(716) | NtUserGetRawPointerDeviceData | 5 | 5
+| 0x2CD(717) | NtUserGetPointerDeviceCursors | 3 | 3
+| 0x2CE(718) | NtUserGetPointerDeviceRects | 3 | 3
+| 0x2CF(719) | NtUserRegisterPointerDeviceNotifications | 2 | 2
+| 0x2D0(720) | NtUserGetPointerDeviceProperties | 3 | 3
+| 0x2D1(721) | NtUserGetPointerDevice | 2 | 2
+| 0x2D2(722) | NtUserGetPointerDevices | 2 | 2
+| 0x2D3(723) | NtUserEnableTouchPad | 1 | 1
+| 0x2D4(724) | NtUserGetPrecisionTouchPadConfiguration | 1 | 1
+| 0x2D5(725) | NtUserSetPrecisionTouchPadConfiguration | 1 | 1
+| 0x2D6(726) | NtUserPromotePointer | 2 | 2
+| 0x2D7(727) | NtUserDiscardPointerFrameMessages | 1 | 1
+| 0x2D8(728) | NtUserRegisterPointerInputTarget | 3 | 3
+| 0x2D9(729) | NtUserGetPointerInputTransform | 3 | 3
+| 0x2DA(730) | NtUserGetPointerInfoList | 8 | 8
+| 0x2DB(731) | NtUserGetPointerCursorId | 2 | 2
+| 0x2DC(732) | NtUserGetPointerType | 2 | 2
+| 0x2DD(733) | NtUserGetGestureConfig | 6 | 6
+| 0x2DE(734) | NtUserSetGestureConfig | 5 | 5
+| 0x2DF(735) | NtUserGetGestureExtArgs | 3 | 3
+| 0x2E0(736) | NtUserGetGestureInfo | 2 | 2
+| 0x2E1(737) | NtUserInjectGesture | 5 | 5
+| 0x2E2(738) | NtUserChangeWindowMessageFilterEx | 4 | 4
+| 0x2E3(739) | NtGdiXLATEOBJ_hGetColorTransform | 1 | 1
+| 0x2E4(740) | NtGdiXLATEOBJ_iXlate | 2 | 2
+| 0x2E5(741) | NtGdiXLATEOBJ_cGetPalette | 4 | 4
+| 0x2E6(742) | NtGdiEngDeleteClip | 1 | 1
+| 0x2E7(743) | NtGdiEngCreateClip | 0 | 0
+| 0x2E8(744) | NtGdiEngDeletePath | 1 | 1
+| 0x2E9(745) | NtGdiCLIPOBJ_ppoGetPath | 1 | 1
+| 0x2EA(746) | NtGdiCLIPOBJ_cEnumStart | 5 | 5
+| 0x2EB(747) | NtGdiCLIPOBJ_bEnum | 3 | 3
+| 0x2EC(748) | NtGdiBRUSHOBJ_hGetColorTransform | 1 | 1
+| 0x2ED(749) | NtGdiBRUSHOBJ_pvGetRbrush | 1 | 1
+| 0x2EE(750) | NtGdiBRUSHOBJ_pvAllocRbrush | 2 | 2
+| 0x2EF(751) | NtGdiBRUSHOBJ_ulGetBrushColor | 1 | 1
+| 0x2F0(752) | NtGdiXFORMOBJ_iGetXform | 2 | 2
+| 0x2F1(753) | NtGdiXFORMOBJ_bApplyXform | 5 | 5
+| 0x2F2(754) | NtGdiFONTOBJ_pQueryGlyphAttrs | 2 | 2
+| 0x2F3(755) | NtGdiFONTOBJ_pfdg | 1 | 1
+| 0x2F4(756) | NtGdiFONTOBJ_pifi | 1 | 1
+| 0x2F5(757) | NtGdiFONTOBJ_cGetGlyphs | 5 | 5
+| 0x2F6(758) | NtGdiFONTOBJ_pxoGetXform | 1 | 1
+| 0x2F7(759) | NtGdiFONTOBJ_vGetInfo | 3 | 3
+| 0x2F8(760) | NtGdiFONTOBJ_cGetAllGlyphHandles | 2 | 2
+| 0x2F9(761) | NtGdiFONTOBJ_pvTrueTypeFontFile | 2 | 2
+| 0x2FA(762) | NtGdiSTROBJ_dwGetCodePage | 1 | 1
+| 0x2FB(763) | NtGdiSTROBJ_vEnumStart | 1 | 1
+| 0x2FC(764) | NtGdiSTROBJ_bGetAdvanceWidths | 4 | 4
+| 0x2FD(765) | NtGdiSTROBJ_bEnumPositionsOnly | 3 | 3
+| 0x2FE(766) | NtGdiSTROBJ_bEnum | 3 | 3
+| 0x2FF(767) | NtGdiPATHOBJ_bEnumClipLines | 3 | 3
+| 0x300(768) | NtGdiPATHOBJ_vEnumStartClipLines | 4 | 4
+| 0x301(769) | NtGdiPATHOBJ_vEnumStart | 1 | 1
+| 0x302(770) | NtGdiPATHOBJ_bEnum | 2 | 2
+| 0x303(771) | NtGdiPATHOBJ_vGetBounds | 2 | 2
+| 0x304(772) | NtGdiEngCheckAbort | 1 | 1
+| 0x305(773) | NtGdiGetDhpdev | 1 | 1
+| 0x306(774) | NtGdiHT_Get8BPPMaskPalette | 6 | 6
+| 0x307(775) | NtGdiHT_Get8BPPFormatPalette | 4 | 4
+| 0x308(776) | NtGdiUpdateTransform | 1 | 1
+| 0x309(777) | NtGdiUMPDEngFreeUserMem | 1 | 1
+| 0x30A(778) | NtGdiBRUSHOBJ_DeleteRbrush | 2 | 2
+| 0x30B(779) | NtGdiSetPUMPDOBJ | 4 | 4
+| 0x30C(780) | NtGdiSetUMPDSandboxState | 1 | 1
+| 0x30D(781) | NtGdiDrawStream | 3 | 3
+| 0x30E(782) | NtGdiHLSurfSetInformation | 4 | 4
+| 0x30F(783) | NtGdiHLSurfGetInformation | 4 | 4
+| 0x310(784) | NtGdiDwmCreatedBitmapRemotingOutput | 0 | 0
+| 0x311(785) | NtGdiDdDDIGetScanLine | 1 | 1
+| 0x312(786) | NtGdiDdDDIReleaseProcessVidPnSourceOwners | 1 | 1
+| 0x313(787) | NtGdiDdDDIGetProcessSchedulingPriorityClass | 2 | 2
+| 0x314(788) | NtGdiDdDDISetProcessSchedulingPriorityClass | 2 | 2
+| 0x315(789) | NtGdiDdDDIGetContextSchedulingPriority | 1 | 1
+| 0x316(790) | NtGdiDdDDISetContextSchedulingPriority | 1 | 1
+| 0x317(791) | NtGdiDdDDIDestroyDCFromMemory | 1 | 1
+| 0x318(792) | NtGdiDdDDICreateDCFromMemory | 1 | 1
+| 0x319(793) | NtGdiDdDDIGetDeviceState | 1 | 1
+| 0x31A(794) | NtGdiDdDDISetGammaRamp | 1 | 1
+| 0x31B(795) | NtGdiDdDDIWaitForVerticalBlankEvent | 1 | 1
+| 0x31C(796) | NtGdiDdDDIDestroyOverlay | 1 | 1
+| 0x31D(797) | NtGdiDdDDIFlipOverlay | 1 | 1
+| 0x31E(798) | NtGdiDdDDIUpdateOverlay | 1 | 1
+| 0x31F(799) | NtGdiDdDDICreateOverlay | 1 | 1
+| 0x320(800) | NtGdiDdDDIGetPresentQueueEvent | 2 | 2
+| 0x321(801) | NtGdiDdDDIGetPresentHistory | 1 | 1
+| 0x322(802) | NtGdiDdDDISetVidPnSourceOwner1 | 1 | 1
+| 0x323(803) | NtGdiDdDDISetVidPnSourceOwner | 1 | 1
+| 0x324(804) | NtGdiDdDDIQueryStatistics | 1 | 1
+| 0x325(805) | NtGdiDdDDIEscape | 1 | 1
+| 0x326(806) | NtGdiDdDDIGetSharedPrimaryHandle | 1 | 1
+| 0x327(807) | NtGdiDdDDICloseAdapter | 1 | 1
+| 0x328(808) | NtGdiDdDDIOpenAdapterFromLuid | 1 | 1
+| 0x329(809) | NtGdiDdDDIEnumAdapters | 1 | 1
+| 0x32A(810) | NtGdiDdDDIOpenAdapterFromHdc | 1 | 1
+| 0x32B(811) | NtGdiDdDDIOpenAdapterFromDeviceName | 1 | 1
+| 0x32C(812) | NtGdiDdDDIRender | 1 | 1
+| 0x32D(813) | NtGdiDdDDIPresent | 1 | 1
+| 0x32E(814) | NtGdiDdDDIGetMultisampleMethodList | 1 | 1
+| 0x32F(815) | NtGdiDdDDISetDisplayMode | 1 | 1
+| 0x330(816) | NtGdiDdDDIGetDisplayModeList | 1 | 1
+| 0x331(817) | NtGdiDdDDIUnlock | 1 | 1
+| 0x332(818) | NtGdiDdDDILock | 1 | 1
+| 0x333(819) | NtGdiDdDDIQueryAdapterInfo | 1 | 1
+| 0x334(820) | NtGdiDdDDIGetRuntimeData | 1 | 1
+| 0x335(821) | NtGdiDdDDISignalSynchronizationObject | 1 | 1
+| 0x336(822) | NtGdiDdDDIWaitForSynchronizationObject | 1 | 1
+| 0x337(823) | NtGdiDdDDIDestroySynchronizationObject | 1 | 1
+| 0x338(824) | NtGdiDdDDIOpenSynchronizationObject | 1 | 1
+| 0x339(825) | NtGdiDdDDICreateSynchronizationObject | 1 | 1
+| 0x33A(826) | NtGdiDdDDIDestroyContext | 1 | 1
+| 0x33B(827) | NtGdiDdDDICreateContext | 1 | 1
+| 0x33C(828) | NtGdiDdDDIDestroyDevice | 1 | 1
+| 0x33D(829) | NtGdiDdDDICreateDevice | 1 | 1
+| 0x33E(830) | NtGdiDdDDIQueryAllocationResidency | 1 | 1
+| 0x33F(831) | NtGdiDdDDISetAllocationPriority | 1 | 1
+| 0x340(832) | NtGdiDdDDIDestroyAllocation | 1 | 1
+| 0x341(833) | NtGdiDdDDIOpenResourceFromNtHandle | 1 | 1
+| 0x342(834) | NtGdiDdDDIOpenSyncObjectFromNtHandle | 1 | 1
+| 0x343(835) | NtGdiDdDDIOpenResource | 1 | 1
+| 0x344(836) | NtGdiDdDDIOpenNtHandleFromName | 1 | 1
+| 0x345(837) | NtGdiDdDDIShareObjects | 5 | 5
+| 0x346(838) | NtGdiDdDDIQueryResourceInfoFromNtHandle | 1 | 1
+| 0x347(839) | NtGdiDdDDIQueryResourceInfo | 1 | 1
+| 0x348(840) | NtGdiDdDDICreateAllocation | 1 | 1
+| 0x349(841) | NtGdiDdDDIOutputDuplReleaseFrame | 1 | 1
+| 0x34A(842) | NtGdiDdDDIQueryRemoteVidPnSourceFromGdiDisplayName | 1 | 1
+| 0x34B(843) | NtGdiDdDDIOutputDuplPresent | 1 | 1
+| 0x34C(844) | NtGdiDdDDIReleaseKeyedMutex2 | 1 | 1
+| 0x34D(845) | NtGdiDdDDIAcquireKeyedMutex2 | 1 | 1
+| 0x34E(846) | NtGdiDdDDIOpenKeyedMutex2 | 1 | 1
+| 0x34F(847) | NtGdiDdDDICreateKeyedMutex2 | 1 | 1
+| 0x350(848) | NtGdiDdDDIOutputDuplGetPointerShapeData | 1 | 1
+| 0x351(849) | NtGdiDdDDIOutputDuplGetMetaData | 1 | 1
+| 0x352(850) | NtGdiDdDDIOutputDuplGetFrameInfo | 1 | 1
+| 0x353(851) | NtGdiDdDDIDestroyOutputDupl | 1 | 1
+| 0x354(852) | NtGdiDdDDICreateOutputDupl | 1 | 1
+| 0x355(853) | NtGdiDdDDIReclaimAllocations | 1 | 1
+| 0x356(854) | NtGdiDdDDIOfferAllocations | 1 | 1
+| 0x357(855) | NtGdiDdDDICheckSharedResourceAccess | 1 | 1
+| 0x358(856) | NtGdiDdDDICheckVidPnExclusiveOwnership | 1 | 1
+| 0x359(857) | NtGdiDdDDIGetOverlayState | 1 | 1
+| 0x35A(858) | NtGdiDdDDIConfigureSharedResource | 1 | 1
+| 0x35B(859) | NtGdiDdDDIReleaseKeyedMutex | 1 | 1
+| 0x35C(860) | NtGdiDdDDIAcquireKeyedMutex | 1 | 1
+| 0x35D(861) | NtGdiDdDDIDestroyKeyedMutex | 1 | 1
+| 0x35E(862) | NtGdiDdDDIOpenKeyedMutex | 1 | 1
+| 0x35F(863) | NtGdiDdDDICreateKeyedMutex | 1 | 1
+| 0x360(864) | NtGdiDdDDISharedPrimaryUnLockNotification | 1 | 1
+| 0x361(865) | NtGdiDdDDISharedPrimaryLockNotification | 1 | 1
+| 0x362(866) | NtGdiDdDDISetDisplayPrivateDriverFormat | 1 | 1
+| 0x363(867) | NtGdiDdDDICheckExclusiveOwnership | 0 | 0
+| 0x364(868) | NtGdiDdDDICheckMonitorPowerState | 1 | 1
+| 0x365(869) | NtGdiDdDDIWaitForIdle | 1 | 1
+| 0x366(870) | NtGdiDdDDICheckOcclusion | 1 | 1
+| 0x367(871) | NtGdiDdDDIInvalidateActiveVidPn | 1 | 1
+| 0x368(872) | NtGdiDdDDIPollDisplayChildren | 1 | 1
+| 0x369(873) | NtGdiDdDDISetQueuedLimit | 1 | 1
+| 0x36A(874) | NtGdiDdDDIPinDirectFlipResources | 1 | 1
+| 0x36B(875) | NtGdiDdDDIUnpinDirectFlipResources | 1 | 1
+| 0x36C(876) | NtGdiDdDDIWaitForVerticalBlankEvent2 | 1 | 1
+| 0x36D(877) | NtGdiDdDDISetContextInProcessSchedulingPriority | 1 | 1
+| 0x36E(878) | NtGdiDdDDIGetContextInProcessSchedulingPriority | 1 | 1
+| 0x36F(879) | NtGdiDdDDIGetSharedResourceAdapterLuid | 1 | 1
+| 0x370(880) | NtGdiDdDDISetStereoEnabled | 1 | 1
+| 0x371(881) | NtGdiDdDDIPresentMultiPlaneOverlay | 1 | 1
+| 0x372(882) | NtGdiDdDDICheckMultiPlaneOverlaySupport | 1 | 1
+| 0x373(883) | NtGdiDdDDIGetCachedHybridQueryValue | 1 | 1
+| 0x374(884) | NtGdiDdDDICacheHybridQueryValue | 1 | 1
+| 0x375(885) | NtGdiDdDDINetDispGetNextChunkInfo | 7 | 7
+| 0x376(886) | NtGdiDdDDINetDispQueryMiracastDisplayDeviceSupport | 1 | 1
+| 0x377(887) | NtGdiDdDDINetDispStartMiracastDisplayDevice | 3 | 2
+| 0x378(888) | NtGdiDdDDINetDispStopMiracastDisplayDevice | 2 | 2
+| 0x379(889) | NtGdiDdDDINetDispQueryMiracastDisplayDeviceStatus | 2 | 2
+| 0x37A(890) | NtGdiMakeObjectUnXferable | 1 | 1
+| 0x37B(891) | NtGdiMakeObjectXferable | 2 | 2
+| 0x37C(892) | NtGdiDestroyPhysicalMonitor | 1 | -1
+| 0x37D(893) | NtGdiGetPhysicalMonitorDescription | 3 | 3
+| 0x37E(894) | NtGdiGetPhysicalMonitors | 4 | 4
+| 0x37F(895) | NtGdiGetNumberOfPhysicalMonitors | 2 | 2
+| 0x380(896) | NtGdiDDCCIGetTimingReport | 2 | 2
+| 0x381(897) | NtGdiDDCCIGetCapabilitiesString | 3 | 3
+| 0x382(898) | NtGdiDDCCIGetCapabilitiesStringLength | 2 | 2
+| 0x383(899) | NtGdiDDCCISaveCurrentSettings | 1 | 1
+| 0x384(900) | NtGdiDDCCISetVCPFeature | 3 | 3
+| 0x385(901) | NtGdiDDCCIGetVCPFeature | 5 | 5
+| 0x386(902) | NtGdiDdQueryVisRgnUniqueness | 0 | 0
+| 0x387(903) | NtGdiDdDestroyFullscreenSprite | 2 | 2
+| 0x388(904) | NtGdiDdNotifyFullscreenSpriteUpdate | 2 | 2
+| 0x389(905) | NtGdiDdCreateFullscreenSprite | 4 | 4
+| 0x38A(906) | NtUserShowSystemCursor | 1 | 1
+| 0x38B(907) | NtUserSetMirrorRendering | 2 | 2
+| 0x38C(908) | NtUserMagGetContextInformation | 4 | 4
+| 0x38D(909) | NtUserMagSetContextInformation | 4 | 4
+| 0x38E(910) | NtUserMagControl | 2 | 2
+| 0x38F(911) | NtUserSlicerControl | 4 | 4
+| 0x390(912) | NtUserHwndSetRedirectionInfo | 4 | 4
+| 0x391(913) | NtUserHwndQueryRedirectionInfo | 4 | 4
+| 0x392(914) | NtCreateCompositionSurfaceHandle | 3 | 3
+| 0x393(915) | NtValidateCompositionSurfaceHandle | 2 | 2
+| 0x394(916) | NtBindCompositionSurface | 4 | 4
+| 0x395(917) | NtUnBindCompositionSurface | 2 | 2
+| 0x396(918) | NtQueryCompositionSurfaceBinding | 3 | 3
+| 0x397(919) | CFlipExBuffer::RemoveRealization | 2 | 2
+| 0x398(920) | NtQueryCompositionSurfaceStatistics | 2 | 2
+| 0x399(921) | NtOpenCompositionSurfaceSectionInfo | 4 | 4
+| 0x39A(922) | NtOpenCompositionSurfaceSwapChainHandleInfo | 3 | 3
+| 0x39B(923) | NtQueryCompositionSurfaceRenderingRealization | 2 | 2
+| 0x39C(924) | NtOpenCompositionSurfaceDirtyRegion | 4 | 4
+| 0x39D(925) | NtSetCompositionSurfaceOutOfFrameDirectFlipNotification | 3 | 3
+| 0x39E(926) | NtSetCompositionSurfaceStatistics | 3 | 3
+| 0x39F(927) | NtSetCompositionSurfaceBufferCompositionMode | 3 | 3
+| 0x3A0(928) | NtSetCompositionSurfaceIndependentFlipInfo | 7 | 7
+| 0x3A1(929) | NtCreateCompositionInputSink | 2 | 2
+| 0x3A2(930) | NtDuplicateCompositionInputSink | 2 | 2
+| 0x3A3(931) | NtQueryCompositionInputSink | 2 | 2
+| 0x3A4(932) | NtQueryCompositionInputSinkLuid | 2 | 2
+| 0x3A5(933) | NtUpdateInputSinkTransforms | 2 | 2
+| 0x3A6(934) | NtCompositionInputThread | 4 | 4
+| 0x3A7(935) | NtTokenManagerOpenSection | 2 | 2
+| 0x3A8(936) | NtTokenManagerOpenEvent | 1 | 1
+| 0x3A9(937) | NtTokenManagerThread | 1 | 1
+| 0x3AA(938) | NtTokenManagerGetOutOfFrameDirectFlipSurfaceUpdates | 6 | 6
+| 0x3AB(939) | NtTokenManagerDeleteOutstandingDirectFlipTokens | 0 | 0
+| 0x3AC(940) | NtTokenManagerCreateCompositionTokenHandle | 5 | 5
+| 0x3AD(941) | NtDCompositionBeginFrame | 3 | 3
+| 0x3AE(942) | NtDCompositionConfirmFrame | 2 | 2
+| 0x3AF(943) | NtDCompositionRetireFrame | 3 | 3
+| 0x3B0(944) | NtDCompositionDiscardFrame | 2 | 2
+| 0x3B1(945) | NtDCompositionGetFrameSurfaceUpdates | 3 | 3
+| 0x3B2(946) | NtDCompositionGetFrameLegacyTokens | 3 | 3
+| 0x3B3(947) | NtDCompositionDestroyConnection | 1 | 1
+| 0x3B4(948) | NtDCompositionGetConnectionBatch | 3 | 3
+| 0x3B5(949) | NtDCompositionGetFrameStatistics | 2 | 2
+| 0x3B6(950) | NtDCompositionGetDeletedResources | 4 | 4
+| 0x3B7(951) | NtDCompositionSetResourceDeletedNotificationTag | 4 | 4
+| 0x3B8(952) | NtDCompositionCreateConnection | 2 | 2
+| 0x3B9(953) | NtDCompositionDestroyChannel | 1 | 1
+| 0x3BA(954) | NtDCompositionReleaseAllResources | 2 | 2
+| 0x3BB(955) | NtDCompositionSubmitDWMBatch | 2 | 2
+| 0x3BC(956) | NtDCompositionCommitChannel | 4 | 4
+| 0x3BD(957) | NtDCompositionWaitForChannel | 2 | 2
+| 0x3BE(958) | NtDCompositionSetChannelCommitCompletionEvent | 2 | 2
+| 0x3BF(959) | NtDCompositionTelemetryTouchInteractionBegin | 6 | 6
+| 0x3C0(960) | NtDCompositionTelemetryTouchInteractionUpdate | 4 | 4
+| 0x3C1(961) | NtDCompositionTelemetryTouchInteractionEnd | 2 | 2
+| 0x3C2(962) | NtDCompositionTelemetrySetApplicationId | 3 | 3
+| 0x3C3(963) | NtDCompositionTelemetryAnimationScenarioBegin | 3 | 3
+| 0x3C4(964) | NtDCompositionTelemetryAnimationScenarioReference | 3 | 3
+| 0x3C5(965) | NtDCompositionTelemetryAnimationScenarioUnreference | 3 | 3
+| 0x3C6(966) | NtDCompositionCurrentBatchId | 3 | 3
+| 0x3C7(967) | NtDCompositionReleaseResource | 3 | 3
+| 0x3C8(968) | NtDCompositionRemoveCrossDeviceVisualChild | 4 | 4
+| 0x3C9(969) | NtDCompositionRemoveVisualChild | 3 | 3
+| 0x3CA(970) | NtDCompositionAddCrossDeviceVisualChild | 7 | 7
+| 0x3CB(971) | NtDCompositionAddVisualChild | 5 | 5
+| 0x3CC(972) | NtDCompositionReplaceVisualChildren | 3 | 3
+| 0x3CD(973) | NtDCompositionSetResourceAnimationProperty | 4 | 4
+| 0x3CE(974) | NtDCompositionSetResourceReferenceArrayProperty | 6 | 6
+| 0x3CF(975) | NtDCompositionSetResourceReferenceProperty | 5 | 5
+| 0x3D0(976) | NtDCompositionSetResourceBufferProperty | 6 | 6
+| 0x3D1(977) | NtDCompositionSetResourceIntegerProperty | 4 | 4
+| 0x3D2(978) | NtDCompositionSetResourceFloatProperty | 4 | 4
+| 0x3D3(979) | NtDCompositionSetResourceHandleProperty | 4 | 4
+| 0x3D4(980) | NtDCompositionCreateResource | 4 | 4
+| 0x3D5(981) | NtDCompositionOpenSharedResource | 4 | 4
+| 0x3D6(982) | NtDCompositionOpenSharedResourceHandle | 3 | 3
+| 0x3D7(983) | NtDCompositionCreateDwmChannel | 1 | 1
+| 0x3D8(984) | NtDCompositionCreateChannel | 1 | 1
+| 0x3D9(985) | NtDCompositionSynchronize | 2 | 2
+| 0x3DA(986) | NtDCompositionDwmSyncFlush | 0 | 0
+| 0x3DB(987) | NtDCompositionReferenceSharedResourceOnDwmChannel | 5 | 5
+| 0x3DC(988) | NtDCompositionSignalGpuFence | 4 | 4
+| 0x3DD(989) | NtDCompositionCreateAndBindSharedSection | 4 | 4
+| 0x3DE(990) | NtDCompositionSetDebugCounter | 2 | 2
+| 0x3DF(991) | NtDCompositionGetChannels | 4 | -1
+| 0x3E0(992) | NtDCompositionConnectPipe | 3 | 3
+| 0x3E1(993) | NtDCompositionRegisterThumbnailVisual | 9 | 9
+| 0x3E2(994) | NtDCompositionDuplicateHandleToProcess | 3 | 3
+| 0x3E3(995) | NtUserDestroyDCompositionHwndTarget | 2 | 2
+| 0x3E4(996) | NtUserCreateDCompositionHwndTarget | 3 | 3
+| 0x3E5(997) | NtUserWaitForRedirectionStartComplete | 0 | 0
+| 0x3E6(998) | NtUserSignalRedirectionStartComplete | 0 | 0
+| 0x3E7(999) | NtUserSetActiveProcess | 1 | 1
+| 0x3E8(000) | NtUserGetDisplayAutoRotationPreferencesByProcessId | 3 | 3
+| 0x3E9(001) | NtUserGetDisplayAutoRotationPreferences | 1 | 1
+| 0x3EA(002) | NtUserSetDisplayAutoRotationPreferences | 1 | 1
+| 0x3EB(003) | NtUserSetAutoRotation | 1 | 1
+| 0x3EC(004) | NtUserGetAutoRotationState | 1 | 1
+| 0x3ED(005) | NtUserAutoRotateScreen | 2 | 2
+| 0x3EE(006) | NtUserAcquireIAMKey | 1 | 1
+| 0x3EF(007) | NtUserSetActivationFilter | 2 | 2
+| 0x3F0(008) | NtUserSetFallbackForeground | 2 | 2
+| 0x3F1(009) | NtUserSetBrokeredForeground | 1 | 1
+| 0x3F2(010) | NtUserDisableImmersiveOwner | 1 | 1
+| 0x3F3(011) | NtUserClearForeground | 0 | 0
+| 0x3F4(012) | NtUserEnableIAMAccess | 3 | 3
+| 0x3F5(013) | NtUserGetProcessUIContextInformation | 2 | 2
+| 0x3F6(014) | NtUserSetProcessRestrictionExemption | 1 | 1
+| 0x3F7(015) | NtUserEnableMouseInPointer | 1 | 1
+| 0x3F8(016) | NtUserIsMouseInPointerEnabled | 0 | 0
+| 0x3F9(017) | NtUserPromoteMouseInPointer | 1 | 1
+| 0x3FA(018) | NtUserAutoPromoteMouseInPointer | 1 | 1
+| 0x3FB(019) | NtUserEnableMouseInputForCursorSuppression | 1 | 1
+| 0x3FC(020) | NtUserIsMouseInputEnabled | 0 | 0
+| 0x3FD(021) | NtUserInternalClipCursor | 2 | 2
+| 0x3FE(022) | NtUserCheckProcessForClipboardAccess | 2 | 2
+| 0x3FF(023) | NtUserGetClipboardAccessToken | 2 | 2
+| 0x400(024) | NtUserGetQueueEventStatus | 0 | 0
+| 0x401(025) | NtUserCompositionInputSinkLuidFromPoint | 2 | 2
+| 0x402(026) | NtUserUpdateWindowInputSinkHints | 2 | 2
+| 0x403(027) | NtUserTransformPoint | 3 | 3
+| 0x404(028) | NtUserTransformRect | 3 | 3
+| 0x405(029) | NtUserGetHimetricScaleFactorFromPixelLocation | 5 | 5
+| 0x406(030) | NtUserGetProcessDpiAwareness | 2 | 2
+| 0x407(031) | NtUserGetDpiForMonitor | 4 | 4
+| 0x408(032) | NtUserReportInertia | 5 | 5
+| 0x409(033) | NtUserLinkDpiCursor | 3 | 3
+| 0x40A(034) | NtUserGetCursorDims | 1 | 1
+| 0x40B(035) | NtUserGetOwnerTransformedMonitorRect | 4 | 4
+

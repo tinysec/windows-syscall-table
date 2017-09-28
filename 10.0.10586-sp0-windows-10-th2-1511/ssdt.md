@@ -1,448 +1,449 @@
-# 10.0.10586-sp0-windows-10-th2-1511 ssdt
+# ssdt database for 10.0.10586-sp0-windows-10-th2-1511
 
-|name|id32|id64|argc32|argc64|argcFrom
+| name | id32 | id64 | argc32 | argc64 | argcFrom
 | ------| ------ | ------ | ------ | ------ | ------
-|NtAcceptConnectPort|2|2|6|6|wow64
-|NtAccessCheck|0|0|8|8|wow64
-|NtAccessCheckAndAuditAlarm|442|41|11|11|wow64
-|NtAccessCheckByType|441|99|11|11|wow64
-|NtAccessCheckByTypeAndAuditAlarm|440|89|16|16|wow64
-|NtAccessCheckByTypeResultList|439|100|11|11|wow64
-|NtAccessCheckByTypeResultListAndAuditAlarm|438|101|16|16|wow64
-|NtAccessCheckByTypeResultListAndAuditAlarmByHandle|437|102|17|17|wow64
-|NtAddAtom|435|71|3|3|wow64
-|NtAddAtomEx|436|103|4|4|wow64
-|NtAddBootEntry|434|104|2|2|wow64
-|NtAddDriverEntry|433|105|2|2|wow64
-|NtAdjustGroupsToken|431|106|6|6|wow64
-|NtAdjustPrivilegesToken|430|65|6|6|wow64
-|NtAdjustTokenClaimsAndDeviceGroups|432|107|16|16|wow64
-|NtAlertResumeThread|429|108|2|2|wow64
-|NtAlertThread|428|109|1|1|wow64
-|NtAlertThreadByThreadId|427|110|1|1|wow64
-|NtAllocateLocallyUniqueId|426|111|1|1|wow64
-|NtAllocateReserveObject|425|112|3|3|wow64
-|NtAllocateUserPhysicalPages|424|113|3|3|wow64
-|NtAllocateUuids|423|114|4|4|wow64
-|NtAllocateVirtualMemory|422|24|6|6|wow64
-|NtAlpcAcceptConnectPort|421|115|9|9|wow64
-|NtAlpcCancelMessage|420|116|3|3|wow64
-|NtAlpcConnectPort|418|117|11|11|wow64
-|NtAlpcConnectPortEx|419|118|11|11|wow64
-|NtAlpcCreatePort|417|119|3|3|wow64
-|NtAlpcCreatePortSection|416|120|6|6|wow64
-|NtAlpcCreateResourceReserve|415|121|4|4|wow64
-|NtAlpcCreateSectionView|414|122|3|3|wow64
-|NtAlpcCreateSecurityContext|413|123|3|3|wow64
-|NtAlpcDeletePortSection|412|124|3|3|wow64
-|NtAlpcDeleteResourceReserve|411|125|3|3|wow64
-|NtAlpcDeleteSectionView|410|126|3|3|wow64
-|NtAlpcDeleteSecurityContext|409|127|3|3|wow64
-|NtAlpcDisconnectPort|408|128|2|2|wow64
-|NtAlpcImpersonateClientContainerOfPort|407|129|3|3|wow64
-|NtAlpcImpersonateClientOfPort|406|130|3|3|wow64
-|NtAlpcOpenSenderProcess|405|131|6|6|wow64
-|NtAlpcOpenSenderThread|404|132|6|6|wow64
-|NtAlpcQueryInformation|403|133|5|5|wow64
-|NtAlpcQueryInformationMessage|402|134|6|6|wow64
-|NtAlpcRevokeSecurityContext|401|135|3|3|wow64
-|NtAlpcSendWaitReceivePort|400|136|8|8|wow64
-|NtAlpcSetInformation|399|137|4|4|wow64
-|NtApphelpCacheControl|398|76|2|2|wow64
-|NtAreMappedFilesTheSame|397|138|2|2|wow64
-|NtAssignProcessToJobObject|396|139|2|2|wow64
-|NtAssociateWaitCompletionPacket|395|140|8|8|wow64
-|NtCallbackReturn|394|5|3|3|wow64
-|NtCancelIoFile|393|93|2|2|wow64
-|NtCancelIoFileEx|392|141|3|3|wow64
-|NtCancelSynchronousIoFile|391|142|3|3|wow64
-|NtCancelTimer|390|97|2|2|wow64
-|NtCancelTimer2|68|143|2|2|wow64
-|NtCancelWaitCompletionPacket|389|144|2|2|wow64
-|NtClearEvent|388|62|1|1|wow64
-|NtClose|387|15|1|1|wow64
-|NtCloseObjectAuditAlarm|386|59|3|3|wow64
-|NtCommitComplete|385|145|2|2|wow64
-|NtCommitEnlistment|384|146|2|2|wow64
-|NtCommitTransaction|383|147|2|2|wow64
-|NtCompactKeys|382|148|2|2|wow64
-|NtCompareObjects|381|149|2|2|wow64
-|NtCompareTokens|380|150|3|3|wow64
-|NtCompleteConnectPort|379|151|1|1|wow64
-|NtCompressKey|378|152|1|1|wow64
-|NtConnectPort|377|153|8|8|wow64
-|NtContinue|376|67|2|2|wow64
-|NtCreateDebugObject|375|154|4|4|wow64
-|NtCreateDirectoryObject|374|155|3|3|wow64
-|NtCreateDirectoryObjectEx|373|156|5|5|wow64
-|NtCreateEnclave|372|157|9|9|wow64
-|NtCreateEnlistment|371|158|8|8|wow64
-|NtCreateEvent|370|72|5|5|wow64
-|NtCreateEventPair|369|159|3|3|wow64
-|NtCreateFile|368|85|11|11|wow64
-|NtCreateIRTimer|365|160|2|2|wow64
-|NtCreateIoCompletion|367|161|4|4|wow64
-|NtCreateJobObject|364|162|3|3|wow64
-|NtCreateJobSet|363|163|3|3|wow64
-|NtCreateKey|362|29|7|7|wow64
-|NtCreateKeyTransacted|360|164|8|8|wow64
-|NtCreateKeyedEvent|361|165|4|4|wow64
-|NtCreateLowBoxToken|341|166|9|9|wow64
-|NtCreateMailslotFile|359|167|8|8|wow64
-|NtCreateMutant|358|168|4|4|wow64
-|NtCreateNamedPipeFile|357|169|14|14|wow64
-|NtCreatePagingFile|356|170|4|4|wow64
-|NtCreatePartition|332|171|4|4|wow64
-|NtCreatePort|355|172|5|5|wow64
-|NtCreatePrivateNamespace|354|173|4|4|wow64
-|NtCreateProcess|353|174|8|8|wow64
-|NtCreateProcessEx|352|77|9|9|wow64
-|NtCreateProfile|351|175|9|9|wow64
-|NtCreateProfileEx|350|176|10|10|wow64
-|NtCreateResourceManager|349|177|7|7|wow64
-|NtCreateSection|348|74|7|7|wow64
-|NtCreateSemaphore|347|178|5|5|wow64
-|NtCreateSymbolicLinkObject|346|179|4|4|wow64
-|NtCreateThread|345|78|8|8|wow64
-|NtCreateThreadEx|344|180|11|11|wow64
-|NtCreateTimer|343|181|4|4|wow64
-|NtCreateTimer2|366|182|5|5|wow64
-|NtCreateToken|340|183|13|13|wow64
-|NtCreateTokenEx|342|184|17|17|wow64
-|NtCreateTransaction|339|185|10|10|wow64
-|NtCreateTransactionManager|338|186|6|6|wow64
-|NtCreateUserProcess|337|187|11|11|wow64
-|NtCreateWaitCompletionPacket|335|188|3|3|wow64
-|NtCreateWaitablePort|336|189|5|5|wow64
-|NtCreateWnfStateName|334|190|7|7|wow64
-|NtCreateWorkerFactory|333|191|10|10|wow64
-|NtDebugActiveProcess|331|192|2|2|wow64
-|NtDebugContinue|330|193|3|3|wow64
-|NtDelayExecution|329|52|2|2|wow64
-|NtDeleteAtom|328|194|1|1|wow64
-|NtDeleteBootEntry|327|195|1|1|wow64
-|NtDeleteDriverEntry|326|196|1|1|wow64
-|NtDeleteFile|325|197|1|1|wow64
-|NtDeleteKey|324|198|1|1|wow64
-|NtDeleteObjectAuditAlarm|323|199|3|3|wow64
-|NtDeletePrivateNamespace|322|200|1|1|wow64
-|NtDeleteValueKey|321|201|2|2|wow64
-|NtDeleteWnfStateData|320|202|2|2|wow64
-|NtDeleteWnfStateName|319|203|1|1|wow64
-|NtDeviceIoControlFile|318|7|10|10|wow64
-|NtDisableLastKnownGood|317|204|0|0|wow64
-|NtDisplayString|316|205|1|1|wow64
-|NtDrawText|315|206|1|1|wow64
-|NtDuplicateObject|314|60|7|7|wow64
-|NtDuplicateToken|313|66|6|6|wow64
-|NtEnableLastKnownGood|312|207|0|0|wow64
-|NtEnumerateBootEntries|311|208|2|2|wow64
-|NtEnumerateDriverEntries|310|209|2|2|wow64
-|NtEnumerateKey|309|50|6|6|wow64
-|NtEnumerateSystemEnvironmentValuesEx|308|210|3|3|wow64
-|NtEnumerateTransactionObject|307|211|5|5|wow64
-|NtEnumerateValueKey|306|19|6|6|wow64
-|NtExtendSection|305|212|2|2|wow64
-|NtFilterBootOption|304|213|5|5|wow64
-|NtFilterToken|302|214|6|6|wow64
-|NtFilterTokenEx|303|215|14|14|wow64
-|NtFindAtom|301|20|3|3|wow64
-|NtFlushBuffersFile|299|75|2|2|wow64
-|NtFlushBuffersFileEx|300|216|5|5|wow64
-|NtFlushInstallUILanguage|298|217|2|2|wow64
-|NtFlushInstructionCache|297|218|3|3|wow64
-|NtFlushKey|296|219|1|1|wow64
-|NtFlushProcessWriteBuffers|295|220|0|0|wow64
-|NtFlushVirtualMemory|294|221|4|4|wow64
-|NtFlushWriteBuffer|293|222|0|0|wow64
-|NtFreeUserPhysicalPages|292|223|3|3|wow64
-|NtFreeVirtualMemory|291|30|4|4|wow64
-|NtFreezeRegistry|290|224|1|1|wow64
-|NtFreezeTransactions|289|225|2|2|wow64
-|NtFsControlFile|288|57|10|10|wow64
-|NtGetCachedSigningLevel|287|226|6|6|wow64
-|NtGetCompleteWnfStateSubscription|286|227|6|6|wow64
-|NtGetContextThread|285|228|2|2|wow64
-|NtGetCurrentProcessorNumber|284|229|0|0|wow64
-|NtGetCurrentProcessorNumberEx|283|230|1|1|wow64
-|NtGetDevicePowerState|282|231|2|2|wow64
-|NtGetMUIRegistryInfo|281|232|3|3|wow64
-|NtGetNextProcess|280|233|5|5|wow64
-|NtGetNextThread|279|234|6|6|wow64
-|NtGetNlsSectionPtr|278|235|5|5|wow64
-|NtGetNotificationResourceManager|277|236|7|7|wow64
-|NtGetWriteWatch|276|237|7|7|wow64
-|NtImpersonateAnonymousToken|275|238|1|1|wow64
-|NtImpersonateClientOfPort|274|31|2|2|wow64
-|NtImpersonateThread|273|239|3|3|wow64
-|NtInitializeEnclave|272|240|5|5|wow64
-|NtInitializeNlsFiles|271|241|3|3|wow64
-|NtInitializeRegistry|270|242|1|1|wow64
-|NtInitiatePowerAction|269|243|4|4|wow64
-|NtIsProcessInJob|268|79|2|2|wow64
-|NtIsSystemResumeAutomatic|267|244|0|0|wow64
-|NtIsUILanguageComitted|266|245|0|0|wow64
-|NtListenPort|265|246|2|2|wow64
-|NtLoadDriver|264|247|1|1|wow64
-|NtLoadEnclaveData|263|248|9|9|wow64
-|NtLoadKey|262|249|2|2|wow64
-|NtLoadKey2|261|250|3|3|wow64
-|NtLoadKeyEx|260|251|8|8|wow64
-|NtLockFile|259|252|10|10|wow64
-|NtLockProductActivationKeys|258|253|2|2|wow64
-|NtLockRegistryKey|257|254|1|1|wow64
-|NtLockVirtualMemory|256|255|4|4|wow64
-|NtMakePermanentObject|255|256|1|1|wow64
-|NtMakeTemporaryObject|254|257|1|1|wow64
-|NtManagePartition|247|258|5|5|wow64
-|NtMapCMFModule|253|259|6|6|wow64
-|NtMapUserPhysicalPages|252|260|3|3|wow64
-|NtMapUserPhysicalPagesScatter|251|3|3|3|wow64
-|NtMapViewOfSection|250|40|10|10|wow64
-|NtModifyBootEntry|249|261|1|1|wow64
-|NtModifyDriverEntry|248|262|1|1|wow64
-|NtNotifyChangeDirectoryFile|246|263|9|9|wow64
-|NtNotifyChangeKey|245|264|10|10|wow64
-|NtNotifyChangeMultipleKeys|244|265|12|12|wow64
-|NtNotifyChangeSession|243|266|8|8|wow64
-|NtOpenDirectoryObject|242|88|3|3|wow64
-|NtOpenEnlistment|241|267|5|5|wow64
-|NtOpenEvent|240|64|3|3|wow64
-|NtOpenEventPair|239|268|3|3|wow64
-|NtOpenFile|238|51|6|6|wow64
-|NtOpenIoCompletion|237|269|3|3|wow64
-|NtOpenJobObject|236|270|3|3|wow64
-|NtOpenKey|235|18|3|3|wow64
-|NtOpenKeyEx|233|271|4|4|wow64
-|NtOpenKeyTransacted|232|272|4|4|wow64
-|NtOpenKeyTransactedEx|231|273|5|5|wow64
-|NtOpenKeyedEvent|234|274|3|3|wow64
-|NtOpenMutant|230|275|3|3|wow64
-|NtOpenObjectAuditAlarm|229|276|12|12|wow64
-|NtOpenPartition|224|277|3|3|wow64
-|NtOpenPrivateNamespace|228|278|4|4|wow64
-|NtOpenProcess|227|38|4|4|wow64
-|NtOpenProcessToken|226|279|3|3|wow64
-|NtOpenProcessTokenEx|225|48|4|4|wow64
-|NtOpenResourceManager|223|280|5|5|wow64
-|NtOpenSection|222|55|3|3|wow64
-|NtOpenSemaphore|221|281|3|3|wow64
-|NtOpenSession|220|282|3|3|wow64
-|NtOpenSymbolicLinkObject|219|283|3|3|wow64
-|NtOpenThread|218|284|4|4|wow64
-|NtOpenThreadToken|217|36|4|4|wow64
-|NtOpenThreadTokenEx|216|47|5|5|wow64
-|NtOpenTimer|215|285|3|3|wow64
-|NtOpenTransaction|214|286|5|5|wow64
-|NtOpenTransactionManager|213|287|6|6|wow64
-|NtPlugPlayControl|212|288|3|3|wow64
-|NtPowerInformation|211|95|5|5|wow64
-|NtPrePrepareComplete|208|289|2|2|wow64
-|NtPrePrepareEnlistment|207|290|2|2|wow64
-|NtPrepareComplete|210|291|2|2|wow64
-|NtPrepareEnlistment|209|292|2|2|wow64
-|NtPrivilegeCheck|205|293|3|3|wow64
-|NtPrivilegeObjectAuditAlarm|203|294|6|6|wow64
-|NtPrivilegedServiceAuditAlarm|204|295|5|5|wow64
-|NtPropagationComplete|202|296|4|4|wow64
-|NtPropagationFailed|201|297|3|3|wow64
-|NtProtectVirtualMemory|200|80|5|5|wow64
-|NtPulseEvent|199|298|2|2|wow64
-|NtQueryAttributesFile|198|61|2|2|wow64
-|NtQueryBootEntryOrder|197|299|2|2|wow64
-|NtQueryBootOptions|196|300|2|2|wow64
-|NtQueryDebugFilterState|195|301|2|2|wow64
-|NtQueryDefaultLocale|194|21|2|2|wow64
-|NtQueryDefaultUILanguage|193|68|1|1|wow64
-|NtQueryDirectoryFile|192|53|11|11|wow64
-|NtQueryDirectoryObject|191|302|7|7|wow64
-|NtQueryDriverEntryOrder|190|303|2|2|wow64
-|NtQueryEaFile|189|304|9|9|wow64
-|NtQueryEvent|188|86|5|5|wow64
-|NtQueryFullAttributesFile|187|305|2|2|wow64
-|NtQueryInformationAtom|186|306|5|5|wow64
-|NtQueryInformationEnlistment|185|307|5|5|wow64
-|NtQueryInformationFile|184|17|5|5|wow64
-|NtQueryInformationJobObject|183|308|5|5|wow64
-|NtQueryInformationPort|182|309|5|5|wow64
-|NtQueryInformationProcess|181|25|5|5|wow64
-|NtQueryInformationResourceManager|180|310|5|5|wow64
-|NtQueryInformationThread|179|37|5|5|wow64
-|NtQueryInformationToken|178|33|5|5|wow64
-|NtQueryInformationTransaction|177|311|5|5|wow64
-|NtQueryInformationTransactionManager|176|312|5|5|wow64
-|NtQueryInformationWorkerFactory|175|313|5|5|wow64
-|NtQueryInstallUILanguage|174|314|1|1|wow64
-|NtQueryIntervalProfile|173|315|2|2|wow64
-|NtQueryIoCompletion|172|316|5|5|wow64
-|NtQueryKey|171|22|5|5|wow64
-|NtQueryLicenseValue|170|317|5|5|wow64
-|NtQueryMultipleValueKey|169|318|6|6|wow64
-|NtQueryMutant|168|319|5|5|wow64
-|NtQueryObject|167|16|5|5|wow64
-|NtQueryOpenSubKeys|166|320|2|2|wow64
-|NtQueryOpenSubKeysEx|165|321|4|4|wow64
-|NtQueryPerformanceCounter|164|49|2|2|wow64
-|NtQueryPortInformationProcess|163|322|0|0|wow64
-|NtQueryQuotaInformationFile|162|323|9|9|wow64
-|NtQuerySection|161|81|5|5|wow64
-|NtQuerySecurityAttributesToken|160|324|6|6|wow64
-|NtQuerySecurityObject|159|325|5|5|wow64
-|NtQuerySemaphore|158|326|5|5|wow64
-|NtQuerySymbolicLinkObject|157|327|3|3|wow64
-|NtQuerySystemEnvironmentValue|156|328|4|4|wow64
-|NtQuerySystemEnvironmentValueEx|155|329|5|5|wow64
-|NtQuerySystemInformation|154|54|4|4|wow64
-|NtQuerySystemInformationEx|153|330|6|6|wow64
-|NtQuerySystemTime|152|90|1|1|wow64
-|NtQueryTimer|151|56|5|5|wow64
-|NtQueryTimerResolution|150|331|3|3|wow64
-|NtQueryValueKey|149|23|6|6|wow64
-|NtQueryVirtualMemory|148|35|6|6|wow64
-|NtQueryVolumeInformationFile|147|73|5|5|wow64
-|NtQueryWnfStateData|145|332|6|6|wow64
-|NtQueryWnfStateNameInformation|146|333|5|5|wow64
-|NtQueueApcThread|144|69|5|5|wow64
-|NtQueueApcThreadEx|143|334|6|6|wow64
-|NtRaiseException|142|335|3|3|wow64
-|NtRaiseHardError|141|336|6|6|wow64
-|NtReadFile|140|6|9|9|wow64
-|NtReadFileScatter|139|46|9|9|wow64
-|NtReadOnlyEnlistment|138|337|2|2|wow64
-|NtReadRequestData|137|84|6|6|wow64
-|NtReadVirtualMemory|136|63|5|5|wow64
-|NtRecoverEnlistment|135|338|2|2|wow64
-|NtRecoverResourceManager|134|339|1|1|wow64
-|NtRecoverTransactionManager|133|340|1|1|wow64
-|NtRegisterProtocolAddressInformation|132|341|5|5|wow64
-|NtRegisterThreadTerminatePort|131|342|1|1|wow64
-|NtReleaseKeyedEvent|130|343|4|4|wow64
-|NtReleaseMutant|129|32|2|2|wow64
-|NtReleaseSemaphore|128|10|3|3|wow64
-|NtReleaseWorkerFactoryWorker|127|344|1|1|wow64
-|NtRemoveIoCompletion|126|9|5|5|wow64
-|NtRemoveIoCompletionEx|125|345|6|6|wow64
-|NtRemoveProcessDebug|124|346|2|2|wow64
-|NtRenameKey|123|347|2|2|wow64
-|NtRenameTransactionManager|122|348|2|2|wow64
-|NtReplaceKey|121|349|3|3|wow64
-|NtReplacePartitionUnit|120|350|3|3|wow64
-|NtReplyPort|119|12|2|2|wow64
-|NtReplyWaitReceivePort|118|11|4|4|wow64
-|NtReplyWaitReceivePortEx|117|43|5|5|wow64
-|NtReplyWaitReplyPort|116|351|2|2|wow64
-|NtRequestPort|115|352|2|2|wow64
-|NtRequestWaitReplyPort|114|34|3|3|wow64
-|NtResetEvent|113|353|2|2|wow64
-|NtResetWriteWatch|112|354|3|3|wow64
-|NtRestoreKey|111|355|3|3|wow64
-|NtResumeProcess|110|356|1|1|wow64
-|NtResumeThread|109|82|2|2|wow64
-|NtRevertContainerImpersonation|108|357|0|0|wow64
-|NtRollbackComplete|107|358|2|2|wow64
-|NtRollbackEnlistment|106|359|2|2|wow64
-|NtRollbackTransaction|105|360|2|2|wow64
-|NtRollforwardTransactionManager|104|361|2|2|wow64
-|NtSaveKey|103|362|2|2|wow64
-|NtSaveKeyEx|102|363|3|3|wow64
-|NtSaveMergedKeys|101|364|3|3|wow64
-|NtSecureConnectPort|100|365|9|9|wow64
-|NtSerializeBoot|99|366|0|0|wow64
-|NtSetBootEntryOrder|98|367|2|2|wow64
-|NtSetBootOptions|97|368|2|2|wow64
-|NtSetCachedSigningLevel|96|369|5|5|wow64
-|NtSetContextThread|95|370|2|2|wow64
-|NtSetDebugFilterState|94|371|3|3|wow64
-|NtSetDefaultHardErrorPort|93|372|1|1|wow64
-|NtSetDefaultLocale|92|373|2|2|wow64
-|NtSetDefaultUILanguage|91|374|1|1|wow64
-|NtSetDriverEntryOrder|90|375|2|2|wow64
-|NtSetEaFile|89|376|4|4|wow64
-|NtSetEvent|88|14|2|2|wow64
-|NtSetEventBoostPriority|87|45|1|1|wow64
-|NtSetHighEventPair|86|377|1|1|wow64
-|NtSetHighWaitLowEventPair|85|378|1|1|wow64
-|NtSetIRTimer|66|379|2|2|wow64
-|NtSetInformationDebugObject|84|380|5|5|wow64
-|NtSetInformationEnlistment|83|381|4|4|wow64
-|NtSetInformationFile|82|39|5|5|wow64
-|NtSetInformationJobObject|81|382|4|4|wow64
-|NtSetInformationKey|80|383|4|4|wow64
-|NtSetInformationObject|79|92|4|4|wow64
-|NtSetInformationProcess|78|28|4|4|wow64
-|NtSetInformationResourceManager|77|384|4|4|wow64
-|NtSetInformationSymbolicLink|443|385|4|4|wow64
-|NtSetInformationThread|76|13|4|4|wow64
-|NtSetInformationToken|75|386|4|4|wow64
-|NtSetInformationTransaction|74|387|4|4|wow64
-|NtSetInformationTransactionManager|73|388|4|4|wow64
-|NtSetInformationVirtualMemory|206|389|6|6|wow64
-|NtSetInformationWorkerFactory|72|390|4|4|wow64
-|NtSetIntervalProfile|71|391|2|2|wow64
-|NtSetIoCompletion|70|392|5|5|wow64
-|NtSetIoCompletionEx|69|393|6|6|wow64
-|NtSetLdtEntries|65|394|6|6|wow64
-|NtSetLowEventPair|64|395|1|1|wow64
-|NtSetLowWaitHighEventPair|63|396|1|1|wow64
-|NtSetQuotaInformationFile|62|397|4|4|wow64
-|NtSetSecurityObject|61|398|3|3|wow64
-|NtSetSystemEnvironmentValue|60|399|2|2|wow64
-|NtSetSystemEnvironmentValueEx|59|400|5|5|wow64
-|NtSetSystemInformation|58|401|3|3|wow64
-|NtSetSystemPowerState|57|402|3|3|wow64
-|NtSetSystemTime|56|403|2|2|wow64
-|NtSetThreadExecutionState|55|404|2|2|wow64
-|NtSetTimer|54|98|7|7|wow64
-|NtSetTimer2|67|405|4|4|wow64
-|NtSetTimerEx|53|406|4|4|wow64
-|NtSetTimerResolution|52|407|3|3|wow64
-|NtSetUuidSeed|51|408|1|1|wow64
-|NtSetValueKey|50|96|6|6|wow64
-|NtSetVolumeInformationFile|49|409|5|5|wow64
-|NtSetWnfProcessNotificationEvent|48|410|1|1|wow64
-|NtShutdownSystem|47|411|1|1|wow64
-|NtShutdownWorkerFactory|46|412|2|2|wow64
-|NtSignalAndWaitForSingleObject|45|413|4|4|wow64
-|NtSinglePhaseReject|44|414|2|2|wow64
-|NtStartProfile|43|415|1|1|wow64
-|NtStopProfile|42|416|1|1|wow64
-|NtSubscribeWnfStateChange|41|417|4|4|wow64
-|NtSuspendProcess|40|418|1|1|wow64
-|NtSuspendThread|39|419|2|2|wow64
-|NtSystemDebugControl|38|420|6|6|wow64
-|NtTerminateJobObject|37|421|2|2|wow64
-|NtTerminateProcess|36|44|2|2|wow64
-|NtTerminateThread|35|83|2|2|wow64
-|NtTestAlert|34|422|0|0|wow64
-|NtThawRegistry|33|423|0|0|wow64
-|NtThawTransactions|32|424|0|0|wow64
-|NtTraceControl|31|425|6|6|wow64
-|NtTraceEvent|30|94|4|4|wow64
-|NtTranslateFilePath|29|426|4|4|wow64
-|NtUmsThreadYield|28|427|1|1|wow64
-|NtUnloadDriver|27|428|1|1|wow64
-|NtUnloadKey|26|429|1|1|wow64
-|NtUnloadKey2|25|430|2|2|wow64
-|NtUnloadKeyEx|24|431|2|2|wow64
-|NtUnlockFile|23|432|5|5|wow64
-|NtUnlockVirtualMemory|22|433|4|4|wow64
-|NtUnmapViewOfSection|20|42|2|2|wow64
-|NtUnmapViewOfSectionEx|21|434|3|3|wow64
-|NtUnsubscribeWnfStateChange|18|435|1|1|wow64
-|NtUpdateWnfStateData|19|436|7|7|wow64
-|NtVdmControl|17|437|2|2|wow64
-|NtWaitForAlertByThreadId|16|438|2|2|wow64
-|NtWaitForDebugEvent|15|439|4|4|wow64
-|NtWaitForKeyedEvent|14|440|4|4|wow64
-|NtWaitForMultipleObjects|13|91|5|5|wow64
-|NtWaitForMultipleObjects32|12|26|5|5|wow64
-|NtWaitForSingleObject|11|4|3|3|wow64
-|NtWaitForWorkViaWorkerFactory|10|441|5|5|wow64
-|NtWaitHighEventPair|9|442|1|1|wow64
-|NtWaitLowEventPair|8|443|1|1|wow64
-|NtWorkerFactoryWorkerReady|1|1|1|1|wow64
-|NtWriteFile|7|8|9|9|wow64
-|NtWriteFileGather|6|27|9|9|wow64
-|NtWriteRequestData|5|87|6|6|wow64
-|NtWriteVirtualMemory|4|58|5|5|wow64
-|NtYieldExecution|3|70|0|0|wow64
+| NtAcceptConnectPort | 2 | 2 | 6 | 6 | wow64
+| NtAccessCheck | 0 | 0 | 8 | 8 | wow64
+| NtAccessCheckAndAuditAlarm | 442 | 41 | 11 | 11 | wow64
+| NtAccessCheckByType | 441 | 99 | 11 | 11 | wow64
+| NtAccessCheckByTypeAndAuditAlarm | 440 | 89 | 16 | 16 | wow64
+| NtAccessCheckByTypeResultList | 439 | 100 | 11 | 11 | wow64
+| NtAccessCheckByTypeResultListAndAuditAlarm | 438 | 101 | 16 | 16 | wow64
+| NtAccessCheckByTypeResultListAndAuditAlarmByHandle | 437 | 102 | 17 | 17 | wow64
+| NtAddAtom | 435 | 71 | 3 | 3 | wow64
+| NtAddAtomEx | 436 | 103 | 4 | 4 | wow64
+| NtAddBootEntry | 434 | 104 | 2 | 2 | wow64
+| NtAddDriverEntry | 433 | 105 | 2 | 2 | wow64
+| NtAdjustGroupsToken | 431 | 106 | 6 | 6 | wow64
+| NtAdjustPrivilegesToken | 430 | 65 | 6 | 6 | wow64
+| NtAdjustTokenClaimsAndDeviceGroups | 432 | 107 | 16 | 16 | wow64
+| NtAlertResumeThread | 429 | 108 | 2 | 2 | wow64
+| NtAlertThread | 428 | 109 | 1 | 1 | wow64
+| NtAlertThreadByThreadId | 427 | 110 | 1 | 1 | wow64
+| NtAllocateLocallyUniqueId | 426 | 111 | 1 | 1 | wow64
+| NtAllocateReserveObject | 425 | 112 | 3 | 3 | wow64
+| NtAllocateUserPhysicalPages | 424 | 113 | 3 | 3 | wow64
+| NtAllocateUuids | 423 | 114 | 4 | 4 | wow64
+| NtAllocateVirtualMemory | 422 | 24 | 6 | 6 | wow64
+| NtAlpcAcceptConnectPort | 421 | 115 | 9 | 9 | wow64
+| NtAlpcCancelMessage | 420 | 116 | 3 | 3 | wow64
+| NtAlpcConnectPort | 418 | 117 | 11 | 11 | wow64
+| NtAlpcConnectPortEx | 419 | 118 | 11 | 11 | wow64
+| NtAlpcCreatePort | 417 | 119 | 3 | 3 | wow64
+| NtAlpcCreatePortSection | 416 | 120 | 6 | 6 | wow64
+| NtAlpcCreateResourceReserve | 415 | 121 | 4 | 4 | wow64
+| NtAlpcCreateSectionView | 414 | 122 | 3 | 3 | wow64
+| NtAlpcCreateSecurityContext | 413 | 123 | 3 | 3 | wow64
+| NtAlpcDeletePortSection | 412 | 124 | 3 | 3 | wow64
+| NtAlpcDeleteResourceReserve | 411 | 125 | 3 | 3 | wow64
+| NtAlpcDeleteSectionView | 410 | 126 | 3 | 3 | wow64
+| NtAlpcDeleteSecurityContext | 409 | 127 | 3 | 3 | wow64
+| NtAlpcDisconnectPort | 408 | 128 | 2 | 2 | wow64
+| NtAlpcImpersonateClientContainerOfPort | 407 | 129 | 3 | 3 | wow64
+| NtAlpcImpersonateClientOfPort | 406 | 130 | 3 | 3 | wow64
+| NtAlpcOpenSenderProcess | 405 | 131 | 6 | 6 | wow64
+| NtAlpcOpenSenderThread | 404 | 132 | 6 | 6 | wow64
+| NtAlpcQueryInformation | 403 | 133 | 5 | 5 | wow64
+| NtAlpcQueryInformationMessage | 402 | 134 | 6 | 6 | wow64
+| NtAlpcRevokeSecurityContext | 401 | 135 | 3 | 3 | wow64
+| NtAlpcSendWaitReceivePort | 400 | 136 | 8 | 8 | wow64
+| NtAlpcSetInformation | 399 | 137 | 4 | 4 | wow64
+| NtApphelpCacheControl | 398 | 76 | 2 | 2 | wow64
+| NtAreMappedFilesTheSame | 397 | 138 | 2 | 2 | wow64
+| NtAssignProcessToJobObject | 396 | 139 | 2 | 2 | wow64
+| NtAssociateWaitCompletionPacket | 395 | 140 | 8 | 8 | wow64
+| NtCallbackReturn | 394 | 5 | 3 | 3 | wow64
+| NtCancelIoFile | 393 | 93 | 2 | 2 | wow64
+| NtCancelIoFileEx | 392 | 141 | 3 | 3 | wow64
+| NtCancelSynchronousIoFile | 391 | 142 | 3 | 3 | wow64
+| NtCancelTimer | 390 | 97 | 2 | 2 | wow64
+| NtCancelTimer2 | 68 | 143 | 2 | 2 | wow64
+| NtCancelWaitCompletionPacket | 389 | 144 | 2 | 2 | wow64
+| NtClearEvent | 388 | 62 | 1 | 1 | wow64
+| NtClose | 387 | 15 | 1 | 1 | wow64
+| NtCloseObjectAuditAlarm | 386 | 59 | 3 | 3 | wow64
+| NtCommitComplete | 385 | 145 | 2 | 2 | wow64
+| NtCommitEnlistment | 384 | 146 | 2 | 2 | wow64
+| NtCommitTransaction | 383 | 147 | 2 | 2 | wow64
+| NtCompactKeys | 382 | 148 | 2 | 2 | wow64
+| NtCompareObjects | 381 | 149 | 2 | 2 | wow64
+| NtCompareTokens | 380 | 150 | 3 | 3 | wow64
+| NtCompleteConnectPort | 379 | 151 | 1 | 1 | wow64
+| NtCompressKey | 378 | 152 | 1 | 1 | wow64
+| NtConnectPort | 377 | 153 | 8 | 8 | wow64
+| NtContinue | 376 | 67 | 2 | 2 | wow64
+| NtCreateDebugObject | 375 | 154 | 4 | 4 | wow64
+| NtCreateDirectoryObject | 374 | 155 | 3 | 3 | wow64
+| NtCreateDirectoryObjectEx | 373 | 156 | 5 | 5 | wow64
+| NtCreateEnclave | 372 | 157 | 9 | 9 | wow64
+| NtCreateEnlistment | 371 | 158 | 8 | 8 | wow64
+| NtCreateEvent | 370 | 72 | 5 | 5 | wow64
+| NtCreateEventPair | 369 | 159 | 3 | 3 | wow64
+| NtCreateFile | 368 | 85 | 11 | 11 | wow64
+| NtCreateIRTimer | 365 | 160 | 2 | 2 | wow64
+| NtCreateIoCompletion | 367 | 161 | 4 | 4 | wow64
+| NtCreateJobObject | 364 | 162 | 3 | 3 | wow64
+| NtCreateJobSet | 363 | 163 | 3 | 3 | wow64
+| NtCreateKey | 362 | 29 | 7 | 7 | wow64
+| NtCreateKeyTransacted | 360 | 164 | 8 | 8 | wow64
+| NtCreateKeyedEvent | 361 | 165 | 4 | 4 | wow64
+| NtCreateLowBoxToken | 341 | 166 | 9 | 9 | wow64
+| NtCreateMailslotFile | 359 | 167 | 8 | 8 | wow64
+| NtCreateMutant | 358 | 168 | 4 | 4 | wow64
+| NtCreateNamedPipeFile | 357 | 169 | 14 | 14 | wow64
+| NtCreatePagingFile | 356 | 170 | 4 | 4 | wow64
+| NtCreatePartition | 332 | 171 | 4 | 4 | wow64
+| NtCreatePort | 355 | 172 | 5 | 5 | wow64
+| NtCreatePrivateNamespace | 354 | 173 | 4 | 4 | wow64
+| NtCreateProcess | 353 | 174 | 8 | 8 | wow64
+| NtCreateProcessEx | 352 | 77 | 9 | 9 | wow64
+| NtCreateProfile | 351 | 175 | 9 | 9 | wow64
+| NtCreateProfileEx | 350 | 176 | 10 | 10 | wow64
+| NtCreateResourceManager | 349 | 177 | 7 | 7 | wow64
+| NtCreateSection | 348 | 74 | 7 | 7 | wow64
+| NtCreateSemaphore | 347 | 178 | 5 | 5 | wow64
+| NtCreateSymbolicLinkObject | 346 | 179 | 4 | 4 | wow64
+| NtCreateThread | 345 | 78 | 8 | 8 | wow64
+| NtCreateThreadEx | 344 | 180 | 11 | 11 | wow64
+| NtCreateTimer | 343 | 181 | 4 | 4 | wow64
+| NtCreateTimer2 | 366 | 182 | 5 | 5 | wow64
+| NtCreateToken | 340 | 183 | 13 | 13 | wow64
+| NtCreateTokenEx | 342 | 184 | 17 | 17 | wow64
+| NtCreateTransaction | 339 | 185 | 10 | 10 | wow64
+| NtCreateTransactionManager | 338 | 186 | 6 | 6 | wow64
+| NtCreateUserProcess | 337 | 187 | 11 | 11 | wow64
+| NtCreateWaitCompletionPacket | 335 | 188 | 3 | 3 | wow64
+| NtCreateWaitablePort | 336 | 189 | 5 | 5 | wow64
+| NtCreateWnfStateName | 334 | 190 | 7 | 7 | wow64
+| NtCreateWorkerFactory | 333 | 191 | 10 | 10 | wow64
+| NtDebugActiveProcess | 331 | 192 | 2 | 2 | wow64
+| NtDebugContinue | 330 | 193 | 3 | 3 | wow64
+| NtDelayExecution | 329 | 52 | 2 | 2 | wow64
+| NtDeleteAtom | 328 | 194 | 1 | 1 | wow64
+| NtDeleteBootEntry | 327 | 195 | 1 | 1 | wow64
+| NtDeleteDriverEntry | 326 | 196 | 1 | 1 | wow64
+| NtDeleteFile | 325 | 197 | 1 | 1 | wow64
+| NtDeleteKey | 324 | 198 | 1 | 1 | wow64
+| NtDeleteObjectAuditAlarm | 323 | 199 | 3 | 3 | wow64
+| NtDeletePrivateNamespace | 322 | 200 | 1 | 1 | wow64
+| NtDeleteValueKey | 321 | 201 | 2 | 2 | wow64
+| NtDeleteWnfStateData | 320 | 202 | 2 | 2 | wow64
+| NtDeleteWnfStateName | 319 | 203 | 1 | 1 | wow64
+| NtDeviceIoControlFile | 318 | 7 | 10 | 10 | wow64
+| NtDisableLastKnownGood | 317 | 204 | 0 | 0 | wow64
+| NtDisplayString | 316 | 205 | 1 | 1 | wow64
+| NtDrawText | 315 | 206 | 1 | 1 | wow64
+| NtDuplicateObject | 314 | 60 | 7 | 7 | wow64
+| NtDuplicateToken | 313 | 66 | 6 | 6 | wow64
+| NtEnableLastKnownGood | 312 | 207 | 0 | 0 | wow64
+| NtEnumerateBootEntries | 311 | 208 | 2 | 2 | wow64
+| NtEnumerateDriverEntries | 310 | 209 | 2 | 2 | wow64
+| NtEnumerateKey | 309 | 50 | 6 | 6 | wow64
+| NtEnumerateSystemEnvironmentValuesEx | 308 | 210 | 3 | 3 | wow64
+| NtEnumerateTransactionObject | 307 | 211 | 5 | 5 | wow64
+| NtEnumerateValueKey | 306 | 19 | 6 | 6 | wow64
+| NtExtendSection | 305 | 212 | 2 | 2 | wow64
+| NtFilterBootOption | 304 | 213 | 5 | 5 | wow64
+| NtFilterToken | 302 | 214 | 6 | 6 | wow64
+| NtFilterTokenEx | 303 | 215 | 14 | 14 | wow64
+| NtFindAtom | 301 | 20 | 3 | 3 | wow64
+| NtFlushBuffersFile | 299 | 75 | 2 | 2 | wow64
+| NtFlushBuffersFileEx | 300 | 216 | 5 | 5 | wow64
+| NtFlushInstallUILanguage | 298 | 217 | 2 | 2 | wow64
+| NtFlushInstructionCache | 297 | 218 | 3 | 3 | wow64
+| NtFlushKey | 296 | 219 | 1 | 1 | wow64
+| NtFlushProcessWriteBuffers | 295 | 220 | 0 | 0 | wow64
+| NtFlushVirtualMemory | 294 | 221 | 4 | 4 | wow64
+| NtFlushWriteBuffer | 293 | 222 | 0 | 0 | wow64
+| NtFreeUserPhysicalPages | 292 | 223 | 3 | 3 | wow64
+| NtFreeVirtualMemory | 291 | 30 | 4 | 4 | wow64
+| NtFreezeRegistry | 290 | 224 | 1 | 1 | wow64
+| NtFreezeTransactions | 289 | 225 | 2 | 2 | wow64
+| NtFsControlFile | 288 | 57 | 10 | 10 | wow64
+| NtGetCachedSigningLevel | 287 | 226 | 6 | 6 | wow64
+| NtGetCompleteWnfStateSubscription | 286 | 227 | 6 | 6 | wow64
+| NtGetContextThread | 285 | 228 | 2 | 2 | wow64
+| NtGetCurrentProcessorNumber | 284 | 229 | 0 | 0 | wow64
+| NtGetCurrentProcessorNumberEx | 283 | 230 | 1 | 1 | wow64
+| NtGetDevicePowerState | 282 | 231 | 2 | 2 | wow64
+| NtGetMUIRegistryInfo | 281 | 232 | 3 | 3 | wow64
+| NtGetNextProcess | 280 | 233 | 5 | 5 | wow64
+| NtGetNextThread | 279 | 234 | 6 | 6 | wow64
+| NtGetNlsSectionPtr | 278 | 235 | 5 | 5 | wow64
+| NtGetNotificationResourceManager | 277 | 236 | 7 | 7 | wow64
+| NtGetWriteWatch | 276 | 237 | 7 | 7 | wow64
+| NtImpersonateAnonymousToken | 275 | 238 | 1 | 1 | wow64
+| NtImpersonateClientOfPort | 274 | 31 | 2 | 2 | wow64
+| NtImpersonateThread | 273 | 239 | 3 | 3 | wow64
+| NtInitializeEnclave | 272 | 240 | 5 | 5 | wow64
+| NtInitializeNlsFiles | 271 | 241 | 3 | 3 | wow64
+| NtInitializeRegistry | 270 | 242 | 1 | 1 | wow64
+| NtInitiatePowerAction | 269 | 243 | 4 | 4 | wow64
+| NtIsProcessInJob | 268 | 79 | 2 | 2 | wow64
+| NtIsSystemResumeAutomatic | 267 | 244 | 0 | 0 | wow64
+| NtIsUILanguageComitted | 266 | 245 | 0 | 0 | wow64
+| NtListenPort | 265 | 246 | 2 | 2 | wow64
+| NtLoadDriver | 264 | 247 | 1 | 1 | wow64
+| NtLoadEnclaveData | 263 | 248 | 9 | 9 | wow64
+| NtLoadKey | 262 | 249 | 2 | 2 | wow64
+| NtLoadKey2 | 261 | 250 | 3 | 3 | wow64
+| NtLoadKeyEx | 260 | 251 | 8 | 8 | wow64
+| NtLockFile | 259 | 252 | 10 | 10 | wow64
+| NtLockProductActivationKeys | 258 | 253 | 2 | 2 | wow64
+| NtLockRegistryKey | 257 | 254 | 1 | 1 | wow64
+| NtLockVirtualMemory | 256 | 255 | 4 | 4 | wow64
+| NtMakePermanentObject | 255 | 256 | 1 | 1 | wow64
+| NtMakeTemporaryObject | 254 | 257 | 1 | 1 | wow64
+| NtManagePartition | 247 | 258 | 5 | 5 | wow64
+| NtMapCMFModule | 253 | 259 | 6 | 6 | wow64
+| NtMapUserPhysicalPages | 252 | 260 | 3 | 3 | wow64
+| NtMapUserPhysicalPagesScatter | 251 | 3 | 3 | 3 | wow64
+| NtMapViewOfSection | 250 | 40 | 10 | 10 | wow64
+| NtModifyBootEntry | 249 | 261 | 1 | 1 | wow64
+| NtModifyDriverEntry | 248 | 262 | 1 | 1 | wow64
+| NtNotifyChangeDirectoryFile | 246 | 263 | 9 | 9 | wow64
+| NtNotifyChangeKey | 245 | 264 | 10 | 10 | wow64
+| NtNotifyChangeMultipleKeys | 244 | 265 | 12 | 12 | wow64
+| NtNotifyChangeSession | 243 | 266 | 8 | 8 | wow64
+| NtOpenDirectoryObject | 242 | 88 | 3 | 3 | wow64
+| NtOpenEnlistment | 241 | 267 | 5 | 5 | wow64
+| NtOpenEvent | 240 | 64 | 3 | 3 | wow64
+| NtOpenEventPair | 239 | 268 | 3 | 3 | wow64
+| NtOpenFile | 238 | 51 | 6 | 6 | wow64
+| NtOpenIoCompletion | 237 | 269 | 3 | 3 | wow64
+| NtOpenJobObject | 236 | 270 | 3 | 3 | wow64
+| NtOpenKey | 235 | 18 | 3 | 3 | wow64
+| NtOpenKeyEx | 233 | 271 | 4 | 4 | wow64
+| NtOpenKeyTransacted | 232 | 272 | 4 | 4 | wow64
+| NtOpenKeyTransactedEx | 231 | 273 | 5 | 5 | wow64
+| NtOpenKeyedEvent | 234 | 274 | 3 | 3 | wow64
+| NtOpenMutant | 230 | 275 | 3 | 3 | wow64
+| NtOpenObjectAuditAlarm | 229 | 276 | 12 | 12 | wow64
+| NtOpenPartition | 224 | 277 | 3 | 3 | wow64
+| NtOpenPrivateNamespace | 228 | 278 | 4 | 4 | wow64
+| NtOpenProcess | 227 | 38 | 4 | 4 | wow64
+| NtOpenProcessToken | 226 | 279 | 3 | 3 | wow64
+| NtOpenProcessTokenEx | 225 | 48 | 4 | 4 | wow64
+| NtOpenResourceManager | 223 | 280 | 5 | 5 | wow64
+| NtOpenSection | 222 | 55 | 3 | 3 | wow64
+| NtOpenSemaphore | 221 | 281 | 3 | 3 | wow64
+| NtOpenSession | 220 | 282 | 3 | 3 | wow64
+| NtOpenSymbolicLinkObject | 219 | 283 | 3 | 3 | wow64
+| NtOpenThread | 218 | 284 | 4 | 4 | wow64
+| NtOpenThreadToken | 217 | 36 | 4 | 4 | wow64
+| NtOpenThreadTokenEx | 216 | 47 | 5 | 5 | wow64
+| NtOpenTimer | 215 | 285 | 3 | 3 | wow64
+| NtOpenTransaction | 214 | 286 | 5 | 5 | wow64
+| NtOpenTransactionManager | 213 | 287 | 6 | 6 | wow64
+| NtPlugPlayControl | 212 | 288 | 3 | 3 | wow64
+| NtPowerInformation | 211 | 95 | 5 | 5 | wow64
+| NtPrePrepareComplete | 208 | 289 | 2 | 2 | wow64
+| NtPrePrepareEnlistment | 207 | 290 | 2 | 2 | wow64
+| NtPrepareComplete | 210 | 291 | 2 | 2 | wow64
+| NtPrepareEnlistment | 209 | 292 | 2 | 2 | wow64
+| NtPrivilegeCheck | 205 | 293 | 3 | 3 | wow64
+| NtPrivilegeObjectAuditAlarm | 203 | 294 | 6 | 6 | wow64
+| NtPrivilegedServiceAuditAlarm | 204 | 295 | 5 | 5 | wow64
+| NtPropagationComplete | 202 | 296 | 4 | 4 | wow64
+| NtPropagationFailed | 201 | 297 | 3 | 3 | wow64
+| NtProtectVirtualMemory | 200 | 80 | 5 | 5 | wow64
+| NtPulseEvent | 199 | 298 | 2 | 2 | wow64
+| NtQueryAttributesFile | 198 | 61 | 2 | 2 | wow64
+| NtQueryBootEntryOrder | 197 | 299 | 2 | 2 | wow64
+| NtQueryBootOptions | 196 | 300 | 2 | 2 | wow64
+| NtQueryDebugFilterState | 195 | 301 | 2 | 2 | wow64
+| NtQueryDefaultLocale | 194 | 21 | 2 | 2 | wow64
+| NtQueryDefaultUILanguage | 193 | 68 | 1 | 1 | wow64
+| NtQueryDirectoryFile | 192 | 53 | 11 | 11 | wow64
+| NtQueryDirectoryObject | 191 | 302 | 7 | 7 | wow64
+| NtQueryDriverEntryOrder | 190 | 303 | 2 | 2 | wow64
+| NtQueryEaFile | 189 | 304 | 9 | 9 | wow64
+| NtQueryEvent | 188 | 86 | 5 | 5 | wow64
+| NtQueryFullAttributesFile | 187 | 305 | 2 | 2 | wow64
+| NtQueryInformationAtom | 186 | 306 | 5 | 5 | wow64
+| NtQueryInformationEnlistment | 185 | 307 | 5 | 5 | wow64
+| NtQueryInformationFile | 184 | 17 | 5 | 5 | wow64
+| NtQueryInformationJobObject | 183 | 308 | 5 | 5 | wow64
+| NtQueryInformationPort | 182 | 309 | 5 | 5 | wow64
+| NtQueryInformationProcess | 181 | 25 | 5 | 5 | wow64
+| NtQueryInformationResourceManager | 180 | 310 | 5 | 5 | wow64
+| NtQueryInformationThread | 179 | 37 | 5 | 5 | wow64
+| NtQueryInformationToken | 178 | 33 | 5 | 5 | wow64
+| NtQueryInformationTransaction | 177 | 311 | 5 | 5 | wow64
+| NtQueryInformationTransactionManager | 176 | 312 | 5 | 5 | wow64
+| NtQueryInformationWorkerFactory | 175 | 313 | 5 | 5 | wow64
+| NtQueryInstallUILanguage | 174 | 314 | 1 | 1 | wow64
+| NtQueryIntervalProfile | 173 | 315 | 2 | 2 | wow64
+| NtQueryIoCompletion | 172 | 316 | 5 | 5 | wow64
+| NtQueryKey | 171 | 22 | 5 | 5 | wow64
+| NtQueryLicenseValue | 170 | 317 | 5 | 5 | wow64
+| NtQueryMultipleValueKey | 169 | 318 | 6 | 6 | wow64
+| NtQueryMutant | 168 | 319 | 5 | 5 | wow64
+| NtQueryObject | 167 | 16 | 5 | 5 | wow64
+| NtQueryOpenSubKeys | 166 | 320 | 2 | 2 | wow64
+| NtQueryOpenSubKeysEx | 165 | 321 | 4 | 4 | wow64
+| NtQueryPerformanceCounter | 164 | 49 | 2 | 2 | wow64
+| NtQueryPortInformationProcess | 163 | 322 | 0 | 0 | wow64
+| NtQueryQuotaInformationFile | 162 | 323 | 9 | 9 | wow64
+| NtQuerySection | 161 | 81 | 5 | 5 | wow64
+| NtQuerySecurityAttributesToken | 160 | 324 | 6 | 6 | wow64
+| NtQuerySecurityObject | 159 | 325 | 5 | 5 | wow64
+| NtQuerySemaphore | 158 | 326 | 5 | 5 | wow64
+| NtQuerySymbolicLinkObject | 157 | 327 | 3 | 3 | wow64
+| NtQuerySystemEnvironmentValue | 156 | 328 | 4 | 4 | wow64
+| NtQuerySystemEnvironmentValueEx | 155 | 329 | 5 | 5 | wow64
+| NtQuerySystemInformation | 154 | 54 | 4 | 4 | wow64
+| NtQuerySystemInformationEx | 153 | 330 | 6 | 6 | wow64
+| NtQuerySystemTime | 152 | 90 | 1 | 1 | wow64
+| NtQueryTimer | 151 | 56 | 5 | 5 | wow64
+| NtQueryTimerResolution | 150 | 331 | 3 | 3 | wow64
+| NtQueryValueKey | 149 | 23 | 6 | 6 | wow64
+| NtQueryVirtualMemory | 148 | 35 | 6 | 6 | wow64
+| NtQueryVolumeInformationFile | 147 | 73 | 5 | 5 | wow64
+| NtQueryWnfStateData | 145 | 332 | 6 | 6 | wow64
+| NtQueryWnfStateNameInformation | 146 | 333 | 5 | 5 | wow64
+| NtQueueApcThread | 144 | 69 | 5 | 5 | wow64
+| NtQueueApcThreadEx | 143 | 334 | 6 | 6 | wow64
+| NtRaiseException | 142 | 335 | 3 | 3 | wow64
+| NtRaiseHardError | 141 | 336 | 6 | 6 | wow64
+| NtReadFile | 140 | 6 | 9 | 9 | wow64
+| NtReadFileScatter | 139 | 46 | 9 | 9 | wow64
+| NtReadOnlyEnlistment | 138 | 337 | 2 | 2 | wow64
+| NtReadRequestData | 137 | 84 | 6 | 6 | wow64
+| NtReadVirtualMemory | 136 | 63 | 5 | 5 | wow64
+| NtRecoverEnlistment | 135 | 338 | 2 | 2 | wow64
+| NtRecoverResourceManager | 134 | 339 | 1 | 1 | wow64
+| NtRecoverTransactionManager | 133 | 340 | 1 | 1 | wow64
+| NtRegisterProtocolAddressInformation | 132 | 341 | 5 | 5 | wow64
+| NtRegisterThreadTerminatePort | 131 | 342 | 1 | 1 | wow64
+| NtReleaseKeyedEvent | 130 | 343 | 4 | 4 | wow64
+| NtReleaseMutant | 129 | 32 | 2 | 2 | wow64
+| NtReleaseSemaphore | 128 | 10 | 3 | 3 | wow64
+| NtReleaseWorkerFactoryWorker | 127 | 344 | 1 | 1 | wow64
+| NtRemoveIoCompletion | 126 | 9 | 5 | 5 | wow64
+| NtRemoveIoCompletionEx | 125 | 345 | 6 | 6 | wow64
+| NtRemoveProcessDebug | 124 | 346 | 2 | 2 | wow64
+| NtRenameKey | 123 | 347 | 2 | 2 | wow64
+| NtRenameTransactionManager | 122 | 348 | 2 | 2 | wow64
+| NtReplaceKey | 121 | 349 | 3 | 3 | wow64
+| NtReplacePartitionUnit | 120 | 350 | 3 | 3 | wow64
+| NtReplyPort | 119 | 12 | 2 | 2 | wow64
+| NtReplyWaitReceivePort | 118 | 11 | 4 | 4 | wow64
+| NtReplyWaitReceivePortEx | 117 | 43 | 5 | 5 | wow64
+| NtReplyWaitReplyPort | 116 | 351 | 2 | 2 | wow64
+| NtRequestPort | 115 | 352 | 2 | 2 | wow64
+| NtRequestWaitReplyPort | 114 | 34 | 3 | 3 | wow64
+| NtResetEvent | 113 | 353 | 2 | 2 | wow64
+| NtResetWriteWatch | 112 | 354 | 3 | 3 | wow64
+| NtRestoreKey | 111 | 355 | 3 | 3 | wow64
+| NtResumeProcess | 110 | 356 | 1 | 1 | wow64
+| NtResumeThread | 109 | 82 | 2 | 2 | wow64
+| NtRevertContainerImpersonation | 108 | 357 | 0 | 0 | wow64
+| NtRollbackComplete | 107 | 358 | 2 | 2 | wow64
+| NtRollbackEnlistment | 106 | 359 | 2 | 2 | wow64
+| NtRollbackTransaction | 105 | 360 | 2 | 2 | wow64
+| NtRollforwardTransactionManager | 104 | 361 | 2 | 2 | wow64
+| NtSaveKey | 103 | 362 | 2 | 2 | wow64
+| NtSaveKeyEx | 102 | 363 | 3 | 3 | wow64
+| NtSaveMergedKeys | 101 | 364 | 3 | 3 | wow64
+| NtSecureConnectPort | 100 | 365 | 9 | 9 | wow64
+| NtSerializeBoot | 99 | 366 | 0 | 0 | wow64
+| NtSetBootEntryOrder | 98 | 367 | 2 | 2 | wow64
+| NtSetBootOptions | 97 | 368 | 2 | 2 | wow64
+| NtSetCachedSigningLevel | 96 | 369 | 5 | 5 | wow64
+| NtSetContextThread | 95 | 370 | 2 | 2 | wow64
+| NtSetDebugFilterState | 94 | 371 | 3 | 3 | wow64
+| NtSetDefaultHardErrorPort | 93 | 372 | 1 | 1 | wow64
+| NtSetDefaultLocale | 92 | 373 | 2 | 2 | wow64
+| NtSetDefaultUILanguage | 91 | 374 | 1 | 1 | wow64
+| NtSetDriverEntryOrder | 90 | 375 | 2 | 2 | wow64
+| NtSetEaFile | 89 | 376 | 4 | 4 | wow64
+| NtSetEvent | 88 | 14 | 2 | 2 | wow64
+| NtSetEventBoostPriority | 87 | 45 | 1 | 1 | wow64
+| NtSetHighEventPair | 86 | 377 | 1 | 1 | wow64
+| NtSetHighWaitLowEventPair | 85 | 378 | 1 | 1 | wow64
+| NtSetIRTimer | 66 | 379 | 2 | 2 | wow64
+| NtSetInformationDebugObject | 84 | 380 | 5 | 5 | wow64
+| NtSetInformationEnlistment | 83 | 381 | 4 | 4 | wow64
+| NtSetInformationFile | 82 | 39 | 5 | 5 | wow64
+| NtSetInformationJobObject | 81 | 382 | 4 | 4 | wow64
+| NtSetInformationKey | 80 | 383 | 4 | 4 | wow64
+| NtSetInformationObject | 79 | 92 | 4 | 4 | wow64
+| NtSetInformationProcess | 78 | 28 | 4 | 4 | wow64
+| NtSetInformationResourceManager | 77 | 384 | 4 | 4 | wow64
+| NtSetInformationSymbolicLink | 443 | 385 | 4 | 4 | wow64
+| NtSetInformationThread | 76 | 13 | 4 | 4 | wow64
+| NtSetInformationToken | 75 | 386 | 4 | 4 | wow64
+| NtSetInformationTransaction | 74 | 387 | 4 | 4 | wow64
+| NtSetInformationTransactionManager | 73 | 388 | 4 | 4 | wow64
+| NtSetInformationVirtualMemory | 206 | 389 | 6 | 6 | wow64
+| NtSetInformationWorkerFactory | 72 | 390 | 4 | 4 | wow64
+| NtSetIntervalProfile | 71 | 391 | 2 | 2 | wow64
+| NtSetIoCompletion | 70 | 392 | 5 | 5 | wow64
+| NtSetIoCompletionEx | 69 | 393 | 6 | 6 | wow64
+| NtSetLdtEntries | 65 | 394 | 6 | 6 | wow64
+| NtSetLowEventPair | 64 | 395 | 1 | 1 | wow64
+| NtSetLowWaitHighEventPair | 63 | 396 | 1 | 1 | wow64
+| NtSetQuotaInformationFile | 62 | 397 | 4 | 4 | wow64
+| NtSetSecurityObject | 61 | 398 | 3 | 3 | wow64
+| NtSetSystemEnvironmentValue | 60 | 399 | 2 | 2 | wow64
+| NtSetSystemEnvironmentValueEx | 59 | 400 | 5 | 5 | wow64
+| NtSetSystemInformation | 58 | 401 | 3 | 3 | wow64
+| NtSetSystemPowerState | 57 | 402 | 3 | 3 | wow64
+| NtSetSystemTime | 56 | 403 | 2 | 2 | wow64
+| NtSetThreadExecutionState | 55 | 404 | 2 | 2 | wow64
+| NtSetTimer | 54 | 98 | 7 | 7 | wow64
+| NtSetTimer2 | 67 | 405 | 4 | 4 | wow64
+| NtSetTimerEx | 53 | 406 | 4 | 4 | wow64
+| NtSetTimerResolution | 52 | 407 | 3 | 3 | wow64
+| NtSetUuidSeed | 51 | 408 | 1 | 1 | wow64
+| NtSetValueKey | 50 | 96 | 6 | 6 | wow64
+| NtSetVolumeInformationFile | 49 | 409 | 5 | 5 | wow64
+| NtSetWnfProcessNotificationEvent | 48 | 410 | 1 | 1 | wow64
+| NtShutdownSystem | 47 | 411 | 1 | 1 | wow64
+| NtShutdownWorkerFactory | 46 | 412 | 2 | 2 | wow64
+| NtSignalAndWaitForSingleObject | 45 | 413 | 4 | 4 | wow64
+| NtSinglePhaseReject | 44 | 414 | 2 | 2 | wow64
+| NtStartProfile | 43 | 415 | 1 | 1 | wow64
+| NtStopProfile | 42 | 416 | 1 | 1 | wow64
+| NtSubscribeWnfStateChange | 41 | 417 | 4 | 4 | wow64
+| NtSuspendProcess | 40 | 418 | 1 | 1 | wow64
+| NtSuspendThread | 39 | 419 | 2 | 2 | wow64
+| NtSystemDebugControl | 38 | 420 | 6 | 6 | wow64
+| NtTerminateJobObject | 37 | 421 | 2 | 2 | wow64
+| NtTerminateProcess | 36 | 44 | 2 | 2 | wow64
+| NtTerminateThread | 35 | 83 | 2 | 2 | wow64
+| NtTestAlert | 34 | 422 | 0 | 0 | wow64
+| NtThawRegistry | 33 | 423 | 0 | 0 | wow64
+| NtThawTransactions | 32 | 424 | 0 | 0 | wow64
+| NtTraceControl | 31 | 425 | 6 | 6 | wow64
+| NtTraceEvent | 30 | 94 | 4 | 4 | wow64
+| NtTranslateFilePath | 29 | 426 | 4 | 4 | wow64
+| NtUmsThreadYield | 28 | 427 | 1 | 1 | wow64
+| NtUnloadDriver | 27 | 428 | 1 | 1 | wow64
+| NtUnloadKey | 26 | 429 | 1 | 1 | wow64
+| NtUnloadKey2 | 25 | 430 | 2 | 2 | wow64
+| NtUnloadKeyEx | 24 | 431 | 2 | 2 | wow64
+| NtUnlockFile | 23 | 432 | 5 | 5 | wow64
+| NtUnlockVirtualMemory | 22 | 433 | 4 | 4 | wow64
+| NtUnmapViewOfSection | 20 | 42 | 2 | 2 | wow64
+| NtUnmapViewOfSectionEx | 21 | 434 | 3 | 3 | wow64
+| NtUnsubscribeWnfStateChange | 18 | 435 | 1 | 1 | wow64
+| NtUpdateWnfStateData | 19 | 436 | 7 | 7 | wow64
+| NtVdmControl | 17 | 437 | 2 | 2 | wow64
+| NtWaitForAlertByThreadId | 16 | 438 | 2 | 2 | wow64
+| NtWaitForDebugEvent | 15 | 439 | 4 | 4 | wow64
+| NtWaitForKeyedEvent | 14 | 440 | 4 | 4 | wow64
+| NtWaitForMultipleObjects | 13 | 91 | 5 | 5 | wow64
+| NtWaitForMultipleObjects32 | 12 | 26 | 5 | 5 | wow64
+| NtWaitForSingleObject | 11 | 4 | 3 | 3 | wow64
+| NtWaitForWorkViaWorkerFactory | 10 | 441 | 5 | 5 | wow64
+| NtWaitHighEventPair | 9 | 442 | 1 | 1 | wow64
+| NtWaitLowEventPair | 8 | 443 | 1 | 1 | wow64
+| NtWorkerFactoryWorkerReady | 1 | 1 | 1 | 1 | wow64
+| NtWriteFile | 7 | 8 | 9 | 9 | wow64
+| NtWriteFileGather | 6 | 27 | 9 | 9 | wow64
+| NtWriteRequestData | 5 | 87 | 6 | 6 | wow64
+| NtWriteVirtualMemory | 4 | 58 | 5 | 5 | wow64
+| NtYieldExecution | 3 | 70 | 0 | 0 | wow64
+

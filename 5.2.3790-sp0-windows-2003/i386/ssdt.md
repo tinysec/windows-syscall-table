@@ -1,299 +1,300 @@
-# 5.2.3790-sp0-windows-2003 i386 ssdt
+# ssdt database for 5.2.3790-sp0-windows-2003 i386
 
 |id|name|argc
 | ------| ------ | ------
-|0x000(000)|NtAcceptConnectPort|6
-|0x001(001)|NtAccessCheck|8
-|0x002(002)|NtAccessCheckAndAuditAlarm|11
-|0x003(003)|NtAccessCheckByType|11
-|0x004(004)|NtAccessCheckByTypeAndAuditAlarm|16
-|0x005(005)|NtAccessCheckByTypeResultList|11
-|0x006(006)|NtAccessCheckByTypeResultListAndAuditAlarm|16
-|0x007(007)|NtAccessCheckByTypeResultListAndAuditAlarmByHandle|17
-|0x008(008)|NtAddAtom|3
-|0x009(009)|NtAddBootEntry|2
-|0x00A(010)|NtAddDriverEntry|2
-|0x00B(011)|NtAdjustGroupsToken|6
-|0x00C(012)|NtAdjustPrivilegesToken|6
-|0x00D(013)|NtAlertResumeThread|2
-|0x00E(014)|NtAlertThread|1
-|0x00F(015)|NtAllocateLocallyUniqueId|1
-|0x010(016)|NtAllocateUserPhysicalPages|3
-|0x011(017)|NtAllocateUuids|4
-|0x012(018)|NtAllocateVirtualMemory|6
-|0x013(019)|NtApphelpCacheControl|2
-|0x014(020)|NtAreMappedFilesTheSame|2
-|0x015(021)|NtAssignProcessToJobObject|2
-|0x016(022)|NtCallbackReturn|3
-|0x017(023)|NtCancelDeviceWakeupRequest|1
-|0x018(024)|NtCancelIoFile|2
-|0x019(025)|NtCancelTimer|2
-|0x01A(026)|NtClearEvent|1
-|0x01B(027)|NtClose|1
-|0x01C(028)|NtCloseObjectAuditAlarm|3
-|0x01D(029)|NtCompactKeys|2
-|0x01E(030)|NtCompareTokens|3
-|0x01F(031)|NtCompleteConnectPort|1
-|0x020(032)|NtCompressKey|1
-|0x021(033)|NtConnectPort|8
-|0x022(034)|NtContinue|2
-|0x023(035)|NtCreateDebugObject|4
-|0x024(036)|NtCreateDirectoryObject|3
-|0x025(037)|NtCreateEvent|5
-|0x026(038)|NtCreateEventPair|3
-|0x027(039)|NtCreateFile|11
-|0x028(040)|NtCreateIoCompletion|4
-|0x029(041)|NtCreateJobObject|3
-|0x02A(042)|NtCreateJobSet|3
-|0x02B(043)|NtCreateKey|7
-|0x02C(044)|NtCreateMailslotFile|8
-|0x02D(045)|NtCreateMutant|4
-|0x02E(046)|NtCreateNamedPipeFile|14
-|0x02F(047)|NtCreatePagingFile|4
-|0x030(048)|NtCreatePort|5
-|0x031(049)|NtCreateProcess|8
-|0x032(050)|NtCreateProcessEx|9
-|0x033(051)|NtCreateProfile|9
-|0x034(052)|NtCreateSection|7
-|0x035(053)|NtCreateSemaphore|5
-|0x036(054)|NtCreateSymbolicLinkObject|4
-|0x037(055)|NtCreateThread|8
-|0x038(056)|NtCreateTimer|4
-|0x039(057)|NtCreateToken|13
-|0x03A(058)|NtCreateWaitablePort|5
-|0x03B(059)|NtDebugActiveProcess|2
-|0x03C(060)|NtDebugContinue|3
-|0x03D(061)|NtDelayExecution|2
-|0x03E(062)|NtDeleteAtom|1
-|0x03F(063)|NtDeleteBootEntry|1
-|0x040(064)|NtDeleteDriverEntry|1
-|0x041(065)|NtDeleteFile|1
-|0x042(066)|NtDeleteKey|1
-|0x043(067)|NtDeleteObjectAuditAlarm|3
-|0x044(068)|NtDeleteValueKey|2
-|0x045(069)|NtDeviceIoControlFile|10
-|0x046(070)|NtDisplayString|1
-|0x047(071)|NtDuplicateObject|7
-|0x048(072)|NtDuplicateToken|6
-|0x049(073)|NtEnumerateBootEntries|2
-|0x04A(074)|NtEnumerateDriverEntries|2
-|0x04B(075)|NtEnumerateKey|6
-|0x04C(076)|NtEnumerateSystemEnvironmentValuesEx|3
-|0x04D(077)|NtEnumerateValueKey|6
-|0x04E(078)|NtExtendSection|2
-|0x04F(079)|NtFilterToken|6
-|0x050(080)|NtFindAtom|3
-|0x051(081)|NtFlushBuffersFile|2
-|0x052(082)|NtFlushInstructionCache|3
-|0x053(083)|NtFlushKey|1
-|0x054(084)|NtFlushVirtualMemory|4
-|0x055(085)|NtFlushWriteBuffer|0
-|0x056(086)|NtFreeUserPhysicalPages|3
-|0x057(087)|NtFreeVirtualMemory|4
-|0x058(088)|NtFsControlFile|10
-|0x059(089)|NtGetContextThread|2
-|0x05A(090)|NtGetDevicePowerState|2
-|0x05B(091)|NtGetPlugPlayEvent|4
-|0x05C(092)|NtGetWriteWatch|7
-|0x05D(093)|NtImpersonateAnonymousToken|1
-|0x05E(094)|NtImpersonateClientOfPort|2
-|0x05F(095)|NtImpersonateThread|3
-|0x060(096)|NtInitializeRegistry|1
-|0x061(097)|NtInitiatePowerAction|4
-|0x062(098)|NtIsProcessInJob|2
-|0x063(099)|NtIsSystemResumeAutomatic|0
-|0x064(100)|NtListenPort|2
-|0x065(101)|NtLoadDriver|1
-|0x066(102)|NtLoadKey|2
-|0x067(103)|NtLoadKey2|3
-|0x068(104)|NtLoadKeyEx|4
-|0x069(105)|NtLockFile|10
-|0x06A(106)|NtLockProductActivationKeys|2
-|0x06B(107)|NtLockRegistryKey|1
-|0x06C(108)|NtLockVirtualMemory|4
-|0x06D(109)|NtMakePermanentObject|1
-|0x06E(110)|NtMakeTemporaryObject|1
-|0x06F(111)|NtMapUserPhysicalPages|3
-|0x070(112)|NtMapUserPhysicalPagesScatter|3
-|0x071(113)|NtMapViewOfSection|10
-|0x072(114)|NtModifyBootEntry|1
-|0x073(115)|NtModifyDriverEntry|1
-|0x074(116)|NtNotifyChangeDirectoryFile|9
-|0x075(117)|NtNotifyChangeKey|10
-|0x076(118)|NtNotifyChangeMultipleKeys|12
-|0x077(119)|NtOpenDirectoryObject|3
-|0x078(120)|NtOpenEvent|3
-|0x079(121)|NtOpenEventPair|3
-|0x07A(122)|NtOpenFile|6
-|0x07B(123)|NtOpenIoCompletion|3
-|0x07C(124)|NtOpenJobObject|3
-|0x07D(125)|NtOpenKey|3
-|0x07E(126)|NtOpenMutant|3
-|0x07F(127)|NtOpenObjectAuditAlarm|12
-|0x080(128)|NtOpenProcess|4
-|0x081(129)|NtOpenProcessToken|3
-|0x082(130)|NtOpenProcessTokenEx|4
-|0x083(131)|NtOpenSection|3
-|0x084(132)|NtOpenSemaphore|3
-|0x085(133)|NtOpenSymbolicLinkObject|3
-|0x086(134)|NtOpenThread|4
-|0x087(135)|NtOpenThreadToken|4
-|0x088(136)|NtOpenThreadTokenEx|5
-|0x089(137)|NtOpenTimer|3
-|0x08A(138)|NtPlugPlayControl|3
-|0x08B(139)|NtPowerInformation|5
-|0x08C(140)|NtPrivilegeCheck|3
-|0x08D(141)|NtPrivilegeObjectAuditAlarm|6
-|0x08E(142)|NtPrivilegedServiceAuditAlarm|5
-|0x08F(143)|NtProtectVirtualMemory|5
-|0x090(144)|NtPulseEvent|2
-|0x091(145)|NtQueryAttributesFile|2
-|0x092(146)|NtQueryBootEntryOrder|2
-|0x093(147)|NtQueryBootOptions|2
-|0x094(148)|NtQueryDebugFilterState|2
-|0x095(149)|NtQueryDefaultLocale|2
-|0x096(150)|NtQueryDefaultUILanguage|1
-|0x097(151)|NtQueryDirectoryFile|11
-|0x098(152)|NtQueryDirectoryObject|7
-|0x099(153)|NtQueryDriverEntryOrder|2
-|0x09A(154)|NtQueryEaFile|9
-|0x09B(155)|NtQueryEvent|5
-|0x09C(156)|NtQueryFullAttributesFile|2
-|0x09D(157)|NtQueryInformationAtom|5
-|0x09E(158)|NtQueryInformationFile|5
-|0x09F(159)|NtQueryInformationJobObject|5
-|0x0A0(160)|NtQueryInformationPort|5
-|0x0A1(161)|NtQueryInformationProcess|5
-|0x0A2(162)|NtQueryInformationThread|5
-|0x0A3(163)|NtQueryInformationToken|5
-|0x0A4(164)|NtQueryInstallUILanguage|1
-|0x0A5(165)|NtQueryIntervalProfile|2
-|0x0A6(166)|NtQueryIoCompletion|5
-|0x0A7(167)|NtQueryKey|5
-|0x0A8(168)|NtQueryMultipleValueKey|6
-|0x0A9(169)|NtQueryMutant|5
-|0x0AA(170)|NtQueryObject|5
-|0x0AB(171)|NtQueryOpenSubKeys|2
-|0x0AC(172)|NtQueryOpenSubKeysEx|4
-|0x0AD(173)|NtQueryPerformanceCounter|2
-|0x0AE(174)|NtQueryQuotaInformationFile|9
-|0x0AF(175)|NtQuerySection|5
-|0x0B0(176)|NtQuerySecurityObject|5
-|0x0B1(177)|NtQuerySemaphore|5
-|0x0B2(178)|NtQuerySymbolicLinkObject|3
-|0x0B3(179)|NtQuerySystemEnvironmentValue|4
-|0x0B4(180)|NtQuerySystemEnvironmentValueEx|5
-|0x0B5(181)|NtQuerySystemInformation|4
-|0x0B6(182)|NtQuerySystemTime|1
-|0x0B7(183)|NtQueryTimer|5
-|0x0B8(184)|NtQueryTimerResolution|3
-|0x0B9(185)|NtQueryValueKey|6
-|0x0BA(186)|NtQueryVirtualMemory|6
-|0x0BB(187)|NtQueryVolumeInformationFile|5
-|0x0BC(188)|NtQueueApcThread|5
-|0x0BD(189)|NtRaiseException|3
-|0x0BE(190)|NtRaiseHardError|6
-|0x0BF(191)|NtReadFile|9
-|0x0C0(192)|NtReadFileScatter|9
-|0x0C1(193)|NtReadRequestData|6
-|0x0C2(194)|NtReadVirtualMemory|5
-|0x0C3(195)|NtRegisterThreadTerminatePort|1
-|0x0C4(196)|NtReleaseMutant|2
-|0x0C5(197)|NtReleaseSemaphore|3
-|0x0C6(198)|NtRemoveIoCompletion|5
-|0x0C7(199)|NtRemoveProcessDebug|2
-|0x0C8(200)|NtRenameKey|2
-|0x0C9(201)|NtReplaceKey|3
-|0x0CA(202)|NtReplyPort|2
-|0x0CB(203)|NtReplyWaitReceivePort|4
-|0x0CC(204)|NtReplyWaitReceivePortEx|5
-|0x0CD(205)|NtReplyWaitReplyPort|2
-|0x0CE(206)|NtRequestDeviceWakeup|1
-|0x0CF(207)|NtRequestPort|2
-|0x0D0(208)|NtRequestWaitReplyPort|3
-|0x0D1(209)|NtRequestWakeupLatency|1
-|0x0D2(210)|NtResetEvent|2
-|0x0D3(211)|NtResetWriteWatch|3
-|0x0D4(212)|NtRestoreKey|3
-|0x0D5(213)|NtResumeProcess|1
-|0x0D6(214)|NtResumeThread|2
-|0x0D7(215)|NtSaveKey|2
-|0x0D8(216)|NtSaveKeyEx|3
-|0x0D9(217)|NtSaveMergedKeys|3
-|0x0DA(218)|NtSecureConnectPort|9
-|0x0DB(219)|NtSetBootEntryOrder|2
-|0x0DC(220)|NtSetBootOptions|2
-|0x0DD(221)|NtSetContextThread|2
-|0x0DE(222)|NtSetDebugFilterState|3
-|0x0DF(223)|NtSetDefaultHardErrorPort|1
-|0x0E0(224)|NtSetDefaultLocale|2
-|0x0E1(225)|NtSetDefaultUILanguage|1
-|0x0E2(226)|NtSetDriverEntryOrder|2
-|0x0E3(227)|NtSetEaFile|4
-|0x0E4(228)|NtSetEvent|2
-|0x0E5(229)|NtSetEventBoostPriority|1
-|0x0E6(230)|NtSetHighEventPair|1
-|0x0E7(231)|NtSetHighWaitLowEventPair|1
-|0x0E8(232)|NtSetInformationDebugObject|5
-|0x0E9(233)|NtSetInformationFile|5
-|0x0EA(234)|NtSetInformationJobObject|4
-|0x0EB(235)|NtSetInformationKey|4
-|0x0EC(236)|NtSetInformationObject|4
-|0x0ED(237)|NtSetInformationProcess|4
-|0x0EE(238)|NtSetInformationThread|4
-|0x0EF(239)|NtSetInformationToken|4
-|0x0F0(240)|NtSetIntervalProfile|2
-|0x0F1(241)|NtSetIoCompletion|5
-|0x0F2(242)|NtSetLdtEntries|6
-|0x0F3(243)|NtSetLowEventPair|1
-|0x0F4(244)|NtSetLowWaitHighEventPair|1
-|0x0F5(245)|NtSetQuotaInformationFile|4
-|0x0F6(246)|NtSetSecurityObject|3
-|0x0F7(247)|NtSetSystemEnvironmentValue|2
-|0x0F8(248)|NtSetSystemEnvironmentValueEx|5
-|0x0F9(249)|NtSetSystemInformation|3
-|0x0FA(250)|NtSetSystemPowerState|3
-|0x0FB(251)|NtSetSystemTime|2
-|0x0FC(252)|NtSetThreadExecutionState|2
-|0x0FD(253)|NtSetTimer|7
-|0x0FE(254)|NtSetTimerResolution|3
-|0x0FF(255)|NtSetUuidSeed|1
-|0x100(256)|NtSetValueKey|6
-|0x101(257)|NtSetVolumeInformationFile|5
-|0x102(258)|NtShutdownSystem|1
-|0x103(259)|NtSignalAndWaitForSingleObject|4
-|0x104(260)|NtStartProfile|1
-|0x105(261)|NtStopProfile|1
-|0x106(262)|NtSuspendProcess|1
-|0x107(263)|NtSuspendThread|2
-|0x108(264)|NtSystemDebugControl|6
-|0x109(265)|NtTerminateJobObject|2
-|0x10A(266)|NtTerminateProcess|2
-|0x10B(267)|NtTerminateThread|2
-|0x10C(268)|NtTestAlert|0
-|0x10D(269)|NtTraceEvent|4
-|0x10E(270)|NtTranslateFilePath|4
-|0x10F(271)|NtUnloadDriver|1
-|0x110(272)|NtUnloadKey|1
-|0x111(273)|NtUnloadKey2|2
-|0x112(274)|NtUnloadKeyEx|2
-|0x113(275)|NtUnlockFile|5
-|0x114(276)|NtUnlockVirtualMemory|4
-|0x115(277)|NtUnmapViewOfSection|2
-|0x116(278)|NtVdmControl|2
-|0x117(279)|NtWaitForDebugEvent|4
-|0x118(280)|NtWaitForMultipleObjects|5
-|0x119(281)|NtWaitForSingleObject|3
-|0x11A(282)|NtWaitHighEventPair|1
-|0x11B(283)|NtWaitLowEventPair|1
-|0x11C(284)|NtWriteFile|9
-|0x11D(285)|NtWriteFileGather|9
-|0x11E(286)|NtWriteRequestData|6
-|0x11F(287)|NtWriteVirtualMemory|5
-|0x120(288)|NtYieldExecution|0
-|0x121(289)|NtCreateKeyedEvent|4
-|0x122(290)|NtOpenKeyedEvent|3
-|0x123(291)|NtReleaseKeyedEvent|4
-|0x124(292)|NtWaitForKeyedEvent|4
-|0x125(293)|NtQueryPortInformationProcess|0
-|0x126(294)|NtGetCurrentProcessorNumber|0
+| 0x000(000) | NtAcceptConnectPort | 6
+| 0x001(001) | NtAccessCheck | 8
+| 0x002(002) | NtAccessCheckAndAuditAlarm | 11
+| 0x003(003) | NtAccessCheckByType | 11
+| 0x004(004) | NtAccessCheckByTypeAndAuditAlarm | 16
+| 0x005(005) | NtAccessCheckByTypeResultList | 11
+| 0x006(006) | NtAccessCheckByTypeResultListAndAuditAlarm | 16
+| 0x007(007) | NtAccessCheckByTypeResultListAndAuditAlarmByHandle | 17
+| 0x008(008) | NtAddAtom | 3
+| 0x009(009) | NtAddBootEntry | 2
+| 0x00A(010) | NtAddDriverEntry | 2
+| 0x00B(011) | NtAdjustGroupsToken | 6
+| 0x00C(012) | NtAdjustPrivilegesToken | 6
+| 0x00D(013) | NtAlertResumeThread | 2
+| 0x00E(014) | NtAlertThread | 1
+| 0x00F(015) | NtAllocateLocallyUniqueId | 1
+| 0x010(016) | NtAllocateUserPhysicalPages | 3
+| 0x011(017) | NtAllocateUuids | 4
+| 0x012(018) | NtAllocateVirtualMemory | 6
+| 0x013(019) | NtApphelpCacheControl | 2
+| 0x014(020) | NtAreMappedFilesTheSame | 2
+| 0x015(021) | NtAssignProcessToJobObject | 2
+| 0x016(022) | NtCallbackReturn | 3
+| 0x017(023) | NtCancelDeviceWakeupRequest | 1
+| 0x018(024) | NtCancelIoFile | 2
+| 0x019(025) | NtCancelTimer | 2
+| 0x01A(026) | NtClearEvent | 1
+| 0x01B(027) | NtClose | 1
+| 0x01C(028) | NtCloseObjectAuditAlarm | 3
+| 0x01D(029) | NtCompactKeys | 2
+| 0x01E(030) | NtCompareTokens | 3
+| 0x01F(031) | NtCompleteConnectPort | 1
+| 0x020(032) | NtCompressKey | 1
+| 0x021(033) | NtConnectPort | 8
+| 0x022(034) | NtContinue | 2
+| 0x023(035) | NtCreateDebugObject | 4
+| 0x024(036) | NtCreateDirectoryObject | 3
+| 0x025(037) | NtCreateEvent | 5
+| 0x026(038) | NtCreateEventPair | 3
+| 0x027(039) | NtCreateFile | 11
+| 0x028(040) | NtCreateIoCompletion | 4
+| 0x029(041) | NtCreateJobObject | 3
+| 0x02A(042) | NtCreateJobSet | 3
+| 0x02B(043) | NtCreateKey | 7
+| 0x02C(044) | NtCreateMailslotFile | 8
+| 0x02D(045) | NtCreateMutant | 4
+| 0x02E(046) | NtCreateNamedPipeFile | 14
+| 0x02F(047) | NtCreatePagingFile | 4
+| 0x030(048) | NtCreatePort | 5
+| 0x031(049) | NtCreateProcess | 8
+| 0x032(050) | NtCreateProcessEx | 9
+| 0x033(051) | NtCreateProfile | 9
+| 0x034(052) | NtCreateSection | 7
+| 0x035(053) | NtCreateSemaphore | 5
+| 0x036(054) | NtCreateSymbolicLinkObject | 4
+| 0x037(055) | NtCreateThread | 8
+| 0x038(056) | NtCreateTimer | 4
+| 0x039(057) | NtCreateToken | 13
+| 0x03A(058) | NtCreateWaitablePort | 5
+| 0x03B(059) | NtDebugActiveProcess | 2
+| 0x03C(060) | NtDebugContinue | 3
+| 0x03D(061) | NtDelayExecution | 2
+| 0x03E(062) | NtDeleteAtom | 1
+| 0x03F(063) | NtDeleteBootEntry | 1
+| 0x040(064) | NtDeleteDriverEntry | 1
+| 0x041(065) | NtDeleteFile | 1
+| 0x042(066) | NtDeleteKey | 1
+| 0x043(067) | NtDeleteObjectAuditAlarm | 3
+| 0x044(068) | NtDeleteValueKey | 2
+| 0x045(069) | NtDeviceIoControlFile | 10
+| 0x046(070) | NtDisplayString | 1
+| 0x047(071) | NtDuplicateObject | 7
+| 0x048(072) | NtDuplicateToken | 6
+| 0x049(073) | NtEnumerateBootEntries | 2
+| 0x04A(074) | NtEnumerateDriverEntries | 2
+| 0x04B(075) | NtEnumerateKey | 6
+| 0x04C(076) | NtEnumerateSystemEnvironmentValuesEx | 3
+| 0x04D(077) | NtEnumerateValueKey | 6
+| 0x04E(078) | NtExtendSection | 2
+| 0x04F(079) | NtFilterToken | 6
+| 0x050(080) | NtFindAtom | 3
+| 0x051(081) | NtFlushBuffersFile | 2
+| 0x052(082) | NtFlushInstructionCache | 3
+| 0x053(083) | NtFlushKey | 1
+| 0x054(084) | NtFlushVirtualMemory | 4
+| 0x055(085) | NtFlushWriteBuffer | 0
+| 0x056(086) | NtFreeUserPhysicalPages | 3
+| 0x057(087) | NtFreeVirtualMemory | 4
+| 0x058(088) | NtFsControlFile | 10
+| 0x059(089) | NtGetContextThread | 2
+| 0x05A(090) | NtGetDevicePowerState | 2
+| 0x05B(091) | NtGetPlugPlayEvent | 4
+| 0x05C(092) | NtGetWriteWatch | 7
+| 0x05D(093) | NtImpersonateAnonymousToken | 1
+| 0x05E(094) | NtImpersonateClientOfPort | 2
+| 0x05F(095) | NtImpersonateThread | 3
+| 0x060(096) | NtInitializeRegistry | 1
+| 0x061(097) | NtInitiatePowerAction | 4
+| 0x062(098) | NtIsProcessInJob | 2
+| 0x063(099) | NtIsSystemResumeAutomatic | 0
+| 0x064(100) | NtListenPort | 2
+| 0x065(101) | NtLoadDriver | 1
+| 0x066(102) | NtLoadKey | 2
+| 0x067(103) | NtLoadKey2 | 3
+| 0x068(104) | NtLoadKeyEx | 4
+| 0x069(105) | NtLockFile | 10
+| 0x06A(106) | NtLockProductActivationKeys | 2
+| 0x06B(107) | NtLockRegistryKey | 1
+| 0x06C(108) | NtLockVirtualMemory | 4
+| 0x06D(109) | NtMakePermanentObject | 1
+| 0x06E(110) | NtMakeTemporaryObject | 1
+| 0x06F(111) | NtMapUserPhysicalPages | 3
+| 0x070(112) | NtMapUserPhysicalPagesScatter | 3
+| 0x071(113) | NtMapViewOfSection | 10
+| 0x072(114) | NtModifyBootEntry | 1
+| 0x073(115) | NtModifyDriverEntry | 1
+| 0x074(116) | NtNotifyChangeDirectoryFile | 9
+| 0x075(117) | NtNotifyChangeKey | 10
+| 0x076(118) | NtNotifyChangeMultipleKeys | 12
+| 0x077(119) | NtOpenDirectoryObject | 3
+| 0x078(120) | NtOpenEvent | 3
+| 0x079(121) | NtOpenEventPair | 3
+| 0x07A(122) | NtOpenFile | 6
+| 0x07B(123) | NtOpenIoCompletion | 3
+| 0x07C(124) | NtOpenJobObject | 3
+| 0x07D(125) | NtOpenKey | 3
+| 0x07E(126) | NtOpenMutant | 3
+| 0x07F(127) | NtOpenObjectAuditAlarm | 12
+| 0x080(128) | NtOpenProcess | 4
+| 0x081(129) | NtOpenProcessToken | 3
+| 0x082(130) | NtOpenProcessTokenEx | 4
+| 0x083(131) | NtOpenSection | 3
+| 0x084(132) | NtOpenSemaphore | 3
+| 0x085(133) | NtOpenSymbolicLinkObject | 3
+| 0x086(134) | NtOpenThread | 4
+| 0x087(135) | NtOpenThreadToken | 4
+| 0x088(136) | NtOpenThreadTokenEx | 5
+| 0x089(137) | NtOpenTimer | 3
+| 0x08A(138) | NtPlugPlayControl | 3
+| 0x08B(139) | NtPowerInformation | 5
+| 0x08C(140) | NtPrivilegeCheck | 3
+| 0x08D(141) | NtPrivilegeObjectAuditAlarm | 6
+| 0x08E(142) | NtPrivilegedServiceAuditAlarm | 5
+| 0x08F(143) | NtProtectVirtualMemory | 5
+| 0x090(144) | NtPulseEvent | 2
+| 0x091(145) | NtQueryAttributesFile | 2
+| 0x092(146) | NtQueryBootEntryOrder | 2
+| 0x093(147) | NtQueryBootOptions | 2
+| 0x094(148) | NtQueryDebugFilterState | 2
+| 0x095(149) | NtQueryDefaultLocale | 2
+| 0x096(150) | NtQueryDefaultUILanguage | 1
+| 0x097(151) | NtQueryDirectoryFile | 11
+| 0x098(152) | NtQueryDirectoryObject | 7
+| 0x099(153) | NtQueryDriverEntryOrder | 2
+| 0x09A(154) | NtQueryEaFile | 9
+| 0x09B(155) | NtQueryEvent | 5
+| 0x09C(156) | NtQueryFullAttributesFile | 2
+| 0x09D(157) | NtQueryInformationAtom | 5
+| 0x09E(158) | NtQueryInformationFile | 5
+| 0x09F(159) | NtQueryInformationJobObject | 5
+| 0x0A0(160) | NtQueryInformationPort | 5
+| 0x0A1(161) | NtQueryInformationProcess | 5
+| 0x0A2(162) | NtQueryInformationThread | 5
+| 0x0A3(163) | NtQueryInformationToken | 5
+| 0x0A4(164) | NtQueryInstallUILanguage | 1
+| 0x0A5(165) | NtQueryIntervalProfile | 2
+| 0x0A6(166) | NtQueryIoCompletion | 5
+| 0x0A7(167) | NtQueryKey | 5
+| 0x0A8(168) | NtQueryMultipleValueKey | 6
+| 0x0A9(169) | NtQueryMutant | 5
+| 0x0AA(170) | NtQueryObject | 5
+| 0x0AB(171) | NtQueryOpenSubKeys | 2
+| 0x0AC(172) | NtQueryOpenSubKeysEx | 4
+| 0x0AD(173) | NtQueryPerformanceCounter | 2
+| 0x0AE(174) | NtQueryQuotaInformationFile | 9
+| 0x0AF(175) | NtQuerySection | 5
+| 0x0B0(176) | NtQuerySecurityObject | 5
+| 0x0B1(177) | NtQuerySemaphore | 5
+| 0x0B2(178) | NtQuerySymbolicLinkObject | 3
+| 0x0B3(179) | NtQuerySystemEnvironmentValue | 4
+| 0x0B4(180) | NtQuerySystemEnvironmentValueEx | 5
+| 0x0B5(181) | NtQuerySystemInformation | 4
+| 0x0B6(182) | NtQuerySystemTime | 1
+| 0x0B7(183) | NtQueryTimer | 5
+| 0x0B8(184) | NtQueryTimerResolution | 3
+| 0x0B9(185) | NtQueryValueKey | 6
+| 0x0BA(186) | NtQueryVirtualMemory | 6
+| 0x0BB(187) | NtQueryVolumeInformationFile | 5
+| 0x0BC(188) | NtQueueApcThread | 5
+| 0x0BD(189) | NtRaiseException | 3
+| 0x0BE(190) | NtRaiseHardError | 6
+| 0x0BF(191) | NtReadFile | 9
+| 0x0C0(192) | NtReadFileScatter | 9
+| 0x0C1(193) | NtReadRequestData | 6
+| 0x0C2(194) | NtReadVirtualMemory | 5
+| 0x0C3(195) | NtRegisterThreadTerminatePort | 1
+| 0x0C4(196) | NtReleaseMutant | 2
+| 0x0C5(197) | NtReleaseSemaphore | 3
+| 0x0C6(198) | NtRemoveIoCompletion | 5
+| 0x0C7(199) | NtRemoveProcessDebug | 2
+| 0x0C8(200) | NtRenameKey | 2
+| 0x0C9(201) | NtReplaceKey | 3
+| 0x0CA(202) | NtReplyPort | 2
+| 0x0CB(203) | NtReplyWaitReceivePort | 4
+| 0x0CC(204) | NtReplyWaitReceivePortEx | 5
+| 0x0CD(205) | NtReplyWaitReplyPort | 2
+| 0x0CE(206) | NtRequestDeviceWakeup | 1
+| 0x0CF(207) | NtRequestPort | 2
+| 0x0D0(208) | NtRequestWaitReplyPort | 3
+| 0x0D1(209) | NtRequestWakeupLatency | 1
+| 0x0D2(210) | NtResetEvent | 2
+| 0x0D3(211) | NtResetWriteWatch | 3
+| 0x0D4(212) | NtRestoreKey | 3
+| 0x0D5(213) | NtResumeProcess | 1
+| 0x0D6(214) | NtResumeThread | 2
+| 0x0D7(215) | NtSaveKey | 2
+| 0x0D8(216) | NtSaveKeyEx | 3
+| 0x0D9(217) | NtSaveMergedKeys | 3
+| 0x0DA(218) | NtSecureConnectPort | 9
+| 0x0DB(219) | NtSetBootEntryOrder | 2
+| 0x0DC(220) | NtSetBootOptions | 2
+| 0x0DD(221) | NtSetContextThread | 2
+| 0x0DE(222) | NtSetDebugFilterState | 3
+| 0x0DF(223) | NtSetDefaultHardErrorPort | 1
+| 0x0E0(224) | NtSetDefaultLocale | 2
+| 0x0E1(225) | NtSetDefaultUILanguage | 1
+| 0x0E2(226) | NtSetDriverEntryOrder | 2
+| 0x0E3(227) | NtSetEaFile | 4
+| 0x0E4(228) | NtSetEvent | 2
+| 0x0E5(229) | NtSetEventBoostPriority | 1
+| 0x0E6(230) | NtSetHighEventPair | 1
+| 0x0E7(231) | NtSetHighWaitLowEventPair | 1
+| 0x0E8(232) | NtSetInformationDebugObject | 5
+| 0x0E9(233) | NtSetInformationFile | 5
+| 0x0EA(234) | NtSetInformationJobObject | 4
+| 0x0EB(235) | NtSetInformationKey | 4
+| 0x0EC(236) | NtSetInformationObject | 4
+| 0x0ED(237) | NtSetInformationProcess | 4
+| 0x0EE(238) | NtSetInformationThread | 4
+| 0x0EF(239) | NtSetInformationToken | 4
+| 0x0F0(240) | NtSetIntervalProfile | 2
+| 0x0F1(241) | NtSetIoCompletion | 5
+| 0x0F2(242) | NtSetLdtEntries | 6
+| 0x0F3(243) | NtSetLowEventPair | 1
+| 0x0F4(244) | NtSetLowWaitHighEventPair | 1
+| 0x0F5(245) | NtSetQuotaInformationFile | 4
+| 0x0F6(246) | NtSetSecurityObject | 3
+| 0x0F7(247) | NtSetSystemEnvironmentValue | 2
+| 0x0F8(248) | NtSetSystemEnvironmentValueEx | 5
+| 0x0F9(249) | NtSetSystemInformation | 3
+| 0x0FA(250) | NtSetSystemPowerState | 3
+| 0x0FB(251) | NtSetSystemTime | 2
+| 0x0FC(252) | NtSetThreadExecutionState | 2
+| 0x0FD(253) | NtSetTimer | 7
+| 0x0FE(254) | NtSetTimerResolution | 3
+| 0x0FF(255) | NtSetUuidSeed | 1
+| 0x100(256) | NtSetValueKey | 6
+| 0x101(257) | NtSetVolumeInformationFile | 5
+| 0x102(258) | NtShutdownSystem | 1
+| 0x103(259) | NtSignalAndWaitForSingleObject | 4
+| 0x104(260) | NtStartProfile | 1
+| 0x105(261) | NtStopProfile | 1
+| 0x106(262) | NtSuspendProcess | 1
+| 0x107(263) | NtSuspendThread | 2
+| 0x108(264) | NtSystemDebugControl | 6
+| 0x109(265) | NtTerminateJobObject | 2
+| 0x10A(266) | NtTerminateProcess | 2
+| 0x10B(267) | NtTerminateThread | 2
+| 0x10C(268) | NtTestAlert | 0
+| 0x10D(269) | NtTraceEvent | 4
+| 0x10E(270) | NtTranslateFilePath | 4
+| 0x10F(271) | NtUnloadDriver | 1
+| 0x110(272) | NtUnloadKey | 1
+| 0x111(273) | NtUnloadKey2 | 2
+| 0x112(274) | NtUnloadKeyEx | 2
+| 0x113(275) | NtUnlockFile | 5
+| 0x114(276) | NtUnlockVirtualMemory | 4
+| 0x115(277) | NtUnmapViewOfSection | 2
+| 0x116(278) | NtVdmControl | 2
+| 0x117(279) | NtWaitForDebugEvent | 4
+| 0x118(280) | NtWaitForMultipleObjects | 5
+| 0x119(281) | NtWaitForSingleObject | 3
+| 0x11A(282) | NtWaitHighEventPair | 1
+| 0x11B(283) | NtWaitLowEventPair | 1
+| 0x11C(284) | NtWriteFile | 9
+| 0x11D(285) | NtWriteFileGather | 9
+| 0x11E(286) | NtWriteRequestData | 6
+| 0x11F(287) | NtWriteVirtualMemory | 5
+| 0x120(288) | NtYieldExecution | 0
+| 0x121(289) | NtCreateKeyedEvent | 4
+| 0x122(290) | NtOpenKeyedEvent | 3
+| 0x123(291) | NtReleaseKeyedEvent | 4
+| 0x124(292) | NtWaitForKeyedEvent | 4
+| 0x125(293) | NtQueryPortInformationProcess | 0
+| 0x126(294) | NtGetCurrentProcessorNumber | 0
+
