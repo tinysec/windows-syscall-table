@@ -12,3136 +12,3136 @@ extern "C"
 
 //////////////////////////////////////////////////////////////////
 
-PVOID __stdcall NtAcceptConnectPort(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
-);
-
-
-PVOID __stdcall NtAccessCheck(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08
-);
-
-
-PVOID __stdcall NtAccessCheckAndAuditAlarm(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09 ,
-	PVOID	arg_10 ,
-	PVOID	arg_11
-);
-
-
-PVOID __stdcall NtAccessCheckByType(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09 ,
-	PVOID	arg_10 ,
-	PVOID	arg_11
-);
-
-
-PVOID __stdcall NtAccessCheckByTypeAndAuditAlarm(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09 ,
-	PVOID	arg_10 ,
-	PVOID	arg_11 ,
-	PVOID	arg_12 ,
-	PVOID	arg_13 ,
-	PVOID	arg_14 ,
-	PVOID	arg_15 ,
-	PVOID	arg_16
-);
-
-
-PVOID __stdcall NtAccessCheckByTypeResultList(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09 ,
-	PVOID	arg_10 ,
-	PVOID	arg_11
+ULONG64 __stdcall NtAcceptConnectPort(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
+);
+
+
+ULONG64 __stdcall NtAccessCheck(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08
+);
+
+
+ULONG64 __stdcall NtAccessCheckAndAuditAlarm(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09 ,
+	ULONG_PTR	arg_10 ,
+	ULONG_PTR	arg_11
+);
+
+
+ULONG64 __stdcall NtAccessCheckByType(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09 ,
+	ULONG_PTR	arg_10 ,
+	ULONG_PTR	arg_11
+);
+
+
+ULONG64 __stdcall NtAccessCheckByTypeAndAuditAlarm(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09 ,
+	ULONG_PTR	arg_10 ,
+	ULONG_PTR	arg_11 ,
+	ULONG_PTR	arg_12 ,
+	ULONG_PTR	arg_13 ,
+	ULONG_PTR	arg_14 ,
+	ULONG_PTR	arg_15 ,
+	ULONG_PTR	arg_16
+);
+
+
+ULONG64 __stdcall NtAccessCheckByTypeResultList(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09 ,
+	ULONG_PTR	arg_10 ,
+	ULONG_PTR	arg_11
 );
 
 
-PVOID __stdcall NtAccessCheckByTypeResultListAndAuditAlarm(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09 ,
-	PVOID	arg_10 ,
-	PVOID	arg_11 ,
-	PVOID	arg_12 ,
-	PVOID	arg_13 ,
-	PVOID	arg_14 ,
-	PVOID	arg_15 ,
-	PVOID	arg_16
+ULONG64 __stdcall NtAccessCheckByTypeResultListAndAuditAlarm(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09 ,
+	ULONG_PTR	arg_10 ,
+	ULONG_PTR	arg_11 ,
+	ULONG_PTR	arg_12 ,
+	ULONG_PTR	arg_13 ,
+	ULONG_PTR	arg_14 ,
+	ULONG_PTR	arg_15 ,
+	ULONG_PTR	arg_16
 );
 
 
-PVOID __stdcall NtAccessCheckByTypeResultListAndAuditAlarmByHandle(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09 ,
-	PVOID	arg_10 ,
-	PVOID	arg_11 ,
-	PVOID	arg_12 ,
-	PVOID	arg_13 ,
-	PVOID	arg_14 ,
-	PVOID	arg_15 ,
-	PVOID	arg_16 ,
-	PVOID	arg_17
+ULONG64 __stdcall NtAccessCheckByTypeResultListAndAuditAlarmByHandle(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09 ,
+	ULONG_PTR	arg_10 ,
+	ULONG_PTR	arg_11 ,
+	ULONG_PTR	arg_12 ,
+	ULONG_PTR	arg_13 ,
+	ULONG_PTR	arg_14 ,
+	ULONG_PTR	arg_15 ,
+	ULONG_PTR	arg_16 ,
+	ULONG_PTR	arg_17
 );
 
 
-PVOID __stdcall NtAcquireCMFViewOwnership(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtAcquireCMFViewOwnership(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtAddAtom(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtAddAtom(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtAddBootEntry(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtAddBootEntry(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtAddDriverEntry(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtAddDriverEntry(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtAdjustGroupsToken(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG64 __stdcall NtAdjustGroupsToken(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtAdjustPrivilegesToken(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG64 __stdcall NtAdjustPrivilegesToken(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtAlertResumeThread(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtAlertResumeThread(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtAlertThread(
-	PVOID	arg_01
+ULONG64 __stdcall NtAlertThread(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtAllocateLocallyUniqueId(
-	PVOID	arg_01
+ULONG64 __stdcall NtAllocateLocallyUniqueId(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtAllocateUserPhysicalPages(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtAllocateUserPhysicalPages(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtAllocateUuids(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG64 __stdcall NtAllocateUuids(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtAllocateVirtualMemory(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG64 __stdcall NtAllocateVirtualMemory(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtAlpcAcceptConnectPort(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09
+ULONG64 __stdcall NtAlpcAcceptConnectPort(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09
 );
 
 
-PVOID __stdcall NtAlpcCancelMessage(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtAlpcCancelMessage(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtAlpcConnectPort(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09 ,
-	PVOID	arg_10 ,
-	PVOID	arg_11
+ULONG64 __stdcall NtAlpcConnectPort(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09 ,
+	ULONG_PTR	arg_10 ,
+	ULONG_PTR	arg_11
 );
 
 
-PVOID __stdcall NtAlpcCreatePort(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtAlpcCreatePort(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtAlpcCreatePortSection(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG64 __stdcall NtAlpcCreatePortSection(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtAlpcCreateResourceReserve(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG64 __stdcall NtAlpcCreateResourceReserve(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtAlpcCreateSectionView(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtAlpcCreateSectionView(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtAlpcCreateSecurityContext(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtAlpcCreateSecurityContext(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtAlpcDeletePortSection(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtAlpcDeletePortSection(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtAlpcDeleteResourceReserve(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtAlpcDeleteResourceReserve(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtAlpcDeleteSectionView(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtAlpcDeleteSectionView(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtAlpcDeleteSecurityContext(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtAlpcDeleteSecurityContext(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtAlpcDisconnectPort(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtAlpcDisconnectPort(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtAlpcImpersonateClientOfPort(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtAlpcImpersonateClientOfPort(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtAlpcOpenSenderProcess(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG64 __stdcall NtAlpcOpenSenderProcess(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtAlpcOpenSenderThread(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG64 __stdcall NtAlpcOpenSenderThread(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtAlpcQueryInformation(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtAlpcQueryInformation(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtAlpcQueryInformationMessage(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG64 __stdcall NtAlpcQueryInformationMessage(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtAlpcRevokeSecurityContext(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtAlpcRevokeSecurityContext(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtAlpcSendWaitReceivePort(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08
+ULONG64 __stdcall NtAlpcSendWaitReceivePort(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08
 );
 
 
-PVOID __stdcall NtAlpcSetInformation(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG64 __stdcall NtAlpcSetInformation(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtApphelpCacheControl(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtApphelpCacheControl(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtAreMappedFilesTheSame(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtAreMappedFilesTheSame(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtAssignProcessToJobObject(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtAssignProcessToJobObject(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtCallbackReturn(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtCallbackReturn(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtCancelDeviceWakeupRequest(
-	PVOID	arg_01
+ULONG64 __stdcall NtCancelDeviceWakeupRequest(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtCancelIoFile(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtCancelIoFile(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtCancelIoFileEx(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtCancelIoFileEx(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtCancelSynchronousIoFile(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtCancelSynchronousIoFile(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtCancelTimer(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtCancelTimer(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtClearAllSavepointsTransaction(
-	PVOID	arg_01
+ULONG64 __stdcall NtClearAllSavepointsTransaction(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtClearEvent(
-	PVOID	arg_01
+ULONG64 __stdcall NtClearEvent(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtClearSavepointTransaction(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtClearSavepointTransaction(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtClose(
-	PVOID	arg_01
+ULONG64 __stdcall NtClose(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtCloseObjectAuditAlarm(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtCloseObjectAuditAlarm(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtCommitComplete(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtCommitComplete(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtCommitEnlistment(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtCommitEnlistment(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtCommitTransaction(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtCommitTransaction(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtCompactKeys(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtCompactKeys(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtCompareTokens(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtCompareTokens(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtCompleteConnectPort(
-	PVOID	arg_01
+ULONG64 __stdcall NtCompleteConnectPort(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtCompressKey(
-	PVOID	arg_01
+ULONG64 __stdcall NtCompressKey(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtConnectPort(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08
+ULONG64 __stdcall NtConnectPort(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08
 );
 
 
-PVOID __stdcall NtContinue(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtContinue(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtCreateDebugObject(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG64 __stdcall NtCreateDebugObject(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtCreateDirectoryObject(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtCreateDirectoryObject(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtCreateEnlistment(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08
+ULONG64 __stdcall NtCreateEnlistment(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08
 );
 
 
-PVOID __stdcall NtCreateEvent(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtCreateEvent(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtCreateEventPair(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtCreateEventPair(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtCreateFile(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09 ,
-	PVOID	arg_10 ,
-	PVOID	arg_11
+ULONG64 __stdcall NtCreateFile(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09 ,
+	ULONG_PTR	arg_10 ,
+	ULONG_PTR	arg_11
 );
 
 
-PVOID __stdcall NtCreateIoCompletion(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG64 __stdcall NtCreateIoCompletion(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtCreateJobObject(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtCreateJobObject(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtCreateJobSet(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtCreateJobSet(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtCreateKey(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07
+ULONG64 __stdcall NtCreateKey(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07
 );
 
 
-PVOID __stdcall NtCreateKeyTransacted(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08
+ULONG64 __stdcall NtCreateKeyTransacted(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08
 );
 
 
-PVOID __stdcall NtCreateKeyedEvent(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG64 __stdcall NtCreateKeyedEvent(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtCreateMailslotFile(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08
+ULONG64 __stdcall NtCreateMailslotFile(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08
 );
 
 
-PVOID __stdcall NtCreateMutant(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG64 __stdcall NtCreateMutant(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtCreateNamedPipeFile(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09 ,
-	PVOID	arg_10 ,
-	PVOID	arg_11 ,
-	PVOID	arg_12 ,
-	PVOID	arg_13 ,
-	PVOID	arg_14
+ULONG64 __stdcall NtCreateNamedPipeFile(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09 ,
+	ULONG_PTR	arg_10 ,
+	ULONG_PTR	arg_11 ,
+	ULONG_PTR	arg_12 ,
+	ULONG_PTR	arg_13 ,
+	ULONG_PTR	arg_14
 );
 
 
-PVOID __stdcall NtCreatePagingFile(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG64 __stdcall NtCreatePagingFile(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtCreatePort(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtCreatePort(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtCreatePrivateNamespace(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG64 __stdcall NtCreatePrivateNamespace(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtCreateProcess(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08
+ULONG64 __stdcall NtCreateProcess(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08
 );
 
 
-PVOID __stdcall NtCreateProcessEx(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09
+ULONG64 __stdcall NtCreateProcessEx(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09
 );
 
 
-PVOID __stdcall NtCreateProfile(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09
+ULONG64 __stdcall NtCreateProfile(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09
 );
 
 
-PVOID __stdcall NtCreateResourceManager(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07
+ULONG64 __stdcall NtCreateResourceManager(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07
 );
 
 
-PVOID __stdcall NtCreateSection(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07
+ULONG64 __stdcall NtCreateSection(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07
 );
 
 
-PVOID __stdcall NtCreateSemaphore(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtCreateSemaphore(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtCreateSymbolicLinkObject(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG64 __stdcall NtCreateSymbolicLinkObject(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtCreateThread(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08
+ULONG64 __stdcall NtCreateThread(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08
 );
 
 
-PVOID __stdcall NtCreateThreadEx(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09 ,
-	PVOID	arg_10 ,
-	PVOID	arg_11
+ULONG64 __stdcall NtCreateThreadEx(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09 ,
+	ULONG_PTR	arg_10 ,
+	ULONG_PTR	arg_11
 );
 
 
-PVOID __stdcall NtCreateTimer(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG64 __stdcall NtCreateTimer(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtCreateToken(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09 ,
-	PVOID	arg_10 ,
-	PVOID	arg_11 ,
-	PVOID	arg_12 ,
-	PVOID	arg_13
+ULONG64 __stdcall NtCreateToken(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09 ,
+	ULONG_PTR	arg_10 ,
+	ULONG_PTR	arg_11 ,
+	ULONG_PTR	arg_12 ,
+	ULONG_PTR	arg_13
 );
 
 
-PVOID __stdcall NtCreateTransaction(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09 ,
-	PVOID	arg_10
+ULONG64 __stdcall NtCreateTransaction(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09 ,
+	ULONG_PTR	arg_10
 );
 
 
-PVOID __stdcall NtCreateTransactionManager(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG64 __stdcall NtCreateTransactionManager(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtCreateUserProcess(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09 ,
-	PVOID	arg_10 ,
-	PVOID	arg_11
+ULONG64 __stdcall NtCreateUserProcess(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09 ,
+	ULONG_PTR	arg_10 ,
+	ULONG_PTR	arg_11
 );
 
 
-PVOID __stdcall NtCreateWaitablePort(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtCreateWaitablePort(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtCreateWorkerFactory(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09 ,
-	PVOID	arg_10
+ULONG64 __stdcall NtCreateWorkerFactory(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09 ,
+	ULONG_PTR	arg_10
 );
 
 
-PVOID __stdcall NtDebugActiveProcess(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtDebugActiveProcess(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtDebugContinue(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtDebugContinue(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtDelayExecution(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtDelayExecution(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtDeleteAtom(
-	PVOID	arg_01
+ULONG64 __stdcall NtDeleteAtom(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtDeleteBootEntry(
-	PVOID	arg_01
+ULONG64 __stdcall NtDeleteBootEntry(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtDeleteDriverEntry(
-	PVOID	arg_01
+ULONG64 __stdcall NtDeleteDriverEntry(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtDeleteFile(
-	PVOID	arg_01
+ULONG64 __stdcall NtDeleteFile(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtDeleteKey(
-	PVOID	arg_01
+ULONG64 __stdcall NtDeleteKey(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtDeleteObjectAuditAlarm(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtDeleteObjectAuditAlarm(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtDeletePrivateNamespace(
-	PVOID	arg_01
+ULONG64 __stdcall NtDeletePrivateNamespace(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtDeleteValueKey(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtDeleteValueKey(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtDeviceIoControlFile(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09 ,
-	PVOID	arg_10
+ULONG64 __stdcall NtDeviceIoControlFile(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09 ,
+	ULONG_PTR	arg_10
 );
 
 
-PVOID __stdcall NtDisplayString(
-	PVOID	arg_01
+ULONG64 __stdcall NtDisplayString(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtDuplicateObject(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07
+ULONG64 __stdcall NtDuplicateObject(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07
 );
 
 
-PVOID __stdcall NtDuplicateToken(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG64 __stdcall NtDuplicateToken(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtEnumerateBootEntries(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtEnumerateBootEntries(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtEnumerateDriverEntries(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtEnumerateDriverEntries(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtEnumerateKey(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG64 __stdcall NtEnumerateKey(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtEnumerateSystemEnvironmentValuesEx(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtEnumerateSystemEnvironmentValuesEx(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtEnumerateTransactionObject(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtEnumerateTransactionObject(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtEnumerateValueKey(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG64 __stdcall NtEnumerateValueKey(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtExtendSection(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtExtendSection(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtFilterToken(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG64 __stdcall NtFilterToken(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtFindAtom(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtFindAtom(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtFlushBuffersFile(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtFlushBuffersFile(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtFlushInstallUILanguage(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtFlushInstallUILanguage(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtFlushInstructionCache(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtFlushInstructionCache(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtFlushKey(
-	PVOID	arg_01
+ULONG64 __stdcall NtFlushKey(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtFlushProcessWriteBuffers();
+ULONG64 __stdcall NtFlushProcessWriteBuffers();
 
 
-PVOID __stdcall NtFlushVirtualMemory(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG64 __stdcall NtFlushVirtualMemory(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtFlushWriteBuffer();
+ULONG64 __stdcall NtFlushWriteBuffer();
 
 
-PVOID __stdcall NtFreeUserPhysicalPages(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtFreeUserPhysicalPages(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtFreeVirtualMemory(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG64 __stdcall NtFreeVirtualMemory(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtFreezeRegistry(
-	PVOID	arg_01
+ULONG64 __stdcall NtFreezeRegistry(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtFreezeTransactions(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtFreezeTransactions(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtFsControlFile(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09 ,
-	PVOID	arg_10
+ULONG64 __stdcall NtFsControlFile(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09 ,
+	ULONG_PTR	arg_10
 );
 
 
-PVOID __stdcall NtGetContextThread(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtGetContextThread(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGetCurrentProcessorNumber();
+ULONG64 __stdcall NtGetCurrentProcessorNumber();
 
 
-PVOID __stdcall NtGetDevicePowerState(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtGetDevicePowerState(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGetMUIRegistryInfo(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtGetMUIRegistryInfo(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGetNextProcess(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtGetNextProcess(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtGetNextThread(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG64 __stdcall NtGetNextThread(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtGetNlsSectionPtr(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtGetNlsSectionPtr(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtGetNotificationResourceManager(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07
+ULONG64 __stdcall NtGetNotificationResourceManager(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07
 );
 
 
-PVOID __stdcall NtGetPlugPlayEvent(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG64 __stdcall NtGetPlugPlayEvent(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtGetWriteWatch(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07
+ULONG64 __stdcall NtGetWriteWatch(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07
 );
 
 
-PVOID __stdcall NtImpersonateAnonymousToken(
-	PVOID	arg_01
+ULONG64 __stdcall NtImpersonateAnonymousToken(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtImpersonateClientOfPort(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtImpersonateClientOfPort(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtImpersonateThread(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtImpersonateThread(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtInitializeNlsFiles(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtInitializeNlsFiles(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtInitializeRegistry(
-	PVOID	arg_01
+ULONG64 __stdcall NtInitializeRegistry(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtInitiatePowerAction(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG64 __stdcall NtInitiatePowerAction(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtIsProcessInJob(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtIsProcessInJob(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtIsSystemResumeAutomatic();
+ULONG64 __stdcall NtIsSystemResumeAutomatic();
 
 
-PVOID __stdcall NtIsUILanguageComitted();
+ULONG64 __stdcall NtIsUILanguageComitted();
 
 
-PVOID __stdcall NtListTransactions(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtListTransactions(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtListenPort(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtListenPort(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtLoadDriver(
-	PVOID	arg_01
+ULONG64 __stdcall NtLoadDriver(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtLoadKey(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtLoadKey(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtLoadKey2(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtLoadKey2(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtLoadKeyEx(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08
+ULONG64 __stdcall NtLoadKeyEx(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08
 );
 
 
-PVOID __stdcall NtLockFile(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09 ,
-	PVOID	arg_10
+ULONG64 __stdcall NtLockFile(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09 ,
+	ULONG_PTR	arg_10
 );
 
 
-PVOID __stdcall NtLockProductActivationKeys(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtLockProductActivationKeys(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtLockRegistryKey(
-	PVOID	arg_01
+ULONG64 __stdcall NtLockRegistryKey(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtLockVirtualMemory(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG64 __stdcall NtLockVirtualMemory(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtMakePermanentObject(
-	PVOID	arg_01
+ULONG64 __stdcall NtMakePermanentObject(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtMakeTemporaryObject(
-	PVOID	arg_01
+ULONG64 __stdcall NtMakeTemporaryObject(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtMapCMFModule(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG64 __stdcall NtMapCMFModule(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtMapUserPhysicalPages(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtMapUserPhysicalPages(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtMapUserPhysicalPagesScatter(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtMapUserPhysicalPagesScatter(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtMapViewOfSection(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09 ,
-	PVOID	arg_10
+ULONG64 __stdcall NtMapViewOfSection(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09 ,
+	ULONG_PTR	arg_10
 );
 
 
-PVOID __stdcall NtMarshallTransaction(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG64 __stdcall NtMarshallTransaction(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtModifyBootEntry(
-	PVOID	arg_01
+ULONG64 __stdcall NtModifyBootEntry(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtModifyDriverEntry(
-	PVOID	arg_01
+ULONG64 __stdcall NtModifyDriverEntry(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtNotifyChangeDirectoryFile(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09
+ULONG64 __stdcall NtNotifyChangeDirectoryFile(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09
 );
 
 
-PVOID __stdcall NtNotifyChangeKey(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09 ,
-	PVOID	arg_10
+ULONG64 __stdcall NtNotifyChangeKey(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09 ,
+	ULONG_PTR	arg_10
 );
 
 
-PVOID __stdcall NtNotifyChangeMultipleKeys(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09 ,
-	PVOID	arg_10 ,
-	PVOID	arg_11 ,
-	PVOID	arg_12
+ULONG64 __stdcall NtNotifyChangeMultipleKeys(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09 ,
+	ULONG_PTR	arg_10 ,
+	ULONG_PTR	arg_11 ,
+	ULONG_PTR	arg_12
 );
 
 
-PVOID __stdcall NtOpenDirectoryObject(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtOpenDirectoryObject(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtOpenEnlistment(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtOpenEnlistment(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtOpenEvent(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtOpenEvent(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtOpenEventPair(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtOpenEventPair(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtOpenFile(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG64 __stdcall NtOpenFile(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtOpenIoCompletion(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtOpenIoCompletion(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtOpenJobObject(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtOpenJobObject(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtOpenKey(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtOpenKey(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtOpenKeyTransacted(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG64 __stdcall NtOpenKeyTransacted(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtOpenKeyedEvent(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtOpenKeyedEvent(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtOpenMutant(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtOpenMutant(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtOpenObjectAuditAlarm(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09 ,
-	PVOID	arg_10 ,
-	PVOID	arg_11 ,
-	PVOID	arg_12
+ULONG64 __stdcall NtOpenObjectAuditAlarm(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09 ,
+	ULONG_PTR	arg_10 ,
+	ULONG_PTR	arg_11 ,
+	ULONG_PTR	arg_12
 );
 
 
-PVOID __stdcall NtOpenPrivateNamespace(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG64 __stdcall NtOpenPrivateNamespace(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtOpenProcess(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG64 __stdcall NtOpenProcess(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtOpenProcessToken(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtOpenProcessToken(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtOpenProcessTokenEx(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG64 __stdcall NtOpenProcessTokenEx(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtOpenResourceManager(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtOpenResourceManager(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtOpenSection(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtOpenSection(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtOpenSemaphore(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtOpenSemaphore(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtOpenSession(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtOpenSession(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtOpenSymbolicLinkObject(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtOpenSymbolicLinkObject(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtOpenThread(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG64 __stdcall NtOpenThread(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtOpenThreadToken(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG64 __stdcall NtOpenThreadToken(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtOpenThreadTokenEx(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtOpenThreadTokenEx(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtOpenTimer(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtOpenTimer(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtOpenTransaction(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtOpenTransaction(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtOpenTransactionManager(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG64 __stdcall NtOpenTransactionManager(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtPlugPlayControl(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtPlugPlayControl(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtPowerInformation(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtPowerInformation(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtPrePrepareComplete(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtPrePrepareComplete(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtPrePrepareEnlistment(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtPrePrepareEnlistment(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtPrepareComplete(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtPrepareComplete(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtPrepareEnlistment(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtPrepareEnlistment(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtPrivilegeCheck(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtPrivilegeCheck(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtPrivilegeObjectAuditAlarm(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG64 __stdcall NtPrivilegeObjectAuditAlarm(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtPrivilegedServiceAuditAlarm(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtPrivilegedServiceAuditAlarm(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtPropagationComplete(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG64 __stdcall NtPropagationComplete(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtPropagationFailed(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtPropagationFailed(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtProtectVirtualMemory(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtProtectVirtualMemory(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtPullTransaction(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07
+ULONG64 __stdcall NtPullTransaction(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07
 );
 
 
-PVOID __stdcall NtPulseEvent(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtPulseEvent(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtQueryAttributesFile(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtQueryAttributesFile(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtQueryBootEntryOrder(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtQueryBootEntryOrder(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtQueryBootOptions(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtQueryBootOptions(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtQueryDebugFilterState(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtQueryDebugFilterState(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtQueryDefaultLocale(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtQueryDefaultLocale(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtQueryDefaultUILanguage(
-	PVOID	arg_01
+ULONG64 __stdcall NtQueryDefaultUILanguage(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtQueryDirectoryFile(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09 ,
-	PVOID	arg_10 ,
-	PVOID	arg_11
+ULONG64 __stdcall NtQueryDirectoryFile(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09 ,
+	ULONG_PTR	arg_10 ,
+	ULONG_PTR	arg_11
 );
 
 
-PVOID __stdcall NtQueryDirectoryObject(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07
+ULONG64 __stdcall NtQueryDirectoryObject(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07
 );
 
 
-PVOID __stdcall NtQueryDriverEntryOrder(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtQueryDriverEntryOrder(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtQueryEaFile(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09
+ULONG64 __stdcall NtQueryEaFile(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09
 );
 
 
-PVOID __stdcall NtQueryEvent(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtQueryEvent(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtQueryFullAttributesFile(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtQueryFullAttributesFile(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtQueryInformationAtom(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtQueryInformationAtom(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtQueryInformationEnlistment(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtQueryInformationEnlistment(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtQueryInformationFile(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtQueryInformationFile(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtQueryInformationJobObject(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtQueryInformationJobObject(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtQueryInformationPort(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtQueryInformationPort(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtQueryInformationProcess(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtQueryInformationProcess(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtQueryInformationResourceManager(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtQueryInformationResourceManager(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtQueryInformationThread(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtQueryInformationThread(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtQueryInformationToken(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtQueryInformationToken(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtQueryInformationTransaction(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtQueryInformationTransaction(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtQueryInformationTransactionManager(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtQueryInformationTransactionManager(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtQueryInformationWorkerFactory(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtQueryInformationWorkerFactory(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtQueryInstallUILanguage(
-	PVOID	arg_01
+ULONG64 __stdcall NtQueryInstallUILanguage(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtQueryIntervalProfile(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtQueryIntervalProfile(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtQueryIoCompletion(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtQueryIoCompletion(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtQueryKey(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtQueryKey(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtQueryLicenseValue(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtQueryLicenseValue(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtQueryMultipleValueKey(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG64 __stdcall NtQueryMultipleValueKey(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtQueryMutant(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtQueryMutant(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtQueryObject(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtQueryObject(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtQueryOpenSubKeys(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtQueryOpenSubKeys(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtQueryOpenSubKeysEx(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG64 __stdcall NtQueryOpenSubKeysEx(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtQueryPerformanceCounter(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtQueryPerformanceCounter(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtQueryPortInformationProcess();
+ULONG64 __stdcall NtQueryPortInformationProcess();
 
 
-PVOID __stdcall NtQueryQuotaInformationFile(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09
+ULONG64 __stdcall NtQueryQuotaInformationFile(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09
 );
 
 
-PVOID __stdcall NtQuerySection(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtQuerySection(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtQuerySecurityObject(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtQuerySecurityObject(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtQuerySemaphore(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtQuerySemaphore(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtQuerySymbolicLinkObject(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtQuerySymbolicLinkObject(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtQuerySystemEnvironmentValue(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG64 __stdcall NtQuerySystemEnvironmentValue(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtQuerySystemEnvironmentValueEx(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtQuerySystemEnvironmentValueEx(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtQuerySystemInformation(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG64 __stdcall NtQuerySystemInformation(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtQuerySystemTime(
-	PVOID	arg_01
+ULONG64 __stdcall NtQuerySystemTime(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtQueryTimer(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtQueryTimer(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtQueryTimerResolution(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtQueryTimerResolution(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtQueryValueKey(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG64 __stdcall NtQueryValueKey(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtQueryVirtualMemory(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG64 __stdcall NtQueryVirtualMemory(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtQueryVolumeInformationFile(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtQueryVolumeInformationFile(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtQueueApcThread(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtQueueApcThread(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtRaiseException(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtRaiseException(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtRaiseHardError(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG64 __stdcall NtRaiseHardError(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtReadFile(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09
+ULONG64 __stdcall NtReadFile(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09
 );
 
 
-PVOID __stdcall NtReadFileScatter(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09
+ULONG64 __stdcall NtReadFileScatter(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09
 );
 
 
-PVOID __stdcall NtReadOnlyEnlistment(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtReadOnlyEnlistment(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtReadRequestData(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG64 __stdcall NtReadRequestData(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtReadVirtualMemory(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtReadVirtualMemory(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtRecoverEnlistment(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtRecoverEnlistment(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtRecoverResourceManager(
-	PVOID	arg_01
+ULONG64 __stdcall NtRecoverResourceManager(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtRecoverTransactionManager(
-	PVOID	arg_01
+ULONG64 __stdcall NtRecoverTransactionManager(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtRegisterProtocolAddressInformation(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtRegisterProtocolAddressInformation(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtRegisterThreadTerminatePort(
-	PVOID	arg_01
+ULONG64 __stdcall NtRegisterThreadTerminatePort(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtReleaseCMFViewOwnership();
+ULONG64 __stdcall NtReleaseCMFViewOwnership();
 
 
-PVOID __stdcall NtReleaseKeyedEvent(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG64 __stdcall NtReleaseKeyedEvent(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtReleaseMutant(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtReleaseMutant(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtReleaseSemaphore(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtReleaseSemaphore(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtReleaseWorkerFactoryWorker(
-	PVOID	arg_01
+ULONG64 __stdcall NtReleaseWorkerFactoryWorker(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtRemoveIoCompletion(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtRemoveIoCompletion(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtRemoveIoCompletionEx(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG64 __stdcall NtRemoveIoCompletionEx(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtRemoveProcessDebug(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtRemoveProcessDebug(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtRenameKey(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtRenameKey(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtReplaceKey(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtReplaceKey(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtReplyPort(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtReplyPort(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtReplyWaitReceivePort(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG64 __stdcall NtReplyWaitReceivePort(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtReplyWaitReceivePortEx(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtReplyWaitReceivePortEx(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtReplyWaitReplyPort(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtReplyWaitReplyPort(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtRequestDeviceWakeup(
-	PVOID	arg_01
+ULONG64 __stdcall NtRequestDeviceWakeup(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtRequestPort(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtRequestPort(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtRequestWaitReplyPort(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtRequestWaitReplyPort(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtRequestWakeupLatency(
-	PVOID	arg_01
+ULONG64 __stdcall NtRequestWakeupLatency(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtResetEvent(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtResetEvent(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtResetWriteWatch(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtResetWriteWatch(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtRestoreKey(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtRestoreKey(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtResumeProcess(
-	PVOID	arg_01
+ULONG64 __stdcall NtResumeProcess(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtResumeThread(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtResumeThread(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtRollbackComplete(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtRollbackComplete(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtRollbackEnlistment(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtRollbackEnlistment(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtRollbackSavepointTransaction(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtRollbackSavepointTransaction(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtRollbackTransaction(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtRollbackTransaction(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtRollforwardTransactionManager(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtRollforwardTransactionManager(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtSaveKey(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtSaveKey(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtSaveKeyEx(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtSaveKeyEx(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtSaveMergedKeys(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtSaveMergedKeys(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtSavepointComplete(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtSavepointComplete(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtSavepointTransaction(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtSavepointTransaction(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtSecureConnectPort(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09
+ULONG64 __stdcall NtSecureConnectPort(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09
 );
 
 
-PVOID __stdcall NtSetBootEntryOrder(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtSetBootEntryOrder(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtSetBootOptions(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtSetBootOptions(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtSetContextThread(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtSetContextThread(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtSetDebugFilterState(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtSetDebugFilterState(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtSetDefaultHardErrorPort(
-	PVOID	arg_01
+ULONG64 __stdcall NtSetDefaultHardErrorPort(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtSetDefaultLocale(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtSetDefaultLocale(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtSetDefaultUILanguage(
-	PVOID	arg_01
+ULONG64 __stdcall NtSetDefaultUILanguage(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtSetDriverEntryOrder(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtSetDriverEntryOrder(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtSetEaFile(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG64 __stdcall NtSetEaFile(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtSetEvent(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtSetEvent(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtSetEventBoostPriority(
-	PVOID	arg_01
+ULONG64 __stdcall NtSetEventBoostPriority(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtSetHighEventPair(
-	PVOID	arg_01
+ULONG64 __stdcall NtSetHighEventPair(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtSetHighWaitLowEventPair(
-	PVOID	arg_01
+ULONG64 __stdcall NtSetHighWaitLowEventPair(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtSetInformationDebugObject(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtSetInformationDebugObject(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtSetInformationEnlistment(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG64 __stdcall NtSetInformationEnlistment(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtSetInformationFile(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtSetInformationFile(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtSetInformationJobObject(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG64 __stdcall NtSetInformationJobObject(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtSetInformationKey(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG64 __stdcall NtSetInformationKey(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtSetInformationObject(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG64 __stdcall NtSetInformationObject(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtSetInformationProcess(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG64 __stdcall NtSetInformationProcess(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtSetInformationResourceManager(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG64 __stdcall NtSetInformationResourceManager(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtSetInformationThread(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG64 __stdcall NtSetInformationThread(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtSetInformationToken(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG64 __stdcall NtSetInformationToken(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtSetInformationTransaction(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG64 __stdcall NtSetInformationTransaction(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtSetInformationTransactionManager(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG64 __stdcall NtSetInformationTransactionManager(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtSetInformationWorkerFactory(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG64 __stdcall NtSetInformationWorkerFactory(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtSetIntervalProfile(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtSetIntervalProfile(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtSetIoCompletion(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtSetIoCompletion(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtSetLdtEntries(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG64 __stdcall NtSetLdtEntries(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtSetLowEventPair(
-	PVOID	arg_01
+ULONG64 __stdcall NtSetLowEventPair(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtSetLowWaitHighEventPair(
-	PVOID	arg_01
+ULONG64 __stdcall NtSetLowWaitHighEventPair(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtSetQuotaInformationFile(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG64 __stdcall NtSetQuotaInformationFile(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtSetSecurityObject(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtSetSecurityObject(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtSetSystemEnvironmentValue(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtSetSystemEnvironmentValue(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtSetSystemEnvironmentValueEx(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtSetSystemEnvironmentValueEx(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtSetSystemInformation(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtSetSystemInformation(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtSetSystemPowerState(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtSetSystemPowerState(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtSetSystemTime(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtSetSystemTime(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtSetThreadExecutionState(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtSetThreadExecutionState(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtSetTimer(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07
+ULONG64 __stdcall NtSetTimer(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07
 );
 
 
-PVOID __stdcall NtSetTimerResolution(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtSetTimerResolution(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtSetUuidSeed(
-	PVOID	arg_01
+ULONG64 __stdcall NtSetUuidSeed(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtSetValueKey(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG64 __stdcall NtSetValueKey(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtSetVolumeInformationFile(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtSetVolumeInformationFile(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtShutdownSystem(
-	PVOID	arg_01
+ULONG64 __stdcall NtShutdownSystem(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtShutdownWorkerFactory(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtShutdownWorkerFactory(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtSignalAndWaitForSingleObject(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG64 __stdcall NtSignalAndWaitForSingleObject(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtSinglePhaseReject(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtSinglePhaseReject(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtStartProfile(
-	PVOID	arg_01
+ULONG64 __stdcall NtStartProfile(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtStartTm();
+ULONG64 __stdcall NtStartTm();
 
 
-PVOID __stdcall NtStopProfile(
-	PVOID	arg_01
+ULONG64 __stdcall NtStopProfile(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtSuspendProcess(
-	PVOID	arg_01
+ULONG64 __stdcall NtSuspendProcess(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtSuspendThread(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtSuspendThread(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtSystemDebugControl(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG64 __stdcall NtSystemDebugControl(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtTerminateJobObject(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtTerminateJobObject(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtTerminateProcess(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtTerminateProcess(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtTerminateThread(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtTerminateThread(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtTestAlert();
+ULONG64 __stdcall NtTestAlert();
 
 
-PVOID __stdcall NtThawRegistry();
+ULONG64 __stdcall NtThawRegistry();
 
 
-PVOID __stdcall NtThawTransactions();
+ULONG64 __stdcall NtThawTransactions();
 
 
-PVOID __stdcall NtTraceControl(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG64 __stdcall NtTraceControl(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtTraceEvent(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG64 __stdcall NtTraceEvent(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtTranslateFilePath(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG64 __stdcall NtTranslateFilePath(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtUnloadDriver(
-	PVOID	arg_01
+ULONG64 __stdcall NtUnloadDriver(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUnloadKey(
-	PVOID	arg_01
+ULONG64 __stdcall NtUnloadKey(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUnloadKey2(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtUnloadKey2(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUnloadKeyEx(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtUnloadKeyEx(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUnlockFile(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtUnlockFile(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtUnlockVirtualMemory(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG64 __stdcall NtUnlockVirtualMemory(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtUnmapViewOfSection(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtUnmapViewOfSection(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtVdmControl(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtVdmControl(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtWaitForDebugEvent(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG64 __stdcall NtWaitForDebugEvent(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtWaitForKeyedEvent(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG64 __stdcall NtWaitForKeyedEvent(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtWaitForMultipleObjects(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtWaitForMultipleObjects(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtWaitForMultipleObjects32(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtWaitForMultipleObjects32(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtWaitForSingleObject(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG64 __stdcall NtWaitForSingleObject(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtWaitForWorkViaWorkerFactory(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG64 __stdcall NtWaitForWorkViaWorkerFactory(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtWaitHighEventPair(
-	PVOID	arg_01
+ULONG64 __stdcall NtWaitHighEventPair(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtWaitLowEventPair(
-	PVOID	arg_01
+ULONG64 __stdcall NtWaitLowEventPair(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtWorkerFactoryWorkerReady(
-	PVOID	arg_01
+ULONG64 __stdcall NtWorkerFactoryWorkerReady(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtWriteFile(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09
+ULONG64 __stdcall NtWriteFile(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09
 );
 
 
-PVOID __stdcall NtWriteFileGather(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09
+ULONG64 __stdcall NtWriteFileGather(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09
 );
 
 
-PVOID __stdcall NtWriteRequestData(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG64 __stdcall NtWriteRequestData(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtWriteVirtualMemory(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG64 __stdcall NtWriteVirtualMemory(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtYieldExecution();
+ULONG64 __stdcall NtYieldExecution();
 
 
 

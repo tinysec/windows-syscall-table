@@ -12,4772 +12,4772 @@ extern "C"
 
 //////////////////////////////////////////////////////////////////
 
-PVOID __stdcall GreEnableEUDC(
-	PVOID	arg_01
+ULONG_PTR __stdcall GreEnableEUDC(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall GreFontIsLinked(
-	PVOID	arg_01
+ULONG_PTR __stdcall GreFontIsLinked(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall GreGetEmbedFonts();
+ULONG_PTR __stdcall GreGetEmbedFonts();
 
 
-PVOID __stdcall NtGdiAbortDoc(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiAbortDoc(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiAbortPath(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiAbortPath(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiAddEmbFontToDC(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiAddEmbFontToDC(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiAddFontMemResourceEx(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG_PTR __stdcall NtGdiAddFontMemResourceEx(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtGdiAddFontResourceW(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG_PTR __stdcall NtGdiAddFontResourceW(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtGdiAddRemoteFontToDC(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtGdiAddRemoteFontToDC(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtGdiAddRemoteMMInstanceToDC(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiAddRemoteMMInstanceToDC(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiAlphaBlend(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09 ,
-	PVOID	arg_10 ,
-	PVOID	arg_11 ,
-	PVOID	arg_12
+ULONG_PTR __stdcall NtGdiAlphaBlend(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09 ,
+	ULONG_PTR	arg_10 ,
+	ULONG_PTR	arg_11 ,
+	ULONG_PTR	arg_12
 );
 
 
-PVOID __stdcall NtGdiAngleArc(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG_PTR __stdcall NtGdiAngleArc(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtGdiAnyLinkedFonts();
+ULONG_PTR __stdcall NtGdiAnyLinkedFonts();
 
 
-PVOID __stdcall NtGdiArcInternal(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09 ,
-	PVOID	arg_10
+ULONG_PTR __stdcall NtGdiArcInternal(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09 ,
+	ULONG_PTR	arg_10
 );
 
 
-PVOID __stdcall NtGdiBRUSHOBJ_DeleteRbrush(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiBRUSHOBJ_DeleteRbrush(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiBRUSHOBJ_hGetColorTransform(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiBRUSHOBJ_hGetColorTransform(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiBRUSHOBJ_pvAllocRbrush(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiBRUSHOBJ_pvAllocRbrush(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiBRUSHOBJ_pvGetRbrush(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiBRUSHOBJ_pvGetRbrush(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiBRUSHOBJ_ulGetBrushColor(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiBRUSHOBJ_ulGetBrushColor(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiBeginPath(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiBeginPath(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiBitBlt(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09 ,
-	PVOID	arg_10 ,
-	PVOID	arg_11
+ULONG_PTR __stdcall NtGdiBitBlt(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09 ,
+	ULONG_PTR	arg_10 ,
+	ULONG_PTR	arg_11
 );
 
 
-PVOID __stdcall NtGdiCLIPOBJ_bEnum(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiCLIPOBJ_bEnum(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiCLIPOBJ_cEnumStart(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG_PTR __stdcall NtGdiCLIPOBJ_cEnumStart(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtGdiCLIPOBJ_ppoGetPath(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiCLIPOBJ_ppoGetPath(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiCancelDC(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiCancelDC(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiChangeGhostFont(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiChangeGhostFont(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiCheckBitmapBits(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08
+ULONG_PTR __stdcall NtGdiCheckBitmapBits(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08
 );
 
 
-PVOID __stdcall NtGdiClearBitmapAttributes(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiClearBitmapAttributes(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiClearBrushAttributes(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiClearBrushAttributes(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiCloseFigure(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiCloseFigure(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiColorCorrectPalette(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG_PTR __stdcall NtGdiColorCorrectPalette(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtGdiCombineRgn(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtGdiCombineRgn(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtGdiCombineTransform(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiCombineTransform(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiComputeXformCoefficients(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiComputeXformCoefficients(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiConsoleTextOut(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtGdiConsoleTextOut(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtGdiConvertMetafileRect(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiConvertMetafileRect(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiCreateBitmap(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG_PTR __stdcall NtGdiCreateBitmap(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtGdiCreateClientObj(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiCreateClientObj(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiCreateColorSpace(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiCreateColorSpace(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiCreateColorTransform(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08
+ULONG_PTR __stdcall NtGdiCreateColorTransform(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08
 );
 
 
-PVOID __stdcall NtGdiCreateCompatibleBitmap(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiCreateCompatibleBitmap(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiCreateCompatibleDC(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiCreateCompatibleDC(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiCreateDIBBrush(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG_PTR __stdcall NtGdiCreateDIBBrush(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtGdiCreateDIBSection(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09
+ULONG_PTR __stdcall NtGdiCreateDIBSection(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09
 );
 
 
-PVOID __stdcall NtGdiCreateDIBitmapInternal(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09 ,
-	PVOID	arg_10 ,
-	PVOID	arg_11
+ULONG_PTR __stdcall NtGdiCreateDIBitmapInternal(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09 ,
+	ULONG_PTR	arg_10 ,
+	ULONG_PTR	arg_11
 );
 
 
-PVOID __stdcall NtGdiCreateEllipticRgn(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtGdiCreateEllipticRgn(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtGdiCreateHalftonePalette(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiCreateHalftonePalette(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiCreateHatchBrushInternal(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiCreateHatchBrushInternal(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiCreateMetafileDC(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiCreateMetafileDC(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiCreatePaletteInternal(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiCreatePaletteInternal(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiCreatePatternBrushInternal(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiCreatePatternBrushInternal(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiCreatePen(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtGdiCreatePen(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtGdiCreateRectRgn(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtGdiCreateRectRgn(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtGdiCreateRoundRectRgn(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG_PTR __stdcall NtGdiCreateRoundRectRgn(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtGdiCreateServerMetaFile(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG_PTR __stdcall NtGdiCreateServerMetaFile(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtGdiCreateSolidBrush(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiCreateSolidBrush(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiD3dContextCreate(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtGdiD3dContextCreate(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtGdiD3dContextDestroy(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiD3dContextDestroy(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiD3dContextDestroyAll(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiD3dContextDestroyAll(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiD3dDrawPrimitives2(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07
+ULONG_PTR __stdcall NtGdiD3dDrawPrimitives2(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07
 );
 
 
-PVOID __stdcall NtGdiD3dValidateTextureStageState(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiD3dValidateTextureStageState(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiDdAddAttachedSurface(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiDdAddAttachedSurface(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiDdAlphaBlt(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiDdAlphaBlt(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiDdAttachSurface(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiDdAttachSurface(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiDdBeginMoCompFrame(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiDdBeginMoCompFrame(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiDdBlt(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiDdBlt(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiDdCanCreateD3DBuffer(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiDdCanCreateD3DBuffer(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiDdCanCreateSurface(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiDdCanCreateSurface(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiDdColorControl(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiDdColorControl(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiDdCreateD3DBuffer(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08
+ULONG_PTR __stdcall NtGdiDdCreateD3DBuffer(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08
 );
 
 
-PVOID __stdcall NtGdiDdCreateDirectDrawObject(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiDdCreateDirectDrawObject(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiDdCreateMoComp(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiDdCreateMoComp(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiDdCreateSurface(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08
+ULONG_PTR __stdcall NtGdiDdCreateSurface(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08
 );
 
 
-PVOID __stdcall NtGdiDdCreateSurfaceEx(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiDdCreateSurfaceEx(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiDdCreateSurfaceObject(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG_PTR __stdcall NtGdiDdCreateSurfaceObject(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtGdiDdDeleteDirectDrawObject(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiDdDeleteDirectDrawObject(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiDdDeleteSurfaceObject(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiDdDeleteSurfaceObject(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiDdDestroyD3DBuffer(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiDdDestroyD3DBuffer(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiDdDestroyMoComp(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiDdDestroyMoComp(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiDdDestroySurface(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiDdDestroySurface(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiDdEndMoCompFrame(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiDdEndMoCompFrame(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiDdFlip(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG_PTR __stdcall NtGdiDdFlip(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtGdiDdFlipToGDISurface(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiDdFlipToGDISurface(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiDdGetAvailDriverMemory(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiDdGetAvailDriverMemory(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiDdGetBltStatus(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiDdGetBltStatus(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiDdGetDC(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiDdGetDC(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiDdGetDriverInfo(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiDdGetDriverInfo(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiDdGetDriverState(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiDdGetDriverState(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiDdGetDxHandle(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiDdGetDxHandle(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiDdGetFlipStatus(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiDdGetFlipStatus(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiDdGetInternalMoCompInfo(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiDdGetInternalMoCompInfo(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiDdGetMoCompBuffInfo(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiDdGetMoCompBuffInfo(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiDdGetMoCompFormats(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiDdGetMoCompFormats(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiDdGetMoCompGuids(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiDdGetMoCompGuids(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiDdGetScanLine(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiDdGetScanLine(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiDdLock(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiDdLock(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiDdLockD3D(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiDdLockD3D(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiDdQueryDirectDrawObject(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09 ,
-	PVOID	arg_10 ,
-	PVOID	arg_11
+ULONG_PTR __stdcall NtGdiDdQueryDirectDrawObject(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09 ,
+	ULONG_PTR	arg_10 ,
+	ULONG_PTR	arg_11
 );
 
 
-PVOID __stdcall NtGdiDdQueryMoCompStatus(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiDdQueryMoCompStatus(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiDdReenableDirectDrawObject(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiDdReenableDirectDrawObject(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiDdReleaseDC(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiDdReleaseDC(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiDdRenderMoComp(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiDdRenderMoComp(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiDdResetVisrgn(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiDdResetVisrgn(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiDdSetColorKey(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiDdSetColorKey(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiDdSetExclusiveMode(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiDdSetExclusiveMode(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiDdSetGammaRamp(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiDdSetGammaRamp(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiDdSetOverlayPosition(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiDdSetOverlayPosition(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiDdUnattachSurface(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiDdUnattachSurface(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiDdUnlock(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiDdUnlock(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiDdUnlockD3D(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiDdUnlockD3D(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiDdUpdateOverlay(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiDdUpdateOverlay(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiDdWaitForVerticalBlank(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiDdWaitForVerticalBlank(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiDeleteClientObj(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiDeleteClientObj(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiDeleteColorTransform(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiDeleteColorTransform(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiDeleteObjectApp(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiDeleteObjectApp(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiDescribePixelFormat(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtGdiDescribePixelFormat(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtGdiDoBanding(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtGdiDoBanding(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtGdiDoPalette(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG_PTR __stdcall NtGdiDoPalette(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtGdiDrawEscape(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtGdiDrawEscape(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtGdiDrawStream(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiDrawStream(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiDvpAcquireNotification(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiDvpAcquireNotification(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiDvpCanCreateVideoPort(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiDvpCanCreateVideoPort(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiDvpColorControl(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiDvpColorControl(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiDvpCreateVideoPort(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiDvpCreateVideoPort(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiDvpDestroyVideoPort(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiDvpDestroyVideoPort(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiDvpFlipVideoPort(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtGdiDvpFlipVideoPort(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtGdiDvpGetVideoPortBandwidth(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiDvpGetVideoPortBandwidth(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiDvpGetVideoPortConnectInfo(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiDvpGetVideoPortConnectInfo(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiDvpGetVideoPortField(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiDvpGetVideoPortField(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiDvpGetVideoPortFlipStatus(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiDvpGetVideoPortFlipStatus(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiDvpGetVideoPortInputFormats(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiDvpGetVideoPortInputFormats(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiDvpGetVideoPortLine(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiDvpGetVideoPortLine(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiDvpGetVideoPortOutputFormats(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiDvpGetVideoPortOutputFormats(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiDvpGetVideoSignalStatus(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiDvpGetVideoSignalStatus(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiDvpReleaseNotification(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiDvpReleaseNotification(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiDvpUpdateVideoPort(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtGdiDvpUpdateVideoPort(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtGdiDvpWaitForVideoPortSync(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiDvpWaitForVideoPortSync(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiDxgGenericThunk(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG_PTR __stdcall NtGdiDxgGenericThunk(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtGdiEllipse(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG_PTR __stdcall NtGdiEllipse(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtGdiEndDoc(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiEndDoc(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiEndPage(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiEndPage(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiEndPath(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiEndPath(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiEngAlphaBlend(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07
+ULONG_PTR __stdcall NtGdiEngAlphaBlend(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07
 );
 
 
-PVOID __stdcall NtGdiEngAssociateSurface(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiEngAssociateSurface(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiEngBitBlt(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09 ,
-	PVOID	arg_10 ,
-	PVOID	arg_11
+ULONG_PTR __stdcall NtGdiEngBitBlt(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09 ,
+	ULONG_PTR	arg_10 ,
+	ULONG_PTR	arg_11
 );
 
 
-PVOID __stdcall NtGdiEngCheckAbort(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiEngCheckAbort(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiEngComputeGlyphSet(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiEngComputeGlyphSet(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiEngCopyBits(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG_PTR __stdcall NtGdiEngCopyBits(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtGdiEngCreateBitmap(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG_PTR __stdcall NtGdiEngCreateBitmap(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtGdiEngCreateClip();
+ULONG_PTR __stdcall NtGdiEngCreateClip();
 
 
-PVOID __stdcall NtGdiEngCreateDeviceBitmap(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtGdiEngCreateDeviceBitmap(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtGdiEngCreateDeviceSurface(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtGdiEngCreateDeviceSurface(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtGdiEngCreatePalette(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG_PTR __stdcall NtGdiEngCreatePalette(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtGdiEngDeleteClip(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiEngDeleteClip(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiEngDeletePalette(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiEngDeletePalette(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiEngDeletePath(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiEngDeletePath(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiEngDeleteSurface(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiEngDeleteSurface(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiEngEraseSurface(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiEngEraseSurface(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiEngFillPath(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07
+ULONG_PTR __stdcall NtGdiEngFillPath(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07
 );
 
 
-PVOID __stdcall NtGdiEngGradientFill(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09 ,
-	PVOID	arg_10
+ULONG_PTR __stdcall NtGdiEngGradientFill(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09 ,
+	ULONG_PTR	arg_10
 );
 
 
-PVOID __stdcall NtGdiEngLineTo(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09
+ULONG_PTR __stdcall NtGdiEngLineTo(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09
 );
 
 
-PVOID __stdcall NtGdiEngLockSurface(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiEngLockSurface(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiEngMarkBandingSurface(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiEngMarkBandingSurface(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiEngPaint(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG_PTR __stdcall NtGdiEngPaint(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtGdiEngPlgBlt(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09 ,
-	PVOID	arg_10 ,
-	PVOID	arg_11
+ULONG_PTR __stdcall NtGdiEngPlgBlt(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09 ,
+	ULONG_PTR	arg_10 ,
+	ULONG_PTR	arg_11
 );
 
 
-PVOID __stdcall NtGdiEngStretchBlt(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09 ,
-	PVOID	arg_10 ,
-	PVOID	arg_11
+ULONG_PTR __stdcall NtGdiEngStretchBlt(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09 ,
+	ULONG_PTR	arg_10 ,
+	ULONG_PTR	arg_11
 );
 
 
-PVOID __stdcall NtGdiEngStretchBltROP(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09 ,
-	PVOID	arg_10 ,
-	PVOID	arg_11 ,
-	PVOID	arg_12 ,
-	PVOID	arg_13
+ULONG_PTR __stdcall NtGdiEngStretchBltROP(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09 ,
+	ULONG_PTR	arg_10 ,
+	ULONG_PTR	arg_11 ,
+	ULONG_PTR	arg_12 ,
+	ULONG_PTR	arg_13
 );
 
 
-PVOID __stdcall NtGdiEngStrokeAndFillPath(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09 ,
-	PVOID	arg_10
+ULONG_PTR __stdcall NtGdiEngStrokeAndFillPath(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09 ,
+	ULONG_PTR	arg_10
 );
 
 
-PVOID __stdcall NtGdiEngStrokePath(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08
+ULONG_PTR __stdcall NtGdiEngStrokePath(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08
 );
 
 
-PVOID __stdcall NtGdiEngTextOut(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09 ,
-	PVOID	arg_10
+ULONG_PTR __stdcall NtGdiEngTextOut(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09 ,
+	ULONG_PTR	arg_10
 );
 
 
-PVOID __stdcall NtGdiEngTransparentBlt(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08
+ULONG_PTR __stdcall NtGdiEngTransparentBlt(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08
 );
 
 
-PVOID __stdcall NtGdiEngUnlockSurface(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiEngUnlockSurface(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiEnumFontChunk(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG_PTR __stdcall NtGdiEnumFontChunk(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtGdiEnumFontClose(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiEnumFontClose(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiEnumFontOpen(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07
+ULONG_PTR __stdcall NtGdiEnumFontOpen(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07
 );
 
 
-PVOID __stdcall NtGdiEnumObjects(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtGdiEnumObjects(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtGdiEqualRgn(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiEqualRgn(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiEudcLoadUnloadLink(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07
+ULONG_PTR __stdcall NtGdiEudcLoadUnloadLink(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07
 );
 
 
-PVOID __stdcall NtGdiExcludeClipRect(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG_PTR __stdcall NtGdiExcludeClipRect(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtGdiExtCreatePen(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09 ,
-	PVOID	arg_10 ,
-	PVOID	arg_11
+ULONG_PTR __stdcall NtGdiExtCreatePen(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09 ,
+	ULONG_PTR	arg_10 ,
+	ULONG_PTR	arg_11
 );
 
 
-PVOID __stdcall NtGdiExtCreateRegion(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiExtCreateRegion(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiExtEscape(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08
+ULONG_PTR __stdcall NtGdiExtEscape(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08
 );
 
 
-PVOID __stdcall NtGdiExtFloodFill(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG_PTR __stdcall NtGdiExtFloodFill(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtGdiExtGetObjectW(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiExtGetObjectW(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiExtSelectClipRgn(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiExtSelectClipRgn(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiExtTextOutW(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09
+ULONG_PTR __stdcall NtGdiExtTextOutW(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09
 );
 
 
-PVOID __stdcall NtGdiFONTOBJ_cGetAllGlyphHandles(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiFONTOBJ_cGetAllGlyphHandles(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiFONTOBJ_cGetGlyphs(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG_PTR __stdcall NtGdiFONTOBJ_cGetGlyphs(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtGdiFONTOBJ_pQueryGlyphAttrs(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiFONTOBJ_pQueryGlyphAttrs(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiFONTOBJ_pfdg(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiFONTOBJ_pfdg(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiFONTOBJ_pifi(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiFONTOBJ_pifi(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiFONTOBJ_pvTrueTypeFontFile(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiFONTOBJ_pvTrueTypeFontFile(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiFONTOBJ_pxoGetXform(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiFONTOBJ_pxoGetXform(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiFONTOBJ_vGetInfo(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiFONTOBJ_vGetInfo(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiFillPath(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiFillPath(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiFillRgn(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiFillRgn(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiFlattenPath(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiFlattenPath(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiFlush();
+ULONG_PTR __stdcall NtGdiFlush();
 
 
-PVOID __stdcall NtGdiFlushUserBatch();
+ULONG_PTR __stdcall NtGdiFlushUserBatch();
 
 
-PVOID __stdcall NtGdiForceUFIMapping(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiForceUFIMapping(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiFrameRgn(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG_PTR __stdcall NtGdiFrameRgn(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtGdiFullscreenControl(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG_PTR __stdcall NtGdiFullscreenControl(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtGdiGetAndSetDCDword(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtGdiGetAndSetDCDword(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtGdiGetAppClipBox(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiGetAppClipBox(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiGetBitmapBits(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiGetBitmapBits(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiGetBitmapDimension(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiGetBitmapDimension(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiGetBoundsRect(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiGetBoundsRect(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiGetCharABCWidthsW(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG_PTR __stdcall NtGdiGetCharABCWidthsW(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtGdiGetCharSet(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiGetCharSet(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiGetCharWidthInfo(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiGetCharWidthInfo(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiGetCharWidthW(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG_PTR __stdcall NtGdiGetCharWidthW(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtGdiGetCharacterPlacementW(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG_PTR __stdcall NtGdiGetCharacterPlacementW(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtGdiGetColorAdjustment(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiGetColorAdjustment(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiGetColorSpaceforBitmap(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiGetColorSpaceforBitmap(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiGetDCDword(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiGetDCDword(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiGetDCObject(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiGetDCObject(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiGetDCPoint(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiGetDCPoint(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiGetDCforBitmap(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiGetDCforBitmap(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiGetDIBitsInternal(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09
+ULONG_PTR __stdcall NtGdiGetDIBitsInternal(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09
 );
 
 
-PVOID __stdcall NtGdiGetDeviceCaps(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiGetDeviceCaps(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiGetDeviceCapsAll(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiGetDeviceCapsAll(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiGetDeviceGammaRamp(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiGetDeviceGammaRamp(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiGetDeviceWidth(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiGetDeviceWidth(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiGetDhpdev(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiGetDhpdev(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiGetETM(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiGetETM(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiGetEmbUFI(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07
+ULONG_PTR __stdcall NtGdiGetEmbUFI(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07
 );
 
 
-PVOID __stdcall NtGdiGetEudcTimeStampEx(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiGetEudcTimeStampEx(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiGetFontData(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG_PTR __stdcall NtGdiGetFontData(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtGdiGetFontResourceInfoInternalW(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07
+ULONG_PTR __stdcall NtGdiGetFontResourceInfoInternalW(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07
 );
 
 
-PVOID __stdcall NtGdiGetFontUnicodeRanges(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiGetFontUnicodeRanges(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiGetGlyphIndicesW(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG_PTR __stdcall NtGdiGetGlyphIndicesW(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtGdiGetGlyphIndicesWInternal(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG_PTR __stdcall NtGdiGetGlyphIndicesWInternal(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtGdiGetGlyphOutline(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08
+ULONG_PTR __stdcall NtGdiGetGlyphOutline(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08
 );
 
 
-PVOID __stdcall NtGdiGetKerningPairs(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiGetKerningPairs(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiGetLinkedUFIs(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiGetLinkedUFIs(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiGetMiterLimit(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiGetMiterLimit(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiGetMonitorID(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiGetMonitorID(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiGetNearestColor(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiGetNearestColor(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiGetNearestPaletteIndex(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiGetNearestPaletteIndex(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiGetObjectBitmapHandle(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiGetObjectBitmapHandle(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiGetOutlineTextMetricsInternalW(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtGdiGetOutlineTextMetricsInternalW(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtGdiGetPath(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtGdiGetPath(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtGdiGetPerBandInfo(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiGetPerBandInfo(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiGetPixel(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiGetPixel(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiGetRandomRgn(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiGetRandomRgn(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiGetRasterizerCaps(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiGetRasterizerCaps(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiGetRealizationInfo(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiGetRealizationInfo(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiGetRegionData(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiGetRegionData(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiGetRgnBox(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiGetRgnBox(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiGetServerMetaFileBits(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07
+ULONG_PTR __stdcall NtGdiGetServerMetaFileBits(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07
 );
 
 
-PVOID __stdcall NtGdiGetSpoolMessage(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtGdiGetSpoolMessage(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtGdiGetStats(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG_PTR __stdcall NtGdiGetStats(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtGdiGetStockObject(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiGetStockObject(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiGetStringBitmapW(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG_PTR __stdcall NtGdiGetStringBitmapW(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtGdiGetSystemPaletteUse(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiGetSystemPaletteUse(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiGetTextCharsetInfo(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiGetTextCharsetInfo(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiGetTextExtent(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG_PTR __stdcall NtGdiGetTextExtent(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtGdiGetTextExtentExW(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08
+ULONG_PTR __stdcall NtGdiGetTextExtentExW(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08
 );
 
 
-PVOID __stdcall NtGdiGetTextFaceW(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtGdiGetTextFaceW(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtGdiGetTextMetricsW(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiGetTextMetricsW(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiGetTransform(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiGetTransform(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiGetUFI(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG_PTR __stdcall NtGdiGetUFI(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtGdiGetUFIPathname(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09 ,
-	PVOID	arg_10
+ULONG_PTR __stdcall NtGdiGetUFIPathname(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09 ,
+	ULONG_PTR	arg_10
 );
 
 
-PVOID __stdcall NtGdiGetWidthTable(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07
+ULONG_PTR __stdcall NtGdiGetWidthTable(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07
 );
 
 
-PVOID __stdcall NtGdiGradientFill(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG_PTR __stdcall NtGdiGradientFill(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtGdiHT_Get8BPPFormatPalette(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtGdiHT_Get8BPPFormatPalette(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtGdiHT_Get8BPPMaskPalette(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG_PTR __stdcall NtGdiHT_Get8BPPMaskPalette(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtGdiHfontCreate(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG_PTR __stdcall NtGdiHfontCreate(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtGdiIcmBrushInfo(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08
+ULONG_PTR __stdcall NtGdiIcmBrushInfo(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08
 );
 
 
-PVOID __stdcall NtGdiInit();
+ULONG_PTR __stdcall NtGdiInit();
 
 
-PVOID __stdcall NtGdiInitSpool();
+ULONG_PTR __stdcall NtGdiInitSpool();
 
 
-PVOID __stdcall NtGdiIntersectClipRect(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG_PTR __stdcall NtGdiIntersectClipRect(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtGdiInvertRgn(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiInvertRgn(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiLineTo(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiLineTo(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiMakeFontDir(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG_PTR __stdcall NtGdiMakeFontDir(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtGdiMakeInfoDC(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiMakeInfoDC(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiMaskBlt(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09 ,
-	PVOID	arg_10 ,
-	PVOID	arg_11 ,
-	PVOID	arg_12 ,
-	PVOID	arg_13
+ULONG_PTR __stdcall NtGdiMaskBlt(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09 ,
+	ULONG_PTR	arg_10 ,
+	ULONG_PTR	arg_11 ,
+	ULONG_PTR	arg_12 ,
+	ULONG_PTR	arg_13
 );
 
 
-PVOID __stdcall NtGdiMirrorWindowOrg(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiMirrorWindowOrg(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiModifyWorldTransform(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiModifyWorldTransform(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiMonoBitmap(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiMonoBitmap(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiMoveTo(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtGdiMoveTo(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtGdiOffsetClipRgn(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiOffsetClipRgn(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiOffsetRgn(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiOffsetRgn(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiOpenDCW(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07
+ULONG_PTR __stdcall NtGdiOpenDCW(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07
 );
 
 
-PVOID __stdcall NtGdiPATHOBJ_bEnum(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiPATHOBJ_bEnum(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiPATHOBJ_bEnumClipLines(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiPATHOBJ_bEnumClipLines(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiPATHOBJ_vEnumStart(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiPATHOBJ_vEnumStart(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiPATHOBJ_vEnumStartClipLines(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtGdiPATHOBJ_vEnumStartClipLines(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtGdiPATHOBJ_vGetBounds(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiPATHOBJ_vGetBounds(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiPatBlt(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG_PTR __stdcall NtGdiPatBlt(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtGdiPathToRegion(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiPathToRegion(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiPlgBlt(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09 ,
-	PVOID	arg_10 ,
-	PVOID	arg_11
+ULONG_PTR __stdcall NtGdiPlgBlt(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09 ,
+	ULONG_PTR	arg_10 ,
+	ULONG_PTR	arg_11
 );
 
 
-PVOID __stdcall NtGdiPolyDraw(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtGdiPolyDraw(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtGdiPolyPatBlt(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG_PTR __stdcall NtGdiPolyPatBlt(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtGdiPolyPolyDraw(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG_PTR __stdcall NtGdiPolyPolyDraw(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtGdiPolyTextOutW(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtGdiPolyTextOutW(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtGdiPtInRegion(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiPtInRegion(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiPtVisible(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiPtVisible(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiQueryFontAssocInfo(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiQueryFontAssocInfo(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiQueryFonts(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiQueryFonts(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiRectInRegion(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiRectInRegion(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiRectVisible(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiRectVisible(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiRectangle(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG_PTR __stdcall NtGdiRectangle(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtGdiRemoveFontMemResourceEx(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiRemoveFontMemResourceEx(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiRemoveFontResourceW(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG_PTR __stdcall NtGdiRemoveFontResourceW(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtGdiRemoveMergeFont(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiRemoveMergeFont(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiResetDC(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG_PTR __stdcall NtGdiResetDC(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtGdiResizePalette(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiResizePalette(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiRestoreDC(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiRestoreDC(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiRoundRect(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07
+ULONG_PTR __stdcall NtGdiRoundRect(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07
 );
 
 
-PVOID __stdcall NtGdiSTROBJ_bEnum(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiSTROBJ_bEnum(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiSTROBJ_bEnumPositionsOnly(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiSTROBJ_bEnumPositionsOnly(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiSTROBJ_bGetAdvanceWidths(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtGdiSTROBJ_bGetAdvanceWidths(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtGdiSTROBJ_dwGetCodePage(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiSTROBJ_dwGetCodePage(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiSTROBJ_vEnumStart(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiSTROBJ_vEnumStart(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiSaveDC(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiSaveDC(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiScaleViewportExtEx(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG_PTR __stdcall NtGdiScaleViewportExtEx(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtGdiScaleWindowExtEx(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG_PTR __stdcall NtGdiScaleWindowExtEx(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtGdiSelectBitmap(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiSelectBitmap(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiSelectBrush(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiSelectBrush(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiSelectClipPath(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiSelectClipPath(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiSelectFont(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiSelectFont(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiSelectPen(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiSelectPen(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiSetBitmapAttributes(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiSetBitmapAttributes(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiSetBitmapBits(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiSetBitmapBits(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiSetBitmapDimension(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtGdiSetBitmapDimension(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtGdiSetBoundsRect(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiSetBoundsRect(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiSetBrushAttributes(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiSetBrushAttributes(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiSetBrushOrg(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtGdiSetBrushOrg(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtGdiSetColorAdjustment(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiSetColorAdjustment(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiSetColorSpace(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiSetColorSpace(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiSetDIBitsToDeviceInternal(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09 ,
-	PVOID	arg_10 ,
-	PVOID	arg_11 ,
-	PVOID	arg_12 ,
-	PVOID	arg_13 ,
-	PVOID	arg_14 ,
-	PVOID	arg_15 ,
-	PVOID	arg_16
+ULONG_PTR __stdcall NtGdiSetDIBitsToDeviceInternal(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09 ,
+	ULONG_PTR	arg_10 ,
+	ULONG_PTR	arg_11 ,
+	ULONG_PTR	arg_12 ,
+	ULONG_PTR	arg_13 ,
+	ULONG_PTR	arg_14 ,
+	ULONG_PTR	arg_15 ,
+	ULONG_PTR	arg_16
 );
 
 
-PVOID __stdcall NtGdiSetDeviceGammaRamp(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiSetDeviceGammaRamp(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiSetFontEnumeration(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiSetFontEnumeration(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiSetFontXform(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiSetFontXform(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiSetIcmMode(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiSetIcmMode(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiSetLayout(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiSetLayout(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiSetLinkedUFIs(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiSetLinkedUFIs(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiSetMagicColors(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiSetMagicColors(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiSetMetaRgn(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiSetMetaRgn(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiSetMiterLimit(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiSetMiterLimit(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiSetPUMPDOBJ(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtGdiSetPUMPDOBJ(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtGdiSetPixel(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtGdiSetPixel(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtGdiSetPixelFormat(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiSetPixelFormat(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiSetRectRgn(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG_PTR __stdcall NtGdiSetRectRgn(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtGdiSetSizeDevice(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiSetSizeDevice(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiSetSystemPaletteUse(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiSetSystemPaletteUse(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiSetTextJustification(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiSetTextJustification(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiSetVirtualResolution(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG_PTR __stdcall NtGdiSetVirtualResolution(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtGdiSetupPublicCFONT(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtGdiSetupPublicCFONT(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtGdiStartDoc(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtGdiStartDoc(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtGdiStartPage(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiStartPage(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiStretchBlt(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09 ,
-	PVOID	arg_10 ,
-	PVOID	arg_11 ,
-	PVOID	arg_12
+ULONG_PTR __stdcall NtGdiStretchBlt(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09 ,
+	ULONG_PTR	arg_10 ,
+	ULONG_PTR	arg_11 ,
+	ULONG_PTR	arg_12
 );
 
 
-PVOID __stdcall NtGdiStretchDIBitsInternal(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09 ,
-	PVOID	arg_10 ,
-	PVOID	arg_11 ,
-	PVOID	arg_12 ,
-	PVOID	arg_13 ,
-	PVOID	arg_14 ,
-	PVOID	arg_15 ,
-	PVOID	arg_16
+ULONG_PTR __stdcall NtGdiStretchDIBitsInternal(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09 ,
+	ULONG_PTR	arg_10 ,
+	ULONG_PTR	arg_11 ,
+	ULONG_PTR	arg_12 ,
+	ULONG_PTR	arg_13 ,
+	ULONG_PTR	arg_14 ,
+	ULONG_PTR	arg_15 ,
+	ULONG_PTR	arg_16
 );
 
 
-PVOID __stdcall NtGdiStrokeAndFillPath(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiStrokeAndFillPath(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiStrokePath(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiStrokePath(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiSwapBuffers(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiSwapBuffers(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiTransformPoints(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG_PTR __stdcall NtGdiTransformPoints(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtGdiTransparentBlt(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09 ,
-	PVOID	arg_10 ,
-	PVOID	arg_11
+ULONG_PTR __stdcall NtGdiTransparentBlt(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09 ,
+	ULONG_PTR	arg_10 ,
+	ULONG_PTR	arg_11
 );
 
 
-PVOID __stdcall NtGdiUnloadPrinterDriver(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiUnloadPrinterDriver(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiUnmapMemFont(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiUnmapMemFont(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiUnmapMemFont(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiUnmapMemFont(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiUnrealizeObject(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiUnrealizeObject(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiUpdateColors(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiUpdateColors(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiUpdateTransform(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiUpdateTransform(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiWidenPath(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiWidenPath(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiXFORMOBJ_bApplyXform(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG_PTR __stdcall NtGdiXFORMOBJ_bApplyXform(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtGdiXFORMOBJ_iGetXform(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiXFORMOBJ_iGetXform(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtGdiXLATEOBJ_cGetPalette(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtGdiXLATEOBJ_cGetPalette(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtGdiXLATEOBJ_hGetColorTransform(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtGdiXLATEOBJ_hGetColorTransform(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtGdiXLATEOBJ_iXlate(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtGdiXLATEOBJ_iXlate(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserActivateKeyboardLayout(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserActivateKeyboardLayout(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserAlterWindowStyle(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserAlterWindowStyle(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserAssociateInputContext(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserAssociateInputContext(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserAttachThreadInput(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserAttachThreadInput(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserBeginPaint(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserBeginPaint(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserBitBltSysBmp(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08
+ULONG_PTR __stdcall NtUserBitBltSysBmp(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08
 );
 
 
-PVOID __stdcall NtUserBlockInput(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserBlockInput(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserBuildHimcList(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtUserBuildHimcList(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtUserBuildHwndList(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07
+ULONG_PTR __stdcall NtUserBuildHwndList(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07
 );
 
 
-PVOID __stdcall NtUserBuildNameList(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtUserBuildNameList(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtUserBuildPropList(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtUserBuildPropList(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtUserCalcMenuBar(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG_PTR __stdcall NtUserCalcMenuBar(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtUserCallHwnd(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserCallHwnd(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserCallHwndLock(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserCallHwndLock(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserCallHwndOpt(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserCallHwndOpt(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserCallHwndParam(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserCallHwndParam(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserCallHwndParamLock(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserCallHwndParamLock(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserCallMsgFilter(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserCallMsgFilter(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserCallNextHookEx(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtUserCallNextHookEx(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtUserCallNoParam(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserCallNoParam(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserCallOneParam(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserCallOneParam(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserCallTwoParam(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserCallTwoParam(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserChangeClipboardChain(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserChangeClipboardChain(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserChangeDisplaySettings(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG_PTR __stdcall NtUserChangeDisplaySettings(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtUserCheckImeHotKey(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserCheckImeHotKey(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserCheckMenuItem(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserCheckMenuItem(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserChildWindowFromPointEx(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtUserChildWindowFromPointEx(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtUserClipCursor(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserClipCursor(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserCloseClipboard();
+ULONG_PTR __stdcall NtUserCloseClipboard();
 
 
-PVOID __stdcall NtUserCloseDesktop(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserCloseDesktop(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserCloseWindowStation(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserCloseWindowStation(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserConsoleControl(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserConsoleControl(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserConvertMemHandle(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserConvertMemHandle(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserCopyAcceleratorTable(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserCopyAcceleratorTable(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserCountClipboardFormats();
+ULONG_PTR __stdcall NtUserCountClipboardFormats();
 
 
-PVOID __stdcall NtUserCreateAcceleratorTable(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserCreateAcceleratorTable(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserCreateCaret(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtUserCreateCaret(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtUserCreateDesktop(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG_PTR __stdcall NtUserCreateDesktop(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtUserCreateInputContext(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserCreateInputContext(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserCreateLocalMemHandle(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtUserCreateLocalMemHandle(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtUserCreateWindowEx(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09 ,
-	PVOID	arg_10 ,
-	PVOID	arg_11 ,
-	PVOID	arg_12 ,
-	PVOID	arg_13 ,
-	PVOID	arg_14 ,
-	PVOID	arg_15
+ULONG_PTR __stdcall NtUserCreateWindowEx(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09 ,
+	ULONG_PTR	arg_10 ,
+	ULONG_PTR	arg_11 ,
+	ULONG_PTR	arg_12 ,
+	ULONG_PTR	arg_13 ,
+	ULONG_PTR	arg_14 ,
+	ULONG_PTR	arg_15
 );
 
 
-PVOID __stdcall NtUserCreateWindowStation(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07
+ULONG_PTR __stdcall NtUserCreateWindowStation(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07
 );
 
 
-PVOID __stdcall NtUserCtxDisplayIOCtl(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserCtxDisplayIOCtl(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserDdeGetQualityOfService(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserDdeGetQualityOfService(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserDdeInitialize(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG_PTR __stdcall NtUserDdeInitialize(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtUserDdeSetQualityOfService(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserDdeSetQualityOfService(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserDefSetText(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserDefSetText(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserDeferWindowPos(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08
+ULONG_PTR __stdcall NtUserDeferWindowPos(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08
 );
 
 
-PVOID __stdcall NtUserDeleteMenu(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserDeleteMenu(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserDestroyAcceleratorTable(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserDestroyAcceleratorTable(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserDestroyCursor(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserDestroyCursor(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserDestroyInputContext(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserDestroyInputContext(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserDestroyMenu(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserDestroyMenu(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserDestroyWindow(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserDestroyWindow(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserDisableThreadIme(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserDisableThreadIme(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserDispatchMessage(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserDispatchMessage(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserDragDetect(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserDragDetect(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserDragObject(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG_PTR __stdcall NtUserDragObject(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtUserDrawAnimatedRects(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtUserDrawAnimatedRects(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtUserDrawCaption(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtUserDrawCaption(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtUserDrawCaptionTemp(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07
+ULONG_PTR __stdcall NtUserDrawCaptionTemp(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07
 );
 
 
-PVOID __stdcall NtUserDrawIconEx(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09 ,
-	PVOID	arg_10 ,
-	PVOID	arg_11
+ULONG_PTR __stdcall NtUserDrawIconEx(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09 ,
+	ULONG_PTR	arg_10 ,
+	ULONG_PTR	arg_11
 );
 
 
-PVOID __stdcall NtUserDrawMenuBarTemp(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG_PTR __stdcall NtUserDrawMenuBarTemp(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtUserEmptyClipboard();
+ULONG_PTR __stdcall NtUserEmptyClipboard();
 
 
-PVOID __stdcall NtUserEnableMenuItem(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserEnableMenuItem(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserEnableScrollBar(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserEnableScrollBar(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserEndDeferWindowPosEx(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserEndDeferWindowPosEx(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserEndMenu();
+ULONG_PTR __stdcall NtUserEndMenu();
 
 
-PVOID __stdcall NtUserEndPaint(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserEndPaint(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserEnumDisplayDevices(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtUserEnumDisplayDevices(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtUserEnumDisplayMonitors(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtUserEnumDisplayMonitors(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtUserEnumDisplaySettings(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtUserEnumDisplaySettings(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtUserEvent(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserEvent(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserExcludeUpdateRgn(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserExcludeUpdateRgn(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserFillWindow(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtUserFillWindow(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtUserFindExistingCursorIcon(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserFindExistingCursorIcon(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserFindWindowEx(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG_PTR __stdcall NtUserFindWindowEx(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtUserFlashWindowEx(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserFlashWindowEx(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserGetAltTabInfo(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG_PTR __stdcall NtUserGetAltTabInfo(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtUserGetAncestor(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserGetAncestor(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserGetAppImeLevel(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserGetAppImeLevel(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserGetAsyncKeyState(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserGetAsyncKeyState(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserGetAtomName(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserGetAtomName(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserGetCPD(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserGetCPD(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserGetCaretBlinkTime();
+ULONG_PTR __stdcall NtUserGetCaretBlinkTime();
 
 
-PVOID __stdcall NtUserGetCaretPos(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserGetCaretPos(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserGetClassInfo(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG_PTR __stdcall NtUserGetClassInfo(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtUserGetClassName(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserGetClassName(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserGetClipCursor(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserGetClipCursor(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserGetClipboardData(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserGetClipboardData(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserGetClipboardFormatName(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserGetClipboardFormatName(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserGetClipboardOwner();
+ULONG_PTR __stdcall NtUserGetClipboardOwner();
 
 
-PVOID __stdcall NtUserGetClipboardSequenceNumber();
+ULONG_PTR __stdcall NtUserGetClipboardSequenceNumber();
 
 
-PVOID __stdcall NtUserGetClipboardViewer();
+ULONG_PTR __stdcall NtUserGetClipboardViewer();
 
 
-PVOID __stdcall NtUserGetComboBoxInfo(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserGetComboBoxInfo(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserGetControlBrush(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserGetControlBrush(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserGetControlColor(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtUserGetControlColor(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtUserGetCursorFrameInfo(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtUserGetCursorFrameInfo(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtUserGetCursorInfo(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserGetCursorInfo(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserGetDC(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserGetDC(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserGetDCEx(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserGetDCEx(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserGetDoubleClickTime();
+ULONG_PTR __stdcall NtUserGetDoubleClickTime();
 
 
-PVOID __stdcall NtUserGetForegroundWindow();
+ULONG_PTR __stdcall NtUserGetForegroundWindow();
 
 
-PVOID __stdcall NtUserGetGUIThreadInfo(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserGetGUIThreadInfo(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserGetGuiResources(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserGetGuiResources(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserGetIconInfo(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG_PTR __stdcall NtUserGetIconInfo(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtUserGetIconSize(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtUserGetIconSize(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtUserGetImeHotKey(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtUserGetImeHotKey(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtUserGetImeInfoEx(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserGetImeInfoEx(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserGetInternalWindowPos(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserGetInternalWindowPos(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserGetKeyNameText(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserGetKeyNameText(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserGetKeyState(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserGetKeyState(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserGetKeyboardLayoutList(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserGetKeyboardLayoutList(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserGetKeyboardLayoutName(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserGetKeyboardLayoutName(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserGetKeyboardState(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserGetKeyboardState(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserGetLayeredWindowAttributes(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtUserGetLayeredWindowAttributes(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtUserGetListBoxInfo(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserGetListBoxInfo(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserGetMenuBarInfo(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtUserGetMenuBarInfo(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtUserGetMenuIndex(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserGetMenuIndex(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserGetMenuItemRect(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtUserGetMenuItemRect(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtUserGetMessage(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtUserGetMessage(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtUserGetMouseMovePointsEx(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG_PTR __stdcall NtUserGetMouseMovePointsEx(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtUserGetObjectInformation(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG_PTR __stdcall NtUserGetObjectInformation(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtUserGetOpenClipboardWindow();
+ULONG_PTR __stdcall NtUserGetOpenClipboardWindow();
 
 
-PVOID __stdcall NtUserGetPriorityClipboardFormat(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserGetPriorityClipboardFormat(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserGetProcessWindowStation();
+ULONG_PTR __stdcall NtUserGetProcessWindowStation();
 
 
-PVOID __stdcall NtUserGetRawInputBuffer(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserGetRawInputBuffer(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserGetRawInputData(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG_PTR __stdcall NtUserGetRawInputData(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtUserGetRawInputDeviceInfo(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtUserGetRawInputDeviceInfo(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtUserGetRawInputDeviceList(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserGetRawInputDeviceList(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserGetRegisteredRawInputDevices(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserGetRegisteredRawInputDevices(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserGetScrollBarInfo(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserGetScrollBarInfo(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserGetSystemMenu(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserGetSystemMenu(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserGetThreadDesktop(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserGetThreadDesktop(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserGetThreadState(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserGetThreadState(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserGetTitleBarInfo(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserGetTitleBarInfo(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserGetUpdateRect(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserGetUpdateRect(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserGetUpdateRgn(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserGetUpdateRgn(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserGetWOWClass(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserGetWOWClass(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserGetWindowDC(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserGetWindowDC(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserGetWindowPlacement(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserGetWindowPlacement(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserHardErrorControl(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserHardErrorControl(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserHideCaret(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserHideCaret(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserHiliteMenuItem(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtUserHiliteMenuItem(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtUserImpersonateDdeClientWindow(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserImpersonateDdeClientWindow(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserInitTask(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09 ,
-	PVOID	arg_10 ,
-	PVOID	arg_11 ,
-	PVOID	arg_12
+ULONG_PTR __stdcall NtUserInitTask(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09 ,
+	ULONG_PTR	arg_10 ,
+	ULONG_PTR	arg_11 ,
+	ULONG_PTR	arg_12
 );
 
 
-PVOID __stdcall NtUserInitialize(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserInitialize(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserInitializeClientPfnArrays(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtUserInitializeClientPfnArrays(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtUserInternalGetWindowText(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserInternalGetWindowText(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserInvalidateRect(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserInvalidateRect(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserInvalidateRgn(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserInvalidateRgn(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserIsClipboardFormatAvailable(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserIsClipboardFormatAvailable(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserKillTimer(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserKillTimer(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserLoadKeyboardLayoutEx(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07
+ULONG_PTR __stdcall NtUserLoadKeyboardLayoutEx(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07
 );
 
 
-PVOID __stdcall NtUserLockWindowStation(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserLockWindowStation(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserLockWindowUpdate(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserLockWindowUpdate(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserLockWorkStation();
+ULONG_PTR __stdcall NtUserLockWorkStation();
 
 
-PVOID __stdcall NtUserMNDragLeave();
+ULONG_PTR __stdcall NtUserMNDragLeave();
 
 
-PVOID __stdcall NtUserMNDragOver(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserMNDragOver(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserMapVirtualKeyEx(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtUserMapVirtualKeyEx(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtUserMenuItemFromPoint(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtUserMenuItemFromPoint(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtUserMessageCall(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07
+ULONG_PTR __stdcall NtUserMessageCall(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07
 );
 
 
-PVOID __stdcall NtUserMinMaximize(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserMinMaximize(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserModifyUserStartupInfoFlags(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserModifyUserStartupInfoFlags(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserMoveWindow(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG_PTR __stdcall NtUserMoveWindow(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtUserNotifyIMEStatus(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserNotifyIMEStatus(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserNotifyProcessCreate(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtUserNotifyProcessCreate(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtUserNotifyWinEvent(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtUserNotifyWinEvent(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtUserOpenClipboard(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserOpenClipboard(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserOpenDesktop(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserOpenDesktop(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserOpenInputDesktop(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserOpenInputDesktop(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserOpenWindowStation(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserOpenWindowStation(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserPaintDesktop(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserPaintDesktop(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserPaintMenuBar(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG_PTR __stdcall NtUserPaintMenuBar(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtUserPeekMessage(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG_PTR __stdcall NtUserPeekMessage(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtUserPostMessage(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtUserPostMessage(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtUserPostThreadMessage(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtUserPostThreadMessage(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtUserPrintWindow(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserPrintWindow(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserProcessConnect(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserProcessConnect(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserQueryInformationThread(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG_PTR __stdcall NtUserQueryInformationThread(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtUserQueryInputContext(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserQueryInputContext(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserQuerySendMessage(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserQuerySendMessage(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserQueryUserCounters(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG_PTR __stdcall NtUserQueryUserCounters(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtUserQueryWindow(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserQueryWindow(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserRealChildWindowFromPoint(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserRealChildWindowFromPoint(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserRealInternalGetMessage(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG_PTR __stdcall NtUserRealInternalGetMessage(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtUserRealWaitMessageEx(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserRealWaitMessageEx(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserRedrawWindow(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtUserRedrawWindow(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtUserRegisterClassExWOW(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07
+ULONG_PTR __stdcall NtUserRegisterClassExWOW(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07
 );
 
 
-PVOID __stdcall NtUserRegisterHotKey(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtUserRegisterHotKey(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtUserRegisterRawInputDevices(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserRegisterRawInputDevices(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserRegisterTasklist(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserRegisterTasklist(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserRegisterUserApiHook(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserRegisterUserApiHook(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserRegisterWindowMessage(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserRegisterWindowMessage(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserRemoteConnect(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserRemoteConnect(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserRemoteRedrawRectangle(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtUserRemoteRedrawRectangle(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtUserRemoteRedrawScreen();
+ULONG_PTR __stdcall NtUserRemoteRedrawScreen();
 
 
-PVOID __stdcall NtUserRemoteStopScreenUpdates();
+ULONG_PTR __stdcall NtUserRemoteStopScreenUpdates();
 
 
-PVOID __stdcall NtUserRemoveMenu(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserRemoveMenu(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserRemoveProp(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserRemoveProp(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserResolveDesktop(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtUserResolveDesktop(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtUserResolveDesktopForWOW(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserResolveDesktopForWOW(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserSBGetParms(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtUserSBGetParms(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtUserScrollDC(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07
+ULONG_PTR __stdcall NtUserScrollDC(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07
 );
 
 
-PVOID __stdcall NtUserScrollWindowEx(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08
+ULONG_PTR __stdcall NtUserScrollWindowEx(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08
 );
 
 
-PVOID __stdcall NtUserSelectPalette(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserSelectPalette(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserSendInput(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserSendInput(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserSetActiveWindow(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserSetActiveWindow(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserSetAppImeLevel(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserSetAppImeLevel(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserSetCapture(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserSetCapture(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserSetClassLong(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtUserSetClassLong(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtUserSetClassWord(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserSetClassWord(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserSetClipboardData(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserSetClipboardData(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserSetClipboardViewer(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserSetClipboardViewer(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserSetConsoleReserveKeys(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserSetConsoleReserveKeys(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserSetCursor(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserSetCursor(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserSetCursorContents(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserSetCursorContents(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserSetCursorIconData(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtUserSetCursorIconData(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtUserSetDbgTag(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserSetDbgTag(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserSetFocus(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserSetFocus(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserSetImeHotKey(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05
+ULONG_PTR __stdcall NtUserSetImeHotKey(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05
 );
 
 
-PVOID __stdcall NtUserSetImeInfoEx(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserSetImeInfoEx(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserSetImeOwnerWindow(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserSetImeOwnerWindow(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserSetInformationProcess(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtUserSetInformationProcess(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtUserSetInformationThread(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtUserSetInformationThread(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtUserSetInternalWindowPos(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtUserSetInternalWindowPos(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtUserSetKeyboardState(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserSetKeyboardState(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserSetLayeredWindowAttributes(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtUserSetLayeredWindowAttributes(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtUserSetLogonNotifyWindow(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserSetLogonNotifyWindow(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserSetMenu(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserSetMenu(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserSetMenuContextHelpId(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserSetMenuContextHelpId(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserSetMenuDefaultItem(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserSetMenuDefaultItem(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserSetMenuFlagRtoL(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserSetMenuFlagRtoL(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserSetObjectInformation(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtUserSetObjectInformation(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtUserSetParent(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserSetParent(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserSetProcessWindowStation(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserSetProcessWindowStation(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserSetProp(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserSetProp(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserSetRipFlags(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserSetRipFlags(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserSetScrollInfo(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtUserSetScrollInfo(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtUserSetShellWindowEx(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserSetShellWindowEx(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserSetSysColors(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtUserSetSysColors(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtUserSetSystemCursor(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserSetSystemCursor(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserSetSystemMenu(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserSetSystemMenu(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserSetSystemTimer(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtUserSetSystemTimer(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtUserSetThreadDesktop(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserSetThreadDesktop(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserSetThreadLayoutHandles(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserSetThreadLayoutHandles(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserSetThreadState(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserSetThreadState(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserSetTimer(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtUserSetTimer(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtUserSetWinEventHook(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08
+ULONG_PTR __stdcall NtUserSetWinEventHook(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08
 );
 
 
-PVOID __stdcall NtUserSetWindowFNID(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserSetWindowFNID(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserSetWindowLong(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtUserSetWindowLong(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtUserSetWindowPlacement(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserSetWindowPlacement(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserSetWindowPos(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07
+ULONG_PTR __stdcall NtUserSetWindowPos(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07
 );
 
 
-PVOID __stdcall NtUserSetWindowRgn(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserSetWindowRgn(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserSetWindowStationUser(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtUserSetWindowStationUser(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtUserSetWindowWord(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserSetWindowWord(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserSetWindowsHookAW(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserSetWindowsHookAW(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserSetWindowsHookEx(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG_PTR __stdcall NtUserSetWindowsHookEx(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtUserShowCaret(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserShowCaret(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserShowScrollBar(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserShowScrollBar(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserShowWindow(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserShowWindow(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserShowWindowAsync(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserShowWindowAsync(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserSoundSentry();
+ULONG_PTR __stdcall NtUserSoundSentry();
 
 
-PVOID __stdcall NtUserSwitchDesktop(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserSwitchDesktop(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserSystemParametersInfo(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04
+ULONG_PTR __stdcall NtUserSystemParametersInfo(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04
 );
 
 
-PVOID __stdcall NtUserTestForInteractiveUser(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserTestForInteractiveUser(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserThunkedMenuInfo(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserThunkedMenuInfo(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserThunkedMenuItemInfo(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG_PTR __stdcall NtUserThunkedMenuItemInfo(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtUserToUnicodeEx(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07
+ULONG_PTR __stdcall NtUserToUnicodeEx(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07
 );
 
 
-PVOID __stdcall NtUserTrackMouseEvent(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserTrackMouseEvent(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserTrackPopupMenuEx(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG_PTR __stdcall NtUserTrackPopupMenuEx(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtUserTranslateAccelerator(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserTranslateAccelerator(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserTranslateMessage(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserTranslateMessage(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserUnhookWinEvent(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserUnhookWinEvent(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserUnhookWindowsHookEx(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserUnhookWindowsHookEx(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserUnloadKeyboardLayout(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserUnloadKeyboardLayout(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserUnlockWindowStation(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserUnlockWindowStation(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserUnregisterClass(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserUnregisterClass(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserUnregisterHotKey(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserUnregisterHotKey(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserUnregisterUserApiHook();
+ULONG_PTR __stdcall NtUserUnregisterUserApiHook();
 
 
-PVOID __stdcall NtUserUpdateInputContext(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserUpdateInputContext(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserUpdateInstance(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserUpdateInstance(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserUpdateLayeredWindow(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06 ,
-	PVOID	arg_07 ,
-	PVOID	arg_08 ,
-	PVOID	arg_09
+ULONG_PTR __stdcall NtUserUpdateLayeredWindow(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06 ,
+	ULONG_PTR	arg_07 ,
+	ULONG_PTR	arg_08 ,
+	ULONG_PTR	arg_09
 );
 
 
-PVOID __stdcall NtUserUpdatePerUserSystemParameters(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserUpdatePerUserSystemParameters(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserUserHandleGrantAccess(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserUserHandleGrantAccess(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserValidateHandleSecure(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserValidateHandleSecure(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserValidateRect(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserValidateRect(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserVkKeyScanEx(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserVkKeyScanEx(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserWaitForInputIdle(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03
+ULONG_PTR __stdcall NtUserWaitForInputIdle(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03
 );
 
 
-PVOID __stdcall NtUserWaitForMsgAndEvent(
-	PVOID	arg_01
+ULONG_PTR __stdcall NtUserWaitForMsgAndEvent(
+	ULONG_PTR	arg_01
 );
 
 
-PVOID __stdcall NtUserWaitMessage();
+ULONG_PTR __stdcall NtUserWaitMessage();
 
 
-PVOID __stdcall NtUserWin32PoolAllocationStats(
-	PVOID	arg_01 ,
-	PVOID	arg_02 ,
-	PVOID	arg_03 ,
-	PVOID	arg_04 ,
-	PVOID	arg_05 ,
-	PVOID	arg_06
+ULONG_PTR __stdcall NtUserWin32PoolAllocationStats(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02 ,
+	ULONG_PTR	arg_03 ,
+	ULONG_PTR	arg_04 ,
+	ULONG_PTR	arg_05 ,
+	ULONG_PTR	arg_06
 );
 
 
-PVOID __stdcall NtUserWindowFromPoint(
-	PVOID	arg_01 ,
-	PVOID	arg_02
+ULONG_PTR __stdcall NtUserWindowFromPoint(
+	ULONG_PTR	arg_01 ,
+	ULONG_PTR	arg_02
 );
 
 
-PVOID __stdcall NtUserYieldTask();
+ULONG_PTR __stdcall NtUserYieldTask();
 
 
-PVOID __stdcall bDeleteColorSpace(
-	PVOID	arg_01
+ULONG_PTR __stdcall bDeleteColorSpace(
+	ULONG_PTR	arg_01
 );
 
 
