@@ -1,6 +1,6 @@
 // DO NOT MODIFY THIS FILE DIRECTLY!
 // author: @TinySecEx 
-// build from: user32.dll i386 10.0.16299.15 (WinBuild.160101.0800)
+// build from: user32.dll i386 10.0.10240.16384 (th1.150709-1700)
 
 char* static_apfn_dispatch__10_0_10240_sp0_windows_10_th1_1507_i386[118] = {
 
